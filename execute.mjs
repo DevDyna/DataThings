@@ -54,4 +54,6 @@ async function main() {
 
     })
 
+	console.log("THE END, GO AWAY!")
+
 }
