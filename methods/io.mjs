@@ -12,7 +12,7 @@ export function getAllFromDir(url) { //'./tests/'
     return list
 }
 //-----------------------------------------------------------------------------------//
-export function mkFile(url) {
+export function mkFile(url,content) {
 	let bool = true;
     try {
         fs.writeFileSync(url, content);
