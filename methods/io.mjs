@@ -21,6 +21,14 @@ export function mkFile(url,content) {
     }
     return bool
 }
-
 //-----------------------------------------------------------------------------------//
+export function mkDir(url){
+	let bool = true
+	try{
+	fs.mkdirSync(url)
+	}catch(e){
+		bool = false
+	}
+	return bool
+}
 //-----------------------------------------------------------------------------------//
