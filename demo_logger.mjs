@@ -2,8 +2,7 @@ import * as log from './methods/logger.mjs';
 import * as data from './methods/data.mjs';
 import * as out from './methods/out.mjs';
 
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-   //await delay(1000) /// waiting 1 second.
+
 
 
 export function run(){
