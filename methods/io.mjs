@@ -32,3 +32,34 @@ export function mkDir(url){
 	return bool
 }
 //-----------------------------------------------------------------------------------//
+export function isDir(url){
+  try {
+    return fs.statSync(url).isDirectory();
+  } catch (error) {
+    return false;
+  }
+}
+//-----------------------------------------------------------------------------------//
+export function rawWrite(url, content){
+    let bool = true
+        try {
+                // Create the file and write the content
+                fs.writeFileSync(url, content);
+
+        } catch (e) {
+            bool = false //error writing file
+        }
+        return bool
+}
+//-----------------------------------------------------------------------------------//
+export function rawAppend(url, content){
+    let bool = true
+        try {
+                // Append the content to the file
+                fs.appendFileSync(url, content);
+
+        } catch (e) {
+            bool = false //error writing file
+        }
+        return bool
+}
