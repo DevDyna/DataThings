@@ -50,7 +50,9 @@ async function main() {
                     "ingredient": {
                         "item": 'minecraft:' + origin
                     },
-                    "result": result
+				"result": {
+					"id":result
+					}
                 }
                 console.log(jsonfile)
                 console.log(io.mkFile('./recipes/stonecutting_' + result.replace(/[:\s]/g, '_') + '_from_' + origin + '.json', JSON.stringify(jsonfile)))
