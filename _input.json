@@ -1,0 +1,19 @@
+{
+  "info": [
+    {
+      "__comment1":"namespace:id",
+      "namespace": "mineral",
+      "id": "redstone_vein",
+      "__comment2":"[stone|deepslate] | [netherrack]",
+      "ores": ["minecraft:redstone_ore", "minecraft:deepslate_redstone_ore"],
+      "block": "minecraft:smooth_red_sandstone",
+      "is_nether": "false",
+      "__comment3":"rarity on chunks -> 1x_chunk/rarity",
+      "rarity": 16,
+      "__comment4":"y level to spawn approx [min|max]",
+      "y": [-65, 50],
+      "__comment5":"chance to select block or ore [block|ore] -> [50,50]",
+      "chance": []
+    }
+  ]
+}
