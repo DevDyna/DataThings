@@ -13,7 +13,7 @@
       "__comment4":"y level to spawn approx [min|max]",
       "y": [-65, 50],
       "__comment5":"chance to select block or ore [block|ore] -> [50,50]",
-      "chance": []
+      "chance": [75,25]
     }
   ]
 }
