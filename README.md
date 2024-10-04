@@ -1,6 +1,7 @@
-### This is the nexus 
+# Vein Miner
+Minecraft tool to creare custom huge ore vein feature completly Vanilla!
 
-### Nothing still here
+### REQUIRE NODEJS INSTALLED TO RUN
 
-### To see all programs you need to change branch
+many of methods files are useless so.. you can ignore
 
