@@ -14,6 +14,21 @@
       "y": [-65, 50],
       "__comment5":"chance to select block or ore [block|ore] -> [50,50]",
       "chance": [75,25]
+    },
+    {
+      "__comment1":"namespace:id",
+      "namespace": "mineral",
+      "id": "coal_vein",
+      "__comment2":"[stone|deepslate] | [netherrack]",
+      "ores": ["minecraft:coal_ore", "minecraft:deepslate_coal_ore"],
+      "block": "minecraft:andesite",
+      "is_nether": "false",
+      "__comment3":"rarity on chunks -> 1x_chunk/rarity",
+      "rarity": 16,
+      "__comment4":"y level to spawn approx [min|max]",
+      "y": [-65, 50],
+      "__comment5":"chance to select block or ore [block|ore] -> [50,50]",
+      "chance": [75,25]
     }
   ]
 }
