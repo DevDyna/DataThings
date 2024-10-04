@@ -26,19 +26,18 @@ async function main() {
     "y",
     "chance",
   ];
-  fields.forEach(async (e) => {
-    if (input[0][e] == null) {
-      console.log("Error " + e + " still missing on input files");
-      skip = true;
-    } else {
-      console.log(e + " correctly readed");
-    }
-    await delay(1000);
-  });
 
   if (!skip) {
-    input.info.forEach((obj) => {
+    input.info.forEach((obj,index) => {
       const { id, namespace, ores, block, is_nether, rarity, y, chance } = obj;
+      out.decor(20);
+      fields.forEach(async e=>{
+        console.log(e+" -> "+obj[e])
+        await delay(1000);
+      })
+      out.decor(20);
+
+
 
       if (ores[1] == null) ores[1] = ores[0];
       if (chance[1] == null) chance[1] = chance[0];
@@ -179,16 +178,16 @@ async function main() {
       let feature = [configured_feature, placed_feature];
 
       let dirs = [
-        "result/data/" + namespace + "/worldgen/configured_feature",
-        "result/data/" + namespace + "/worldgen/placed_feature",
+        "./result/data/" + namespace + "/worldgen/configured_feature",
+        "./result/data/" + namespace + "/worldgen/placed_feature",
       ];
       dirs.forEach((e, i) => {
-        io.mkDir(e)
-          ? console.log("Directory " + e + " created")
-          : console.log("Directory " + e + " founded");
+        // io.mkDir(e)
+        //   ? console.log("Directory " + e + " created")
+        //   : console.log("Directory " + e + " founded");
 
-        io.mkFile(e + id + ".json", feature[i]);
-        console.log(e + id + ".json writed")
+        io.mkFile(e +'/'+ id + ".json", feature[i]);
+        console.log(e +'/'+ id + ".json writed")
       });
     });
   }
