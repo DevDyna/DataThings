@@ -28,23 +28,17 @@ async function main() {
   ];
 
   if (!skip) {
-    input.info.forEach((obj,index) => {
+    input.info.forEach((obj, index) => {
       const { id, namespace, ores, block, is_nether, rarity, y, chance } = obj;
       out.decor(20);
-      fields.forEach(async e=>{
-        console.log(e+" -> "+obj[e])
+      fields.forEach(async (e) => {
+        console.log(e + " -> " + obj[e]);
         await delay(1000);
-      })
+      });
       out.decor(20);
-
-
 
       if (ores[1] == null) ores[1] = ores[0];
       if (chance[1] == null) chance[1] = chance[0];
-
-      chance.forEach((e) => {
-        e = e / 100;
-      });
 
       let rock_case = {
         feature: {
@@ -72,50 +66,48 @@ async function main() {
 
       let ore_case = {
         feature: {
-          feature: {
-            type: "minecraft:random_patch",
-            config: {
-              tries: 40,
-              xz_spread: 10,
-              y_spread: 10,
+          type: "minecraft:random_patch",
+          config: {
+            tries: 40,
+            xz_spread: 10,
+            y_spread: 10,
+            feature: {
               feature: {
-                feature: {
-                  type: "minecraft:ore",
-                  config: {
-                    size: 24,
-                    discard_chance_on_air_exposure: 1.0,
-                    targets: [
-                      {
-                        state: {
-                          Name: ores[0],
-                        },
-                        target: {
-                          predicate_type: "minecraft:tag_match",
-                          tag: is_nether
-                            ? "minecraft:nether_carver_replaceables"
-                            : "minecraft:stone_ore_replaceables",
-                        },
+                type: "minecraft:ore",
+                config: {
+                  size: 24,
+                  discard_chance_on_air_exposure: 1.0,
+                  targets: [
+                    {
+                      state: {
+                        Name: ores[0],
                       },
-                      {
-                        state: {
-                          Name: ores[1],
-                        },
-                        target: {
-                          predicate_type: "minecraft:tag_match",
-                          tag: is_nether
-                            ? "minecraft:nether_carver_replaceables"
-                            : "minecraft:deepslate_ore_replaceables",
-                        },
+                      target: {
+                        predicate_type: "minecraft:tag_match",
+                        tag: is_nether
+                          ? "minecraft:nether_carver_replaceables"
+                          : "minecraft:stone_ore_replaceables",
                       },
-                    ],
-                  },
+                    },
+                    {
+                      state: {
+                        Name: ores[1],
+                      },
+                      target: {
+                        predicate_type: "minecraft:tag_match",
+                        tag: is_nether
+                          ? "minecraft:nether_carver_replaceables"
+                          : "minecraft:deepslate_ore_replaceables",
+                      },
+                    },
+                  ],
                 },
-                placement: [],
               },
+              placement: [],
             },
           },
-          placement: [],
         },
+        placement: [],
       };
 
       let placed_feature = {
@@ -150,12 +142,6 @@ async function main() {
         ],
       };
 
-      let chance_rock_case = rock_case;
-      chance_rock_case.chance = chance[0];
-
-      let chance_ore_case = ore_case;
-      chance_ore_case.chance = chance[1];
-
       let configured_feature = {
         type: "minecraft:random_patch",
         config: {
@@ -166,7 +152,10 @@ async function main() {
             feature: {
               type: "minecraft:random_selector",
               config: {
-                features: [chance_rock_case, chance_ore_case],
+                features: [
+                  { chance: Number(chance[0]) / 100, feature: rock_case },
+                  { chance: Number(chance[0]) / 100, feature: ore_case },
+                ],
                 default: rock_case,
               },
             },
@@ -186,8 +175,8 @@ async function main() {
         //   ? console.log("Directory " + e + " created")
         //   : console.log("Directory " + e + " founded");
 
-        io.mkFile(e +'/'+ id + ".json", feature[i]);
-        console.log(e +'/'+ id + ".json writed")
+        io.mkFile(e + "/" + id + ".json", feature[i]);
+        console.log(e + "/" + id + ".json writed");
       });
     });
   }
