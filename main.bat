@@ -9,4 +9,5 @@ if %errorlevel% neq 0 (
 
     node execute.mjs -await
     
-timeout -1 /nobreak > nul
+
+echo "THE END"
