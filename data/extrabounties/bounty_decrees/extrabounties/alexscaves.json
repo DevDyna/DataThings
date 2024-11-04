@@ -1,13 +1,1 @@
-{
-	"requires": [
-		"alexscaves"
-	],
-	"objectives": [
-		"basic_in",
-		"alexscaves_in"
-	],
-	"rewards": [
-		"basic_out",
-		"alexscaves_out"
-	]
-}
+{"requires":["alexscaves"],"objectives":["./data/extrabounties/bounty_pools/extrabounties/treasures.json","./data/extrabounties/bounty_pools/extrabounties/resources.json","alexscaves_in"],"rewards":["./data/extrabounties/bounty_pools/extrabounties/decree.json","alexscaves_out","./data/extrabounties/bounty_pools/extrabounties/rarities.json"]}
