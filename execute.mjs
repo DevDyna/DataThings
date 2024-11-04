@@ -7,12 +7,12 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
+  delay(1000);
+
   const bounty_pools_url = "./data/extrabounties/bounty_pools/extrabounties/";
   const bounty_decrees_url =
     "./data/extrabounties/bounty_decrees/extrabounties/";
   const the_end = ".json";
-  let string_name = "";
-  let decree = { alexscaves: { input: {}, output: {} } };
 
   let item_pool = (item, amount, unitWorth) => {
     return {
@@ -49,7 +49,14 @@ async function main() {
     return item_pool_nbt(item, { min: 1, max: 1 }, unitWorth, nbt);
   };
 
-  //DEFAULT EME TRADE UNIVERSAL
+  //------------------------------------------------------------------------//
+  //                                 DEFAULT                                //
+  //------------------------------------------------------------------------//
+
+  const result_decree = bounty_pools_url + "decree" + the_end;
+  const treasures = bounty_pools_url + "treasures" + the_end;
+  const resources = bounty_pools_url + "resources" + the_end;
+  const rarities = bounty_pools_url + "rarities" + the_end;
 
   io.mkFile(bounty_pools_url + "decree" + the_end, {
     content: {
@@ -57,7 +64,7 @@ async function main() {
     },
   });
 
-  io.mkFile(bounty_pools_url + "treasures_objective" + the_end, {
+  io.mkFile(bounty_pools_url + "treasures" + the_end, {
     content: {
       ender_pearl: item_pool("minecraft:ender_pearl", { min: 1, max: 8 }, 500),
       redstone: item_pool("minecraft:redstone", { min: 6, max: 32 }, 500),
@@ -78,26 +85,83 @@ async function main() {
     },
   });
 
-  let common = [
-    "minecraft:dried_kelp_block",
-    "#forge:glass/colorless",
-    "#minecraft:logs",
-    "#minecraft:wooden_slabs",
-    "#minecraft:planks",
-    "#minecraft:wool",
-    "#forge:dyes",
-  ];
+  io.mkFile(bounty_pools_url + "resources" + the_end, {
+    content: {
+      dried_kelp_block: item_pool(
+        "minecraft:dried_kelp_block",
+        { min: 12, max: 48 },
+        750
+      ),
+      glass_colorless: item_pool_tag(
+        "forge:glass/colorless",
+        { min: 8, max: 64 },
+        750
+      ),
+      wooden_slabs: item_pool_tag(
+        "minecraft:wooden_slabs",
+        { min: 12, max: 48 },
+        750
+      ),
+      planks: item_pool_tag("minecraft:planks", { min: 12, max: 48 }, 750),
+      wool: item_pool_tag("minecraft:wool", { min: 12, max: 28 }, 750),
+      dyes: item_pool_tag("forge:dyes", { min: 8, max: 32 }, 750),
+      logs: item_pool_tag("minecraft:logs", { min: 12, max: 48 }, 750),
+    },
+  });
 
+  io.mkFile(bounty_pools_url + "rarities" + the_end, {
+    content: {
+      nautilus_shell: item_pool(
+        "minecraft:nautilus_shell",
+        { min: 6, max: 12 },
+        750
+      ),
+      prismarine_crystals: item_pool(
+        "minecraft:prismarine_crystals",
+        { min: 6, max: 24 },
+        750
+      ),
+      prismarine_shard: item_pool(
+        "minecraft:prismarine_shard",
+        { min: 6, max: 24 },
+        750
+      ),
+      heart_of_the_sea: item_pool(
+        "minecraft:heart_of_the_sea",
+        { min: 1, max: 4 },
+        750
+      ),
+      spyglass: item_pool("minecraft:spyglass", { min: 1, max: 1 }, 750),
+      amethyst_shard: item_pool(
+        "minecraft:amethyst_shard",
+        { min: 8, max: 48 },
+        1000
+      ),
+      totem_of_undying: item_pool(
+        "minecraft:totem_of_undying",
+        { min: 1, max: 1 },
+        150
+      ),
+      rabbit_stew: item_pool("minecraft:rabbit_stew", { min: 1, max: 3 }, 1000),
+      clock: item_pool("minecraft:clock", { min: 1, max: 3 }, 1000),
+    },
+  });
+
+  //------------------------------------------------------------------------//
+  //                             ALEXS CAVES                                //
+  //------------------------------------------------------------------------//
   const mod_id = "alexscaves";
   const mod_in = mod_id + "_in";
   const mod_out = mod_id + "_out";
-  
+  let string_name = "";
+  let decree = { alexscaves: { input: {}, output: {} } };
+
   //DECREE
   //------------------------------------------------------------------------//
   io.mkFile(bounty_decrees_url + mod_id + the_end, {
     requires: [mod_id],
-    objectives: ["basic_in", mod_in],
-    rewards: ["basic_out", mod_out],
+    objectives: [treasures,resources, mod_in],
+    rewards: [result_decree, mod_out,rarities],
   });
   //INPUT
   //------------------------------------------------------------------------//
@@ -133,7 +197,7 @@ async function main() {
 
   decree[mod_id].input[mod_in + "_" + "acid_bucket"] = item_pool_mono(
     "alexscaves:acid_bucket",
-    1000
+    750
   );
   decree[mod_id].input[mod_in + "_" + "radon_bottle"] = item_pool_six(
     "alexscaves:radon_bottle",
