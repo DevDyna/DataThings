@@ -11,9 +11,9 @@ async function main() {
   
 
   const bounty_pools_url =
-    "kubejs/data/extrabounties/bounty_pools/extrabounties/";
+    "./data/extrabounties/bounty_pools/extrabounties/";
   const bounty_decrees_url =
-    "kubejs/data/extrabounties/bounty_decrees/extrabounties/";
+    "./data/extrabounties/bounty_decrees/extrabounties/";
   const the_end = ".json";
   let string_name = "";
   let decree = { alexscaves: { input: {}, output: {} } };
@@ -58,13 +58,13 @@ async function main() {
   //MOD DATAGEN
   alexscaves("alexscaves");
 
-  JsonIO.write(bounty_pools_url + "decree" + the_end, {
+  io.mkFile(bounty_pools_url + "decree" + the_end, {
     content: {
       decree: item_pool("bountiful:decree", { min: 1, max: 1 }, 750),
     },
   });
 
-  JsonIO.write(bounty_pools_url + "treasures_objective" + the_end, {
+  io.mkFile(bounty_pools_url + "treasures_objective" + the_end, {
     content: {
       ender_pearl: item_pool("minecraft:ender_pearl", { min: 1, max: 8 }, 500),
       redstone: item_pool("minecraft:redstone", { min: 6, max: 32 }, 500),
@@ -101,7 +101,7 @@ async function main() {
 
     //DECREE
     //------------------------------------------------------------------------//
-    JsonIO.write(bounty_decrees_url + mod_id + the_end, {
+    io.mkFile(bounty_decrees_url + mod_id + the_end, {
       requires: [mod_id],
       objectives: ["basic_in", mod_in],
       rewards: ["basic_out", mod_out],
@@ -176,7 +176,7 @@ async function main() {
         CaveBiome: "alexscaves:forlorn_hollows",
       });
 
-    JsonIO.write(bounty_pools_url + mod_in + the_end, {
+    io.mkFile(bounty_pools_url + mod_in + the_end, {
       requires: [mod_id],
       content: decree.alexscaves.input,
     });
@@ -293,7 +293,7 @@ async function main() {
       decree[mod_id].output[string_name] = item_pool_six(e, 1000);
     });
 
-    JsonIO.write(bounty_pools_url + mod_out + the_end, {
+    io.mkFile(bounty_pools_url + mod_out + the_end, {
       requires: [mod_id],
       content: decree.alexscaves.output,
     });
