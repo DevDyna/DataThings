@@ -1,0 +1,13 @@
+{
+	"requires": [
+		"alexscaves"
+	],
+	"objectives": [
+		"basic_in",
+		"alexscaves_in"
+	],
+	"rewards": [
+		"basic_out",
+		"alexscaves_out"
+	]
+}
