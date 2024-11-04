@@ -1,5 +1,10 @@
 import fs from 'fs';
 //-----------------------------------------------------------------------------------//
+/**
+ * 
+ * @param {string} url json url
+ * @returns array
+ */
 export function JsonArray(url) { //'tags/acacia_door.json'
     return JSON.parse(fs.readFileSync(url));
 }
@@ -12,11 +17,18 @@ export function getAllFromDir(url) { //'./tests/'
     return list
 }
 //-----------------------------------------------------------------------------------//
+/**
+ * 
+ * @param {string} url 
+ * @param {string} content '{data:01}'
+ * @returns error
+ */
 export function mkFile(url,content) {
 	let bool = true;
     try {
-        fs.writeFileSync(url, content);
+        fs.writeFileSync(url,JSON.stringify(content));
     } catch (e) {
+        console.log(e)
         bool = false //error writing file
     }
     return bool
@@ -27,6 +39,7 @@ export function mkDir(url){
 	try{
 	fs.mkdirSync(url)
 	}catch(e){
+        console.log(e)
 		bool = false
 	}
 	return bool
@@ -44,9 +57,10 @@ export function rawWrite(url, content){
     let bool = true
         try {
                 // Create the file and write the content
-                fs.writeFileSync(url, content);
+                fs.writeFile(url, content);
 
         } catch (e) {
+            console.log(e)
             bool = false //error writing file
         }
         return bool
@@ -59,6 +73,7 @@ export function rawAppend(url, content){
                 fs.appendFileSync(url, content);
 
         } catch (e) {
+            console.log(e)
             bool = false //error writing file
         }
         return bool
