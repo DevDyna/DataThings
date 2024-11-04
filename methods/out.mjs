@@ -1,4 +1,3 @@
-import * as cl from './colors.mjs';
 import * as log from './logger.mjs';
 //-------------------------------------------------//
 export function out(st,silent) {
