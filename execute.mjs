@@ -7,36 +7,30 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
-  out.decor(20);
-  await delay(250);
-  console.log("Started Dir checker");
-  await delay(250);
-  if (io.mkDir("data/extrabounties/bounty_pools/extrabounties/")) {
-    console.log(
-      "Directory /data/extrabounties/bounty_pools/extrabounties/ created"
-    );
-  } else {
-    console.log(
-      "Directory data/extrabounties/bounty_pools/extrabounties/ founded"
-    );
-  }
-  await delay(250);
-  if (io.mkDir("data/extrabounties/bounty_decrees/extrabounties/")) {
-    console.log(
-      "Directory /data/extrabounties/bounty_decrees/extrabounties/ created"
-    );
-  } else {
-    console.log(
-      "Directory data/extrabounties/bounty_decrees/extrabounties/ founded"
-    );
-  }
-  await delay(250);
-  out.decor(20);
 
   const bounty_pools_url = "./data/extrabounties/bounty_pools/extrabounties/";
   const bounty_decrees_url =
     "./data/extrabounties/bounty_decrees/extrabounties/";
+  const bounty_lang = "./assets/extrabounties/lang/";
   const the_end = ".json";
+
+
+  io.mkDir('./data')
+  io.mkDir('./assets')
+
+  io.mkDir('./data/extrabounties')
+  io.mkDir('./assets/extrabounties')
+
+  io.mkDir('./data/extrabounties/bounty_decrees')
+  io.mkDir('./data/extrabounties/bounty_pools')
+  io.mkDir('./assets/extrabounties/lang')
+
+  io.mkDir('./data/extrabounties/bounty_decrees/extrabounties')
+  io.mkDir('./data/extrabounties/bounty_pools/extrabounties')
+
+  out.decor(20);
+
+
 
   let item_pool = (item, amount, unitWorth) => {
     return {
@@ -102,10 +96,15 @@ async function main() {
   //                                 DEFAULT                                //
   //------------------------------------------------------------------------//
 
-  const result_decree = bounty_pools_url + "decree" + the_end;
-  const treasures = bounty_pools_url + "treasures" + the_end;
-  const resources = bounty_pools_url + "resources" + the_end;
-  const rarities = bounty_pools_url + "rarities" + the_end;
+  const decree_id = "decree" ;
+  const decree_url = bounty_pools_url + "decree" + the_end;
+  const treasures_id =  "treasures" ;
+  const resources_id =  "resources" ;
+  const rarities_id = "rarities" ;
+  const treasures_url = bounty_pools_url + "treasures" + the_end;
+  const resources_url = bounty_pools_url + "resources" + the_end;
+  const rarities_url = bounty_pools_url + "rarities" + the_end;
+
   await delay(250);
   console.log("Started File writer");
   await delay(250);
@@ -113,7 +112,7 @@ async function main() {
   await delay(250);
 
   io.mkFile(
-    bounty_pools_url + "decree" + the_end,
+    decree_url,
     {
       content: {
         decree: item_pool("bountiful:decree", { min: 1, max: 1 }, 750),
@@ -122,16 +121,21 @@ async function main() {
     true
   );
 
-  console.log("> " + "decree");
+  console.log("> " + decree_id);
   await delay(250);
 
   io.mkFile(
-    bounty_pools_url + "treasures" + the_end,
+    treasures_url,
     {
       content: {
         ender_pearl: item_pool(
           "minecraft:ender_pearl",
           { min: 1, max: 8 },
+          500
+        ),
+        glowstone: item_pool(
+          "minecraft:glowstone_dust",
+          { min: 4, max: 24 },
           500
         ),
         redstone: item_pool("minecraft:redstone", { min: 6, max: 32 }, 500),
@@ -154,11 +158,11 @@ async function main() {
     true
   );
 
-  console.log("> " + "treasures");
+  console.log("> " + treasures_id);
   await delay(250);
 
   io.mkFile(
-    bounty_pools_url + "resources" + the_end,
+    resources_url,
     {
       content: {
         dried_kelp_block: item_pool(
@@ -185,11 +189,11 @@ async function main() {
     true
   );
 
-  console.log("> " + "resources");
+  console.log("> " +resources_id);
   await delay(250);
 
   io.mkFile(
-    bounty_pools_url + "rarities" + the_end,
+    rarities_url,
     {
       content: {
         nautilus_shell: item_pool(
@@ -234,7 +238,7 @@ async function main() {
     true
   );
 
-  console.log("> " + "rarities");
+  console.log("> " + rarities_id);
   await delay(250);
   out.decor(100);
 
@@ -762,61 +766,261 @@ async function main() {
 
   console.log("> " + artifact_id);
   await delay(250);
-  out.decor(100);
 
+  const laserio_id = "laserio";
+  const laserio_cards = laserio_id + "_sell";
+  const laserio_chip = laserio_id + "_buy";
+
+  io.mkFile(bounty_pools_url + laserio_chip + the_end, {
+    requires: [laserio_id],
+    content: contentCreator(laserio_id, { min: 1, max: 1 }, 1000, [
+      "laserio:logic_chip",
+      "laserio:logic_chip_raw",
+    ]),
+  });
+  console.log("> " + laserio_chip);
+  await delay(250);
+
+  io.mkFile(bounty_pools_url + laserio_cards + the_end, {
+    requires: [laserio_id],
+    content: contentCreator(laserio_id, { min: 1, max: 1 }, 1000, [
+      "laserio:filter_count",
+      "laserio:filter_nbt",
+      "laserio:filter_basic",
+      "laserio:filter_mod",
+      "laserio:filter_tag",
+      "laserio:card_energy",
+      "laserio:card_item",
+      "laserio:card_fluid",
+      "laserio:card_redstone",
+      "laserio:laser_node",
+      "laserio:laser_connector",
+      "laserio:overclocker_card",
+      "laserio:overclocker_node",
+    ]),
+  });
+  console.log("> " + laserio_cards);
+  await delay(250);
+
+  const gamediscs_id = "gamediscs";
+
+  io.mkFile(bounty_pools_url + gamediscs_id + the_end, {
+    requires: [gamediscs_id],
+    content: contentCreator(gamediscs_id, { min: 1, max: 1 }, 1000, [
+      "gamediscs:gaming_console",
+      "gamediscs:game_disc_tnt_sweeper",
+      "gamediscs:game_disc_slime",
+      "gamediscs:game_disc_flappy_bird",
+      "gamediscs:game_disc_pong",
+      "gamediscs:game_disc_blocktris",
+    ]),
+  });
+  console.log("> " + gamediscs_id);
+  await delay(250);
+
+  const router_id = "modularrouters";
+  const router_card = router_id + "_card";
+  const router_module = router_id + "_module";
+
+  io.mkFile(bounty_pools_url + router_card + the_end, {
+    requires: [router_id],
+    content: contentCreator(router_id, { min: 1, max: 1 }, 1000, [
+      "modularrouters:blank_upgrade",
+      "modularrouters:augment_core",
+      "modularrouters:blank_module",
+    ]),
+  });
+  console.log("> " + router_card);
+  await delay(250);
+
+  io.mkFile(bounty_pools_url + router_module + the_end, {
+    requires: [router_id],
+    content: contentCreator(router_id, { min: 1, max: 1 }, 1000, [
+      "modularrouters:inspection_filter",
+      "modularrouters:tag_filter",
+      "modularrouters:puller_module_1",
+      "modularrouters:bulk_item_filter",
+      "modularrouters:mod_filter",
+      "modularrouters:regex_filter",
+      "modularrouters:energy_output_module",
+      "modularrouters:creative_module",
+      "modularrouters:stack_augment",
+      "modularrouters:activator_module",
+      "modularrouters:detector_module",
+      "modularrouters:energy_distributor_module",
+      "modularrouters:flinger_module",
+      "modularrouters:sync_upgrade",
+      "modularrouters:speed_upgrade",
+      "modularrouters:sender_module_2",
+      "modularrouters:fluid_module",
+      "modularrouters:void_module",
+      "modularrouters:range_down_augment",
+      "modularrouters:fluid_upgrade",
+      "modularrouters:blast_upgrade",
+      "modularrouters:player_module",
+      "modularrouters:muffler_upgrade",
+      "modularrouters:energy_upgrade",
+      "modularrouters:filter_round_robin_augment",
+      "modularrouters:dropper_module",
+      "modularrouters:breaker_module",
+      "modularrouters:fast_pickup_augment",
+      "modularrouters:pushing_augment",
+      "modularrouters:sender_module_1",
+      "modularrouters:fluid_module_2",
+      "modularrouters:stack_upgrade",
+      "modularrouters:security_upgrade",
+      "modularrouters:sender_module_3",
+      "modularrouters:camouflage_upgrade",
+      "modularrouters:vacuum_module",
+      "modularrouters:redstone_augment",
+      "modularrouters:range_up_augment",
+      "modularrouters:mimic_augment",
+      "modularrouters:pickup_delay_augment",
+      "modularrouters:extruder_module_2",
+      "modularrouters:placer_module",
+      "modularrouters:extruder_module_1",
+      "modularrouters:distributor_module",
+      "modularrouters:xp_vacuum_augment",
+      "modularrouters:regulator_augment",
+      "modularrouters:puller_module_2",
+    ]),
+  });
+  console.log("> " + router_module);
+  await delay(250);
+
+  /*
+  io.mkFile(bounty_pools_url + laserio_chip + the_end, {
+    requires: [laserio_id],
+    content: contentCreator(laserio_id, { min: 1, max: 1 }, 1000, []),
+  });
+  console.log("> " + laserio_chip);
+  await delay(250);
+
+*/
+
+  out.decor(100);
   //DECREE
   //------------------------------------------------------------------------//
   await delay(250);
   console.log("Extra Decrees");
   await delay(250);
-  
+
   io.mkFile(bounty_decrees_url + alex_id + the_end, {
     requires: [alex_id],
-    objectives: [treasures, resources, alex_in],
-    rewards: [result_decree, alex_out, rarities],
+    objectives: [treasures_id, resources_id, alex_in],
+    rewards: [decree_id, alex_out, rarities_id],
   });
   console.log("> " + alex_id);
   await delay(250);
 
   io.mkFile(bounty_decrees_url + warp_id + the_end, {
     requires: [warp_id],
-    objectives: [treasures, resources, rarities, warp_id],
-    rewards: [result_decree, warp_id, rarities],
+    objectives: [treasures_id, resources_id, rarities_id, warp_id],
+    rewards: [decree_id, warp_id, rarities_id],
   });
   console.log("> " + warp_id);
   await delay(250);
 
   io.mkFile(bounty_decrees_url + soph_st_id + the_end, {
     requires: [soph_st_id],
-    objectives: [treasures, resources, soph_st_upg, soph_st_base],
-    rewards: [result_decree, soph_st_oth, soph_st_upg, rarities],
+    objectives: [treasures_id, resources_id, soph_st_upg, soph_st_base],
+    rewards: [decree_id, soph_st_oth, soph_st_upg, rarities_id],
   });
   console.log("> " + soph_st_id);
   await delay(250);
 
   io.mkFile(bounty_decrees_url + soph_bk_id + the_end, {
     requires: [soph_bk_id],
-    objectives: [treasures, resources, soph_bk_base, soph_bk_upgrade],
-    rewards: [result_decree, soph_bk_upgrade, soph_bk_back, rarities],
+    objectives: [treasures_id, resources_id, soph_bk_base, soph_bk_upgrade],
+    rewards: [decree_id, soph_bk_upgrade, soph_bk_back, rarities_id],
   });
   console.log("> " + soph_bk_id);
   await delay(250);
 
   io.mkFile(bounty_decrees_url + tb_id + the_end, {
     requires: [tb_id],
-    objectives: [treasures, resources, tb_base, tb_stones, tb_entities],
-    rewards: [result_decree, tb_sell, tb_base, rarities],
+    objectives: [treasures_id, resources_id, tb_base, tb_stones, tb_entities],
+    rewards: [decree_id, tb_sell, tb_base, rarities_id],
   });
   console.log("> " + tb_id);
   await delay(250);
 
   io.mkFile(bounty_decrees_url + artifact_id + the_end, {
     requires: [artifact_id],
-    objectives: [treasures, rarities],
-    rewards: [result_decree, artifact_id, rarities],
+    objectives: [treasures_id, rarities_id],
+    rewards: [decree_id, artifact_id, rarities_id],
   });
   console.log("> " + artifact_id);
   await delay(250);
 
+  io.mkFile(bounty_decrees_url + laserio_id + the_end, {
+    requires: [laserio_id],
+    objectives: [treasures_id, resources_id, laserio_chip],
+    rewards: [decree_id, laserio_cards, rarities_id],
+  });
+  console.log("> " + laserio_id);
+  await delay(250);
+
+  io.mkFile(bounty_decrees_url + gamediscs_id + the_end, {
+    requires: [gamediscs_id],
+    objectives: [treasures_id, resources_id],
+    rewards: [decree_id, gamediscs_id, rarities_id],
+  });
+  console.log("> " + gamediscs_id);
+  await delay(250);
+
+  io.mkFile(bounty_decrees_url + router_id + the_end, {
+    requires: [router_id],
+    objectives: [treasures_id, resources_id, router_card],
+    rewards: [decree_id, router_module, rarities_id],
+  });
+  console.log("> " + router_id);
+  await delay(250);
+
+  /*
+  io.mkFile(bounty_decrees_url + laserio_id + the_end, {
+    requires: [laserio_id],
+    objectives: [treasures_id, resources_id,laserio_chip],
+    rewards: [decree_id, laserio_cards, rarities_id],
+  });
+  console.log("> " + laserio_id);
+  await delay(250);
+*/
+
+  out.decor(100);
+  await delay(250);
+  console.log("Lang generating");
+  await delay(250);
+
+  let displayName = [
+    "AlexCaves Explorer", 
+    "Mario the Expert", 
+    "Better Storage",
+    "Better Backpack",
+    "The Darkside of Bounties",
+    "Terraria Nerd",
+    "Lazer20",
+    "90s Games",
+    "Service 3000"
+  ];
+  let mod_id = [
+    alex_id,
+    warp_id,
+    soph_st_id,
+    soph_bk_id,
+    tb_id,
+    artifact_id,
+    laserio_id,
+    gamediscs_id,
+    router_id,
+  ];
+
+mod_id.forEach((e,i)=>{
+  obj["bountiful.decree."+e+".name"] = displayName[i]
+})
+
+  io.mkFile(bounty_lang + "en_us" + the_end, obj);
+  console.log(obj)
+  console.log("Lang completed");
   out.decor(100);
 }
