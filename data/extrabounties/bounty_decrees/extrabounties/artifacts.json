@@ -1,15 +1,14 @@
 {
   "requires": [
-    "alexscaves"
+    "artifacts"
   ],
   "objectives": [
     "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
-    "./data/extrabounties/bounty_pools/extrabounties/resources.json",
-    "alexscaves_in"
+    "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
   ],
   "rewards": [
     "./data/extrabounties/bounty_pools/extrabounties/decree.json",
-    "alexscaves_out",
+    "artifacts",
     "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
   ]
 }

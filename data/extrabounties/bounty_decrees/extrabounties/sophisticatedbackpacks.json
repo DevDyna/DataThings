@@ -1,15 +1,17 @@
 {
   "requires": [
-    "alexscaves"
+    "sophisticatedbackpacks"
   ],
   "objectives": [
     "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
     "./data/extrabounties/bounty_pools/extrabounties/resources.json",
-    "alexscaves_in"
+    "sophisticatedbackpacks_base",
+    "sophisticatedbackpacks_upgrade"
   ],
   "rewards": [
     "./data/extrabounties/bounty_pools/extrabounties/decree.json",
-    "alexscaves_out",
+    "sophisticatedbackpacks_upgrade",
+    "sophisticatedbackpacks_backpack",
     "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
   ]
 }

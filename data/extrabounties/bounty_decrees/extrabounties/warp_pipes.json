@@ -1,15 +1,16 @@
 {
   "requires": [
-    "alexscaves"
+    "warp_pipes"
   ],
   "objectives": [
     "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
     "./data/extrabounties/bounty_pools/extrabounties/resources.json",
-    "alexscaves_in"
+    "./data/extrabounties/bounty_pools/extrabounties/rarities.json",
+    "warp_pipes"
   ],
   "rewards": [
     "./data/extrabounties/bounty_pools/extrabounties/decree.json",
-    "alexscaves_out",
+    "warp_pipes",
     "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
   ]
 }

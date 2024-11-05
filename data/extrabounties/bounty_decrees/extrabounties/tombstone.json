@@ -1,15 +1,18 @@
 {
   "requires": [
-    "alexscaves"
+    "tombstone"
   ],
   "objectives": [
     "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
     "./data/extrabounties/bounty_pools/extrabounties/resources.json",
-    "alexscaves_in"
+    "tombstone_base",
+    "tombstone_stones",
+    "tombstone_entities"
   ],
   "rewards": [
     "./data/extrabounties/bounty_pools/extrabounties/decree.json",
-    "alexscaves_out",
+    "tombstone_sell",
+    "tombstone_base",
     "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
   ]
 }
