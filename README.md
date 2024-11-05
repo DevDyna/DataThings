@@ -4,4 +4,4 @@
 
 ### To see all programs you need to change branch
 - [recipe-blender](https://github.com/DevDyna/DataThings/tree/recipe-blender)
-- [vein-miner](https://github.com/DevDyna/DataThings/tree/vein_miner)
+- [extra-bounties](https://github.com/DevDyna/DataThings/tree/extra-bounties)
