@@ -3,14 +3,14 @@
     "warp_pipes"
   ],
   "objectives": [
-    "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
-    "./data/extrabounties/bounty_pools/extrabounties/resources.json",
-    "./data/extrabounties/bounty_pools/extrabounties/rarities.json",
+    "treasures",
+    "resources",
+    "rarities",
     "warp_pipes"
   ],
   "rewards": [
-    "./data/extrabounties/bounty_pools/extrabounties/decree.json",
+    "decree",
     "warp_pipes",
-    "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
+    "rarities"
   ]
 }

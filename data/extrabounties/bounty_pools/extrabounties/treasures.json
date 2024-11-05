@@ -9,6 +9,15 @@
       },
       "unitWorth": 500
     },
+    "glowstone": {
+      "type": "item",
+      "content": "minecraft:glowstone_dust",
+      "amount": {
+        "min": 4,
+        "max": 24
+      },
+      "unitWorth": 500
+    },
     "redstone": {
       "type": "item",
       "content": "minecraft:redstone",

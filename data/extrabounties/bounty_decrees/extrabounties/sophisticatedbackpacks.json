@@ -3,15 +3,15 @@
     "sophisticatedbackpacks"
   ],
   "objectives": [
-    "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
-    "./data/extrabounties/bounty_pools/extrabounties/resources.json",
+    "treasures",
+    "resources",
     "sophisticatedbackpacks_base",
     "sophisticatedbackpacks_upgrade"
   ],
   "rewards": [
-    "./data/extrabounties/bounty_pools/extrabounties/decree.json",
+    "decree",
     "sophisticatedbackpacks_upgrade",
     "sophisticatedbackpacks_backpack",
-    "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
+    "rarities"
   ]
 }

@@ -3,13 +3,13 @@
     "alexscaves"
   ],
   "objectives": [
-    "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
-    "./data/extrabounties/bounty_pools/extrabounties/resources.json",
+    "treasures",
+    "resources",
     "alexscaves_in"
   ],
   "rewards": [
-    "./data/extrabounties/bounty_pools/extrabounties/decree.json",
+    "decree",
     "alexscaves_out",
-    "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
+    "rarities"
   ]
 }

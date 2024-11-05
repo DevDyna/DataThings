@@ -1,14 +1,15 @@
 {
   "requires": [
-    "artifacts"
+    "laserio"
   ],
   "objectives": [
     "treasures",
-    "rarities"
+    "resources",
+    "laserio_buy"
   ],
   "rewards": [
     "decree",
-    "artifacts",
+    "laserio_sell",
     "rarities"
   ]
 }

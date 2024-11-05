@@ -3,15 +3,15 @@
     "sophisticatedstorage"
   ],
   "objectives": [
-    "./data/extrabounties/bounty_pools/extrabounties/treasures.json",
-    "./data/extrabounties/bounty_pools/extrabounties/resources.json",
+    "treasures",
+    "resources",
     "sophisticatedstorage_upgrade",
     "sophisticatedstorage_base"
   ],
   "rewards": [
-    "./data/extrabounties/bounty_pools/extrabounties/decree.json",
+    "decree",
     "sophisticatedstorage_other",
     "sophisticatedstorage_upgrade",
-    "./data/extrabounties/bounty_pools/extrabounties/rarities.json"
+    "rarities"
   ]
 }
