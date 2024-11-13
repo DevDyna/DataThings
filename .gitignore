@@ -1,4 +1,4 @@
-
+*.jar
 desktop.ini
 tags/*
 !_example.json
