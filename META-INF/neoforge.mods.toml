@@ -1,0 +1,16 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+issueTrackerURL=""
+license="ARR"
+[[mods]]
+    modId="chipped_express"
+    version="1.2.1"
+    displayName="ChippedExpress"
+    description="Chipped mod still a good but cannot be automated , this mod allow autocrafting using other mods like AE2 or Create"
+
+[[dependencies.chipped_express]]
+	modId = "chipped"
+	mandatory = true
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
