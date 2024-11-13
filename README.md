@@ -1,7 +1,5 @@
-# RecipeBlender
-Minecraft tool to edit multiple recipes on a simple click
+# Chipped Express
+ Minecraft mod addon for [Chipped](https://legacy.curseforge.com/minecraft/mc-mods/chipped)
 
-### REQUIRE NODEJS INSTALLED TO RUN
-
-many of methods files are useless so.. you can ignore
-
+ All recipes are made using [Recipe Blender](https://github.com/DevDyna/DataThings/tree/recipe-blender)
+ 
