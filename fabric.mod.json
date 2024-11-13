@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "chipped_express",
+    "version": "1.2.1",
+    "name": "Chipped-Express",
+    "description": "Chipped mod still a good but cannot be automated , this mod allow autocrafting using other mods like AE2 or Create",
+    "authors": [
+        "DevDyna"
+    ],
+    "contact": {
+        "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/chipped-express",
+        "sources": "https://github.com/DevDyna/Chipped-Express",
+        "issues": "https://github.com/DevDyna/Chipped-Express/issues"
+    },
+    "license": "ARR",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {},
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.curseforge": "https://legacy.curseforge.com/minecraft/mc-mods/chipped-express",
+                "modmenu.wiki": "https://github.com/DevDyna/Chipped-Express"
+            }
+        }
+    }
+}
