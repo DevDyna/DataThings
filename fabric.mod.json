@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "id": "extrabounties",
+    "version": "1.0",
+    "name": "ExtraBounties",
+    "description": "Bountiful addon to make it compatible with other mods",
+    "authors": [
+        "DevDyna"
+    ],
+    "contact": {
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {}
+}
