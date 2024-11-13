@@ -11,3 +11,5 @@ config/probejs.json
 README.txt
 /startup_scripts
 /server_scripts
+*.jar
+*.zip
