@@ -1,6 +1,6 @@
-name: New Feature
+name: New Feature Chipped
 description: All good ideas can be usefull !
-labels: [enhancement, need support]
+labels: [enhancement, need support, chipped-express]
 assignees: DevDyna
 body:
   - type: checkboxes
