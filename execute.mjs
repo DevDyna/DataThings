@@ -28,7 +28,7 @@ async function main() {
   io.mkDir('./data/extrabounties/bounty_decrees/extrabounties')
   io.mkDir('./data/extrabounties/bounty_pools/extrabounties')
 
-  out.decor(20);
+  out.decor(100);
 
 
 
