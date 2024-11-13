@@ -1,4 +1,4 @@
-name: General issue
+name: 🐞 General issue
 description: Have you found a bug ? Squash it!
 labels: [bug, need support,any]
 assignees: DevDyna
