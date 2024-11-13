@@ -27,11 +27,16 @@ async function main() {
         }
         console.log(`${totfile.length} File${file} founded ${bads}`)
 
-        if (io.mkDir('recipes/')) {
-            console.log('Directory /recipes/ created')
-        } else {
-            console.log('Directory founded')
-        }
+        let URLdir = ['data/', 'data/chipped_express/', 'data/chipped_express/recipe/']
+
+        URLdir.forEach(e => {
+            if (io.mkDir(e)) {
+                console.log('Directory /' + e + ' created')
+            } else {
+                console.log('Directory /' + e + ' founded')
+            }
+        })
+
         totfile.forEach(tag => {
             //console.log(`Reading file :${tag}`)
             let ar = io.JsonArray(`tags/${tag}`).values;
@@ -50,12 +55,12 @@ async function main() {
                     "ingredient": {
                         "item": 'minecraft:' + origin
                     },
-				"result": {
-					"id":result
-					}
+                    "result": {
+                        "id": result
+                    }
                 }
                 console.log(jsonfile)
-                console.log(io.mkFile('./recipes/stonecutting_' + result.replace(/[:\s]/g, '_') + '_from_' + origin + '.json', JSON.stringify(jsonfile)))
+                console.log(io.mkFile('./data/chipped_express/recipe/stonecutting_' + result.replace(/[:\s]/g, '_') + '_from_' + origin + '.json', JSON.stringify(jsonfile)))
 
             })
 
@@ -63,16 +68,16 @@ async function main() {
 
         console.log("THE END, GO AWAY!")
         /* logo mod o.O
-		console.log({
-            "values": [{
-                    "type": "devdyna:addon",
-                    "count": 1,
-                    "ingredient": {
-                        "item": '${chipped}'
-                    },
-                    "result": '${express}'
-                }
-            ]
+        console.log({
+        "values": [{
+        "type": "devdyna:addon",
+        "count": 1,
+        "ingredient": {
+        "item": '${chipped}'
+        },
+        "result": '${express}'
+        }
+        ]
         })
-*/
+         */
 }
