@@ -15,3 +15,5 @@ README.txt
 *.zip
 *.url
 *.lnk
+/data
+/assets
