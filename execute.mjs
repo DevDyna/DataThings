@@ -59,7 +59,7 @@ async function main() {
         duration: 16,
         recipeConditions: [{ type: "rock_breaker" }],
         tickInputs: {
-          eu: [{ content: 16, chance: 10000, max_chance: 10000 }],
+          eu: [{ content: 7, chance: 10000, max_chance: 10000 }],
         },
         type: "gtceu:rock_breaker",
         inputs: {
