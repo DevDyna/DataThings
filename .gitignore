@@ -13,3 +13,5 @@ README.txt
 /server_scripts
 *.jar
 *.zip
+*.url
+*.lnk
