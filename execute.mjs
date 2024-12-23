@@ -7,7 +7,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
-  const { veins, colors, files, breakerblocks, breakerReplace } = vars;
+  const { veins, colors, files, breakerblocks } = vars;
 
   console.log("scanning for directories");
 
@@ -187,13 +187,14 @@ async function main() {
       .join(" "); // Join the segments with spaces
   };
 
-  // gtceu rock breaker recipe nerfer
-  breakerReplace.forEach((e) => {
-    RockBreakerRecipe(
-      "minecraft:" + e,
-      "./data/gtceu/recipe/rock_breaker/" + e + ".json"
-    );
-  });
+  // dont work json replacer
+  // // gtceu rock breaker recipe nerfer
+  // breakerReplace.forEach((e) => {
+  //   RockBreakerRecipe(
+  //     "minecraft:" + e,
+  //     "./data/gtceu/recipe/rock_breaker/" + e + ".json"
+  //   );
+  // });
 
   //vein result shifter recipe generator
   Object.keys(veins).forEach((e) => {
