@@ -235,13 +235,13 @@ async function main() {
         .map((e) => CreateItem(IDSpecial(e), 25)),
     },
     stone: {
-      cobble: Object.keys(veins.stone_ore_vein)
+      granite: Object.keys(veins.stone_ore_vein)
         .slice(0, 6)
         .map((e) => CreateItem(IDSpecial(e), 25)),
-      gravel: Object.keys(veins.stone_ore_vein)
+      diorite: Object.keys(veins.stone_ore_vein)
         .slice(6, 12)
         .map((e) => CreateItem(IDSpecial(e), 25)),
-      sand: Object.keys(veins.stone_ore_vein)
+      andesite: Object.keys(veins.stone_ore_vein)
         .slice(12)
         .map((e) => CreateItem(IDSpecial(e), 25)),
     },
