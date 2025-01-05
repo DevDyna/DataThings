@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "extrabounties",
-    "version": "1.0",
+    "version": "1.1",
     "name": "ExtraBounties",
     "description": "Bountiful addon to make it compatible with other mods",
     "authors": [

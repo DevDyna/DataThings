@@ -4,7 +4,7 @@ issueTrackerURL=""
 license="MIT"
 [[mods]]
     modId="extrabounties"
-    version="1.0"
+    version="1.1"
     displayName="ExtraBounties"
     description="Bountiful addon to make it compatible with other mods"
 	authors="DevDyna"
