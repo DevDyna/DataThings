@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "modularrouters"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "modularrouters_card"
+  ],
+  "rewards": [
+    "decree",
+    "modularrouters_module",
+    "rarities"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "powah"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "powah_buy"
+  ],
+  "rewards": [
+    "decree",
+    "powah_sell",
+    "rarities"
+  ]
+}

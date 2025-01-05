@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "warp_pipes"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "rarities",
+    "warp_pipes"
+  ],
+  "rewards": [
+    "decree",
+    "warp_pipes",
+    "rarities"
+  ]
+}

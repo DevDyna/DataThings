@@ -1,2 +1,15 @@
 
+desktop.ini
+tags/*
+!_example.json
+recipes/*
 /result
+/client_scripts
+jsconfig.json
+config/probejs.json
+/config
+README.txt
+/startup_scripts
+/server_scripts
+*.jar
+*.zip

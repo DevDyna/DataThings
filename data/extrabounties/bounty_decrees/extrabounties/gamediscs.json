@@ -1,0 +1,14 @@
+{
+  "requires": [
+    "gamediscs"
+  ],
+  "objectives": [
+    "treasures",
+    "resources"
+  ],
+  "rewards": [
+    "decree",
+    "gamediscs",
+    "rarities"
+  ]
+}

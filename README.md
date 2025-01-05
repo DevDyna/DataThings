@@ -1,8 +1,3 @@
-### This is the nexus 
+# Extra Bounties mod
+A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods/bountiful) to make compatible with other mods
 
-### Nothing still here
-
-### To see all programs you need to change branch
-- [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express)
-- [Extra-Bounties](https://github.com/DevDyna/DataThings/tree/Extra-Bounties)
-- [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo)

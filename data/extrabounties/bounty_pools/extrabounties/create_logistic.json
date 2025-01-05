@@ -1,0 +1,205 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "createcreate_weighted_ejector": {
+      "type": "item",
+      "content": "create:weighted_ejector",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_display_board": {
+      "type": "item",
+      "content": "create:display_board",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_chute": {
+      "type": "item",
+      "content": "create:chute",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_smart_chute": {
+      "type": "item",
+      "content": "create:smart_chute",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_nixie_tube": {
+      "type": "item",
+      "content": "create:nixie_tube",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_rose_quartz_lamp": {
+      "type": "item",
+      "content": "create:rose_quartz_lamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_andesite_funnel": {
+      "type": "item",
+      "content": "create:andesite_funnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_brass_funnel": {
+      "type": "item",
+      "content": "create:brass_funnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_brass_tunnel": {
+      "type": "item",
+      "content": "create:brass_tunnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_sequenced_gearshift": {
+      "type": "item",
+      "content": "create:sequenced_gearshift",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_display_link": {
+      "type": "item",
+      "content": "create:display_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_andesite_tunnel": {
+      "type": "item",
+      "content": "create:andesite_tunnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_stockpile_switch": {
+      "type": "item",
+      "content": "create:stockpile_switch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_content_observer": {
+      "type": "item",
+      "content": "create:content_observer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_powered_latch": {
+      "type": "item",
+      "content": "create:powered_latch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_pulse_extender": {
+      "type": "item",
+      "content": "create:pulse_extender",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_placard": {
+      "type": "item",
+      "content": "create:placard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_pulse_repeater": {
+      "type": "item",
+      "content": "create:pulse_repeater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_redstone_link": {
+      "type": "item",
+      "content": "create:redstone_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_powered_toggle_latch": {
+      "type": "item",
+      "content": "create:powered_toggle_latch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_mechanical_arm": {
+      "type": "item",
+      "content": "create:mechanical_arm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_rotation_speed_controller": {
+      "type": "item",
+      "content": "create:rotation_speed_controller",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "requires": [
+    "sophisticatedstorage"
+  ],
+  "content": {
+    "type": "item",
+    "content": "sophisticatedstorage:upgrade_base",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 1000
+  }
+}
