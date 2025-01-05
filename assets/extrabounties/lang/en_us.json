@@ -19,9 +19,9 @@
   "bountiful.decree.reliquary.name": "ProjectE Confirmed",
   "bountiful.decree.farmersdelight.name": "Rustic Table",
   "bountiful.decree.create_craft.name": "Create : Processing",
-  "bountiful.decree.create_fluid.name": "Create : Fluids",
+  "bountiful.decree.create_fluid.name": "Create : Fluid",
   "bountiful.decree.create_gen.name": "Create : Generation",
-  "bountiful.decree.create_logistic.name": "Create : Logistics",
+  "bountiful.decree.create_logistic.name": "Create : Logistic",
   "bountiful.decree.create_motion.name": "Create : Motion",
   "bountiful.decree.create_other.name": "Create : Base"
 }
