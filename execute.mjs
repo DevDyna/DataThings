@@ -261,7 +261,7 @@ async function main() {
     true
   );
 
-  console.log("> " + rarities_id);
+  console.log("> " + mob_drop_id);
   await delay(250);
   out.decor(100);
 
