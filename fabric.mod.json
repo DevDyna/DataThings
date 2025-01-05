@@ -1,9 +1,9 @@
 {
     "schemaVersion": 1,
-    "id": "extrabounties",
+    "id": "numismaticbounties",
     "version": "1.0",
-    "name": "ExtraBounties",
-    "description": "Bountiful addon to make it compatible with other mods",
+    "name": "NumismaticBounties",
+    "description": "Bountiful addon that change many trades to use Create:Numismatic coins",
     "authors": [
         "DevDyna"
     ],
