@@ -1,0 +1,22 @@
+name: 🚀 Numismatic-Bounties New Feature
+description: All good ideas can be usefull !
+labels: [enhancement, need support, numismatic-bounties]
+assignees: DevDyna
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Core Section
+      description: Biip Boop , Something happen !
+      options:
+        - label: I have searched for this issue on this repository
+          required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Description
+      description: description with image
+      placeholder: ln x- ln y
+    validations:
+      required: true
