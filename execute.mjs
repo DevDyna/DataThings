@@ -2105,9 +2105,9 @@ await delay(250);
     "ProjectE Confirmed",
     "Rustic Table",
     "Create : Processing",
-    "Create : Fluids",
+    "Create : Fluid",
     "Create : Generation",
-    "Create : Logistics",
+    "Create : Logistic",
     "Create : Motion",
     "Create : Base"
   ];
