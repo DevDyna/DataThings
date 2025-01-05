@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "create"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "create_core",
+    "create_baselogic"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "create_gen"
+  ]
+}
