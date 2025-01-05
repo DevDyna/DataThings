@@ -2099,7 +2099,7 @@ await delay(250);
     "BuildingDireThings",
     "Metal Chests",
     "Metal Furnaces",
-    "Let's me power up!",
+    "Let's me power in!",
     "Logistic Pretty",
     "Logistic Pretty : Fluid mode",
     "ProjectE Confirmed",
