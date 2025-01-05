@@ -6,3 +6,4 @@
 - [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express)
 - [Extra-Bounties](https://github.com/DevDyna/DataThings/tree/Extra-Bounties)
 - [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo)
+- [Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/NumismaticBounties)
