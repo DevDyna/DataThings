@@ -1,85 +1,69 @@
 {
-  "content": {
-    "ender_pearl": {
-      "type": "item",
-      "content": "minecraft:ender_pearl",
-      "amount": {
-        "min": 1,
-        "max": 8
-      },
-      "unitWorth": 500
-    },
-    "glowstone": {
-      "type": "item",
-      "content": "minecraft:glowstone_dust",
-      "amount": {
-        "min": 4,
-        "max": 24
-      },
-      "unitWorth": 500
-    },
-    "redstone": {
-      "type": "item",
-      "content": "minecraft:redstone",
-      "amount": {
-        "min": 6,
-        "max": 32
-      },
-      "unitWorth": 500
-    },
-    "gold_ingot": {
-      "type": "item",
-      "content": "minecraft:gold_ingot",
-      "amount": {
-        "min": 3,
-        "max": 8
-      },
-      "unitWorth": 500
-    },
-    "lapis_lazuli": {
-      "type": "item",
-      "content": "minecraft:lapis_lazuli",
-      "amount": {
-        "min": 6,
-        "max": 32
-      },
-      "unitWorth": 500
-    },
-    "diamond": {
-      "type": "item",
-      "content": "minecraft:diamond",
-      "amount": {
-        "min": 1,
-        "max": 4
-      },
-      "unitWorth": 500
-    },
-    "iron_ingot": {
-      "type": "item",
-      "content": "minecraft:iron_ingot",
-      "amount": {
-        "min": 8,
-        "max": 16
-      },
-      "unitWorth": 500
-    },
-    "emerald": {
-      "type": "item",
-      "content": "minecraft:emerald",
-      "amount": {
-        "min": 1,
-        "max": 10
-      },
-      "unitWorth": 500
-    },
-    "copper_ingot": {
-      "type": "item",
-      "content": "minecraft:copper_ingot",
-      "amount": {
-        "min": 4,
-        "max": 32
-      },
-      "unitWorth": 500
-    }
-  }
+	"content": {
+
+		"a": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "numismatics:spur",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 100,
+			"weightMult": 0.65
+		},"b": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "numismatics:bevel",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 200,
+			"weightMult": 0.65
+		},"c": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "numismatics:sprocket",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 400,
+			"weightMult": 0.65
+		},"d": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "numismatics:cog",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 600,
+			"weightMult": 0.65
+		},"e": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "numismatics:crown",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 800,
+			"weightMult": 0.65
+		},"f": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "numismatics:sun",
+			"amount": {
+				"min": 1,
+				"max": 24
+			},
+			"unitWorth": 1000,
+			"weightMult": 0.65
+		}
+
+	}
+
+
 }
