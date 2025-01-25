@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "numismaticbounties",
-    "version": "1.0",
+    "version": "1.1",
     "name": "NumismaticBounties",
     "description": "Bountiful addon that change many trades to use Create:Numismatic coins",
     "authors": [
