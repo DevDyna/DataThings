@@ -23,5 +23,11 @@
   "bountiful.decree.create_gen.name": "Create : Generation",
   "bountiful.decree.create_logistic.name": "Create : Logistic",
   "bountiful.decree.create_motion.name": "Create : Motion",
-  "bountiful.decree.create_other.name": "Create : Base"
+  "bountiful.decree.create_other.name": "Create : Base",
+  "bountiful.entry.glass_colorless": "Any glass colorless",
+  "bountiful.entry.wooden_slabs": "Any wooden slabs",
+  "bountiful.entry.planks": "Any planks",
+  "bountiful.entry.wool": "Any wool",
+  "bountiful.entry.dyes": "Any dyes",
+  "bountiful.entry.logs": "Any logs"
 }
