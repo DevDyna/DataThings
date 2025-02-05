@@ -7,70 +7,80 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
-  const bounty_pools_url = "./data/extrabounties/bounty_pools/extrabounties/";
+  const main_MODID = "extrabounties";
+  const ms_delay = 150;
+
+  const bounty_pools_url =
+    "./data/" + main_MODID + "/bounty_pools/" + main_MODID + "/";
+
   const bounty_decrees_url =
-    "./data/extrabounties/bounty_decrees/extrabounties/";
-  const bounty_lang = "./assets/extrabounties/lang/";
+    "./data/" + main_MODID + "/bounty_decrees/" + main_MODID + "/";
+
+  const bounty_lang = "./assets/" + main_MODID + "/lang/";
+
   const the_end = ".json";
+
+  const bounty_tags_url = "./data/" + main_MODID + "/tags/items/";
+
+  const extralang_key = []
 
   io.mkDir("./data");
   io.mkDir("./assets");
 
-  io.mkDir("./data/extrabounties");
-  io.mkDir("./assets/extrabounties");
+  io.mkDir("./data/" + main_MODID);
+  io.mkDir("./assets/" + main_MODID);
 
-  io.mkDir("./data/extrabounties/bounty_decrees");
-  io.mkDir("./data/extrabounties/bounty_pools");
-  io.mkDir("./assets/extrabounties/lang");
+  io.mkDir("./data/" + main_MODID + "/tags");
+  io.mkDir("./data/" + main_MODID + "/tags/items");
 
-  io.mkDir("./data/extrabounties/bounty_decrees/extrabounties");
-  io.mkDir("./data/extrabounties/bounty_pools/extrabounties");
+  io.mkDir("./data/" + main_MODID + "/bounty_decrees");
+  io.mkDir("./data/" + main_MODID + "/bounty_pools");
+  io.mkDir("./assets/" + main_MODID + "/lang");
+
+  io.mkDir("./data/" + main_MODID + "/bounty_decrees/" + main_MODID);
+  io.mkDir("./data/" + main_MODID + "/bounty_pools/" + main_MODID);
 
   out.decor(100);
 
-  let item_pool = (item, amount, unitWorth) => {
-    return {
-      type: "item",
-      content: item,
-      amount: amount,
-      unitWorth: unitWorth,
-    };
-  };
-  let item_pool_tag = (item, amount, unitWorth) => {
-    return {
-      type: "item_tag",
-      content: item,
-      amount: amount,
-      unitWorth: unitWorth,
-    };
-  };
-  let item_pool_nbt = (item, amount, unitWorth, nbt) => {
-    return {
-      type: "item",
-      content: item,
-      amount: amount,
-      unitWorth: unitWorth,
-      nbt: JSON.stringify(nbt),
-    };
-  };
-  let item_pool_mono = (item, unitWorth) => {
-    return item_pool(item, { min: 1, max: 1 }, unitWorth);
-  };
-  let item_pool_six = (item, unitWorth) => {
-    return item_pool(item, { min: 1, max: 16 }, unitWorth);
-  };
+  const item_pool = (item, amount, unitWorth) => ({
+    type: "item",
+    content: item,
+    amount: amount,
+    unitWorth: unitWorth,
+  });
 
-  let entity_pool = (entity, amount, unitWorth) => {
+  const item_pool_tag = (item, amount, unitWorth) => {
+    extralang_key.push("bountiful.entry."+item.split(':')[1] || '')
     return {
-      type: "entity",
-      timeMult: 6.0,
-      content: entity,
-      amount: amount,
-      unitWorth: unitWorth,
-    };
-  };
+    type: "item_tag",
+    content: item,
+    amount: amount,
+    unitWorth: unitWorth,
+  }};
 
-  let contentCreator = (mod_id, amount, unitWorth, list) => {
+  const item_pool_nbt = (item, amount, unitWorth, nbt) => ({
+    type: "item",
+    content: item,
+    amount: amount,
+    unitWorth: unitWorth,
+    nbt: JSON.stringify(nbt),
+  });
+
+  const item_pool_mono = (item, unitWorth) =>
+    item_pool(item, { min: 1, max: 1 }, unitWorth);
+
+  const item_pool_six = (item, unitWorth) =>
+    item_pool(item, { min: 1, max: 16 }, unitWorth);
+
+  const entity_pool = (entity, amount, unitWorth) => ({
+    type: "entity",
+    timeMult: 6.0,
+    content: entity,
+    amount: amount,
+    unitWorth: unitWorth,
+  });
+
+  const contentCreator = (mod_id, amount, unitWorth, list) => {
     let obj = {};
     list.forEach((e) => {
       let string_name = mod_id + e.replace(":", "_");
@@ -79,7 +89,7 @@ async function main() {
     return obj;
   };
 
-  let contentCreatorEntities = (mod_id, amount, unitWorth, list) => {
+  const contentCreatorEntities = (mod_id, amount, unitWorth, list) => {
     let obj = {};
     list.forEach((e) => {
       let string_name = mod_id + e.replace(":", "_");
@@ -103,11 +113,48 @@ async function main() {
   const rarities_url = bounty_pools_url + rarities_id + the_end;
   const mob_drop_url = bounty_pools_url + mob_drop_id + the_end;
 
-  await delay(250);
+  await delay(ms_delay);
   console.log("Started File writer");
-  await delay(250);
+  await delay(ms_delay);
+
+  out.decor(100);
+
+  console.log("Generating custom tags");
+  await delay(ms_delay);
+  const dyes = "dyes";
+  io.mkFile(
+    bounty_tags_url + dyes + the_end,
+    {
+      values: [
+        { id: "#c:dyes", required: false },
+        { id: "#forge:dyes", required: false },
+      ],
+    },
+    true
+  );
+
+  console.log("> " + dyes);
+  await delay(ms_delay);
+
+  const glass_colorless = "glass_colorless";
+  io.mkFile(
+    bounty_tags_url + glass_colorless + the_end,
+    {
+      values: [
+        { id: "#c:colorless_glass", required: false },
+        { id: "#forge:glass/colorless", required: false },
+      ],
+    },
+    true
+  );
+
+  console.log("> " + glass_colorless);
+  await delay(ms_delay);
+
+  out.decor(100);
+
   console.log("Base Pools");
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(
     decree_url,
@@ -120,7 +167,7 @@ async function main() {
   );
 
   console.log("> " + decree_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(
     treasures_url,
@@ -157,7 +204,7 @@ async function main() {
   );
 
   console.log("> " + treasures_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(
     resources_url,
@@ -169,7 +216,7 @@ async function main() {
           750
         ),
         glass_colorless: item_pool_tag(
-          "forge:glass/colorless",
+          main_MODID +":"+ glass_colorless,
           { min: 8, max: 64 },
           750
         ),
@@ -180,7 +227,7 @@ async function main() {
         ),
         planks: item_pool_tag("minecraft:planks", { min: 12, max: 48 }, 750),
         wool: item_pool_tag("minecraft:wool", { min: 12, max: 28 }, 750),
-        dyes: item_pool_tag("forge:dyes", { min: 8, max: 32 }, 750),
+        dyes: item_pool_tag(main_MODID +":"+ dyes, { min: 8, max: 32 }, 750),
         logs: item_pool_tag("minecraft:logs", { min: 12, max: 48 }, 750),
       },
     },
@@ -188,7 +235,7 @@ async function main() {
   );
 
   console.log("> " + resources_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(
     rarities_url,
@@ -237,7 +284,7 @@ async function main() {
   );
 
   console.log("> " + rarities_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(
     mob_drop_url,
@@ -262,10 +309,10 @@ async function main() {
   );
 
   console.log("> " + mob_drop_id);
-  await delay(250);
+  await delay(ms_delay);
   out.decor(100);
 
-  await delay(250);
+  await delay(ms_delay);
   //------------------------------------------------------------------------//
   //                             ALEXS CAVES                                //
   //------------------------------------------------------------------------//
@@ -274,7 +321,7 @@ async function main() {
   const alex_out = alex_id + "_out";
   let obj = {};
 
-  await delay(250);
+  await delay(ms_delay);
 
   //INPUT
   //------------------------------------------------------------------------//
@@ -359,9 +406,9 @@ async function main() {
       CaveBiome: "alexscaves:forlorn_hollows",
     }
   );
-  await delay(250);
+  await delay(ms_delay);
   console.log("Mod Pools");
-  await delay(250);
+  await delay(ms_delay);
   io.mkFile(
     bounty_pools_url + alex_in + the_end,
     {
@@ -371,7 +418,7 @@ async function main() {
     true
   );
   console.log("> " + alex_in);
-  await delay(250);
+  await delay(ms_delay);
   obj = {};
   //OUTPUT
   //------------------------------------------------------------------------//
@@ -505,7 +552,7 @@ async function main() {
     true
   );
   console.log("> " + alex_out);
-  await delay(250);
+  await delay(ms_delay);
 
   obj = {};
 
@@ -534,7 +581,7 @@ async function main() {
   });
 
   console.log("> " + warp_id);
-  await delay(250);
+  await delay(ms_delay);
 
   const soph_st_id = "sophisticatedstorage";
   const soph_st_base = soph_st_id + "_base";
@@ -543,15 +590,13 @@ async function main() {
 
   io.mkFile(bounty_pools_url + soph_st_base + the_end, {
     requires: [soph_st_id],
-    content: item_pool(
+    content: contentCreator(soph_st_base, { min: 1, max: 16 }, 1000, [
       "sophisticatedstorage:upgrade_base",
-      { min: 1, max: 16 },
-      1000
-    ),
+    ]),
   });
 
   console.log("> " + soph_st_base);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + soph_st_upg + the_end, {
     requires: [soph_st_id],
@@ -580,7 +625,7 @@ async function main() {
   });
 
   console.log("> " + soph_st_upg);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + soph_st_oth + the_end, {
     requires: [soph_st_id],
@@ -594,7 +639,7 @@ async function main() {
   });
 
   console.log("> " + soph_st_oth);
-  await delay(250);
+  await delay(ms_delay);
 
   const soph_bk_id = "sophisticatedbackpacks";
   const soph_bk_base = soph_bk_id + "_base";
@@ -608,7 +653,7 @@ async function main() {
     ]),
   });
   console.log("> " + soph_bk_base);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + soph_bk_upgrade + the_end, {
     requires: [soph_bk_id],
@@ -639,7 +684,7 @@ async function main() {
     ]),
   });
   console.log("> " + soph_bk_upgrade);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + soph_bk_back + the_end, {
     requires: [soph_bk_id],
@@ -648,7 +693,7 @@ async function main() {
     ]),
   });
   console.log("> " + soph_bk_back);
-  await delay(250);
+  await delay(ms_delay);
 
   const tb_id = "tombstone";
   const tb_base = tb_id + "_base";
@@ -666,7 +711,7 @@ async function main() {
     ]),
   });
   console.log("> " + tb_base);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + tb_stones + the_end, {
     requires: [tb_id],
@@ -694,7 +739,7 @@ async function main() {
     ]),
   });
   console.log("> " + tb_stones);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + tb_sell + the_end, {
     requires: [tb_id],
@@ -723,7 +768,7 @@ async function main() {
     ]),
   });
   console.log("> " + tb_sell);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + tb_entities + the_end, {
     requires: [tb_id],
@@ -734,7 +779,7 @@ async function main() {
     ]),
   });
   console.log("> " + tb_entities);
-  await delay(250);
+  await delay(ms_delay);
 
   const artifact_id = "artifacts";
   io.mkFile(bounty_pools_url + artifact_id + the_end, {
@@ -788,7 +833,7 @@ async function main() {
   });
 
   console.log("> " + artifact_id);
-  await delay(250);
+  await delay(ms_delay);
 
   const laserio_id = "laserio";
   const laserio_cards = laserio_id + "_sell";
@@ -802,7 +847,7 @@ async function main() {
     ]),
   });
   console.log("> " + laserio_chip);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + laserio_cards + the_end, {
     requires: [laserio_id],
@@ -823,7 +868,7 @@ async function main() {
     ]),
   });
   console.log("> " + laserio_cards);
-  await delay(250);
+  await delay(ms_delay);
 
   const gamediscs_id = "gamediscs";
 
@@ -839,7 +884,7 @@ async function main() {
     ]),
   });
   console.log("> " + gamediscs_id);
-  await delay(250);
+  await delay(ms_delay);
 
   const router_id = "modularrouters";
   const router_card = router_id + "_card";
@@ -854,7 +899,7 @@ async function main() {
     ]),
   });
   console.log("> " + router_card);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + router_module + the_end, {
     requires: [router_id],
@@ -909,7 +954,7 @@ async function main() {
     ]),
   });
   console.log("> " + router_module);
-  await delay(250);
+  await delay(ms_delay);
 
   const waystones_id = "waystones";
 
@@ -944,7 +989,7 @@ async function main() {
     ]),
   });
   console.log("> " + waystones_id);
-  await delay(250);
+  await delay(ms_delay);
 
   const aquaculture_id = "aquaculture";
   const aquaculture_obj = aquaculture_id + "_sell";
@@ -1024,7 +1069,7 @@ async function main() {
     ]),
   });
   console.log("> " + aquaculture_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + aquaculture_rew + the_end, {
     requires: [aquaculture_id],
@@ -1055,7 +1100,7 @@ async function main() {
     ]),
   });
   console.log("> " + aquaculture_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   const buildinggadgests_id = "buildinggadgets2";
   io.mkFile(bounty_pools_url + buildinggadgests_id + the_end, {
@@ -1072,7 +1117,7 @@ async function main() {
     ]),
   });
   console.log("> " + buildinggadgests_id);
-  await delay(250);
+  await delay(ms_delay);
 
   const iron_chest_id = "ironchest";
   const iron_chest_rew = iron_chest_id + "_sell";
@@ -1090,7 +1135,7 @@ async function main() {
     ]),
   });
   console.log("> " + iron_chest_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + iron_chest_obj + the_end, {
     requires: [iron_chest_id],
@@ -1103,7 +1148,7 @@ async function main() {
     ]),
   });
   console.log("> " + iron_chest_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   const ironfurnaces_id = "ironfurnaces";
   const ironfurnaces_obj = ironfurnaces_id + "_buy";
@@ -1142,7 +1187,7 @@ async function main() {
     ]),
   });
   console.log("> " + ironfurnaces_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + ironfurnaces_rew + the_end, {
     requires: [ironfurnaces_id],
@@ -1173,7 +1218,7 @@ async function main() {
     ]),
   });
   console.log("> " + ironfurnaces_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   const powah_id = "powah";
   const powah_obj = powah_id + "_buy";
@@ -1209,7 +1254,7 @@ async function main() {
     ]),
   });
   console.log("> " + powah_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + powah_rew + the_end, {
     requires: [powah_id],
@@ -1281,7 +1326,7 @@ async function main() {
     ]),
   });
   console.log("> " + powah_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   const prettypipes_id = "prettypipes";
   const prettyfluids_id = "ppfluids";
@@ -1299,7 +1344,7 @@ async function main() {
     ]),
   });
   console.log("> " + prettypipes_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + prettypipes_rew + the_end, {
     requires: [prettypipes_id],
@@ -1343,7 +1388,7 @@ async function main() {
     ]),
   });
   console.log("> " + prettypipes_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + prettyfluids_obj + the_end, {
     requires: [prettyfluids_id],
@@ -1353,7 +1398,7 @@ async function main() {
     ]),
   });
   console.log("> " + prettyfluids_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + prettyfluids_rew + the_end, {
     requires: [prettyfluids_id],
@@ -1370,7 +1415,7 @@ async function main() {
     ]),
   });
   console.log("> " + prettyfluids_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   const reliquary_id = "reliquary";
   const reliquary_drop = reliquary_id + "_trade";
@@ -1412,7 +1457,7 @@ async function main() {
     ]),
   });
   console.log("> " + reliquary_drop);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + reliquary_rew + the_end, {
     requires: [reliquary_id],
@@ -1486,7 +1531,7 @@ async function main() {
     ]),
   });
   console.log("> " + reliquary_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   const farmersdelight_id = "farmersdelight";
   const farmersdelight_trade = farmersdelight_id + "_trade";
@@ -1528,7 +1573,7 @@ async function main() {
     ]),
   });
   console.log("> " + farmersdelight_trade);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + farmersdelight_rew + the_end, {
     requires: [farmersdelight_id],
@@ -1567,7 +1612,7 @@ async function main() {
     ]),
   });
   console.log("> " + farmersdelight_rew);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + farmersdelight_obj + the_end, {
     requires: [farmersdelight_id],
@@ -1609,7 +1654,7 @@ async function main() {
     ]),
   });
   console.log("> " + farmersdelight_obj);
-  await delay(250);
+  await delay(ms_delay);
 
   const create_id = "create";
   const create_core = create_id + "_core";
@@ -1657,7 +1702,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_core);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_baselogic + the_end, {
     requires: [create_id],
@@ -1678,7 +1723,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_baselogic);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_logistic + the_end, {
     requires: [create_id],
@@ -1708,7 +1753,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_logistic);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_gen + the_end, {
     requires: [create_id],
@@ -1724,7 +1769,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_gen);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_craft + the_end, {
     requires: [create_id],
@@ -1743,7 +1788,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_craft);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_fluid + the_end, {
     requires: [create_id],
@@ -1763,7 +1808,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_fluid);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_motion + the_end, {
     requires: [create_id],
@@ -1805,7 +1850,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_motion);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_pools_url + create_other + the_end, {
     requires: [create_id],
@@ -1833,7 +1878,7 @@ async function main() {
     ]),
   });
   console.log("> " + create_other);
-  await delay(250);
+  await delay(ms_delay);
 
   /* DEMO
 io.mkFile(bounty_pools_url + create_baselogic + the_end, {
@@ -1841,16 +1886,16 @@ io.mkFile(bounty_pools_url + create_baselogic + the_end, {
   content: contentCreator(create_id, { min: 1, max: 1 }, 1000, []),
 });
 console.log("> " + create_baselogic);
-await delay(250);
+await delay(ms_delay);
 
 */
 
   out.decor(100);
   //DECREE
   //------------------------------------------------------------------------//
-  await delay(250);
+  await delay(ms_delay);
   console.log("Extra Decrees");
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + alex_id + the_end, {
     requires: [alex_id],
@@ -1858,7 +1903,7 @@ await delay(250);
     rewards: [decree_id, alex_out, rarities_id],
   });
   console.log("> " + alex_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + warp_id + the_end, {
     requires: [warp_id],
@@ -1866,7 +1911,7 @@ await delay(250);
     rewards: [decree_id, warp_id, rarities_id],
   });
   console.log("> " + warp_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + soph_st_id + the_end, {
     requires: [soph_st_id],
@@ -1874,7 +1919,7 @@ await delay(250);
     rewards: [decree_id, soph_st_oth, soph_st_upg, rarities_id],
   });
   console.log("> " + soph_st_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + soph_bk_id + the_end, {
     requires: [soph_bk_id],
@@ -1882,7 +1927,7 @@ await delay(250);
     rewards: [decree_id, soph_bk_upgrade, soph_bk_back, rarities_id],
   });
   console.log("> " + soph_bk_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + tb_id + the_end, {
     requires: [tb_id],
@@ -1890,7 +1935,7 @@ await delay(250);
     rewards: [decree_id, tb_sell, tb_base, rarities_id],
   });
   console.log("> " + tb_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + artifact_id + the_end, {
     requires: [artifact_id],
@@ -1898,7 +1943,7 @@ await delay(250);
     rewards: [decree_id, artifact_id, rarities_id],
   });
   console.log("> " + artifact_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + laserio_id + the_end, {
     requires: [laserio_id],
@@ -1906,7 +1951,7 @@ await delay(250);
     rewards: [decree_id, laserio_cards, rarities_id],
   });
   console.log("> " + laserio_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + gamediscs_id + the_end, {
     requires: [gamediscs_id],
@@ -1914,7 +1959,7 @@ await delay(250);
     rewards: [decree_id, gamediscs_id, rarities_id],
   });
   console.log("> " + gamediscs_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + router_id + the_end, {
     requires: [router_id],
@@ -1922,7 +1967,7 @@ await delay(250);
     rewards: [decree_id, router_module, rarities_id],
   });
   console.log("> " + router_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + waystones_id + the_end, {
     requires: [waystones_id],
@@ -1930,7 +1975,7 @@ await delay(250);
     rewards: [decree_id, waystones_id, rarities_id],
   });
   console.log("> " + waystones_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + aquaculture_id + the_end, {
     requires: [aquaculture_id],
@@ -1938,7 +1983,7 @@ await delay(250);
     rewards: [decree_id, aquaculture_rew, rarities_id],
   });
   console.log("> " + aquaculture_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + buildinggadgests_id + the_end, {
     requires: [buildinggadgests_id],
@@ -1946,7 +1991,7 @@ await delay(250);
     rewards: [decree_id, buildinggadgests_id, rarities_id],
   });
   console.log("> " + buildinggadgests_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + iron_chest_id + the_end, {
     requires: [iron_chest_id],
@@ -1954,7 +1999,7 @@ await delay(250);
     rewards: [decree_id, iron_chest_rew, rarities_id],
   });
   console.log("> " + iron_chest_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + ironfurnaces_id + the_end, {
     requires: [ironfurnaces_id],
@@ -1962,7 +2007,7 @@ await delay(250);
     rewards: [decree_id, ironfurnaces_rew, rarities_id],
   });
   console.log("> " + ironfurnaces_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + powah_id + the_end, {
     requires: [powah_id],
@@ -1970,7 +2015,7 @@ await delay(250);
     rewards: [decree_id, powah_rew, rarities_id],
   });
   console.log("> " + powah_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + prettypipes_id + the_end, {
     requires: [prettypipes_id],
@@ -1978,7 +2023,7 @@ await delay(250);
     rewards: [decree_id, prettypipes_rew, rarities_id],
   });
   console.log("> " + prettypipes_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + prettyfluids_id + the_end, {
     requires: [prettyfluids_id],
@@ -1986,7 +2031,7 @@ await delay(250);
     rewards: [decree_id, prettyfluids_rew, prettypipes_rew, rarities_id],
   });
   console.log("> " + prettyfluids_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + reliquary_id + the_end, {
     requires: [reliquary_id],
@@ -1994,7 +2039,7 @@ await delay(250);
     rewards: [decree_id, reliquary_drop, reliquary_rew, rarities_id],
   });
   console.log("> " + reliquary_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + farmersdelight_id + the_end, {
     requires: [farmersdelight_id],
@@ -2007,7 +2052,7 @@ await delay(250);
     rewards: [decree_id, farmersdelight_rew, farmersdelight_trade, rarities_id],
   });
   console.log("> " + farmersdelight_id);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_craft + the_end, {
     requires: [create_id],
@@ -2015,7 +2060,7 @@ await delay(250);
     rewards: [decree_id, rarities_id, create_craft],
   });
   console.log("> " + create_craft);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_fluid + the_end, {
     requires: [create_id],
@@ -2023,7 +2068,7 @@ await delay(250);
     rewards: [decree_id, rarities_id, create_fluid],
   });
   console.log("> " + create_fluid);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_gen + the_end, {
     requires: [create_id],
@@ -2031,7 +2076,7 @@ await delay(250);
     rewards: [decree_id, rarities_id, create_gen],
   });
   console.log("> " + create_gen);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_logistic + the_end, {
     requires: [create_id],
@@ -2039,7 +2084,7 @@ await delay(250);
     rewards: [decree_id, rarities_id, create_logistic, create_baselogic],
   });
   console.log("> " + create_logistic);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_motion + the_end, {
     requires: [create_id],
@@ -2047,7 +2092,7 @@ await delay(250);
     rewards: [decree_id, rarities_id, create_motion, create_baselogic],
   });
   console.log("> " + create_motion);
-  await delay(250);
+  await delay(ms_delay);
 
   io.mkFile(bounty_decrees_url + create_other + the_end, {
     requires: [create_id],
@@ -2067,7 +2112,7 @@ await delay(250);
     ],
   });
   console.log("> " + create_other);
-  await delay(250);
+  await delay(ms_delay);
 
   /*  DEMO
   io.mkFile(bounty_decrees_url + waystones_id + the_end, {
@@ -2076,15 +2121,15 @@ await delay(250);
     rewards: [decree_id, waystones_id, rarities_id],
   });
   console.log("> " + waystones_id);
-  await delay(250);
+  await delay(ms_delay);
 */
 
   out.decor(100);
-  await delay(250);
+  await delay(ms_delay);
   console.log("Lang generating");
-  await delay(250);
+  await delay(ms_delay);
 
-  let displayName = [
+  const displayName = [
     "AlexCaves Explorer",
     "Mario the Expert",
     "Better Storage",
@@ -2109,9 +2154,9 @@ await delay(250);
     "Create : Generation",
     "Create : Logistic",
     "Create : Motion",
-    "Create : Base"
+    "Create : Base",
   ];
-  let mod_id = [
+  const mod_id = [
     alex_id,
     warp_id,
     soph_st_id,
@@ -2141,6 +2186,16 @@ await delay(250);
 
   mod_id.forEach((e, i) => {
     obj["bountiful.decree." + e + ".name"] = displayName[i];
+  });
+
+  // Split by '.' and then remove underscores, join them back into a string
+  const extralang_display = extralang_key.map(
+    (key) => "Any " + key.split(".").pop().replace("_", " ")
+  );
+
+
+  extralang_key.forEach((e, i) => {
+    obj[e] = extralang_display[i];
   });
 
   io.mkFile(bounty_lang + "en_us" + the_end, obj);
