@@ -4,8 +4,22 @@ issueTrackerURL="https://github.com/DevDyna/DataThings/issues/new?template=numis
 license="MIT"
 [[mods]]
     modId="numismaticbounties"
-    version="1.1"
+    version="1.2"
     displayName="NumismaticBounties"
     description="Bountiful addon that change many trades to use Create:Numismatic coins"
 	authors="DevDyna"
 	logoFile="pack.png"
+
+[[dependencies.numismaticbounties]]
+    modId="bountiful"
+    mandatory= true
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.numismaticbounties]]
+    modId="extrabounties"
+    mandatory= false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
