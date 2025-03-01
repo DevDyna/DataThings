@@ -8,15 +8,13 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
-
   const require = createRequire(import.meta.url);
   // can now use `require` in an ESM
   const { exec } = require("child_process");
 
-
   const main_MODID = "extrabounties";
   const ms_delay = 150;
-  const  ascii_decor = 100;
+  const ascii_decor = 100;
 
   const bounty_pools_url =
     "./data/" + main_MODID + "/bounty_pools/" + main_MODID + "/";
@@ -1708,6 +1706,9 @@ async function main() {
       "create:whisk",
       "create:polished_rose_quartz",
       "create:andesite_casing",
+      "create:transmitter",
+      "create:cardboard",
+      "create:pulp",
     ]),
   });
   console.log("> " + create_core);
@@ -1759,6 +1760,16 @@ async function main() {
       "create:powered_toggle_latch",
       "create:mechanical_arm",
       "create:rotation_speed_controller",
+      "create:stock_link",
+      "create:item_hatch",
+      "create:redstone_requester",
+      "create:factory_gauge",
+      "create:packager",
+      "create:package_frogport",
+      "create:stock_ticker",
+      "create:chain_conveyor",
+      "minecraft:chain",
+      "create:pulse_timer",
     ]),
   });
   console.log("> " + create_logistic);
@@ -1856,6 +1867,9 @@ async function main() {
       "minecraft:furnace_minecart",
       "minecraft:chest_minecart",
       "minecraft:tnt_minecart",
+      "create:chain_conveyor",
+      "minecraft:chain",
+      "create:white_postbox",
     ]),
   });
   console.log("> " + create_motion);
@@ -1884,6 +1898,11 @@ async function main() {
       "create:potato_cannon",
       "create:extendo_grip",
       "create:brown_toolbox",
+      "create:red_table_cloth",
+      "create:copper_table_cloth",
+      "create:brass_table_cloth",
+      "create:andesite_table_cloth",
+      "create:desk_bell",
     ]),
   });
   console.log("> " + create_other);
