@@ -200,6 +200,96 @@
         "max": 1
       },
       "unitWorth": 1000
+    },
+    "createcreate_stock_link": {
+      "type": "item",
+      "content": "create:stock_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_item_hatch": {
+      "type": "item",
+      "content": "create:item_hatch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_redstone_requester": {
+      "type": "item",
+      "content": "create:redstone_requester",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_factory_gauge": {
+      "type": "item",
+      "content": "create:factory_gauge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_packager": {
+      "type": "item",
+      "content": "create:packager",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_package_frogport": {
+      "type": "item",
+      "content": "create:package_frogport",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_stock_ticker": {
+      "type": "item",
+      "content": "create:stock_ticker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_chain_conveyor": {
+      "type": "item",
+      "content": "create:chain_conveyor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createminecraft_chain": {
+      "type": "item",
+      "content": "minecraft:chain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_pulse_timer": {
+      "type": "item",
+      "content": "create:pulse_timer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
     }
   }
 }

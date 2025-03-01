@@ -308,6 +308,33 @@
         "max": 1
       },
       "unitWorth": 1000
+    },
+    "createcreate_chain_conveyor": {
+      "type": "item",
+      "content": "create:chain_conveyor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createminecraft_chain": {
+      "type": "item",
+      "content": "minecraft:chain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_white_postbox": {
+      "type": "item",
+      "content": "create:white_postbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
     }
   }
 }

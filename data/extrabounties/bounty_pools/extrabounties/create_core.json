@@ -272,6 +272,33 @@
         "max": 1
       },
       "unitWorth": 1000
+    },
+    "createcreate_transmitter": {
+      "type": "item",
+      "content": "create:transmitter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_cardboard": {
+      "type": "item",
+      "content": "create:cardboard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "createcreate_pulp": {
+      "type": "item",
+      "content": "create:pulp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
     }
   }
 }
