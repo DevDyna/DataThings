@@ -1,5 +1,6 @@
 import * as io from "./methods/io.mjs";
 import * as out from "./methods/out.mjs";
+import { createRequire } from "module"; // used to allow to use require("module")
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 //await delay(1000) /// waiting 1 second.	///only if async enable
@@ -7,8 +8,15 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 main();
 
 async function main() {
+
+  const require = createRequire(import.meta.url);
+  // can now use `require` in an ESM
+  const { exec } = require("child_process");
+
+
   const main_MODID = "extrabounties";
   const ms_delay = 150;
+  const  ascii_decor = 100;
 
   const bounty_pools_url =
     "./data/" + main_MODID + "/bounty_pools/" + main_MODID + "/";
@@ -22,7 +30,7 @@ async function main() {
 
   const bounty_tags_url = "./data/" + main_MODID + "/tags/items/";
 
-  const extralang_key = []
+  const extralang_key = [];
 
   io.mkDir("./data");
   io.mkDir("./assets");
@@ -40,7 +48,7 @@ async function main() {
   io.mkDir("./data/" + main_MODID + "/bounty_decrees/" + main_MODID);
   io.mkDir("./data/" + main_MODID + "/bounty_pools/" + main_MODID);
 
-  out.decor(100);
+  out.decor(ascii_decor);
 
   const item_pool = (item, amount, unitWorth) => ({
     type: "item",
@@ -50,13 +58,14 @@ async function main() {
   });
 
   const item_pool_tag = (item, amount, unitWorth) => {
-    extralang_key.push("bountiful.entry."+item.split(':')[1] || '')
+    extralang_key.push("bountiful.entry." + item.split(":")[1] || "");
     return {
-    type: "item_tag",
-    content: item,
-    amount: amount,
-    unitWorth: unitWorth,
-  }};
+      type: "item_tag",
+      content: item,
+      amount: amount,
+      unitWorth: unitWorth,
+    };
+  };
 
   const item_pool_nbt = (item, amount, unitWorth, nbt) => ({
     type: "item",
@@ -117,7 +126,7 @@ async function main() {
   console.log("Started File writer");
   await delay(ms_delay);
 
-  out.decor(100);
+  out.decor(ascii_decor);
 
   console.log("Generating custom tags");
   await delay(ms_delay);
@@ -151,7 +160,7 @@ async function main() {
   console.log("> " + glass_colorless);
   await delay(ms_delay);
 
-  out.decor(100);
+  out.decor(ascii_decor);
 
   console.log("Base Pools");
   await delay(ms_delay);
@@ -216,7 +225,7 @@ async function main() {
           750
         ),
         glass_colorless: item_pool_tag(
-          main_MODID +":"+ glass_colorless,
+          main_MODID + ":" + glass_colorless,
           { min: 8, max: 64 },
           750
         ),
@@ -227,7 +236,7 @@ async function main() {
         ),
         planks: item_pool_tag("minecraft:planks", { min: 12, max: 48 }, 750),
         wool: item_pool_tag("minecraft:wool", { min: 12, max: 28 }, 750),
-        dyes: item_pool_tag(main_MODID +":"+ dyes, { min: 8, max: 32 }, 750),
+        dyes: item_pool_tag(main_MODID + ":" + dyes, { min: 8, max: 32 }, 750),
         logs: item_pool_tag("minecraft:logs", { min: 12, max: 48 }, 750),
       },
     },
@@ -310,7 +319,7 @@ async function main() {
 
   console.log("> " + mob_drop_id);
   await delay(ms_delay);
-  out.decor(100);
+  out.decor(ascii_decor);
 
   await delay(ms_delay);
   //------------------------------------------------------------------------//
@@ -1890,7 +1899,7 @@ await delay(ms_delay);
 
 */
 
-  out.decor(100);
+  out.decor(ascii_decor);
   //DECREE
   //------------------------------------------------------------------------//
   await delay(ms_delay);
@@ -2124,7 +2133,7 @@ await delay(ms_delay);
   await delay(ms_delay);
 */
 
-  out.decor(100);
+  out.decor(ascii_decor);
   await delay(ms_delay);
   console.log("Lang generating");
   await delay(ms_delay);
@@ -2193,7 +2202,6 @@ await delay(ms_delay);
     (key) => "Any " + key.split(".").pop().replace("_", " ")
   );
 
-
   extralang_key.forEach((e, i) => {
     obj[e] = extralang_display[i];
   });
@@ -2201,5 +2209,25 @@ await delay(ms_delay);
   io.mkFile(bounty_lang + "en_us" + the_end, obj);
   console.log(obj);
   console.log("Lang completed");
-  out.decor(100);
+  out.decor(ascii_decor);
+  await delay(ms_delay);
+  console.log("Creating jar file");
+  out.decor(ascii_decor);
+
+  exec(
+    `jar cf "ExtraBounties-universal.jar" data pack.mcmeta pack.png META-INF fabric.mod.json assets`,
+    (error, stdout, stderr) => {
+      if (error) {
+        console.error("error: " + error.message);
+        return;
+      }
+      if (stderr) {
+        console.error("stderr: " + stderr);
+        return;
+      }
+      console.log("File jar created successfully");
+    }
+  );
+
+  out.decor(ascii_decor);
 }
