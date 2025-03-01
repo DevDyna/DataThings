@@ -1,73 +1,111 @@
-import * as io from './methods/io.mjs';
+import * as io from "./methods/io.mjs";
+import { createRequire } from "module"; // used to allow to use require("module")
 
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 //await delay(1000) /// waiting 1 second.	///only if async enable
 
-
-main()
+main();
 
 async function main() {
-    console.log('Reading file on folder')
-    let totfile = io.getAllFromDir('./tags/')
+  const require = createRequire(import.meta.url);
+  // can now use `require` in an ESM
+  const { exec } = require("child_process");
 
-        let blacklist = ['special_lantern.json', 'special_soul_lantern.json']
-        let blackfound = 0
-        blacklist.forEach(list => {
-            totfile.indexOf(list) !== -1 ? (totfile.splice(list, 1), blackfound++) : null;
-        })
+  console.log("Reading file on folder");
+  let totfile = io.getAllFromDir("./tags/");
 
-        await delay(500);
-    let bads = ''
-        if (blackfound > 0) {
-            bads = `and ${blackfound} ignored files`;
-        }
-        let file = ''
-        if (totfile.length > 1) {
-            file = 's'
-        }
-        console.log(`${totfile.length} File${file} founded ${bads}`)
+  let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
+  let blackfound = 0;
+  blacklist.forEach((list) => {
+    totfile.indexOf(list) !== -1
+      ? (totfile.splice(list, 1), blackfound++)
+      : null;
+  });
 
-        let URLdir = ['data/', 'data/chipped_express/', 'data/chipped_express/recipe/']
+  await delay(500);
+  let bads = "";
+  if (blackfound > 0) {
+    bads = `and ${blackfound} ignored files`;
+  }
+  let file = "";
+  if (totfile.length > 1) {
+    file = "s";
+  }
+  console.log(`${totfile.length} File${file} founded ${bads}`);
 
-        URLdir.forEach(e => {
-            if (io.mkDir(e)) {
-                console.log('Directory /' + e + ' created')
-            } else {
-                console.log('Directory /' + e + ' founded')
-            }
-        })
+  let URLdir = [
+    "data/",
+    "data/chipped_express/",
+    "data/chipped_express/recipe/",
+  ];
 
-        totfile.forEach(tag => {
-            //console.log(`Reading file :${tag}`)
-            let ar = io.JsonArray(`tags/${tag}`).values;
-            let origin = ar[0];
-            ar.shift();
-            if (origin == 'chipped:big_lantern' || origin == 'chipped:big_soul_lantern') {
-                return;
-            }
-            console.log(origin)
+  URLdir.forEach((e) => {
+    if (io.mkDir(e)) {
+      console.log("Directory /" + e + " created");
+    } else {
+      console.log("Directory /" + e + " founded");
+    }
+  });
 
-            ar.forEach(result => {
+  totfile.forEach((tag) => {
+    //console.log(`Reading file :${tag}`)
+    let ar = io.JsonArray(`tags/${tag}`).values;
+    let origin = ar[0];
+    ar.shift();
+    if (
+      origin == "chipped:big_lantern" ||
+      origin == "chipped:big_soul_lantern"
+    ) {
+      return;
+    }
+    console.log(origin);
 
-                let jsonfile = {
-                    "type": "minecraft:stonecutting",
-                    "count": 1,
-                    "ingredient": {
-                        "item": 'minecraft:' + origin
-                    },
-                    "result": {
-                        "id": result
-                    }
-                }
-                console.log(jsonfile)
-                console.log(io.mkFile('./data/chipped_express/recipe/stonecutting_' + result.replace(/[:\s]/g, '_') + '_from_' + origin + '.json', JSON.stringify(jsonfile)))
+    ar.forEach((result) => {
+      let jsonfile = {
+        type: "minecraft:stonecutting",
+        count: 1,
+        ingredient: {
+          item: "minecraft:" + origin,
+        },
+        result: {
+          id: result,
+        },
+      };
+      console.log(jsonfile);
+      console.log(
+        io.mkFile(
+          "./data/chipped_express/recipe/stonecutting_" +
+            result.replace(/[:\s]/g, "_") +
+            "_from_" +
+            origin +
+            ".json",
+          JSON.stringify(jsonfile)
+        )
+      );
+    });
+  });
 
-            })
+  console.log("Creating jar file , it will take a few of seconds");
 
-        })
+  exec(
+    `jar cf "ChippedExpress-universal.jar" data META-INF pack.mcmeta pack.png fabric.mod.json`,
+    (error, stdout, stderr) => {
+      if (error) {
+        console.error("error: " + error.message);
+        return;
+      }
+      if (stderr) {
+        console.error("stderr: " + stderr);
+        return;
+      }
+      console.log("File jar created successfully");
+    }
+  );
 
-        console.log("THE END, GO AWAY!")
-        /* logo mod o.O
+  await delay(10*1000);
+
+  console.log("THE END, GO AWAY!");
+  /* logo mod o.O
         console.log({
         "values": [{
         "type": "devdyna:addon",
