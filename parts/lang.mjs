@@ -28,11 +28,13 @@ import * as neap from "./compat/neapolitan.mjs";
 import * as powa from "./compat/powah.mjs";
 import * as ppbs from "./compat/ppipes.mjs";
 import * as ppfl from "./compat/ppipes_fluid.mjs";
+import * as quak from "./compat/quark.mjs";
 import * as reli from "./compat/reliquary.mjs";
 import * as rout from "./compat/router.mjs";
 import * as sara from "./compat/savage_and_ravage.mjs";
 import * as spbk from "./compat/sophbackpack.mjs";
 import * as spst from "./compat/sophstorage.mjs";
+import * as tcon from "./compat/tconstruct.mjs";
 import * as upat from "./compat/upgradeaquatic.mjs";
 import * as vmin from "./compat/voidminers.mjs";
 import * as wapp from "./compat/warppipes.mjs";
@@ -64,7 +66,6 @@ const mod_ids = [
   crea.create_logistic,
   crea.create_motion,
   crea.create_other,
-  
   alem.modid,
   atmp.modid,
   autm.modid,
@@ -81,6 +82,9 @@ const mod_ids = [
   sara.modid,
   upat.modid,
   vmin.modid,
+  quak.modid,
+  tcon.modid_gadgets,
+  tcon.modid_smelt,
 ];
 
 const displayNames = [
@@ -109,6 +113,25 @@ const displayNames = [
   "Create : Logistic",
   "Create : Motion",
   "Create : Base",
+  "AlexMobs Zookeeper",
+  "Encyclopedia of the four seasons",
+  "Gary's Dairy",
+  "Tails approved",
+  "Anatomically Accurate",
+  "Barry work",
+  "Spelukery time",
+  "Endergetic Journey",
+  "Biomes and rivers",
+  "Ironberry vibes",
+  "Iron? I only see Arcane stuff!",
+  "Not so much Malum",
+  "Made in Naples",
+  "Better than V&P",
+  "I like corals!",
+  "Not Environmental Tech related!",
+  "Mojang Backport",
+  "InfiTools Pickaze",
+  "InfiTools Furnace",
 ];
 
 export const extralang_key = [];
