@@ -1,24 +1,24 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const router_id = "modularrouters";
-export const router_card = router_id + "_card";
-export const router_module = router_id + "_module";
+export const modid = "modularrouters";
+export const router_card = modid + "_card";
+export const router_module = modid + "_module";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + router_id + core.the_end, {
-    requires: [router_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, router_card],
     rewards: [core.decree_id, router_module, core.rarities_id],
   });
-  core.decor_out(router_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + router_card + core.the_end, {
-    requires: [router_id],
-    content: core.contentCreator(router_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "modularrouters:blank_upgrade",
       "modularrouters:augment_core",
       "modularrouters:blank_module",
@@ -27,8 +27,8 @@ export async function pools() {
   core.decor_out(router_card);
 
   io.mkFile(core.bounty_pools_url + router_module + core.the_end, {
-    requires: [router_id],
-    content: core.contentCreator(router_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "modularrouters:inspection_filter",
       "modularrouters:tag_filter",
       "modularrouters:puller_module_1",

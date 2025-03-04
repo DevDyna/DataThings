@@ -1,33 +1,33 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const soph_bk_id = "sophisticatedbackpacks";
-export const soph_bk_base = soph_bk_id + "_base";
-export const soph_bk_upgrade = soph_bk_id + "_upgrade";
-export const soph_bk_back = soph_bk_id + "_backpack";
+export const modid = "sophisticatedbackpacks";
+export const soph_bk_base = modid + "_base";
+export const soph_bk_upgrade = modid + "_upgrade";
+export const soph_bk_back = modid + "_backpack";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + soph_bk_id + core.the_end, {
-    requires: [soph_bk_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, soph_bk_base, soph_bk_upgrade],
     rewards: [core.decree_id, soph_bk_upgrade, soph_bk_back, core.rarities_id],
   });
-  core.decor_out(soph_bk_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + soph_bk_base + core.the_end, {
-    requires: [soph_bk_id],
-    content: core.contentCreator(soph_bk_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:upgrade_base",
     ]),
   });
   core.decor_out(soph_bk_base);
 
   io.mkFile(core.bounty_pools_url + soph_bk_upgrade + core.the_end, {
-    requires: [soph_bk_id],
-    content: core.contentCreator(soph_bk_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:void_upgrade",
       "sophisticatedbackpacks:restock_upgrade",
       "sophisticatedbackpacks:deposit_upgrade",
@@ -56,8 +56,8 @@ export async function pools() {
   core.decor_out(soph_bk_upgrade);
 
   io.mkFile(core.bounty_pools_url + soph_bk_back + core.the_end, {
-    requires: [soph_bk_id],
-    content: core.contentCreator(soph_bk_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:backpack",
     ]),
   });

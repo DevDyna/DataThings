@@ -1,24 +1,24 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const reliquary_id = "reliquary";
-export const reliquary_drop = reliquary_id + "_trade";
-export const reliquary_rew = reliquary_id + "_sell";
+export const modid = "reliquary";
+export const reliquary_drop = modid + "_trade";
+export const reliquary_rew = modid + "_sell";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + reliquary_id + core.the_end, {
-    requires: [reliquary_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, reliquary_drop, core.mob_drop_id],
     rewards: [core.decree_id, reliquary_drop, reliquary_rew, core.rarities_id],
   });
-  core.decor_out(reliquary_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + reliquary_drop + core.the_end, {
-    requires: [reliquary_id],
-    content: core.contentCreator(reliquary_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "reliquary:witch_hat",
       "reliquary:infernal_claws",
       "reliquary:glowing_water",
@@ -54,8 +54,8 @@ export async function pools() {
   core.decor_out(reliquary_drop);
 
   io.mkFile(core.bounty_pools_url + reliquary_rew + core.the_end, {
-    requires: [reliquary_id],
-    content: core.contentCreator(reliquary_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "reliquary:mercy_cross",
       "reliquary:glacial_staff",
       "reliquary:rending_gale",

@@ -1,23 +1,23 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const alex_id = "alexscaves";
-export const alex_in = alex_id + "_in";
-export const alex_out = alex_id + "_out";
+export const modid = "alexscaves";
+export const alex_in = modid + "_in";
+export const alex_out = modid + "_out";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + alex_id + core.the_end, {
-    requires: [alex_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, alex_in],
     rewards: [core.decree_id, alex_out, core.rarities_id],
   });
-  core.decor_out(alex_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   
   //INPUT
   //------------------------------------------------------------------------//
-  let content_in = core.contentCreator(alex_id, { min: 8, max: 32 }, 1000, [
+  let content_in = core.contentCreator(modid, { min: 8, max: 32 }, 1000, [
     "alexscaves:metal_swarf",
     "alexscaves:galena",
     "alexscaves:limestone",
@@ -102,7 +102,7 @@ export async function pools() {
   io.mkFile(
     core.bounty_pools_url + alex_in + core.the_end,
     {
-      requires: [alex_id],
+      requires: [modid],
       content: content_in,
     },
     true
@@ -170,7 +170,7 @@ export async function pools() {
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(alex_id, { min: 4, max: 16 }, 1000, [
+    core.contentCreator(modid, { min: 4, max: 16 }, 1000, [
       "alexscaves:uranium",
       "alexscaves:ominous_catalyst",
       "alexscaves:pure_darkness",
@@ -196,7 +196,7 @@ export async function pools() {
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(alex_id, { min: 1, max: 1 }, 750, [
+    core.contentCreator(modid, { min: 1, max: 1 }, 750, [
       "alexscaves:gingerbread_helmet",
       "alexscaves:gingerbread_boots",
       "alexscaves:primordial_tunic",
@@ -227,7 +227,7 @@ export async function pools() {
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(alex_id, { min: 1, max: 16 }, 1000, [
+    core.contentCreator(modid, { min: 1, max: 16 }, 1000, [
       "alexscaves:frostmint_spear",
       "alexscaves:limestone_spear",
       "alexscaves:radon_bottle",
@@ -236,7 +236,7 @@ export async function pools() {
   io.mkFile(
     core.bounty_pools_url + alex_out + core.the_end,
     {
-      requires: [alex_id],
+      requires: [modid],
       content: content_out,
     },
     true

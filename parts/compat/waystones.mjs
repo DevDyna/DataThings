@@ -1,22 +1,22 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const waystones_id = "waystones";
+export const modid = "waystones";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + waystones_id + core.the_end, {
-    requires: [waystones_id],
-    objectives: [core.treasures_id, core.resources_id, waystones_id],
-    rewards: [core.decree_id, waystones_id, core.rarities_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
+    objectives: [core.treasures_id, core.resources_id, modid],
+    rewards: [core.decree_id, modid, core.rarities_id],
   });
-  core.decor_out(waystones_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + waystones_id + core.the_end, {
-    requires: [waystones_id],
-    content: core.contentCreator(waystones_id, { min: 1, max: 1 }, 1000, [
+  io.mkFile(core.bounty_pools_url + modid + core.the_end, {
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "waystones:warp_stone",
       "waystones:return_scroll",
       "waystones:bound_scroll",
@@ -44,5 +44,5 @@ export async function pools() {
       "waystones:sandy_waystone",
     ]),
   });
-  core.decor_out(waystones_id);
+  core.decor_out(modid);
 }

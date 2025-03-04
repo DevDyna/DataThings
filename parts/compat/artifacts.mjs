@@ -1,21 +1,21 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const artifact_id = "artifacts";
+export const modid = "artifacts";
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + artifact_id + core.the_end, {
-    requires: [artifact_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.rarities_id],
-    rewards: [core.decree_id, artifact_id, core.rarities_id],
+    rewards: [core.decree_id, modid, core.rarities_id],
   });
-  core.decor_out(artifact_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + artifact_id + core.the_end, {
-    requires: [artifact_id],
-    content: core.contentCreator(artifact_id, { min: 1, max: 1 }, 100, [
+  io.mkFile(core.bounty_pools_url + modid + core.the_end, {
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 100, [
       "artifacts:novelty_drinking_hat",
       "artifacts:snorkel",
       "artifacts:night_vision_goggles",
@@ -62,5 +62,5 @@ export async function pools() {
       "artifacts:umbrella",
     ]),
   });
-  core.decor_out(artifact_id);
+  core.decor_out(modid);
 }

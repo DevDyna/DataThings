@@ -1,53 +1,86 @@
 import * as core from "./core.mjs";
 import * as io from "../methods/io.mjs";
 
-import * as alex from "./compat/alexcaves.mjs";
+import * as alec from "./compat/alexcaves.mjs";
+import * as alem from "./compat/alexsmobs.mjs";
 import * as aqua from "./compat/aquaculture.mjs";
 import * as arti from "./compat/artifacts.mjs";
+import * as atmp from "./compat/atmospheric.mjs";
+import * as autm from "./compat/autumnity.mjs";
+import * as begd from "./compat/berry_good.mjs";
+import * as bicy from "./compat/biomancy.mjs";
 import * as bgad from "./compat/buildinggadgets.mjs";
+import * as bube from "./compat/buzzier_bees.mjs";
+import * as cach from "./compat/caverns_and_chasms.mjs";
 import * as cora from "./compat/corail.mjs";
 import * as crea from "./compat/create.mjs";
+import * as endg from "./compat/endergetic.mjs";
+import * as envt from "./compat/environmental.mjs";
 import * as fade from "./compat/farmerdelight.mjs";
 import * as gadi from "./compat/gamediscs.mjs";
+import * as invp from "./compat/inventorypets.mjs";
 import * as irch from "./compat/ironchest.mjs";
 import * as irfu from "./compat/ironfurnace.mjs";
+import * as irsp from "./compat/irons_spellbooks.mjs";
 import * as laio from "./compat/laserio.mjs";
+import * as malu from "./compat/malum.mjs";
+import * as neap from "./compat/neapolitan.mjs";
 import * as powa from "./compat/powah.mjs";
 import * as ppbs from "./compat/ppipes.mjs";
 import * as ppfl from "./compat/ppipes_fluid.mjs";
 import * as reli from "./compat/reliquary.mjs";
 import * as rout from "./compat/router.mjs";
+import * as sara from "./compat/savage_and_ravage.mjs";
 import * as spbk from "./compat/sophbackpack.mjs";
 import * as spst from "./compat/sophstorage.mjs";
+import * as upat from "./compat/upgradeaquatic.mjs";
+import * as vmin from "./compat/voidminers.mjs";
 import * as wapp from "./compat/warppipes.mjs";
 import * as ways from "./compat/waystones.mjs";
 
 const mod_ids = [
-  alex.alex_id,
-  wapp.warp_id,
-  spst.soph_st_id,
-  spbk.soph_bk_id,
-  cora.tb_id,
-  arti.artifact_id,
-  laio.laserio_id,
-  gadi.gamediscs_id,
-  rout.router_id,
-  ways.waystones_id,
-  aqua.aquaculture_id,
-  bgad.buildinggadgests_id,
-  irch.iron_chest_id,
-  irfu.ironfurnaces_id,
-  powa.powah_id,
-  ppbs.prettypipes_id,
-  ppfl.prettyfluids_id,
-  reli.reliquary_id,
-  fade.farmersdelight_id,
+  alec.modid,
+  wapp.modid,
+  spst.modid,
+  spbk.modid,
+  cora.modid,
+  arti.modid,
+  laio.modid,
+  gadi.modid,
+  rout.modid,
+  ways.modid,
+  aqua.modid,
+  bgad.modid,
+  irch.modid,
+  irfu.modid,
+  powa.modid,
+  ppbs.modid,
+  ppfl.modid,
+  reli.modid,
+  fade.modid,
   crea.create_craft,
   crea.create_fluid,
   crea.create_gen,
   crea.create_logistic,
   crea.create_motion,
   crea.create_other,
+  
+  alem.modid,
+  atmp.modid,
+  autm.modid,
+  begd.modid,
+  bicy.modid,
+  bube.modid,
+  cach.modid,
+  endg.modid,
+  envt.modid,
+  invp.modid,
+  irsp.modid,
+  malu.modid,
+  neap.modid,
+  sara.modid,
+  upat.modid,
+  vmin.modid,
 ];
 
 const displayNames = [

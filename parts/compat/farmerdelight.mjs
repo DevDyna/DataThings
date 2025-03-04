@@ -1,15 +1,15 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const farmersdelight_id = "farmersdelight";
-export const farmersdelight_trade = farmersdelight_id + "_trade";
-export const farmersdelight_rew = farmersdelight_id + "_sell";
-export const farmersdelight_obj = farmersdelight_id + "_buy";
+export const modid = "farmersdelight";
+export const farmersdelight_trade = modid + "_trade";
+export const farmersdelight_rew = modid + "_sell";
+export const farmersdelight_obj = modid + "_buy";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + farmersdelight_id + core.the_end, {
-    requires: [farmersdelight_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
@@ -18,13 +18,13 @@ export async function decree() {
     ],
     rewards: [core.decree_id, farmersdelight_rew, farmersdelight_trade, core.rarities_id],
   });
-  core.decor_out(farmersdelight_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + farmersdelight_trade + core.the_end, {
-    requires: [farmersdelight_id],
-    content: core.contentCreator(farmersdelight_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "farmersdelight:nether_salad",
       "farmersdelight:fruit_salad",
       "farmersdelight:mixed_salad",
@@ -59,8 +59,8 @@ export async function pools() {
   core.decor_out(farmersdelight_trade);
 
   io.mkFile(core.bounty_pools_url + farmersdelight_rew + core.the_end, {
-    requires: [farmersdelight_id],
-    content: core.contentCreator(farmersdelight_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "farmersdelight:rich_soil",
       "farmersdelight:rice_roll_medley_block",
       "farmersdelight:shepherds_pie",
@@ -97,8 +97,8 @@ export async function pools() {
   core.decor_out(farmersdelight_rew);
 
   io.mkFile(core.bounty_pools_url + farmersdelight_obj + core.the_end, {
-    requires: [farmersdelight_id],
-    content: core.contentCreator(farmersdelight_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "farmersdelight:pie_crust",
       "farmersdelight:milk_bottle",
       "farmersdelight:beef_patty",

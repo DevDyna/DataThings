@@ -1,55 +1,55 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const create_id = "create";
-export const create_core = create_id + "_core";
-export const create_baselogic = create_id + "_baselogic";
-export const create_logistic = create_id + "_logistic";
-export const create_gen = create_id + "_gen";
-export const create_craft = create_id + "_craft";
-export const create_fluid = create_id + "_fluid";
-export const create_motion = create_id + "_motion";
-export const create_other = create_id + "_other";
+export const modid = "create";
+export const create_core = modid + "_core";
+export const create_baselogic = modid + "_baselogic";
+export const create_logistic = modid + "_logistic";
+export const create_gen = modid + "_gen";
+export const create_craft = modid + "_craft";
+export const create_fluid = modid + "_fluid";
+export const create_motion = modid + "_motion";
+export const create_other = modid + "_other";
 
 
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + create_craft + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
     rewards: [core.decree_id, core.rarities_id, create_craft],
   });
   core.decor_out(create_craft);
 
   io.mkFile(core.bounty_decrees_url + create_fluid + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
     rewards: [core.decree_id, core.rarities_id, create_fluid],
   });
   core.decor_out(create_fluid);
 
   io.mkFile(core.bounty_decrees_url + create_gen + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
     rewards: [core.decree_id, core.rarities_id, create_gen],
   });
   core.decor_out(create_gen);
 
   io.mkFile(core.bounty_decrees_url + create_logistic + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
     rewards: [core.decree_id, core.rarities_id, create_logistic, create_baselogic],
   });
   core.decor_out(create_logistic);
 
   io.mkFile(core.bounty_decrees_url + create_motion + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
     rewards: [core.decree_id, core.rarities_id, create_motion, create_baselogic],
   });
   core.decor_out(create_motion);
 
   io.mkFile(core.bounty_decrees_url + create_other + core.the_end, {
-    requires: [create_id],
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
@@ -70,8 +70,8 @@ export async function decree() {
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + create_core + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:andesite_alloy",
       "create:zinc_ingot",
       "create:brass_ingot",
@@ -110,8 +110,8 @@ export async function pools() {
   core.decor_out(create_core);
 
   io.mkFile(core.bounty_pools_url + create_baselogic + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:speedometer",
       "create:stressometer",
       "create:adjustable_chain_gearshift",
@@ -130,8 +130,8 @@ export async function pools() {
   core.decor_out(create_baselogic);
 
   io.mkFile(core.bounty_pools_url + create_logistic + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:weighted_ejector",
       "create:display_board",
       "create:chute",
@@ -169,8 +169,8 @@ export async function pools() {
   core.decor_out(create_logistic);
 
   io.mkFile(core.bounty_pools_url + create_gen + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:water_wheel",
       "create:large_water_wheel",
       "create:steam_whistle",
@@ -184,8 +184,8 @@ export async function pools() {
   core.decor_out(create_gen);
 
   io.mkFile(core.bounty_pools_url + create_craft + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:encased_fan",
       "create:crushing_wheel",
       "create:basin",
@@ -202,8 +202,8 @@ export async function pools() {
   core.decor_out(create_craft);
 
   io.mkFile(core.bounty_pools_url + create_fluid + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:fluid_valve",
       "create:hose_pulley",
       "create:fluid_tank",
@@ -221,8 +221,8 @@ export async function pools() {
   core.decor_out(create_fluid);
 
   io.mkFile(core.bounty_pools_url + create_motion + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:rope_pulley",
       "create:elevator_pulley",
       "create:mechanical_bearing",
@@ -265,8 +265,8 @@ export async function pools() {
   core.decor_out(create_motion);
 
   io.mkFile(core.bounty_pools_url + create_other + core.the_end, {
-    requires: [create_id],
-    content: core.contentCreator(create_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "create:blaze_cake",
       "create:goggles",
       "create:blaze_cake_base",

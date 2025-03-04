@@ -1,26 +1,26 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const tb_id = "tombstone";
-export const tb_base = tb_id + "_base";
-export const tb_stones = tb_id + "_stones";
-export const tb_sell = tb_id + "_sell";
-export const tb_entities = tb_id + "_entities";
+export const modid = "tombstone";
+export const tb_base = modid + "_base";
+export const tb_stones = modid + "_stones";
+export const tb_sell = modid + "_sell";
+export const tb_entities = modid + "_entities";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + tb_id + core.the_end, {
-    requires: [tb_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, tb_base, tb_stones, tb_entities],
     rewards: [core.decree_id, tb_sell, tb_base, core.rarities_id],
   });
-  core.decor_out(tb_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + tb_base + core.the_end, {
-    requires: [tb_id],
-    content: core.contentCreator(tb_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "tombstone:strange_scroll",
       "tombstone:grave_dust",
       "tombstone:strange_tablet",
@@ -30,8 +30,8 @@ export async function pools() {
   core.decor_out(tb_base);
 
   io.mkFile(core.bounty_pools_url + tb_stones + core.the_end, {
-    requires: [tb_id],
-    content: core.contentCreator(tb_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "tombstone:green_marble_stairs",
       "tombstone:blue_marble_stairs",
       "tombstone:white_marble_stairs",
@@ -57,8 +57,8 @@ export async function pools() {
   core.decor_out(tb_stones);
 
   io.mkFile(core.bounty_pools_url + tb_sell + core.the_end, {
-    requires: [tb_id],
-    content: core.contentCreator(tb_id, { min: 1, max: 8 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
       "tombstone:ankh_of_prayer",
       "tombstone:lost_tablet",
       "tombstone:book_of_disenchantment",
@@ -85,8 +85,8 @@ export async function pools() {
   core.decor_out(tb_sell);
 
   io.mkFile(core.bounty_pools_url + tb_entities + core.the_end, {
-    requires: [tb_id],
-    content: core.contentCreatorEntities(tb_id, { min: 1, max: 5 }, 1000, [
+    requires: [modid],
+    content: core.contentCreatorEntities(modid, { min: 1, max: 5 }, 1000, [
       "minecraft:phantom",
       "minecraft:zombie",
       "minecraft:skeleton",

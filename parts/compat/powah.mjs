@@ -1,24 +1,24 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const powah_id = "powah";
-export const powah_obj = powah_id + "_buy";
-export const powah_rew = powah_id + "_sell";
+export const modid = "powah";
+export const powah_obj = modid + "_buy";
+export const powah_rew = modid + "_sell";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + powah_id + core.the_end, {
-    requires: [powah_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, powah_obj],
     rewards: [core.decree_id, powah_rew, core.rarities_id],
   });
-  core.decor_out(powah_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + powah_obj + core.the_end, {
-    requires: [powah_id],
-    content: core.contentCreator(powah_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "powah:capacitor_basic_tiny",
       "powah:niotic_crystal_block",
       "powah:spirited_crystal_block",
@@ -48,8 +48,8 @@ export async function pools() {
   core.decor_out(powah_obj);
 
   io.mkFile(core.bounty_pools_url + powah_rew + core.the_end, {
-    requires: [powah_id],
-    content: core.contentCreator(powah_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "powah:energizing_rod_spirited",
       "powah:ender_gate_starter",
       "powah:ender_gate_hardened",

@@ -1,24 +1,24 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const prettypipes_id = "prettypipes";
-export const prettypipes_obj = prettypipes_id + "_buy";
-export const prettypipes_rew = prettypipes_id + "_sell";
+export const modid = "prettypipes";
+export const prettypipes_obj = modid + "_buy";
+export const prettypipes_rew = modid + "_sell";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + prettypipes_id + core.the_end, {
-    requires: [prettypipes_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, prettypipes_obj],
     rewards: [core.decree_id, prettypipes_rew, core.rarities_id],
   });
-  core.decor_out(prettypipes_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + prettypipes_obj + core.the_end, {
-    requires: [prettypipes_id],
-    content: core.contentCreator(prettypipes_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "minecraft:chest",
       "prettypipes:blank_module",
       "prettypipes:pipe",
@@ -27,8 +27,8 @@ export async function pools() {
   core.decor_out(prettypipes_obj);
 
   io.mkFile(core.bounty_pools_url + prettypipes_rew + core.the_end, {
-    requires: [prettypipes_id],
-    content: core.contentCreator(prettypipes_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "prettypipes:medium_speed_module",
       "prettypipes:stack_size_module",
       "prettypipes:pipe",

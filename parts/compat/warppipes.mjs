@@ -1,22 +1,22 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const warp_id = "warp_pipes";
+export const modid = "warp_pipes";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + warp_id + core.the_end, {
-    requires: [warp_id],
-    objectives: [core.treasures_id, core.resources_id, core.rarities_id, warp_id],
-    rewards: [core.decree_id, warp_id, core.rarities_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
+    objectives: [core.treasures_id, core.resources_id, core.rarities_id, modid],
+    rewards: [core.decree_id, modid, core.rarities_id],
   });
-  core.decor_out(warp_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + warp_id + core.the_end, {
-    requires: [warp_id],
-    content: core.contentCreator(warp_id, { min: 1, max: 32 }, 1000, [
+  io.mkFile(core.bounty_pools_url + modid + core.the_end, {
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 32 }, 1000, [
       "warp_pipes:gray_warp_pipe",
       "warp_pipes:pink_warp_pipe",
       "warp_pipes:lime_warp_pipe",
@@ -37,5 +37,5 @@ export async function pools() {
     ]),
   });
 
-  core.decor_out(warp_id);
+  core.decor_out(modid);
 }

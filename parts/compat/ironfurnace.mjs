@@ -1,24 +1,24 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
-export const ironfurnaces_id = "ironfurnaces";
-export const ironfurnaces_obj = ironfurnaces_id + "_buy";
-export const ironfurnaces_rew = ironfurnaces_id + "_sell";
+export const modid = "ironfurnaces";
+export const ironfurnaces_obj = modid + "_buy";
+export const ironfurnaces_rew = modid + "_sell";
 
 
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + ironfurnaces_id + core.the_end, {
-    requires: [ironfurnaces_id],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [core.treasures_id, core.resources_id, ironfurnaces_obj],
     rewards: [core.decree_id, ironfurnaces_rew, core.rarities_id],
   });
-  core.decor_out(ironfurnaces_id);
+  core.decor_out(modid);
 }
 
 export async function pools() {
   io.mkFile(core.bounty_pools_url + ironfurnaces_obj + core.the_end, {
-    requires: [ironfurnaces_id],
-    content: core.contentCreator(ironfurnaces_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "ironfurnaces:augment_fuel",
       "ironfurnaces:augment_speed",
       "ironfurnaces:augment_generator",
@@ -51,8 +51,8 @@ export async function pools() {
   core.decor_out(ironfurnaces_obj);
 
   io.mkFile(core.bounty_pools_url + ironfurnaces_rew + core.the_end, {
-    requires: [ironfurnaces_id],
-    content: core.contentCreator(ironfurnaces_id, { min: 1, max: 1 }, 1000, [
+    requires: [modid],
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
       "ironfurnaces:upgrade_gold2",
       "ironfurnaces:upgrade_silver2",
       "ironfurnaces:heater",
