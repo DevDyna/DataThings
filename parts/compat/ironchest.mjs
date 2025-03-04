@@ -18,7 +18,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + iron_chest_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "ironchest:iron_to_gold_chest_upgrade",
       "ironchest:gold_to_diamond_chest_upgrade",
       "ironchest:copper_to_iron_chest_upgrade",
@@ -32,7 +32,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + iron_chest_obj + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "ironchest:copper_chest",
       "ironchest:gold_chest",
       "ironchest:iron_chest",

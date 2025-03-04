@@ -24,7 +24,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + farmersdelight_trade + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "farmersdelight:nether_salad",
       "farmersdelight:fruit_salad",
       "farmersdelight:mixed_salad",
@@ -60,7 +60,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + farmersdelight_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "farmersdelight:rich_soil",
       "farmersdelight:rice_roll_medley_block",
       "farmersdelight:shepherds_pie",
@@ -98,7 +98,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + farmersdelight_obj + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "farmersdelight:pie_crust",
       "farmersdelight:milk_bottle",
       "farmersdelight:beef_patty",

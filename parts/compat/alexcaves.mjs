@@ -17,7 +17,7 @@ export async function pools() {
   
   //INPUT
   //------------------------------------------------------------------------//
-  let content_in = core.contentCreator(modid, { min: 8, max: 32 }, 1000, [
+  let content_in = core.contentCreator( { min: 8, max: 32 }, 1000, [
     "alexscaves:metal_swarf",
     "alexscaves:galena",
     "alexscaves:limestone",
@@ -54,49 +54,37 @@ export async function pools() {
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:abyssal_chasm",
-    }
+    '{CaveBiome: "alexscaves:abyssal_chasm"}'
   );
   content_in[alex_in + "_" + "toxic_caves" + "_tablet"] = core.item_pool_nbt(
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:toxic_caves",
-    }
+    '{CaveBiome: "alexscaves:toxic_caves"}'
   );
   content_in[alex_in + "_" + "primordial_caves" + "_tablet"] = core.item_pool_nbt(
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:primordial_caves",
-    }
+    '{CaveBiome: "alexscaves:primordial_caves"}'
   );
   content_in[alex_in + "_" + "magnetic_caves" + "_tablet"] = core.item_pool_nbt(
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:magnetic_caves",
-    }
+    '{CaveBiome: "alexscaves:magnetic_caves"}'
   );
   content_in[alex_in + "_" + "candy_cavity" + "_tablet"] = core.item_pool_nbt(
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:candy_cavity",
-    }
+    '{CaveBiome: "alexscaves:candy_cavity"}'
   );
   content_in[alex_in + "_" + "forlorn_hollows" + "_tablet"] = core.item_pool_nbt(
     "alexscaves:cave_tablet",
     { min: 8, max: 16 },
     1000,
-    {
-      CaveBiome: "alexscaves:forlorn_hollows",
-    }
+    '{CaveBiome: "alexscaves:forlorn_hollows"}'
   );
 
   io.mkFile(
@@ -123,54 +111,42 @@ export async function pools() {
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:abyssal_chasm",
-    }
+    '{CaveBiome: "alexscaves:abyssal_chasm"}'
   );
   content_out[alex_out + "_" + "toxic_caves" + "_codex"] = core.item_pool_nbt(
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:toxic_caves",
-    }
+    '{CaveBiome: "alexscaves:toxic_caves"}'
   );
   content_out[alex_out + "_" + "primordial_caves" + "_codex"] = core.item_pool_nbt(
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:primordial_caves",
-    }
+    '{CaveBiome: "alexscaves:primordial_caves"}'
   );
   content_out[alex_out + "_" + "magnetic_caves" + "_codex"] = core.item_pool_nbt(
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:magnetic_caves",
-    }
+    '{CaveBiome: "alexscaves:magnetic_caves"}'
   );
   content_out[alex_out + "_" + "candy_cavity" + "_codex"] = core.item_pool_nbt(
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:candy_cavity",
-    }
+    '{CaveBiome: "alexscaves:candy_cavity"}'
   );
   content_out[alex_out + "_" + "forlorn_hollows" + "_codex"] = core.item_pool_nbt(
     "alexscaves:cave_codex",
     { min: 1, max: 1 },
     1000,
-    {
-      CaveBiome: "alexscaves:forlorn_hollows",
-    }
+    '{CaveBiome: "alexscaves:forlorn_hollows"}'
   );
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(modid, { min: 4, max: 16 }, 1000, [
+    core.contentCreator( { min: 4, max: 16 }, 1000, [
       "alexscaves:uranium",
       "alexscaves:ominous_catalyst",
       "alexscaves:pure_darkness",
@@ -196,7 +172,7 @@ export async function pools() {
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(modid, { min: 1, max: 1 }, 750, [
+    core.contentCreator( { min: 1, max: 1 }, 750, [
       "alexscaves:gingerbread_helmet",
       "alexscaves:gingerbread_boots",
       "alexscaves:primordial_tunic",
@@ -227,7 +203,7 @@ export async function pools() {
   content_out = Object.assign(
     {},
     content_out,
-    core.contentCreator(modid, { min: 1, max: 16 }, 1000, [
+    core.contentCreator( { min: 1, max: 16 }, 1000, [
       "alexscaves:frostmint_spear",
       "alexscaves:limestone_spear",
       "alexscaves:radon_bottle",

@@ -18,7 +18,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + router_card + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "modularrouters:blank_upgrade",
       "modularrouters:augment_core",
       "modularrouters:blank_module",
@@ -28,7 +28,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + router_module + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "modularrouters:inspection_filter",
       "modularrouters:tag_filter",
       "modularrouters:puller_module_1",

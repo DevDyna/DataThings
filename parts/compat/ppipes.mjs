@@ -18,7 +18,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + prettypipes_obj + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "minecraft:chest",
       "prettypipes:blank_module",
       "prettypipes:pipe",
@@ -28,7 +28,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + prettypipes_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "prettypipes:medium_speed_module",
       "prettypipes:stack_size_module",
       "prettypipes:pipe",

@@ -20,7 +20,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + tb_base + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "tombstone:strange_scroll",
       "tombstone:grave_dust",
       "tombstone:strange_tablet",
@@ -31,7 +31,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + tb_stones + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "tombstone:green_marble_stairs",
       "tombstone:blue_marble_stairs",
       "tombstone:white_marble_stairs",
@@ -58,7 +58,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + tb_sell + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "tombstone:ankh_of_prayer",
       "tombstone:lost_tablet",
       "tombstone:book_of_disenchantment",
@@ -86,7 +86,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + tb_entities + core.the_end, {
     requires: [modid],
-    content: core.contentCreatorEntities(modid, { min: 1, max: 5 }, 1000, [
+    content: core.contentCreatorEntities( { min: 1, max: 5 }, 1000, [
       "minecraft:phantom",
       "minecraft:zombie",
       "minecraft:skeleton",

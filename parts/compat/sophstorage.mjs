@@ -19,7 +19,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + soph_st_base + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(soph_st_base, { min: 1, max: 16 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 16 }, 1000, [
       "sophisticatedstorage:upgrade_base",
     ]),
   });
@@ -28,7 +28,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + soph_st_upg + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 16 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 16 }, 1000, [
       "sophisticatedstorage:crafting_upgrade",
       "sophisticatedstorage:smoking_upgrade",
       "sophisticatedstorage:smelting_upgrade",
@@ -56,7 +56,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + soph_st_oth + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "sophisticatedstorage:controller",
       "sophisticatedstorage:storage_link",
       "sophisticatedstorage:storage_input",

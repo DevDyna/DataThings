@@ -16,7 +16,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + modid + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "buildinggadgets2:gadget_copy_paste",
       "buildinggadgets2:gadget_destruction",
       "buildinggadgets2:template",

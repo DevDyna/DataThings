@@ -16,7 +16,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + modid + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 32 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 32 }, 1000, [
       "warp_pipes:gray_warp_pipe",
       "warp_pipes:pink_warp_pipe",
       "warp_pipes:lime_warp_pipe",

@@ -18,7 +18,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + laserio_chip + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "laserio:logic_chip",
       "laserio:logic_chip_raw",
     ]),
@@ -27,7 +27,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + laserio_cards + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "laserio:filter_count",
       "laserio:filter_nbt",
       "laserio:filter_basic",

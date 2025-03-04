@@ -19,7 +19,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + prettyfluids_obj + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "ppfluids:fluid_pipe",
       "minecraft:bucket",
     ]),
@@ -28,7 +28,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + prettyfluids_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "ppfluids:high_fluid_filter_module",
       "ppfluids:medium_fluid_filter_module",
       "ppfluids:low_fluid_retrieval_module",

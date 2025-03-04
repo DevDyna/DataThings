@@ -19,7 +19,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + soph_bk_base + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:upgrade_base",
     ]),
   });
@@ -27,7 +27,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + soph_bk_upgrade + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:void_upgrade",
       "sophisticatedbackpacks:restock_upgrade",
       "sophisticatedbackpacks:deposit_upgrade",
@@ -57,7 +57,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + soph_bk_back + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
       "sophisticatedbackpacks:backpack",
     ]),
   });
