@@ -177,7 +177,7 @@ export async function basepools() {
   io.mkFile(
     core.mob_drop_url,
     {
-      content: core.contentCreator(core.mob_drop_id, { min: 1, max: 1 }, 1000, [
+      content: core.contentCreator({ min: 1, max: 1 }, 1000, [
         "minecraft:rabbit_foot",
         "minecraft:fermented_spider_eye",
         "minecraft:glow_ink_sac",
