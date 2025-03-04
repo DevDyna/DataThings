@@ -4,7 +4,7 @@ import * as init from "./parts/init.mjs";
 import * as lang from "./parts/lang.mjs";
 import * as jar from "./parts/jarmaker.mjs";
 
-import * as alex from "./parts/compat/alexcaves.mjs";
+import * as alec from "./parts/compat/alexcaves.mjs";
 import * as aqua from "./parts/compat/aquaculture.mjs";
 import * as arti from "./parts/compat/artifacts.mjs";
 import * as bgad from "./parts/compat/buildinggadgets.mjs";
@@ -40,9 +40,9 @@ async function main() {
   init.basepools();
   await core.delay(core.ms_delay * 7);
 
-  console.log("Mod Pools");
+  console.log("Extra Pools");
   await core.delay(core.ms_delay);
-  alex.pools();
+  alec.pools();
 
   await core.delay(core.ms_delay);
   wapp.pools();
@@ -104,7 +104,7 @@ async function main() {
   await core.delay(core.ms_delay);
   out.decor(core.ascii_decor);
   console.log("Extra Decrees");
-  alex.decree();
+  alec.decree();
 
   await core.delay(core.ms_delay);
   wapp.decree();
