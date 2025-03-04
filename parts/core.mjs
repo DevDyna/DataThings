@@ -62,7 +62,7 @@ export const item_pool_nbt = (item, amount, unitWorth, nbt) => ({
   content: item,
   amount: amount,
   unitWorth: unitWorth,
-  nbt: JSON.stringify(nbt),
+  nbt: nbt,
 });
 
 export const item_pool_mono = (item, unitWorth) =>
@@ -79,19 +79,19 @@ export const entity_pool = (entity, amount, unitWorth) => ({
   unitWorth: unitWorth,
 });
 
-export const contentCreator = (mod_id, amount, unitWorth, list) => {
+export const contentCreator = ( amount, unitWorth, list) => {
   let obj = {};
   list.forEach((e) => {
-    let string_name = mod_id + e.replace(":", "_");
+    let string_name = e.replace(":", "_");
     obj[string_name] = item_pool(e, amount, unitWorth);
   });
   return obj;
 };
 
-export const contentCreatorEntities = (mod_id, amount, unitWorth, list) => {
+export const contentCreatorEntities = ( amount, unitWorth, list) => {
   let obj = {};
   list.forEach((e) => {
-    let string_name = mod_id + e.replace(":", "_");
+    let string_name =  e.replace(":", "_");
     obj[string_name] = entity_pool(e, amount, unitWorth);
   });
   return obj;
@@ -106,3 +106,23 @@ export const tagmaker = (itemlist) => {
 
   return obj;
 };
+
+/**
+ *
+ * @param {string} mod_id
+ * @param {string} item
+ * @param {number} unitWorth
+ * @param {object} nbtlist
+ * @returns
+ */
+export const contentCreatorNBT = ( item, unitWorth, nbtlist) => {
+  let obj = {};
+  nbtlist.forEach((e, i) => {
+    let string_name = item.replace(":", "_") + "_" + i;
+    obj[string_name] = item_pool_nbt(item, {min:1,max:1}, unitWorth, e);
+  });
+  return obj;
+};
+
+export const combineContent = (content1, content2) =>
+  Object.assign({}, content1, content2);
