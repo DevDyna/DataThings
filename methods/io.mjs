@@ -10,8 +10,12 @@ export function JsonArray(url) {
   return JSON.parse(fs.readFileSync(url));
 }
 //-----------------------------------------------------------------------------------//
+/**
+ * 
+ * @param {string} url './tests/'
+ * @returns 
+ */
 export function getAllFromDir(url) {
-  //'./tests/'
   let list = [];
   fs.readdirSync(url).forEach((file) => {
     list.push(file);
@@ -25,14 +29,13 @@ export function getAllFromDir(url) {
  * @param {string} content {data:01} to stringify
  * @returns error
  */
-export function mkFile(url, content,silent) {
+export function mkFile(url, content, silent) {
   let bool = true;
-  if(typeof silent == undefined)silent = false
+  if (typeof silent == undefined) silent = false;
   try {
     fs.writeFileSync(url, JSON.stringify(content, null, 2));
   } catch (e) {
-    if(silent)
-    console.log(e);
+    if (silent) console.log(e);
     bool = false; //error writing file
   }
   return bool;
@@ -40,12 +43,11 @@ export function mkFile(url, content,silent) {
 //-----------------------------------------------------------------------------------//
 export function mkDir(url, silent) {
   let bool = true;
-  if(typeof silent == undefined)silent = false
+  if (typeof silent == undefined) silent = false;
   try {
     fs.mkdirSync(url);
   } catch (e) {
-    if(silent)
-    console.log(e);
+    if (silent) console.log(e);
     bool = false;
   }
   return bool;
@@ -81,4 +83,16 @@ export function rawAppend(url, content) {
     bool = false; //error writing file
   }
   return bool;
+}
+//-----------------------------------------------------------------------------------//
+/**
+ * 
+ * @param {string} origin "source.txt"
+ * @param {string} destination "destination.txt"
+ */
+export function moveFile(origin, destination) {
+  fs.copyFile(origin, destination, (err) => {
+    if (err) throw err;
+    console.log("File copied successfully!");
+  });
 }

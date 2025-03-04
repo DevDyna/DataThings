@@ -1,0 +1,121 @@
+import * as io from "../../methods/io.mjs";
+import * as core from "../core.mjs";
+export const aquaculture_id = "aquaculture";
+export const aquaculture_obj = aquaculture_id + "_sell";
+export const aquaculture_rew = aquaculture_id + "_buy";
+
+export async function decree() {
+  io.mkFile(core.bounty_decrees_url + aquaculture_id + core.the_end, {
+    requires: [aquaculture_id],
+    objectives: [core.treasures_id, core.resources_id, aquaculture_obj],
+    rewards: [core.decree_id, aquaculture_rew, core.rarities_id],
+  });
+  core.decor_out(aquaculture_id);
+}
+
+export async function pools() {
+  io.mkFile(core.bounty_pools_url + aquaculture_obj + core.the_end, {
+    requires: [aquaculture_id],
+    content: core.contentCreator(aquaculture_id, { min: 1, max: 1 }, 1000, [
+      "aquaculture:piranha",
+      "aquaculture:perch",
+      "aquaculture:jellyfish",
+      "aquaculture:tuna",
+      "aquaculture:gar",
+      "aquaculture:bayad",
+      "aquaculture:fish_bones",
+      "aquaculture:red_shrooma",
+      "aquaculture:boulti",
+      "aquaculture:algae",
+      "aquaculture:pink_salmon",
+      "aquaculture:red_grouper",
+      "aquaculture:sushi",
+      "aquaculture:arapaima",
+      "aquaculture:atlantic_cod",
+      "aquaculture:blackfish",
+      "aquaculture:brown_shrooma",
+      "aquaculture:tambaqui",
+      "aquaculture:arrau_turtle",
+      "aquaculture:starshell_turtle",
+      "aquaculture:synodontis",
+      "aquaculture:catfish",
+      "aquaculture:brown_trout",
+      "aquaculture:pacific_halibut",
+      "aquaculture:bluegill",
+      "aquaculture:muskellunge",
+      "aquaculture:minnow",
+      "aquaculture:goldfish",
+      "aquaculture:atlantic_herring",
+      "aquaculture:box_turtle",
+      "aquaculture:leech",
+      "aquaculture:atlantic_halibut",
+      "aquaculture:turtle_soup",
+      "aquaculture:rainbow_trout",
+      "aquaculture:capitaine",
+      "aquaculture:carp",
+      "aquaculture:fish_fillet_cooked",
+      "aquaculture:fish_fillet_raw",
+      "aquaculture:pollock",
+      "aquaculture:smallmouth_bass",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:cooked_salmon",
+      "minecraft:cooked_cod",
+      "minecraft:cod",
+      "minecraft:salmon",
+      "aquaculture:worm_farm",
+      "aquaculture:tackle_box",
+      "aquaculture:worm",
+      "aquaculture:bobber",
+      "aquaculture:fishing_line",
+      "aquaculture:diamond_fishing_rod",
+      "aquaculture:gold_fishing_rod",
+      "aquaculture:iron_fishing_rod",
+      "minecraft:fishing_rod",
+      "aquaculture:double_hook",
+      "aquaculture:wooden_fillet_knife",
+      "aquaculture:heavy_hook",
+      "aquaculture:light_hook",
+      "aquaculture:diamond_hook",
+      "aquaculture:gold_hook",
+      "aquaculture:iron_hook",
+      "aquaculture:redstone_hook",
+      "aquaculture:note_hook",
+      "aquaculture:gold_fillet_knife",
+      "aquaculture:diamond_fillet_knife",
+      "aquaculture:stone_fillet_knife",
+      "aquaculture:iron_fillet_knife",
+    ]),
+  });
+  core.decor_out(aquaculture_obj);
+
+  io.mkFile(core.bounty_pools_url + aquaculture_rew + core.the_end, {
+    requires: [aquaculture_id],
+    content: core.contentCreator(aquaculture_id, { min: 1, max: 1 }, 1000, [
+      "aquaculture:redstone_hook",
+      "aquaculture:double_hook",
+      "aquaculture:heavy_hook",
+      "aquaculture:light_hook",
+      "aquaculture:diamond_hook",
+      "aquaculture:gold_hook",
+      "aquaculture:iron_hook",
+      "aquaculture:worm_farm",
+      "aquaculture:tackle_box",
+      "aquaculture:treasure_chest",
+      "aquaculture:lockbox",
+      "aquaculture:box",
+      "aquaculture:note_hook",
+      "aquaculture:nether_star_hook",
+      "aquaculture:neptunium_nugget",
+      "aquaculture:diamond_fishing_rod",
+      "aquaculture:neptunium_fishing_rod",
+      "aquaculture:worm",
+      "aquaculture:bobber",
+      "aquaculture:fishing_line",
+      "aquaculture:tin_can",
+      "aquaculture:driftwood",
+      "aquaculture:message_in_a_bottle",
+    ]),
+  });
+  core.decor_out(aquaculture_rew);
+}
