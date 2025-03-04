@@ -18,25 +18,19 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
-      "minecraft:stone",
-    ]),
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, []),
   });
   core.decor_out(modid_obj);
 
   io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
-      "minecraft:stone",
-    ]),
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, []),
   });
   core.decor_out(modid_rew);
 
   io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
     requires: [modid],
-    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, [
-      "minecraft:stone",
-    ]),
+    content: core.contentCreator(modid, { min: 1, max: 1 }, 1000, []),
   });
   core.decor_out(modid_any);
 }
