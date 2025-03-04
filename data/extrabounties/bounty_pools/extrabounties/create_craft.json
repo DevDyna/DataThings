@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_encased_fan": {
+    "create_encased_fan": {
       "type": "item",
       "content": "create:encased_fan",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_crushing_wheel": {
+    "create_crushing_wheel": {
       "type": "item",
       "content": "create:crushing_wheel",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_basin": {
+    "create_basin": {
       "type": "item",
       "content": "create:basin",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_blaze_burner": {
+    "create_blaze_burner": {
       "type": "item",
       "content": "create:blaze_burner",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_press": {
+    "create_mechanical_press": {
       "type": "item",
       "content": "create:mechanical_press",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_mixer": {
+    "create_mechanical_mixer": {
       "type": "item",
       "content": "create:mechanical_mixer",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_crafter": {
+    "create_mechanical_crafter": {
       "type": "item",
       "content": "create:mechanical_crafter",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_millstone": {
+    "create_millstone": {
       "type": "item",
       "content": "create:millstone",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_saw": {
+    "create_mechanical_saw": {
       "type": "item",
       "content": "create:mechanical_saw",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_deployer": {
+    "create_deployer": {
       "type": "item",
       "content": "create:deployer",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_drill": {
+    "create_mechanical_drill": {
       "type": "item",
       "content": "create:mechanical_drill",
       "amount": {

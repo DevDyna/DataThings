@@ -3,7 +3,7 @@
     "farmersdelight"
   ],
   "content": {
-    "farmersdelightfarmersdelight_rich_soil": {
+    "farmersdelight_rich_soil": {
       "type": "item",
       "content": "farmersdelight:rich_soil",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_rice_roll_medley_block": {
+    "farmersdelight_rice_roll_medley_block": {
       "type": "item",
       "content": "farmersdelight:rice_roll_medley_block",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_shepherds_pie": {
+    "farmersdelight_shepherds_pie": {
       "type": "item",
       "content": "farmersdelight:shepherds_pie",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_honey_glazed_ham": {
+    "farmersdelight_honey_glazed_ham": {
       "type": "item",
       "content": "farmersdelight:honey_glazed_ham",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_shepherds_pie_block": {
+    "farmersdelight_shepherds_pie_block": {
       "type": "item",
       "content": "farmersdelight:shepherds_pie_block",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_honey_glazed_ham_block": {
+    "farmersdelight_honey_glazed_ham_block": {
       "type": "item",
       "content": "farmersdelight:honey_glazed_ham_block",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_roast_chicken_block": {
+    "farmersdelight_roast_chicken_block": {
       "type": "item",
       "content": "farmersdelight:roast_chicken_block",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_stuffed_pumpkin_block": {
+    "farmersdelight_stuffed_pumpkin_block": {
       "type": "item",
       "content": "farmersdelight:stuffed_pumpkin_block",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_bacon_sandwich": {
+    "farmersdelight_bacon_sandwich": {
       "type": "item",
       "content": "farmersdelight:bacon_sandwich",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_roast_chicken": {
+    "farmersdelight_roast_chicken": {
       "type": "item",
       "content": "farmersdelight:roast_chicken",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_ratatouille": {
+    "farmersdelight_ratatouille": {
       "type": "item",
       "content": "farmersdelight:ratatouille",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_squid_ink_pasta": {
+    "farmersdelight_squid_ink_pasta": {
       "type": "item",
       "content": "farmersdelight:squid_ink_pasta",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_grilled_salmon": {
+    "farmersdelight_grilled_salmon": {
       "type": "item",
       "content": "farmersdelight:grilled_salmon",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_noodle_soup": {
+    "farmersdelight_noodle_soup": {
       "type": "item",
       "content": "farmersdelight:noodle_soup",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_bone_broth": {
+    "farmersdelight_bone_broth": {
       "type": "item",
       "content": "farmersdelight:bone_broth",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_cooked_rice": {
+    "farmersdelight_cooked_rice": {
       "type": "item",
       "content": "farmersdelight:cooked_rice",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_glow_berry_custard": {
+    "farmersdelight_glow_berry_custard": {
       "type": "item",
       "content": "farmersdelight:glow_berry_custard",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_pasta_with_meatballs": {
+    "farmersdelight_pasta_with_meatballs": {
       "type": "item",
       "content": "farmersdelight:pasta_with_meatballs",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_baked_cod_stew": {
+    "farmersdelight_baked_cod_stew": {
       "type": "item",
       "content": "farmersdelight:baked_cod_stew",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_vegetable_soup": {
+    "farmersdelight_vegetable_soup": {
       "type": "item",
       "content": "farmersdelight:vegetable_soup",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_chicken_soup": {
+    "farmersdelight_chicken_soup": {
       "type": "item",
       "content": "farmersdelight:chicken_soup",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_steak_and_potatoes": {
+    "farmersdelight_steak_and_potatoes": {
       "type": "item",
       "content": "farmersdelight:steak_and_potatoes",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_roasted_mutton_chops": {
+    "farmersdelight_roasted_mutton_chops": {
       "type": "item",
       "content": "farmersdelight:roasted_mutton_chops",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_pasta_with_mutton_chop": {
+    "farmersdelight_pasta_with_mutton_chop": {
       "type": "item",
       "content": "farmersdelight:pasta_with_mutton_chop",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_bacon_and_eggs": {
+    "farmersdelight_bacon_and_eggs": {
       "type": "item",
       "content": "farmersdelight:bacon_and_eggs",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_fish_stew": {
+    "farmersdelight_fish_stew": {
       "type": "item",
       "content": "farmersdelight:fish_stew",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_fried_rice": {
+    "farmersdelight_fried_rice": {
       "type": "item",
       "content": "farmersdelight:fried_rice",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_vegetable_noodles": {
+    "farmersdelight_vegetable_noodles": {
       "type": "item",
       "content": "farmersdelight:vegetable_noodles",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_mushroom_rice": {
+    "farmersdelight_mushroom_rice": {
       "type": "item",
       "content": "farmersdelight:mushroom_rice",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_beef_stew": {
+    "farmersdelight_beef_stew": {
       "type": "item",
       "content": "farmersdelight:beef_stew",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_pumpkin_soup": {
+    "farmersdelight_pumpkin_soup": {
       "type": "item",
       "content": "farmersdelight:pumpkin_soup",
       "amount": {

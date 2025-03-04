@@ -1,0 +1,223 @@
+{
+  "requires": [
+    "biomancy"
+  ],
+  "content": {
+    "biomancy_absorption_boost": {
+      "type": "item",
+      "content": "biomancy:absorption_boost",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_cleansing_serum": {
+      "type": "item",
+      "content": "biomancy:cleansing_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_insomnia_cure": {
+      "type": "item",
+      "content": "biomancy:insomnia_cure",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_nutrient_bar": {
+      "type": "item",
+      "content": "biomancy:nutrient_bar",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_nutrient_paste": {
+      "type": "item",
+      "content": "biomancy:nutrient_paste",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_bloomberry": {
+      "type": "item",
+      "content": "biomancy:bloomberry",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_fertilizer": {
+      "type": "item",
+      "content": "biomancy:fertilizer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_acid_bucket": {
+      "type": "item",
+      "content": "biomancy:acid_bucket",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_living_flesh": {
+      "type": "item",
+      "content": "biomancy:living_flesh",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_creator_mix": {
+      "type": "item",
+      "content": "biomancy:creator_mix",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_vial": {
+      "type": "item",
+      "content": "biomancy:vial",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_volatile_fluid": {
+      "type": "item",
+      "content": "biomancy:volatile_fluid",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_frenzy_serum": {
+      "type": "item",
+      "content": "biomancy:frenzy_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_organic_compound": {
+      "type": "item",
+      "content": "biomancy:organic_compound",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_exotic_compound": {
+      "type": "item",
+      "content": "biomancy:exotic_compound",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_genetic_compound": {
+      "type": "item",
+      "content": "biomancy:genetic_compound",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_unstable_compound": {
+      "type": "item",
+      "content": "biomancy:unstable_compound",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_healing_additive": {
+      "type": "item",
+      "content": "biomancy:healing_additive",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_decaying_additive": {
+      "type": "item",
+      "content": "biomancy:decaying_additive",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_rejuvenation_serum": {
+      "type": "item",
+      "content": "biomancy:rejuvenation_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_ageing_serum": {
+      "type": "item",
+      "content": "biomancy:ageing_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_enlargement_serum": {
+      "type": "item",
+      "content": "biomancy:enlargement_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_shrinking_serum": {
+      "type": "item",
+      "content": "biomancy:shrinking_serum",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_breeding_stimulant": {
+      "type": "item",
+      "content": "biomancy:breeding_stimulant",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    }
+  }
+}

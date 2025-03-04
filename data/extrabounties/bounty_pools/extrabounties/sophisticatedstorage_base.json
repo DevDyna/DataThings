@@ -3,7 +3,7 @@
     "sophisticatedstorage"
   ],
   "content": {
-    "sophisticatedstorage_basesophisticatedstorage_upgrade_base": {
+    "sophisticatedstorage_upgrade_base": {
       "type": "item",
       "content": "sophisticatedstorage:upgrade_base",
       "amount": {

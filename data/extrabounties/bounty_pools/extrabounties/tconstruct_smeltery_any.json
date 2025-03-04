@@ -1,0 +1,263 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_scorched_fuel_tank": {
+      "type": "item",
+      "content": "tconstruct:scorched_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_lantern": {
+      "type": "item",
+      "content": "tconstruct:seared_lantern",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_fuel_gauge": {
+      "type": "item",
+      "content": "tconstruct:scorched_fuel_gauge",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_faucet": {
+      "type": "item",
+      "content": "tconstruct:scorched_faucet",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_channel": {
+      "type": "item",
+      "content": "tconstruct:seared_channel",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_channel": {
+      "type": "item",
+      "content": "tconstruct:scorched_channel",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_faucet": {
+      "type": "item",
+      "content": "tconstruct:seared_faucet",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_ingot_tank": {
+      "type": "item",
+      "content": "tconstruct:scorched_ingot_tank",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_ingot_gauge": {
+      "type": "item",
+      "content": "tconstruct:scorched_ingot_gauge",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_glass": {
+      "type": "item",
+      "content": "tconstruct:scorched_glass",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_glass": {
+      "type": "item",
+      "content": "tconstruct:seared_glass",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_fuel_gauge": {
+      "type": "item",
+      "content": "tconstruct:seared_fuel_gauge",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_ingot_tank": {
+      "type": "item",
+      "content": "tconstruct:seared_ingot_tank",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_ingot_gauge": {
+      "type": "item",
+      "content": "tconstruct:seared_ingot_gauge",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_table": {
+      "type": "item",
+      "content": "tconstruct:scorched_table",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_fuel_tank": {
+      "type": "item",
+      "content": "tconstruct:seared_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_table": {
+      "type": "item",
+      "content": "tconstruct:seared_table",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_lantern": {
+      "type": "item",
+      "content": "tconstruct:scorched_lantern",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_bricks": {
+      "type": "item",
+      "content": "tconstruct:seared_bricks",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_bricks": {
+      "type": "item",
+      "content": "tconstruct:scorched_bricks",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_basin": {
+      "type": "item",
+      "content": "tconstruct:seared_basin",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_basin": {
+      "type": "item",
+      "content": "tconstruct:scorched_basin",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_pick_head_cast": {
+      "type": "item",
+      "content": "tconstruct:pick_head_cast",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_tool_handle_cast": {
+      "type": "item",
+      "content": "tconstruct:tool_handle_cast",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_fuel_tank_lava": {
+      "type": "item",
+      "content": "tconstruct:seared_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{ tank: { Amount: 4000, FluidName: \"minecraft:lava\" } }"
+    },
+    "tconstruct_scorched_fuel_tank_lava": {
+      "type": "item",
+      "content": "tconstruct:scorched_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{ tank: { Amount: 4000, FluidName: \"minecraft:lava\" } }"
+    },
+    "tconstruct_seared_fuel_tank_blazing": {
+      "type": "item",
+      "content": "tconstruct:seared_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{ tank: { Amount: 4000, FluidName: \"tconstruct:blazing_blood\" } }"
+    },
+    "tconstruct_scorched_fuel_tank_blazing": {
+      "type": "item",
+      "content": "tconstruct:scorched_fuel_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{ tank: { Amount: 4000, FluidName: \"tconstruct:blazing_blood\" } }"
+    }
+  }
+}

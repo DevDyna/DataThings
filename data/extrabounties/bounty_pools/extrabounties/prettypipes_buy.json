@@ -3,7 +3,7 @@
     "prettypipes"
   ],
   "content": {
-    "prettypipesminecraft_chest": {
+    "minecraft_chest": {
       "type": "item",
       "content": "minecraft:chest",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_blank_module": {
+    "prettypipes_blank_module": {
       "type": "item",
       "content": "prettypipes:blank_module",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_pipe": {
+    "prettypipes_pipe": {
       "type": "item",
       "content": "prettypipes:pipe",
       "amount": {

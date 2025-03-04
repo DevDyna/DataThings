@@ -1,0 +1,331 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_tough_handle_cast": {
+      "type": "item",
+      "content": "tconstruct:tough_handle_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_large_plate_cast": {
+      "type": "item",
+      "content": "tconstruct:large_plate_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_repair_kit_cast": {
+      "type": "item",
+      "content": "tconstruct:repair_kit_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cast_chest": {
+      "type": "item",
+      "content": "tconstruct:cast_chest",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_modifier_worktable": {
+      "type": "item",
+      "content": "tconstruct:modifier_worktable",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_tinkers_anvil": {
+      "type": "item",
+      "content": "tconstruct:tinkers_anvil",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_hammer_head_cast": {
+      "type": "item",
+      "content": "tconstruct:hammer_head_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_helmet_plating_cast": {
+      "type": "item",
+      "content": "tconstruct:helmet_plating_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_bow_grip_cast": {
+      "type": "item",
+      "content": "tconstruct:bow_grip_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_rod_cast": {
+      "type": "item",
+      "content": "tconstruct:rod_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_small_blade_cast": {
+      "type": "item",
+      "content": "tconstruct:small_blade_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_maille_cast": {
+      "type": "item",
+      "content": "tconstruct:maille_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_small_axe_head_cast": {
+      "type": "item",
+      "content": "tconstruct:small_axe_head_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_boots_plating_cast": {
+      "type": "item",
+      "content": "tconstruct:boots_plating_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_leggings_plating_cast": {
+      "type": "item",
+      "content": "tconstruct:leggings_plating_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_chestplate_plating_cast": {
+      "type": "item",
+      "content": "tconstruct:chestplate_plating_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_adze_head_cast": {
+      "type": "item",
+      "content": "tconstruct:adze_head_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_broad_blade_cast": {
+      "type": "item",
+      "content": "tconstruct:broad_blade_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_tough_binding_cast": {
+      "type": "item",
+      "content": "tconstruct:tough_binding_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_gem_cast": {
+      "type": "item",
+      "content": "tconstruct:gem_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_melter": {
+      "type": "item",
+      "content": "tconstruct:seared_melter",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_heater": {
+      "type": "item",
+      "content": "tconstruct:seared_heater",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_chute": {
+      "type": "item",
+      "content": "tconstruct:seared_chute",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_smeltery_controller": {
+      "type": "item",
+      "content": "tconstruct:smeltery_controller",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_chute": {
+      "type": "item",
+      "content": "tconstruct:scorched_chute",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_drain": {
+      "type": "item",
+      "content": "tconstruct:scorched_drain",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_duct": {
+      "type": "item",
+      "content": "tconstruct:scorched_duct",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_alloyer": {
+      "type": "item",
+      "content": "tconstruct:scorched_alloyer",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_foundry_controller": {
+      "type": "item",
+      "content": "tconstruct:foundry_controller",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_drain": {
+      "type": "item",
+      "content": "tconstruct:seared_drain",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_duct": {
+      "type": "item",
+      "content": "tconstruct:seared_duct",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_bow_limb_cast": {
+      "type": "item",
+      "content": "tconstruct:bow_limb_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_broad_axe_head_cast": {
+      "type": "item",
+      "content": "tconstruct:broad_axe_head_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_nugget_cast": {
+      "type": "item",
+      "content": "tconstruct:nugget_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_tool_binding_cast": {
+      "type": "item",
+      "content": "tconstruct:tool_binding_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ingot_cast": {
+      "type": "item",
+      "content": "tconstruct:ingot_cast",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    }
+  }
+}

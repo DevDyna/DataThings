@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "voidminers"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "voidminers_obj",
+    "voidminers_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "voidminers_rew",
+    "voidminers_any"
+  ]
+}

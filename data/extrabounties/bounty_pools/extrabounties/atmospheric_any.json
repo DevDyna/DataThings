@@ -1,0 +1,97 @@
+{
+  "requires": [
+    "atmospheric"
+  ],
+  "content": {
+    "atmospheric_aloe_gel_bottle": {
+      "type": "item",
+      "content": "atmospheric:aloe_gel_bottle",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_yellow_blossoms": {
+      "type": "item",
+      "content": "atmospheric:yellow_blossoms",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_carmine_husk": {
+      "type": "item",
+      "content": "atmospheric:carmine_husk",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_currant": {
+      "type": "item",
+      "content": "atmospheric:currant",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_yucca_fruit": {
+      "type": "item",
+      "content": "atmospheric:yucca_fruit",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_dragon_fruit": {
+      "type": "item",
+      "content": "atmospheric:dragon_fruit",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_blood_orange": {
+      "type": "item",
+      "content": "atmospheric:blood_orange",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_orange": {
+      "type": "item",
+      "content": "atmospheric:orange",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_passion_fruit": {
+      "type": "item",
+      "content": "atmospheric:passion_fruit",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_aloe_leaves": {
+      "type": "item",
+      "content": "atmospheric:aloe_leaves",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    }
+  }
+}

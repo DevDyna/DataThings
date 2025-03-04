@@ -3,7 +3,7 @@
     "artifacts"
   ],
   "content": {
-    "artifactsartifacts_novelty_drinking_hat": {
+    "artifacts_novelty_drinking_hat": {
       "type": "item",
       "content": "artifacts:novelty_drinking_hat",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_snorkel": {
+    "artifacts_snorkel": {
       "type": "item",
       "content": "artifacts:snorkel",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_night_vision_goggles": {
+    "artifacts_night_vision_goggles": {
       "type": "item",
       "content": "artifacts:night_vision_goggles",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_villager_hat": {
+    "artifacts_villager_hat": {
       "type": "item",
       "content": "artifacts:villager_hat",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_flame_pendant": {
+    "artifacts_flame_pendant": {
       "type": "item",
       "content": "artifacts:flame_pendant",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_digging_claws": {
+    "artifacts_digging_claws": {
       "type": "item",
       "content": "artifacts:digging_claws",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_chorus_totem": {
+    "artifacts_chorus_totem": {
       "type": "item",
       "content": "artifacts:chorus_totem",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_helium_flamingo": {
+    "artifacts_helium_flamingo": {
       "type": "item",
       "content": "artifacts:helium_flamingo",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_superstitious_hat": {
+    "artifacts_superstitious_hat": {
       "type": "item",
       "content": "artifacts:superstitious_hat",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_cowboy_hat": {
+    "artifacts_cowboy_hat": {
       "type": "item",
       "content": "artifacts:cowboy_hat",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_anglers_hat": {
+    "artifacts_anglers_hat": {
       "type": "item",
       "content": "artifacts:anglers_hat",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_scarf_of_invisibility": {
+    "artifacts_scarf_of_invisibility": {
       "type": "item",
       "content": "artifacts:scarf_of_invisibility",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_lucky_scarf": {
+    "artifacts_lucky_scarf": {
       "type": "item",
       "content": "artifacts:lucky_scarf",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_cross_necklace": {
+    "artifacts_cross_necklace": {
       "type": "item",
       "content": "artifacts:cross_necklace",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_panic_necklace": {
+    "artifacts_panic_necklace": {
       "type": "item",
       "content": "artifacts:panic_necklace",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_shock_pendant": {
+    "artifacts_shock_pendant": {
       "type": "item",
       "content": "artifacts:shock_pendant",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_thorn_pendant": {
+    "artifacts_thorn_pendant": {
       "type": "item",
       "content": "artifacts:thorn_pendant",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_crystal_heart": {
+    "artifacts_crystal_heart": {
       "type": "item",
       "content": "artifacts:crystal_heart",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_universal_attractor": {
+    "artifacts_universal_attractor": {
       "type": "item",
       "content": "artifacts:universal_attractor",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_antidote_vessel": {
+    "artifacts_antidote_vessel": {
       "type": "item",
       "content": "artifacts:antidote_vessel",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_bunny_hoppers": {
+    "artifacts_bunny_hoppers": {
       "type": "item",
       "content": "artifacts:bunny_hoppers",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_golden_hook": {
+    "artifacts_golden_hook": {
       "type": "item",
       "content": "artifacts:golden_hook",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_onion_ring": {
+    "artifacts_onion_ring": {
       "type": "item",
       "content": "artifacts:onion_ring",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_pickaxe_heater": {
+    "artifacts_pickaxe_heater": {
       "type": "item",
       "content": "artifacts:pickaxe_heater",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_fire_gauntlet": {
+    "artifacts_fire_gauntlet": {
       "type": "item",
       "content": "artifacts:fire_gauntlet",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_pocket_piston": {
+    "artifacts_pocket_piston": {
       "type": "item",
       "content": "artifacts:pocket_piston",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_power_glove": {
+    "artifacts_power_glove": {
       "type": "item",
       "content": "artifacts:power_glove",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_feral_claws": {
+    "artifacts_feral_claws": {
       "type": "item",
       "content": "artifacts:feral_claws",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_whoopee_cushion": {
+    "artifacts_whoopee_cushion": {
       "type": "item",
       "content": "artifacts:whoopee_cushion",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_rooted_boots": {
+    "artifacts_rooted_boots": {
       "type": "item",
       "content": "artifacts:rooted_boots",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_flippers": {
+    "artifacts_flippers": {
       "type": "item",
       "content": "artifacts:flippers",
       "amount": {
@@ -282,7 +282,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_vampiric_glove": {
+    "artifacts_vampiric_glove": {
       "type": "item",
       "content": "artifacts:vampiric_glove",
       "amount": {
@@ -291,7 +291,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_kitty_slippers": {
+    "artifacts_kitty_slippers": {
       "type": "item",
       "content": "artifacts:kitty_slippers",
       "amount": {
@@ -300,7 +300,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_running_shoes": {
+    "artifacts_running_shoes": {
       "type": "item",
       "content": "artifacts:running_shoes",
       "amount": {
@@ -309,7 +309,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_aqua_dashers": {
+    "artifacts_aqua_dashers": {
       "type": "item",
       "content": "artifacts:aqua_dashers",
       "amount": {
@@ -318,7 +318,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_steadfast_spikes": {
+    "artifacts_steadfast_spikes": {
       "type": "item",
       "content": "artifacts:steadfast_spikes",
       "amount": {
@@ -327,7 +327,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_snowshoes": {
+    "artifacts_snowshoes": {
       "type": "item",
       "content": "artifacts:snowshoes",
       "amount": {
@@ -336,7 +336,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_charm_of_sinking": {
+    "artifacts_charm_of_sinking": {
       "type": "item",
       "content": "artifacts:charm_of_sinking",
       "amount": {
@@ -345,7 +345,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_cloud_in_a_bottle": {
+    "artifacts_cloud_in_a_bottle": {
       "type": "item",
       "content": "artifacts:cloud_in_a_bottle",
       "amount": {
@@ -354,7 +354,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_obsidian_skull": {
+    "artifacts_obsidian_skull": {
       "type": "item",
       "content": "artifacts:obsidian_skull",
       "amount": {
@@ -363,7 +363,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_plastic_drinking_hat": {
+    "artifacts_plastic_drinking_hat": {
       "type": "item",
       "content": "artifacts:plastic_drinking_hat",
       "amount": {
@@ -372,7 +372,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_eternal_steak": {
+    "artifacts_eternal_steak": {
       "type": "item",
       "content": "artifacts:eternal_steak",
       "amount": {
@@ -381,7 +381,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_everlasting_beef": {
+    "artifacts_everlasting_beef": {
       "type": "item",
       "content": "artifacts:everlasting_beef",
       "amount": {
@@ -390,7 +390,7 @@
       },
       "unitWorth": 100
     },
-    "artifactsartifacts_umbrella": {
+    "artifacts_umbrella": {
       "type": "item",
       "content": "artifacts:umbrella",
       "amount": {

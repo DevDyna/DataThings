@@ -3,7 +3,7 @@
     "ironfurnaces"
   ],
   "content": {
-    "ironfurnacesironfurnaces_augment_fuel": {
+    "ironfurnaces_augment_fuel": {
       "type": "item",
       "content": "ironfurnaces:augment_fuel",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_augment_speed": {
+    "ironfurnaces_augment_speed": {
       "type": "item",
       "content": "ironfurnaces:augment_speed",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_augment_generator": {
+    "ironfurnaces_augment_generator": {
       "type": "item",
       "content": "ironfurnaces:augment_generator",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_augment_factory": {
+    "ironfurnaces_augment_factory": {
       "type": "item",
       "content": "ironfurnaces:augment_factory",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_augment_blasting": {
+    "ironfurnaces_augment_blasting": {
       "type": "item",
       "content": "ironfurnaces:augment_blasting",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_augment_smoking": {
+    "ironfurnaces_augment_smoking": {
       "type": "item",
       "content": "ironfurnaces:augment_smoking",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_heater": {
+    "ironfurnaces_heater": {
       "type": "item",
       "content": "ironfurnaces:heater",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_item_heater": {
+    "ironfurnaces_item_heater": {
       "type": "item",
       "content": "ironfurnaces:item_heater",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_raw_iron": {
+    "minecraft_raw_iron": {
       "type": "item",
       "content": "minecraft:raw_iron",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_soul_campfire": {
+    "minecraft_soul_campfire": {
       "type": "item",
       "content": "minecraft:soul_campfire",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_furnace": {
+    "minecraft_furnace": {
       "type": "item",
       "content": "minecraft:furnace",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_blast_furnace": {
+    "minecraft_blast_furnace": {
       "type": "item",
       "content": "minecraft:blast_furnace",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_smoker": {
+    "minecraft_smoker": {
       "type": "item",
       "content": "minecraft:smoker",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_coal_block": {
+    "minecraft_coal_block": {
       "type": "item",
       "content": "minecraft:coal_block",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_coal": {
+    "minecraft_coal": {
       "type": "item",
       "content": "minecraft:coal",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_charcoal": {
+    "minecraft_charcoal": {
       "type": "item",
       "content": "minecraft:charcoal",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_campfire": {
+    "minecraft_campfire": {
       "type": "item",
       "content": "minecraft:campfire",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_raw_copper": {
+    "minecraft_raw_copper": {
       "type": "item",
       "content": "minecraft:raw_copper",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesminecraft_raw_gold": {
+    "minecraft_raw_gold": {
       "type": "item",
       "content": "minecraft:raw_gold",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_copper_furnace": {
+    "ironfurnaces_copper_furnace": {
       "type": "item",
       "content": "ironfurnaces:copper_furnace",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_iron_furnace": {
+    "ironfurnaces_iron_furnace": {
       "type": "item",
       "content": "ironfurnaces:iron_furnace",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_silver_furnace": {
+    "ironfurnaces_silver_furnace": {
       "type": "item",
       "content": "ironfurnaces:silver_furnace",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_diamond_furnace": {
+    "ironfurnaces_diamond_furnace": {
       "type": "item",
       "content": "ironfurnaces:diamond_furnace",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_item_copy": {
+    "ironfurnaces_item_copy": {
       "type": "item",
       "content": "ironfurnaces:item_copy",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_item_spooky": {
+    "ironfurnaces_item_spooky": {
       "type": "item",
       "content": "ironfurnaces:item_spooky",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_gold_furnace": {
+    "ironfurnaces_gold_furnace": {
       "type": "item",
       "content": "ironfurnaces:gold_furnace",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "ironfurnacesironfurnaces_item_xmas": {
+    "ironfurnaces_item_xmas": {
       "type": "item",
       "content": "ironfurnaces:item_xmas",
       "amount": {

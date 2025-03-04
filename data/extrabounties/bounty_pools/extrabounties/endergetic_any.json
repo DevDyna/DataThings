@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "endergetic"
+  ],
+  "content": {
+    "endergetic_eumus_brick": {
+      "type": "item",
+      "content": "endergetic:eumus_brick",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "endergetic_bolloom_balloon": {
+      "type": "item",
+      "content": "endergetic:bolloom_balloon",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "endergetic_boof_block": {
+      "type": "item",
+      "content": "endergetic:boof_block",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "endergetic_puffbug_bottle": {
+      "type": "item",
+      "content": "endergetic:puffbug_bottle",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -3,7 +3,7 @@
     "farmersdelight"
   ],
   "content": {
-    "farmersdelightfarmersdelight_nether_salad": {
+    "farmersdelight_nether_salad": {
       "type": "item",
       "content": "farmersdelight:nether_salad",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_fruit_salad": {
+    "farmersdelight_fruit_salad": {
       "type": "item",
       "content": "farmersdelight:fruit_salad",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_mixed_salad": {
+    "farmersdelight_mixed_salad": {
       "type": "item",
       "content": "farmersdelight:mixed_salad",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_stuffed_pumpkin": {
+    "farmersdelight_stuffed_pumpkin": {
       "type": "item",
       "content": "farmersdelight:stuffed_pumpkin",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_stuffed_potato": {
+    "farmersdelight_stuffed_potato": {
       "type": "item",
       "content": "farmersdelight:stuffed_potato",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_dumplings": {
+    "farmersdelight_dumplings": {
       "type": "item",
       "content": "farmersdelight:dumplings",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_barbecue_stick": {
+    "farmersdelight_barbecue_stick": {
       "type": "item",
       "content": "farmersdelight:barbecue_stick",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_egg_sandwich": {
+    "farmersdelight_egg_sandwich": {
       "type": "item",
       "content": "farmersdelight:egg_sandwich",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_chocolate_pie": {
+    "farmersdelight_chocolate_pie": {
       "type": "item",
       "content": "farmersdelight:chocolate_pie",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_kelp_roll_slice": {
+    "farmersdelight_kelp_roll_slice": {
       "type": "item",
       "content": "farmersdelight:kelp_roll_slice",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_cabbage_rolls": {
+    "farmersdelight_cabbage_rolls": {
       "type": "item",
       "content": "farmersdelight:cabbage_rolls",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_melon_popsicle": {
+    "farmersdelight_melon_popsicle": {
       "type": "item",
       "content": "farmersdelight:melon_popsicle",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_honey_cookie": {
+    "farmersdelight_honey_cookie": {
       "type": "item",
       "content": "farmersdelight:honey_cookie",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_sweet_berry_cookie": {
+    "farmersdelight_sweet_berry_cookie": {
       "type": "item",
       "content": "farmersdelight:sweet_berry_cookie",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_apple_pie": {
+    "farmersdelight_apple_pie": {
       "type": "item",
       "content": "farmersdelight:apple_pie",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_sweet_berry_cheesecake": {
+    "farmersdelight_sweet_berry_cheesecake": {
       "type": "item",
       "content": "farmersdelight:sweet_berry_cheesecake",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_kelp_roll": {
+    "farmersdelight_kelp_roll": {
       "type": "item",
       "content": "farmersdelight:kelp_roll",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_apple_pie_slice": {
+    "farmersdelight_apple_pie_slice": {
       "type": "item",
       "content": "farmersdelight:apple_pie_slice",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_chocolate_pie_slice": {
+    "farmersdelight_chocolate_pie_slice": {
       "type": "item",
       "content": "farmersdelight:chocolate_pie_slice",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_sweet_berry_cheesecake_slice": {
+    "farmersdelight_sweet_berry_cheesecake_slice": {
       "type": "item",
       "content": "farmersdelight:sweet_berry_cheesecake_slice",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_salmon_roll": {
+    "farmersdelight_salmon_roll": {
       "type": "item",
       "content": "farmersdelight:salmon_roll",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_cod_roll": {
+    "farmersdelight_cod_roll": {
       "type": "item",
       "content": "farmersdelight:cod_roll",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_chicken_sandwich": {
+    "farmersdelight_chicken_sandwich": {
       "type": "item",
       "content": "farmersdelight:chicken_sandwich",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_mutton_wrap": {
+    "farmersdelight_mutton_wrap": {
       "type": "item",
       "content": "farmersdelight:mutton_wrap",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_hamburger": {
+    "farmersdelight_hamburger": {
       "type": "item",
       "content": "farmersdelight:hamburger",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_hot_cocoa": {
+    "farmersdelight_hot_cocoa": {
       "type": "item",
       "content": "farmersdelight:hot_cocoa",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_tomato_sauce": {
+    "farmersdelight_tomato_sauce": {
       "type": "item",
       "content": "farmersdelight:tomato_sauce",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_melon_juice": {
+    "farmersdelight_melon_juice": {
       "type": "item",
       "content": "farmersdelight:melon_juice",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "farmersdelightfarmersdelight_apple_cider": {
+    "farmersdelight_apple_cider": {
       "type": "item",
       "content": "farmersdelight:apple_cider",
       "amount": {

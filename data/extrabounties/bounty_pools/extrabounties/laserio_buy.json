@@ -3,7 +3,7 @@
     "laserio"
   ],
   "content": {
-    "laseriolaserio_logic_chip": {
+    "laserio_logic_chip": {
       "type": "item",
       "content": "laserio:logic_chip",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "laseriolaserio_logic_chip_raw": {
+    "laserio_logic_chip_raw": {
       "type": "item",
       "content": "laserio:logic_chip_raw",
       "amount": {

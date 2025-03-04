@@ -1,0 +1,25 @@
+{
+  "requires": [
+    "berry_good"
+  ],
+  "content": {
+    "berry_good_music_disc_fox": {
+      "type": "item",
+      "content": "berry_good:music_disc_fox",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_glowgurt": {
+      "type": "item",
+      "content": "berry_good:glowgurt",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

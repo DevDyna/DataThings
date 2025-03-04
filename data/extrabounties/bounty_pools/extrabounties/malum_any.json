@@ -1,0 +1,574 @@
+{
+  "requires": [
+    "malum"
+  ],
+  "content": {
+    "malum_astral_weave": {
+      "type": "item",
+      "content": "malum:astral_weave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_grim_talc": {
+      "type": "item",
+      "content": "malum:grim_talc",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_rotting_essence": {
+      "type": "item",
+      "content": "malum:rotting_essence",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_soul_stained_steel_plating": {
+      "type": "item",
+      "content": "malum:soul_stained_steel_plating",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_soul_stained_steel_ingot": {
+      "type": "item",
+      "content": "malum:soul_stained_steel_ingot",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_poppet": {
+      "type": "item",
+      "content": "malum:poppet",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_ether": {
+      "type": "item",
+      "content": "malum:ether",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_hallowed_gold_ingot": {
+      "type": "item",
+      "content": "malum:hallowed_gold_ingot",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cluster_of_brilliance": {
+      "type": "item",
+      "content": "malum:cluster_of_brilliance",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cthonic_gold_fragment": {
+      "type": "item",
+      "content": "malum:cthonic_gold_fragment",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cthonic_gold": {
+      "type": "item",
+      "content": "malum:cthonic_gold",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_processed_soulstone": {
+      "type": "item",
+      "content": "malum:processed_soulstone",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_chunk_of_brilliance": {
+      "type": "item",
+      "content": "malum:chunk_of_brilliance",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_blazing_quartz": {
+      "type": "item",
+      "content": "malum:blazing_quartz",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_natural_quartz": {
+      "type": "item",
+      "content": "malum:natural_quartz",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_sacred_spirit": {
+      "type": "item",
+      "content": "malum:sacred_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_wicked_spirit": {
+      "type": "item",
+      "content": "malum:wicked_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_arcane_spirit": {
+      "type": "item",
+      "content": "malum:arcane_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_eldritch_spirit": {
+      "type": "item",
+      "content": "malum:eldritch_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_aerial_spirit": {
+      "type": "item",
+      "content": "malum:aerial_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_aqueous_spirit": {
+      "type": "item",
+      "content": "malum:aqueous_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_earthen_spirit": {
+      "type": "item",
+      "content": "malum:earthen_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_infernal_spirit": {
+      "type": "item",
+      "content": "malum:infernal_spirit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_alchemical_calx": {
+      "type": "item",
+      "content": "malum:alchemical_calx",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_living_flesh": {
+      "type": "item",
+      "content": "malum:living_flesh",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_hex_ash": {
+      "type": "item",
+      "content": "malum:hex_ash",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_warp_flux": {
+      "type": "item",
+      "content": "malum:warp_flux",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_enby_prideweave": {
+      "type": "item",
+      "content": "malum:enby_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_genderfluid_prideweave": {
+      "type": "item",
+      "content": "malum:genderfluid_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_bi_prideweave": {
+      "type": "item",
+      "content": "malum:bi_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_demiboy_prideweave": {
+      "type": "item",
+      "content": "malum:demiboy_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_tainted_rock_tablet": {
+      "type": "item",
+      "content": "malum:tainted_rock_tablet",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_spectral_optic": {
+      "type": "item",
+      "content": "malum:spectral_optic",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_runic_sap": {
+      "type": "item",
+      "content": "malum:runic_sap",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cursed_sap": {
+      "type": "item",
+      "content": "malum:cursed_sap",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_runic_sapball": {
+      "type": "item",
+      "content": "malum:runic_sapball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_crushed_brilliance": {
+      "type": "item",
+      "content": "malum:crushed_brilliance",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_arcane_charcoal": {
+      "type": "item",
+      "content": "malum:arcane_charcoal",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_gay_prideweave": {
+      "type": "item",
+      "content": "malum:gay_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_demigirl_prideweave": {
+      "type": "item",
+      "content": "malum:demigirl_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_aroace_prideweave": {
+      "type": "item",
+      "content": "malum:aroace_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_agender_prideweave": {
+      "type": "item",
+      "content": "malum:agender_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_plural_prideweave": {
+      "type": "item",
+      "content": "malum:plural_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_mechanical_weave_v2": {
+      "type": "item",
+      "content": "malum:mechanical_weave_v2",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_poly_prideweave": {
+      "type": "item",
+      "content": "malum:poly_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_pride_prideweave": {
+      "type": "item",
+      "content": "malum:pride_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_trans_prideweave": {
+      "type": "item",
+      "content": "malum:trans_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cornered_weave": {
+      "type": "item",
+      "content": "malum:cornered_weave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_cursed_sapball": {
+      "type": "item",
+      "content": "malum:cursed_sapball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_iridescent_ether": {
+      "type": "item",
+      "content": "malum:iridescent_ether",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_spectral_lens": {
+      "type": "item",
+      "content": "malum:spectral_lens",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_blighted_gunk": {
+      "type": "item",
+      "content": "malum:blighted_gunk",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_spirit_fabric": {
+      "type": "item",
+      "content": "malum:spirit_fabric",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_ancient_weave": {
+      "type": "item",
+      "content": "malum:ancient_weave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_mechanical_weave_v1": {
+      "type": "item",
+      "content": "malum:mechanical_weave_v1",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_ace_prideweave": {
+      "type": "item",
+      "content": "malum:ace_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_aro_prideweave": {
+      "type": "item",
+      "content": "malum:aro_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_pan_prideweave": {
+      "type": "item",
+      "content": "malum:pan_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_genderqueer_prideweave": {
+      "type": "item",
+      "content": "malum:genderqueer_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_intersex_prideweave": {
+      "type": "item",
+      "content": "malum:intersex_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_lesbian_prideweave": {
+      "type": "item",
+      "content": "malum:lesbian_prideweave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_dreaded_weave": {
+      "type": "item",
+      "content": "malum:dreaded_weave",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "malum_esoteric_spool": {
+      "type": "item",
+      "content": "malum:esoteric_spool",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "caverns_and_chasms"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "caverns_and_chasms_obj",
+    "caverns_and_chasms_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "caverns_and_chasms_rew",
+    "caverns_and_chasms_any"
+  ]
+}

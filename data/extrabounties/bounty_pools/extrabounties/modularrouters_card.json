@@ -3,7 +3,7 @@
     "modularrouters"
   ],
   "content": {
-    "modularroutersmodularrouters_blank_upgrade": {
+    "modularrouters_blank_upgrade": {
       "type": "item",
       "content": "modularrouters:blank_upgrade",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "modularroutersmodularrouters_augment_core": {
+    "modularrouters_augment_core": {
       "type": "item",
       "content": "modularrouters:augment_core",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "modularroutersmodularrouters_blank_module": {
+    "modularrouters_blank_module": {
       "type": "item",
       "content": "modularrouters:blank_module",
       "amount": {

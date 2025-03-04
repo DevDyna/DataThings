@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_blaze_cake": {
+    "create_blaze_cake": {
       "type": "item",
       "content": "create:blaze_cake",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_goggles": {
+    "create_goggles": {
       "type": "item",
       "content": "create:goggles",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_blaze_cake_base": {
+    "create_blaze_cake_base": {
       "type": "item",
       "content": "create:blaze_cake_base",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_nozzle": {
+    "create_nozzle": {
       "type": "item",
       "content": "create:nozzle",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_cuckoo_clock": {
+    "create_cuckoo_clock": {
       "type": "item",
       "content": "create:cuckoo_clock",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_wooden_bracket": {
+    "create_wooden_bracket": {
       "type": "item",
       "content": "create:wooden_bracket",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_hand_crank": {
+    "create_hand_crank": {
       "type": "item",
       "content": "create:hand_crank",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_turntable": {
+    "create_turntable": {
       "type": "item",
       "content": "create:turntable",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_metal_bracket": {
+    "create_metal_bracket": {
       "type": "item",
       "content": "create:metal_bracket",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_flywheel": {
+    "create_flywheel": {
       "type": "item",
       "content": "create:flywheel",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_crafting_blueprint": {
+    "create_crafting_blueprint": {
       "type": "item",
       "content": "create:crafting_blueprint",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_minecart_coupling": {
+    "create_minecart_coupling": {
       "type": "item",
       "content": "create:minecart_coupling",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_schematic_table": {
+    "create_schematic_table": {
       "type": "item",
       "content": "create:schematic_table",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_wrench": {
+    "create_wrench": {
       "type": "item",
       "content": "create:wrench",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_schematicannon": {
+    "create_schematicannon": {
       "type": "item",
       "content": "create:schematicannon",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_linked_controller": {
+    "create_linked_controller": {
       "type": "item",
       "content": "create:linked_controller",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_wand_of_symmetry": {
+    "create_wand_of_symmetry": {
       "type": "item",
       "content": "create:wand_of_symmetry",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_potato_cannon": {
+    "create_potato_cannon": {
       "type": "item",
       "content": "create:potato_cannon",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_extendo_grip": {
+    "create_extendo_grip": {
       "type": "item",
       "content": "create:extendo_grip",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_brown_toolbox": {
+    "create_brown_toolbox": {
       "type": "item",
       "content": "create:brown_toolbox",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_red_table_cloth": {
+    "create_red_table_cloth": {
       "type": "item",
       "content": "create:red_table_cloth",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_copper_table_cloth": {
+    "create_copper_table_cloth": {
       "type": "item",
       "content": "create:copper_table_cloth",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_brass_table_cloth": {
+    "create_brass_table_cloth": {
       "type": "item",
       "content": "create:brass_table_cloth",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_andesite_table_cloth": {
+    "create_andesite_table_cloth": {
       "type": "item",
       "content": "create:andesite_table_cloth",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_desk_bell": {
+    "create_desk_bell": {
       "type": "item",
       "content": "create:desk_bell",
       "amount": {

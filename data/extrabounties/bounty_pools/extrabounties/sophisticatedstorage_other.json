@@ -3,7 +3,7 @@
     "sophisticatedstorage"
   ],
   "content": {
-    "sophisticatedstoragesophisticatedstorage_controller": {
+    "sophisticatedstorage_controller": {
       "type": "item",
       "content": "sophisticatedstorage:controller",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_storage_link": {
+    "sophisticatedstorage_storage_link": {
       "type": "item",
       "content": "sophisticatedstorage:storage_link",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_storage_input": {
+    "sophisticatedstorage_storage_input": {
       "type": "item",
       "content": "sophisticatedstorage:storage_input",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_storage_io": {
+    "sophisticatedstorage_storage_io": {
       "type": "item",
       "content": "sophisticatedstorage:storage_io",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_storage_output": {
+    "sophisticatedstorage_storage_output": {
       "type": "item",
       "content": "sophisticatedstorage:storage_output",
       "amount": {

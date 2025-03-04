@@ -3,7 +3,7 @@
     "sophisticatedbackpacks"
   ],
   "content": {
-    "sophisticatedbackpackssophisticatedbackpacks_upgrade_base": {
+    "sophisticatedbackpacks_upgrade_base": {
       "type": "item",
       "content": "sophisticatedbackpacks:upgrade_base",
       "amount": {

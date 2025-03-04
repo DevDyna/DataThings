@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_fluid_valve": {
+    "create_fluid_valve": {
       "type": "item",
       "content": "create:fluid_valve",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_hose_pulley": {
+    "create_hose_pulley": {
       "type": "item",
       "content": "create:hose_pulley",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_fluid_tank": {
+    "create_fluid_tank": {
       "type": "item",
       "content": "create:fluid_tank",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_fluid_pipe": {
+    "create_fluid_pipe": {
       "type": "item",
       "content": "create:fluid_pipe",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_pump": {
+    "create_mechanical_pump": {
       "type": "item",
       "content": "create:mechanical_pump",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_copper_valve_handle": {
+    "create_copper_valve_handle": {
       "type": "item",
       "content": "create:copper_valve_handle",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_spout": {
+    "create_spout": {
       "type": "item",
       "content": "create:spout",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_smart_fluid_pipe": {
+    "create_smart_fluid_pipe": {
       "type": "item",
       "content": "create:smart_fluid_pipe",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_item_drain": {
+    "create_item_drain": {
       "type": "item",
       "content": "create:item_drain",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_portable_fluid_interface": {
+    "create_portable_fluid_interface": {
       "type": "item",
       "content": "create:portable_fluid_interface",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_chocolate_bucket": {
+    "create_chocolate_bucket": {
       "type": "item",
       "content": "create:chocolate_bucket",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_honey_bucket": {
+    "create_honey_bucket": {
       "type": "item",
       "content": "create:honey_bucket",
       "amount": {

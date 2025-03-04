@@ -3,7 +3,7 @@
     "sophisticatedbackpacks"
   ],
   "content": {
-    "sophisticatedbackpackssophisticatedbackpacks_void_upgrade": {
+    "sophisticatedbackpacks_void_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:void_upgrade",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_restock_upgrade": {
+    "sophisticatedbackpacks_restock_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:restock_upgrade",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_deposit_upgrade": {
+    "sophisticatedbackpacks_deposit_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:deposit_upgrade",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_refill_upgrade": {
+    "sophisticatedbackpacks_refill_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:refill_upgrade",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_inception_upgrade": {
+    "sophisticatedbackpacks_inception_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:inception_upgrade",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_everlasting_upgrade": {
+    "sophisticatedbackpacks_everlasting_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:everlasting_upgrade",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_smelting_upgrade": {
+    "sophisticatedbackpacks_smelting_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:smelting_upgrade",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_smoking_upgrade": {
+    "sophisticatedbackpacks_smoking_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:smoking_upgrade",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_blasting_upgrade": {
+    "sophisticatedbackpacks_blasting_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:blasting_upgrade",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_crafting_upgrade": {
+    "sophisticatedbackpacks_crafting_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:crafting_upgrade",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_stack_upgrade_starter_tier": {
+    "sophisticatedbackpacks_stack_upgrade_starter_tier": {
       "type": "item",
       "content": "sophisticatedbackpacks:stack_upgrade_starter_tier",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_stonecutter_upgrade": {
+    "sophisticatedbackpacks_stonecutter_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:stonecutter_upgrade",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_jukebox_upgrade": {
+    "sophisticatedbackpacks_jukebox_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:jukebox_upgrade",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_tool_swapper_upgrade": {
+    "sophisticatedbackpacks_tool_swapper_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:tool_swapper_upgrade",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_tank_upgrade": {
+    "sophisticatedbackpacks_tank_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:tank_upgrade",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_battery_upgrade": {
+    "sophisticatedbackpacks_battery_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:battery_upgrade",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_anvil_upgrade": {
+    "sophisticatedbackpacks_anvil_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:anvil_upgrade",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_pump_upgrade": {
+    "sophisticatedbackpacks_pump_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:pump_upgrade",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_pickup_upgrade": {
+    "sophisticatedbackpacks_pickup_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:pickup_upgrade",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_filter_upgrade": {
+    "sophisticatedbackpacks_filter_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:filter_upgrade",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_magnet_upgrade": {
+    "sophisticatedbackpacks_magnet_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:magnet_upgrade",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_feeding_upgrade": {
+    "sophisticatedbackpacks_feeding_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:feeding_upgrade",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedbackpackssophisticatedbackpacks_compacting_upgrade": {
+    "sophisticatedbackpacks_compacting_upgrade": {
       "type": "item",
       "content": "sophisticatedbackpacks:compacting_upgrade",
       "amount": {

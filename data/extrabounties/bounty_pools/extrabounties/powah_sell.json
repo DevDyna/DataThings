@@ -3,7 +3,7 @@
     "powah"
   ],
   "content": {
-    "powahpowah_energizing_rod_spirited": {
+    "powah_energizing_rod_spirited": {
       "type": "item",
       "content": "powah:energizing_rod_spirited",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_starter": {
+    "powah_ender_gate_starter": {
       "type": "item",
       "content": "powah:ender_gate_starter",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_hardened": {
+    "powah_ender_gate_hardened": {
       "type": "item",
       "content": "powah:ender_gate_hardened",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_blazing": {
+    "powah_ender_gate_blazing": {
       "type": "item",
       "content": "powah:ender_gate_blazing",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_blazing": {
+    "powah_energy_cable_blazing": {
       "type": "item",
       "content": "powah:energy_cable_blazing",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_niotic": {
+    "powah_energy_cable_niotic": {
       "type": "item",
       "content": "powah:energy_cable_niotic",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_starter": {
+    "powah_reactor_starter": {
       "type": "item",
       "content": "powah:reactor_starter",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_blazing": {
+    "powah_energizing_rod_blazing": {
       "type": "item",
       "content": "powah:energizing_rod_blazing",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_starter": {
+    "powah_energy_cable_starter": {
       "type": "item",
       "content": "powah:energy_cable_starter",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_basic": {
+    "powah_ender_gate_basic": {
       "type": "item",
       "content": "powah:ender_gate_basic",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_niotic": {
+    "powah_ender_gate_niotic": {
       "type": "item",
       "content": "powah:ender_gate_niotic",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_basic": {
+    "powah_energy_cable_basic": {
       "type": "item",
       "content": "powah:energy_cable_basic",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_spirited": {
+    "powah_ender_gate_spirited": {
       "type": "item",
       "content": "powah:ender_gate_spirited",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_hardened": {
+    "powah_energy_cable_hardened": {
       "type": "item",
       "content": "powah:energy_cable_hardened",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_spirited": {
+    "powah_energy_cable_spirited": {
       "type": "item",
       "content": "powah:energy_cable_spirited",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_starter": {
+    "powah_player_transmitter_starter": {
       "type": "item",
       "content": "powah:player_transmitter_starter",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_basic": {
+    "powah_reactor_basic": {
       "type": "item",
       "content": "powah:reactor_basic",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_nitro": {
+    "powah_reactor_nitro": {
       "type": "item",
       "content": "powah:reactor_nitro",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_nitro": {
+    "powah_energizing_rod_nitro": {
       "type": "item",
       "content": "powah:energizing_rod_nitro",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_niotic": {
+    "powah_energizing_rod_niotic": {
       "type": "item",
       "content": "powah:energizing_rod_niotic",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_basic": {
+    "powah_ender_cell_basic": {
       "type": "item",
       "content": "powah:ender_cell_basic",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_nitro": {
+    "powah_ender_cell_nitro": {
       "type": "item",
       "content": "powah:ender_cell_nitro",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cable_nitro": {
+    "powah_energy_cable_nitro": {
       "type": "item",
       "content": "powah:energy_cable_nitro",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_basic": {
+    "powah_player_transmitter_basic": {
       "type": "item",
       "content": "powah:player_transmitter_basic",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_hardened": {
+    "powah_reactor_hardened": {
       "type": "item",
       "content": "powah:reactor_hardened",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_niotic": {
+    "powah_reactor_niotic": {
       "type": "item",
       "content": "powah:reactor_niotic",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_starter": {
+    "powah_energizing_rod_starter": {
       "type": "item",
       "content": "powah:energizing_rod_starter",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_hardened": {
+    "powah_ender_cell_hardened": {
       "type": "item",
       "content": "powah:ender_cell_hardened",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_gate_nitro": {
+    "powah_ender_gate_nitro": {
       "type": "item",
       "content": "powah:ender_gate_nitro",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_spirited": {
+    "powah_ender_cell_spirited": {
       "type": "item",
       "content": "powah:ender_cell_spirited",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_hardened": {
+    "powah_player_transmitter_hardened": {
       "type": "item",
       "content": "powah:player_transmitter_hardened",
       "amount": {
@@ -282,7 +282,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_blazing": {
+    "powah_reactor_blazing": {
       "type": "item",
       "content": "powah:reactor_blazing",
       "amount": {
@@ -291,7 +291,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_reactor_spirited": {
+    "powah_reactor_spirited": {
       "type": "item",
       "content": "powah:reactor_spirited",
       "amount": {
@@ -300,7 +300,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_basic": {
+    "powah_energizing_rod_basic": {
       "type": "item",
       "content": "powah:energizing_rod_basic",
       "amount": {
@@ -309,7 +309,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_blazing": {
+    "powah_ender_cell_blazing": {
       "type": "item",
       "content": "powah:ender_cell_blazing",
       "amount": {
@@ -318,7 +318,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_niotic": {
+    "powah_ender_cell_niotic": {
       "type": "item",
       "content": "powah:ender_cell_niotic",
       "amount": {
@@ -327,7 +327,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_blazing": {
+    "powah_player_transmitter_blazing": {
       "type": "item",
       "content": "powah:player_transmitter_blazing",
       "amount": {
@@ -336,7 +336,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_rod_hardened": {
+    "powah_energizing_rod_hardened": {
       "type": "item",
       "content": "powah:energizing_rod_hardened",
       "amount": {
@@ -345,7 +345,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_starter": {
+    "powah_energy_cell_starter": {
       "type": "item",
       "content": "powah:energy_cell_starter",
       "amount": {
@@ -354,7 +354,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_niotic": {
+    "powah_energy_cell_niotic": {
       "type": "item",
       "content": "powah:energy_cell_niotic",
       "amount": {
@@ -363,7 +363,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_hardened": {
+    "powah_energy_cell_hardened": {
       "type": "item",
       "content": "powah:energy_cell_hardened",
       "amount": {
@@ -372,7 +372,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_niotic": {
+    "powah_player_transmitter_niotic": {
       "type": "item",
       "content": "powah:player_transmitter_niotic",
       "amount": {
@@ -381,7 +381,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_spirited": {
+    "powah_thermo_generator_spirited": {
       "type": "item",
       "content": "powah:thermo_generator_spirited",
       "amount": {
@@ -390,7 +390,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_blazing": {
+    "powah_thermo_generator_blazing": {
       "type": "item",
       "content": "powah:thermo_generator_blazing",
       "amount": {
@@ -399,7 +399,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_niotic": {
+    "powah_thermo_generator_niotic": {
       "type": "item",
       "content": "powah:thermo_generator_niotic",
       "amount": {
@@ -408,7 +408,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_basic": {
+    "powah_energy_cell_basic": {
       "type": "item",
       "content": "powah:energy_cell_basic",
       "amount": {
@@ -417,7 +417,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_spirited": {
+    "powah_energy_cell_spirited": {
       "type": "item",
       "content": "powah:energy_cell_spirited",
       "amount": {
@@ -426,7 +426,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_blazing": {
+    "powah_energy_cell_blazing": {
       "type": "item",
       "content": "powah:energy_cell_blazing",
       "amount": {
@@ -435,7 +435,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_spirited": {
+    "powah_player_transmitter_spirited": {
       "type": "item",
       "content": "powah:player_transmitter_spirited",
       "amount": {
@@ -444,7 +444,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_nitro": {
+    "powah_thermo_generator_nitro": {
       "type": "item",
       "content": "powah:thermo_generator_nitro",
       "amount": {
@@ -453,7 +453,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_cell_starter": {
+    "powah_ender_cell_starter": {
       "type": "item",
       "content": "powah:ender_cell_starter",
       "amount": {
@@ -462,7 +462,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_hardened": {
+    "powah_thermo_generator_hardened": {
       "type": "item",
       "content": "powah:thermo_generator_hardened",
       "amount": {
@@ -471,7 +471,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_basic": {
+    "powah_thermo_generator_basic": {
       "type": "item",
       "content": "powah:thermo_generator_basic",
       "amount": {
@@ -480,7 +480,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermo_generator_starter": {
+    "powah_thermo_generator_starter": {
       "type": "item",
       "content": "powah:thermo_generator_starter",
       "amount": {
@@ -489,7 +489,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_player_transmitter_nitro": {
+    "powah_player_transmitter_nitro": {
       "type": "item",
       "content": "powah:player_transmitter_nitro",
       "amount": {
@@ -498,7 +498,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_nitro": {
+    "powah_solar_panel_nitro": {
       "type": "item",
       "content": "powah:solar_panel_nitro",
       "amount": {
@@ -507,7 +507,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_spirited": {
+    "powah_solar_panel_spirited": {
       "type": "item",
       "content": "powah:solar_panel_spirited",
       "amount": {
@@ -516,7 +516,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_niotic": {
+    "powah_solar_panel_niotic": {
       "type": "item",
       "content": "powah:solar_panel_niotic",
       "amount": {
@@ -525,7 +525,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_blazing": {
+    "powah_solar_panel_blazing": {
       "type": "item",
       "content": "powah:solar_panel_blazing",
       "amount": {
@@ -534,7 +534,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_hardened": {
+    "powah_solar_panel_hardened": {
       "type": "item",
       "content": "powah:solar_panel_hardened",
       "amount": {
@@ -543,7 +543,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_basic": {
+    "powah_solar_panel_basic": {
       "type": "item",
       "content": "powah:solar_panel_basic",
       "amount": {
@@ -552,7 +552,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_solar_panel_starter": {
+    "powah_solar_panel_starter": {
       "type": "item",
       "content": "powah:solar_panel_starter",
       "amount": {
@@ -561,7 +561,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energy_cell_nitro": {
+    "powah_energy_cell_nitro": {
       "type": "item",
       "content": "powah:energy_cell_nitro",
       "amount": {
@@ -570,7 +570,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energizing_orb": {
+    "powah_energizing_orb": {
       "type": "item",
       "content": "powah:energizing_orb",
       "amount": {

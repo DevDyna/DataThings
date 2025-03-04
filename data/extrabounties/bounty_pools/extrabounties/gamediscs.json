@@ -3,7 +3,7 @@
     "gamediscs"
   ],
   "content": {
-    "gamediscsgamediscs_gaming_console": {
+    "gamediscs_gaming_console": {
       "type": "item",
       "content": "gamediscs:gaming_console",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "gamediscsgamediscs_game_disc_tnt_sweeper": {
+    "gamediscs_game_disc_tnt_sweeper": {
       "type": "item",
       "content": "gamediscs:game_disc_tnt_sweeper",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "gamediscsgamediscs_game_disc_slime": {
+    "gamediscs_game_disc_slime": {
       "type": "item",
       "content": "gamediscs:game_disc_slime",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "gamediscsgamediscs_game_disc_flappy_bird": {
+    "gamediscs_game_disc_flappy_bird": {
       "type": "item",
       "content": "gamediscs:game_disc_flappy_bird",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "gamediscsgamediscs_game_disc_pong": {
+    "gamediscs_game_disc_pong": {
       "type": "item",
       "content": "gamediscs:game_disc_pong",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "gamediscsgamediscs_game_disc_blocktris": {
+    "gamediscs_game_disc_blocktris": {
       "type": "item",
       "content": "gamediscs:game_disc_blocktris",
       "amount": {

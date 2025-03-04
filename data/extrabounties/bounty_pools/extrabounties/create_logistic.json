@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_weighted_ejector": {
+    "create_weighted_ejector": {
       "type": "item",
       "content": "create:weighted_ejector",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_display_board": {
+    "create_display_board": {
       "type": "item",
       "content": "create:display_board",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_chute": {
+    "create_chute": {
       "type": "item",
       "content": "create:chute",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_smart_chute": {
+    "create_smart_chute": {
       "type": "item",
       "content": "create:smart_chute",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_nixie_tube": {
+    "create_nixie_tube": {
       "type": "item",
       "content": "create:nixie_tube",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_rose_quartz_lamp": {
+    "create_rose_quartz_lamp": {
       "type": "item",
       "content": "create:rose_quartz_lamp",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_andesite_funnel": {
+    "create_andesite_funnel": {
       "type": "item",
       "content": "create:andesite_funnel",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_brass_funnel": {
+    "create_brass_funnel": {
       "type": "item",
       "content": "create:brass_funnel",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_brass_tunnel": {
+    "create_brass_tunnel": {
       "type": "item",
       "content": "create:brass_tunnel",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_sequenced_gearshift": {
+    "create_sequenced_gearshift": {
       "type": "item",
       "content": "create:sequenced_gearshift",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_display_link": {
+    "create_display_link": {
       "type": "item",
       "content": "create:display_link",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_andesite_tunnel": {
+    "create_andesite_tunnel": {
       "type": "item",
       "content": "create:andesite_tunnel",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_stockpile_switch": {
+    "create_stockpile_switch": {
       "type": "item",
       "content": "create:stockpile_switch",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_content_observer": {
+    "create_content_observer": {
       "type": "item",
       "content": "create:content_observer",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_powered_latch": {
+    "create_powered_latch": {
       "type": "item",
       "content": "create:powered_latch",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_pulse_extender": {
+    "create_pulse_extender": {
       "type": "item",
       "content": "create:pulse_extender",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_placard": {
+    "create_placard": {
       "type": "item",
       "content": "create:placard",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_pulse_repeater": {
+    "create_pulse_repeater": {
       "type": "item",
       "content": "create:pulse_repeater",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_redstone_link": {
+    "create_redstone_link": {
       "type": "item",
       "content": "create:redstone_link",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_powered_toggle_latch": {
+    "create_powered_toggle_latch": {
       "type": "item",
       "content": "create:powered_toggle_latch",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_arm": {
+    "create_mechanical_arm": {
       "type": "item",
       "content": "create:mechanical_arm",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_rotation_speed_controller": {
+    "create_rotation_speed_controller": {
       "type": "item",
       "content": "create:rotation_speed_controller",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_stock_link": {
+    "create_stock_link": {
       "type": "item",
       "content": "create:stock_link",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_item_hatch": {
+    "create_item_hatch": {
       "type": "item",
       "content": "create:item_hatch",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_redstone_requester": {
+    "create_redstone_requester": {
       "type": "item",
       "content": "create:redstone_requester",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_factory_gauge": {
+    "create_factory_gauge": {
       "type": "item",
       "content": "create:factory_gauge",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_packager": {
+    "create_packager": {
       "type": "item",
       "content": "create:packager",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_package_frogport": {
+    "create_package_frogport": {
       "type": "item",
       "content": "create:package_frogport",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_stock_ticker": {
+    "create_stock_ticker": {
       "type": "item",
       "content": "create:stock_ticker",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_chain_conveyor": {
+    "create_chain_conveyor": {
       "type": "item",
       "content": "create:chain_conveyor",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_chain": {
+    "minecraft_chain": {
       "type": "item",
       "content": "minecraft:chain",
       "amount": {
@@ -282,7 +282,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_pulse_timer": {
+    "create_pulse_timer": {
       "type": "item",
       "content": "create:pulse_timer",
       "amount": {

@@ -1,0 +1,160 @@
+{
+  "requires": [
+    "atmospheric"
+  ],
+  "content": {
+    "atmospheric_druid_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "atmospheric:druid_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_apostle_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "atmospheric:apostle_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_roasted_yucca_fruit": {
+      "type": "item",
+      "content": "atmospheric:roasted_yucca_fruit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_yucca_gateau": {
+      "type": "item",
+      "content": "atmospheric:yucca_gateau",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_passion_fruit_tart": {
+      "type": "item",
+      "content": "atmospheric:passion_fruit_tart",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_orange_pudding": {
+      "type": "item",
+      "content": "atmospheric:orange_pudding",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_passion_fruit_sorbet": {
+      "type": "item",
+      "content": "atmospheric:passion_fruit_sorbet",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_currant_muffin": {
+      "type": "item",
+      "content": "atmospheric:currant_muffin",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_orange_sorbet": {
+      "type": "item",
+      "content": "atmospheric:orange_sorbet",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_candied_orange_slices": {
+      "type": "item",
+      "content": "atmospheric:candied_orange_slices",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_sun_pottery_sherd": {
+      "type": "item",
+      "content": "atmospheric:sun_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_scythe_pottery_sherd": {
+      "type": "item",
+      "content": "atmospheric:scythe_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_cochineal_banner_pattern": {
+      "type": "item",
+      "content": "atmospheric:cochineal_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_succulent_pottery_sherd": {
+      "type": "item",
+      "content": "atmospheric:succulent_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_shimmering_passion_fruit": {
+      "type": "item",
+      "content": "atmospheric:shimmering_passion_fruit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_golden_dragon_fruit": {
+      "type": "item",
+      "content": "atmospheric:golden_dragon_fruit",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "atmospheric_petrified_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "atmospheric:petrified_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    }
+  }
+}

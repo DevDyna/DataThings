@@ -3,7 +3,7 @@
     "powah"
   ],
   "content": {
-    "powahpowah_capacitor_basic_tiny": {
+    "powah_capacitor_basic_tiny": {
       "type": "item",
       "content": "powah:capacitor_basic_tiny",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_niotic_crystal_block": {
+    "powah_niotic_crystal_block": {
       "type": "item",
       "content": "powah:niotic_crystal_block",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_spirited_crystal_block": {
+    "powah_spirited_crystal_block": {
       "type": "item",
       "content": "powah:spirited_crystal_block",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_blazing_crystal_block": {
+    "powah_blazing_crystal_block": {
       "type": "item",
       "content": "powah:blazing_crystal_block",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_energized_steel_block": {
+    "powah_energized_steel_block": {
       "type": "item",
       "content": "powah:energized_steel_block",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_uraninite_block": {
+    "powah_uraninite_block": {
       "type": "item",
       "content": "powah:uraninite_block",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_dry_ice": {
+    "powah_dry_ice": {
       "type": "item",
       "content": "powah:dry_ice",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_basic": {
+    "powah_capacitor_basic": {
       "type": "item",
       "content": "powah:capacitor_basic",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_niotic": {
+    "powah_capacitor_niotic": {
       "type": "item",
       "content": "powah:capacitor_niotic",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_dielectric_paste": {
+    "powah_dielectric_paste": {
       "type": "item",
       "content": "powah:dielectric_paste",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_uraninite": {
+    "powah_uraninite": {
       "type": "item",
       "content": "powah:uraninite",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_crystal_spirited": {
+    "powah_crystal_spirited": {
       "type": "item",
       "content": "powah:crystal_spirited",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_crystal_niotic": {
+    "powah_crystal_niotic": {
       "type": "item",
       "content": "powah:crystal_niotic",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_blazing": {
+    "powah_capacitor_blazing": {
       "type": "item",
       "content": "powah:capacitor_blazing",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_ender_core": {
+    "powah_ender_core": {
       "type": "item",
       "content": "powah:ender_core",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_steel_energized": {
+    "powah_steel_energized": {
       "type": "item",
       "content": "powah:steel_energized",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_basic_large": {
+    "powah_capacitor_basic_large": {
       "type": "item",
       "content": "powah:capacitor_basic_large",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_spirited": {
+    "powah_capacitor_spirited": {
       "type": "item",
       "content": "powah:capacitor_spirited",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_nitro": {
+    "powah_capacitor_nitro": {
       "type": "item",
       "content": "powah:capacitor_nitro",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_capacitor_hardened": {
+    "powah_capacitor_hardened": {
       "type": "item",
       "content": "powah:capacitor_hardened",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_crystal_nitro": {
+    "powah_crystal_nitro": {
       "type": "item",
       "content": "powah:crystal_nitro",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_charged_snowball": {
+    "powah_charged_snowball": {
       "type": "item",
       "content": "powah:charged_snowball",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_crystal_blazing": {
+    "powah_crystal_blazing": {
       "type": "item",
       "content": "powah:crystal_blazing",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "powahpowah_thermoelectric_plate": {
+    "powah_thermoelectric_plate": {
       "type": "item",
       "content": "powah:thermoelectric_plate",
       "amount": {

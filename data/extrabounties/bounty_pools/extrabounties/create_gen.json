@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_water_wheel": {
+    "create_water_wheel": {
       "type": "item",
       "content": "create:water_wheel",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_large_water_wheel": {
+    "create_large_water_wheel": {
       "type": "item",
       "content": "create:large_water_wheel",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_steam_whistle": {
+    "create_steam_whistle": {
       "type": "item",
       "content": "create:steam_whistle",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_fluid_tank": {
+    "create_fluid_tank": {
       "type": "item",
       "content": "create:fluid_tank",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_steam_engine": {
+    "create_steam_engine": {
       "type": "item",
       "content": "create:steam_engine",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_windmill_bearing": {
+    "create_windmill_bearing": {
       "type": "item",
       "content": "create:windmill_bearing",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_empty_blaze_burner": {
+    "create_empty_blaze_burner": {
       "type": "item",
       "content": "create:empty_blaze_burner",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_campfire": {
+    "minecraft_campfire": {
       "type": "item",
       "content": "minecraft:campfire",
       "amount": {

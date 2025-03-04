@@ -3,7 +3,7 @@
     "tombstone"
   ],
   "content": {
-    "tombstoneminecraft_phantom": {
+    "minecraft_phantom": {
       "type": "entity",
       "timeMult": 6,
       "content": "minecraft:phantom",
@@ -13,7 +13,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstoneminecraft_zombie": {
+    "minecraft_zombie": {
       "type": "entity",
       "timeMult": 6,
       "content": "minecraft:zombie",
@@ -23,7 +23,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstoneminecraft_skeleton": {
+    "minecraft_skeleton": {
       "type": "entity",
       "timeMult": 6,
       "content": "minecraft:skeleton",

@@ -3,7 +3,7 @@
     "reliquary"
   ],
   "content": {
-    "reliquaryreliquary_witch_hat": {
+    "reliquary_witch_hat": {
       "type": "item",
       "content": "reliquary:witch_hat",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_infernal_claws": {
+    "reliquary_infernal_claws": {
       "type": "item",
       "content": "reliquary:infernal_claws",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_glowing_water": {
+    "reliquary_glowing_water": {
       "type": "item",
       "content": "reliquary:glowing_water",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_kraken_shell": {
+    "reliquary_kraken_shell": {
       "type": "item",
       "content": "reliquary:kraken_shell",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_infernal_tear": {
+    "reliquary_infernal_tear": {
       "type": "item",
       "content": "reliquary:infernal_tear",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_fertile_potion": {
+    "reliquary_fertile_potion": {
       "type": "item",
       "content": "reliquary:fertile_potion",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_barrel_assembly": {
+    "reliquary_barrel_assembly": {
       "type": "item",
       "content": "reliquary:barrel_assembly",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_angelic_feather": {
+    "reliquary_angelic_feather": {
       "type": "item",
       "content": "reliquary:angelic_feather",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_aphrodite_potion": {
+    "reliquary_aphrodite_potion": {
       "type": "item",
       "content": "reliquary:aphrodite_potion",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_angelheart_vial": {
+    "reliquary_angelheart_vial": {
       "type": "item",
       "content": "reliquary:angelheart_vial",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_grip_assembly": {
+    "reliquary_grip_assembly": {
       "type": "item",
       "content": "reliquary:grip_assembly",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_hammer_assembly": {
+    "reliquary_hammer_assembly": {
       "type": "item",
       "content": "reliquary:hammer_assembly",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_rib_bone": {
+    "reliquary_rib_bone": {
       "type": "item",
       "content": "reliquary:rib_bone",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_squid_beak": {
+    "reliquary_squid_beak": {
       "type": "item",
       "content": "reliquary:squid_beak",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_zombie_heart": {
+    "reliquary_zombie_heart": {
       "type": "item",
       "content": "reliquary:zombie_heart",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_catalyzing_gland": {
+    "reliquary_catalyzing_gland": {
       "type": "item",
       "content": "reliquary:catalyzing_gland",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_fertile_essence": {
+    "reliquary_fertile_essence": {
       "type": "item",
       "content": "reliquary:fertile_essence",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_guardian_spike": {
+    "reliquary_guardian_spike": {
       "type": "item",
       "content": "reliquary:guardian_spike",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_nebulous_heart": {
+    "reliquary_nebulous_heart": {
       "type": "item",
       "content": "reliquary:nebulous_heart",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_frozen_core": {
+    "reliquary_frozen_core": {
       "type": "item",
       "content": "reliquary:frozen_core",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_eye_of_the_storm": {
+    "reliquary_eye_of_the_storm": {
       "type": "item",
       "content": "reliquary:eye_of_the_storm",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_crimson_cloth": {
+    "reliquary_crimson_cloth": {
       "type": "item",
       "content": "reliquary:crimson_cloth",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_molten_core": {
+    "reliquary_molten_core": {
       "type": "item",
       "content": "reliquary:molten_core",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_kraken_shell_fragment": {
+    "reliquary_kraken_shell_fragment": {
       "type": "item",
       "content": "reliquary:kraken_shell_fragment",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_infernal_claw": {
+    "reliquary_infernal_claw": {
       "type": "item",
       "content": "reliquary:infernal_claw",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_withered_rib": {
+    "reliquary_withered_rib": {
       "type": "item",
       "content": "reliquary:withered_rib",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_slime_pearl": {
+    "reliquary_slime_pearl": {
       "type": "item",
       "content": "reliquary:slime_pearl",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_chelicerae": {
+    "reliquary_chelicerae": {
       "type": "item",
       "content": "reliquary:chelicerae",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_bat_wing": {
+    "reliquary_bat_wing": {
       "type": "item",
       "content": "reliquary:bat_wing",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "reliquaryreliquary_glowing_bread": {
+    "reliquary_glowing_bread": {
       "type": "item",
       "content": "reliquary:glowing_bread",
       "amount": {

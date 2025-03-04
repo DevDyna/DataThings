@@ -3,7 +3,7 @@
     "ironchest"
   ],
   "content": {
-    "ironchestironchest_copper_chest": {
+    "ironchest_copper_chest": {
       "type": "item",
       "content": "ironchest:copper_chest",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "ironchestironchest_gold_chest": {
+    "ironchest_gold_chest": {
       "type": "item",
       "content": "ironchest:gold_chest",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "ironchestironchest_iron_chest": {
+    "ironchest_iron_chest": {
       "type": "item",
       "content": "ironchest:iron_chest",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "ironchestminecraft_chest": {
+    "minecraft_chest": {
       "type": "item",
       "content": "minecraft:chest",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "ironchestironchest_dirt_chest": {
+    "ironchest_dirt_chest": {
       "type": "item",
       "content": "ironchest:dirt_chest",
       "amount": {

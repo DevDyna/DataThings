@@ -3,7 +3,7 @@
     "alexscaves"
   ],
   "content": {
-    "alexscavesalexscaves_metal_swarf": {
+    "alexscaves_metal_swarf": {
       "type": "item",
       "content": "alexscaves:metal_swarf",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_galena": {
+    "alexscaves_galena": {
       "type": "item",
       "content": "alexscaves:galena",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_limestone": {
+    "alexscaves_limestone": {
       "type": "item",
       "content": "alexscaves:limestone",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_block_of_chocolate": {
+    "alexscaves_block_of_chocolate": {
       "type": "item",
       "content": "alexscaves:block_of_chocolate",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_coprolith": {
+    "alexscaves_coprolith": {
       "type": "item",
       "content": "alexscaves:coprolith",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_dough_block": {
+    "alexscaves_dough_block": {
       "type": "item",
       "content": "alexscaves:dough_block",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_cookie_block": {
+    "alexscaves_cookie_block": {
       "type": "item",
       "content": "alexscaves:cookie_block",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_radrock": {
+    "alexscaves_radrock": {
       "type": "item",
       "content": "alexscaves:radrock",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_abyssmarine": {
+    "alexscaves_abyssmarine": {
       "type": "item",
       "content": "alexscaves:abyssmarine",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_guanostone": {
+    "alexscaves_guanostone": {
       "type": "item",
       "content": "alexscaves:guanostone",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_block_of_frosting": {
+    "alexscaves_block_of_frosting": {
       "type": "item",
       "content": "alexscaves:block_of_frosting",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_block_of_vanilla_frosting": {
+    "alexscaves_block_of_vanilla_frosting": {
       "type": "item",
       "content": "alexscaves:block_of_vanilla_frosting",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_block_of_chocolate_frosting": {
+    "alexscaves_block_of_chocolate_frosting": {
       "type": "item",
       "content": "alexscaves:block_of_chocolate_frosting",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_cake_layer": {
+    "alexscaves_cake_layer": {
       "type": "item",
       "content": "alexscaves:cake_layer",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_guano": {
+    "alexscaves_guano": {
       "type": "item",
       "content": "alexscaves:guano",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_sulfur_dust": {
+    "alexscaves_sulfur_dust": {
       "type": "item",
       "content": "alexscaves:sulfur_dust",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_uranium": {
+    "alexscaves_uranium": {
       "type": "item",
       "content": "alexscaves:uranium",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_heavy_bone": {
+    "alexscaves_heavy_bone": {
       "type": "item",
       "content": "alexscaves:heavy_bone",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_ferrouslime_ball": {
+    "alexscaves_ferrouslime_ball": {
       "type": "item",
       "content": "alexscaves:ferrouslime_ball",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_fissile_core": {
+    "alexscaves_fissile_core": {
       "type": "item",
       "content": "alexscaves:fissile_core",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_toxic_paste": {
+    "alexscaves_toxic_paste": {
       "type": "item",
       "content": "alexscaves:toxic_paste",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_raw_scarlet_neodymium": {
+    "alexscaves_raw_scarlet_neodymium": {
       "type": "item",
       "content": "alexscaves:raw_scarlet_neodymium",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_raw_azure_neodymium": {
+    "alexscaves_raw_azure_neodymium": {
       "type": "item",
       "content": "alexscaves:raw_azure_neodymium",
       "amount": {
@@ -236,7 +236,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:abyssal_chasm\"}"
+      "nbt": "{CaveBiome: \"alexscaves:abyssal_chasm\"}"
     },
     "alexscaves_in_toxic_caves_tablet": {
       "type": "item",
@@ -246,7 +246,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:toxic_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:toxic_caves\"}"
     },
     "alexscaves_in_primordial_caves_tablet": {
       "type": "item",
@@ -256,7 +256,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:primordial_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:primordial_caves\"}"
     },
     "alexscaves_in_magnetic_caves_tablet": {
       "type": "item",
@@ -266,7 +266,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:magnetic_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:magnetic_caves\"}"
     },
     "alexscaves_in_candy_cavity_tablet": {
       "type": "item",
@@ -276,7 +276,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:candy_cavity\"}"
+      "nbt": "{CaveBiome: \"alexscaves:candy_cavity\"}"
     },
     "alexscaves_in_forlorn_hollows_tablet": {
       "type": "item",
@@ -286,7 +286,7 @@
         "max": 16
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:forlorn_hollows\"}"
+      "nbt": "{CaveBiome: \"alexscaves:forlorn_hollows\"}"
     }
   }
 }

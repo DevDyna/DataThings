@@ -3,7 +3,7 @@
     "sophisticatedstorage"
   ],
   "content": {
-    "sophisticatedstoragesophisticatedstorage_crafting_upgrade": {
+    "sophisticatedstorage_crafting_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:crafting_upgrade",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_smoking_upgrade": {
+    "sophisticatedstorage_smoking_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:smoking_upgrade",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_smelting_upgrade": {
+    "sophisticatedstorage_smelting_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:smelting_upgrade",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_void_upgrade": {
+    "sophisticatedstorage_void_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:void_upgrade",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_diamond_to_netherite_tier_upgrade": {
+    "sophisticatedstorage_diamond_to_netherite_tier_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_gold_to_diamond_tier_upgrade": {
+    "sophisticatedstorage_gold_to_diamond_tier_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_iron_to_gold_tier_upgrade": {
+    "sophisticatedstorage_iron_to_gold_tier_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:iron_to_gold_tier_upgrade",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_copper_to_iron_tier_upgrade": {
+    "sophisticatedstorage_copper_to_iron_tier_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:copper_to_iron_tier_upgrade",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_basic_to_copper_tier_upgrade": {
+    "sophisticatedstorage_basic_to_copper_tier_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:basic_to_copper_tier_upgrade",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_pickup_upgrade": {
+    "sophisticatedstorage_pickup_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:pickup_upgrade",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_blasting_upgrade": {
+    "sophisticatedstorage_blasting_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:blasting_upgrade",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_feeding_upgrade": {
+    "sophisticatedstorage_feeding_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:feeding_upgrade",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_magnet_upgrade": {
+    "sophisticatedstorage_magnet_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:magnet_upgrade",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_filter_upgrade": {
+    "sophisticatedstorage_filter_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:filter_upgrade",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_compacting_upgrade": {
+    "sophisticatedstorage_compacting_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:compacting_upgrade",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_stack_upgrade_tier_1": {
+    "sophisticatedstorage_stack_upgrade_tier_1": {
       "type": "item",
       "content": "sophisticatedstorage:stack_upgrade_tier_1",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_compression_upgrade": {
+    "sophisticatedstorage_compression_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:compression_upgrade",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_hopper_upgrade": {
+    "sophisticatedstorage_hopper_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:hopper_upgrade",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_jukebox_upgrade": {
+    "sophisticatedstorage_jukebox_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:jukebox_upgrade",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "sophisticatedstoragesophisticatedstorage_stonecutter_upgrade": {
+    "sophisticatedstorage_stonecutter_upgrade": {
       "type": "item",
       "content": "sophisticatedstorage:stonecutter_upgrade",
       "amount": {

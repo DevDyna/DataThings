@@ -3,7 +3,7 @@
     "warp_pipes"
   ],
   "content": {
-    "warp_pipeswarp_pipes_gray_warp_pipe": {
+    "warp_pipes_gray_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:gray_warp_pipe",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_pink_warp_pipe": {
+    "warp_pipes_pink_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:pink_warp_pipe",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_lime_warp_pipe": {
+    "warp_pipes_lime_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:lime_warp_pipe",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_yellow_warp_pipe": {
+    "warp_pipes_yellow_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:yellow_warp_pipe",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_light_blue_warp_pipe": {
+    "warp_pipes_light_blue_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:light_blue_warp_pipe",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_magenta_warp_pipe": {
+    "warp_pipes_magenta_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:magenta_warp_pipe",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_orange_warp_pipe": {
+    "warp_pipes_orange_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:orange_warp_pipe",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_clear_warp_pipe": {
+    "warp_pipes_clear_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:clear_warp_pipe",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_white_warp_pipe": {
+    "warp_pipes_white_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:white_warp_pipe",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_black_warp_pipe": {
+    "warp_pipes_black_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:black_warp_pipe",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_red_warp_pipe": {
+    "warp_pipes_red_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:red_warp_pipe",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_green_warp_pipe": {
+    "warp_pipes_green_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:green_warp_pipe",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_brown_warp_pipe": {
+    "warp_pipes_brown_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:brown_warp_pipe",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_blue_warp_pipe": {
+    "warp_pipes_blue_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:blue_warp_pipe",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_cyan_warp_pipe": {
+    "warp_pipes_cyan_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:cyan_warp_pipe",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_purple_warp_pipe": {
+    "warp_pipes_purple_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:purple_warp_pipe",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "warp_pipeswarp_pipes_light_gray_warp_pipe": {
+    "warp_pipes_light_gray_warp_pipe": {
       "type": "item",
       "content": "warp_pipes:light_gray_warp_pipe",
       "amount": {

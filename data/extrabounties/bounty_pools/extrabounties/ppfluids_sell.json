@@ -3,7 +3,7 @@
     "ppfluids"
   ],
   "content": {
-    "ppfluidsppfluids_high_fluid_filter_module": {
+    "ppfluids_high_fluid_filter_module": {
       "type": "item",
       "content": "ppfluids:high_fluid_filter_module",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_medium_fluid_filter_module": {
+    "ppfluids_medium_fluid_filter_module": {
       "type": "item",
       "content": "ppfluids:medium_fluid_filter_module",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_low_fluid_retrieval_module": {
+    "ppfluids_low_fluid_retrieval_module": {
       "type": "item",
       "content": "ppfluids:low_fluid_retrieval_module",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_medium_fluid_extraction_module": {
+    "ppfluids_medium_fluid_extraction_module": {
       "type": "item",
       "content": "ppfluids:medium_fluid_extraction_module",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_low_fluid_filter_module": {
+    "ppfluids_low_fluid_filter_module": {
       "type": "item",
       "content": "ppfluids:low_fluid_filter_module",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_high_fluid_extraction_module": {
+    "ppfluids_high_fluid_extraction_module": {
       "type": "item",
       "content": "ppfluids:high_fluid_extraction_module",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_medium_fluid_retrieval_module": {
+    "ppfluids_medium_fluid_retrieval_module": {
       "type": "item",
       "content": "ppfluids:medium_fluid_retrieval_module",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_high_fluid_retrieval_module": {
+    "ppfluids_high_fluid_retrieval_module": {
       "type": "item",
       "content": "ppfluids:high_fluid_retrieval_module",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsppfluids_low_fluid_extraction_module": {
+    "ppfluids_low_fluid_extraction_module": {
       "type": "item",
       "content": "ppfluids:low_fluid_extraction_module",
       "amount": {

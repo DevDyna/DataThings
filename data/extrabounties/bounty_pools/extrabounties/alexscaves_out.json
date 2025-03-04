@@ -20,7 +20,7 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:abyssal_chasm\"}"
+      "nbt": "{CaveBiome: \"alexscaves:abyssal_chasm\"}"
     },
     "alexscaves_out_toxic_caves_codex": {
       "type": "item",
@@ -30,7 +30,7 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:toxic_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:toxic_caves\"}"
     },
     "alexscaves_out_primordial_caves_codex": {
       "type": "item",
@@ -40,7 +40,7 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:primordial_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:primordial_caves\"}"
     },
     "alexscaves_out_magnetic_caves_codex": {
       "type": "item",
@@ -50,7 +50,7 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:magnetic_caves\"}"
+      "nbt": "{CaveBiome: \"alexscaves:magnetic_caves\"}"
     },
     "alexscaves_out_candy_cavity_codex": {
       "type": "item",
@@ -60,7 +60,7 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:candy_cavity\"}"
+      "nbt": "{CaveBiome: \"alexscaves:candy_cavity\"}"
     },
     "alexscaves_out_forlorn_hollows_codex": {
       "type": "item",
@@ -70,9 +70,9 @@
         "max": 1
       },
       "unitWorth": 1000,
-      "nbt": "{\"CaveBiome\":\"alexscaves:forlorn_hollows\"}"
+      "nbt": "{CaveBiome: \"alexscaves:forlorn_hollows\"}"
     },
-    "alexscavesalexscaves_uranium": {
+    "alexscaves_uranium": {
       "type": "item",
       "content": "alexscaves:uranium",
       "amount": {
@@ -81,7 +81,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_ominous_catalyst": {
+    "alexscaves_ominous_catalyst": {
       "type": "item",
       "content": "alexscaves:ominous_catalyst",
       "amount": {
@@ -90,7 +90,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_pure_darkness": {
+    "alexscaves_pure_darkness": {
       "type": "item",
       "content": "alexscaves:pure_darkness",
       "amount": {
@@ -99,7 +99,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_heart_of_iron": {
+    "alexscaves_heart_of_iron": {
       "type": "item",
       "content": "alexscaves:heart_of_iron",
       "amount": {
@@ -108,7 +108,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_confection_oven": {
+    "alexscaves_confection_oven": {
       "type": "item",
       "content": "alexscaves:confection_oven",
       "amount": {
@@ -117,7 +117,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_conversion_crucible": {
+    "alexscaves_conversion_crucible": {
       "type": "item",
       "content": "alexscaves:conversion_crucible",
       "amount": {
@@ -126,7 +126,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_nuclear_furnace_component": {
+    "alexscaves_nuclear_furnace_component": {
       "type": "item",
       "content": "alexscaves:nuclear_furnace_component",
       "amount": {
@@ -135,7 +135,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_quarry": {
+    "alexscaves_quarry": {
       "type": "item",
       "content": "alexscaves:quarry",
       "amount": {
@@ -144,7 +144,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_telecore": {
+    "alexscaves_telecore": {
       "type": "item",
       "content": "alexscaves:telecore",
       "amount": {
@@ -153,7 +153,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_sulfur_dust": {
+    "alexscaves_sulfur_dust": {
       "type": "item",
       "content": "alexscaves:sulfur_dust",
       "amount": {
@@ -162,7 +162,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_toxic_paste": {
+    "alexscaves_toxic_paste": {
       "type": "item",
       "content": "alexscaves:toxic_paste",
       "amount": {
@@ -171,7 +171,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_depth_charge": {
+    "alexscaves_depth_charge": {
       "type": "item",
       "content": "alexscaves:depth_charge",
       "amount": {
@@ -180,7 +180,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_occult_gem": {
+    "alexscaves_occult_gem": {
       "type": "item",
       "content": "alexscaves:occult_gem",
       "amount": {
@@ -189,7 +189,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_nuclear_bomb": {
+    "alexscaves_nuclear_bomb": {
       "type": "item",
       "content": "alexscaves:nuclear_bomb",
       "amount": {
@@ -198,7 +198,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_ferrouslime_ball": {
+    "alexscaves_ferrouslime_ball": {
       "type": "item",
       "content": "alexscaves:ferrouslime_ball",
       "amount": {
@@ -207,7 +207,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_fissile_core": {
+    "alexscaves_fissile_core": {
       "type": "item",
       "content": "alexscaves:fissile_core",
       "amount": {
@@ -216,7 +216,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_hologram_projector": {
+    "alexscaves_hologram_projector": {
       "type": "item",
       "content": "alexscaves:hologram_projector",
       "amount": {
@@ -225,7 +225,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_raw_azure_neodymium": {
+    "alexscaves_raw_azure_neodymium": {
       "type": "item",
       "content": "alexscaves:raw_azure_neodymium",
       "amount": {
@@ -234,7 +234,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_raw_scarlet_neodymium": {
+    "alexscaves_raw_scarlet_neodymium": {
       "type": "item",
       "content": "alexscaves:raw_scarlet_neodymium",
       "amount": {
@@ -243,7 +243,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_radiant_essence": {
+    "alexscaves_radiant_essence": {
       "type": "item",
       "content": "alexscaves:radiant_essence",
       "amount": {
@@ -252,7 +252,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_gingerbread_helmet": {
+    "alexscaves_gingerbread_helmet": {
       "type": "item",
       "content": "alexscaves:gingerbread_helmet",
       "amount": {
@@ -261,7 +261,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_gingerbread_boots": {
+    "alexscaves_gingerbread_boots": {
       "type": "item",
       "content": "alexscaves:gingerbread_boots",
       "amount": {
@@ -270,7 +270,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_primordial_tunic": {
+    "alexscaves_primordial_tunic": {
       "type": "item",
       "content": "alexscaves:primordial_tunic",
       "amount": {
@@ -279,7 +279,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_hazmat_chestplate": {
+    "alexscaves_hazmat_chestplate": {
       "type": "item",
       "content": "alexscaves:hazmat_chestplate",
       "amount": {
@@ -288,7 +288,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_diving_chestplate": {
+    "alexscaves_diving_chestplate": {
       "type": "item",
       "content": "alexscaves:diving_chestplate",
       "amount": {
@@ -297,7 +297,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_cloak_of_darkness": {
+    "alexscaves_cloak_of_darkness": {
       "type": "item",
       "content": "alexscaves:cloak_of_darkness",
       "amount": {
@@ -306,7 +306,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_gingerbread_chestplate": {
+    "alexscaves_gingerbread_chestplate": {
       "type": "item",
       "content": "alexscaves:gingerbread_chestplate",
       "amount": {
@@ -315,7 +315,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_diving_leggings": {
+    "alexscaves_diving_leggings": {
       "type": "item",
       "content": "alexscaves:diving_leggings",
       "amount": {
@@ -324,7 +324,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_sack_of_sating": {
+    "alexscaves_sack_of_sating": {
       "type": "item",
       "content": "alexscaves:sack_of_sating",
       "amount": {
@@ -333,7 +333,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_gingerbread_leggings": {
+    "alexscaves_gingerbread_leggings": {
       "type": "item",
       "content": "alexscaves:gingerbread_leggings",
       "amount": {
@@ -342,7 +342,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_hazmat_mask": {
+    "alexscaves_hazmat_mask": {
       "type": "item",
       "content": "alexscaves:hazmat_mask",
       "amount": {
@@ -351,7 +351,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_diving_helmet": {
+    "alexscaves_diving_helmet": {
       "type": "item",
       "content": "alexscaves:diving_helmet",
       "amount": {
@@ -360,7 +360,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_hazmat_boots": {
+    "alexscaves_hazmat_boots": {
       "type": "item",
       "content": "alexscaves:hazmat_boots",
       "amount": {
@@ -369,7 +369,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_diving_boots": {
+    "alexscaves_diving_boots": {
       "type": "item",
       "content": "alexscaves:diving_boots",
       "amount": {
@@ -378,7 +378,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_totem_of_possession": {
+    "alexscaves_totem_of_possession": {
       "type": "item",
       "content": "alexscaves:totem_of_possession",
       "amount": {
@@ -387,7 +387,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_sea_staff": {
+    "alexscaves_sea_staff": {
       "type": "item",
       "content": "alexscaves:sea_staff",
       "amount": {
@@ -396,7 +396,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_quarry_smasher": {
+    "alexscaves_quarry_smasher": {
       "type": "item",
       "content": "alexscaves:quarry_smasher",
       "amount": {
@@ -405,7 +405,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_raygun": {
+    "alexscaves_raygun": {
       "type": "item",
       "content": "alexscaves:raygun",
       "amount": {
@@ -414,7 +414,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_submarine": {
+    "alexscaves_submarine": {
       "type": "item",
       "content": "alexscaves:submarine",
       "amount": {
@@ -423,7 +423,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_acid_bucket": {
+    "alexscaves_acid_bucket": {
       "type": "item",
       "content": "alexscaves:acid_bucket",
       "amount": {
@@ -432,7 +432,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_primordial_pants": {
+    "alexscaves_primordial_pants": {
       "type": "item",
       "content": "alexscaves:primordial_pants",
       "amount": {
@@ -441,7 +441,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_hazmat_leggings": {
+    "alexscaves_hazmat_leggings": {
       "type": "item",
       "content": "alexscaves:hazmat_leggings",
       "amount": {
@@ -450,7 +450,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_desolate_dagger": {
+    "alexscaves_desolate_dagger": {
       "type": "item",
       "content": "alexscaves:desolate_dagger",
       "amount": {
@@ -459,7 +459,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_primordial_helmet": {
+    "alexscaves_primordial_helmet": {
       "type": "item",
       "content": "alexscaves:primordial_helmet",
       "amount": {
@@ -468,7 +468,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_hood_of_darkness": {
+    "alexscaves_hood_of_darkness": {
       "type": "item",
       "content": "alexscaves:hood_of_darkness",
       "amount": {
@@ -477,7 +477,7 @@
       },
       "unitWorth": 750
     },
-    "alexscavesalexscaves_frostmint_spear": {
+    "alexscaves_frostmint_spear": {
       "type": "item",
       "content": "alexscaves:frostmint_spear",
       "amount": {
@@ -486,7 +486,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_limestone_spear": {
+    "alexscaves_limestone_spear": {
       "type": "item",
       "content": "alexscaves:limestone_spear",
       "amount": {
@@ -495,7 +495,7 @@
       },
       "unitWorth": 1000
     },
-    "alexscavesalexscaves_radon_bottle": {
+    "alexscaves_radon_bottle": {
       "type": "item",
       "content": "alexscaves:radon_bottle",
       "amount": {

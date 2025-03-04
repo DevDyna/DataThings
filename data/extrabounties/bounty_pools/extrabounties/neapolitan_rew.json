@@ -1,0 +1,394 @@
+{
+  "requires": [
+    "neapolitan"
+  ],
+  "content": {
+    "neapolitan_scream_pottery_sherd": {
+      "type": "item",
+      "content": "neapolitan:scream_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_reflection_pottery_sherd": {
+      "type": "item",
+      "content": "neapolitan:reflection_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chimpanzee_banner_pattern": {
+      "type": "item",
+      "content": "neapolitan:chimpanzee_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_banana_smoothie": {
+      "type": "item",
+      "content": "neapolitan:strawberry_banana_smoothie",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_neapolitan_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:neapolitan_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:adzuki_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:banana_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:strawberry_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:chocolate_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_milkshake": {
+      "type": "item",
+      "content": "neapolitan:vanilla_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_pudding": {
+      "type": "item",
+      "content": "neapolitan:vanilla_pudding",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_curry": {
+      "type": "item",
+      "content": "neapolitan:adzuki_curry",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_stew": {
+      "type": "item",
+      "content": "neapolitan:adzuki_stew",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_spider_eye": {
+      "type": "item",
+      "content": "neapolitan:chocolate_spider_eye",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_bean_bonbons": {
+      "type": "item",
+      "content": "neapolitan:strawberry_bean_bonbons",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_candies": {
+      "type": "item",
+      "content": "neapolitan:mint_candies",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_cake": {
+      "type": "item",
+      "content": "neapolitan:adzuki_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_cake": {
+      "type": "item",
+      "content": "neapolitan:mint_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana_cake": {
+      "type": "item",
+      "content": "neapolitan:banana_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_cake": {
+      "type": "item",
+      "content": "neapolitan:strawberry_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_cake": {
+      "type": "item",
+      "content": "neapolitan:chocolate_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_cake": {
+      "type": "item",
+      "content": "neapolitan:vanilla_cake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_scones": {
+      "type": "item",
+      "content": "neapolitan:strawberry_scones",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_chocolate": {
+      "type": "item",
+      "content": "neapolitan:mint_chocolate",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_fudge": {
+      "type": "item",
+      "content": "neapolitan:vanilla_fudge",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_strawberries": {
+      "type": "item",
+      "content": "neapolitan:chocolate_strawberries",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_chocolate_fingers": {
+      "type": "item",
+      "content": "neapolitan:vanilla_chocolate_fingers",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_cooked_mint_chops": {
+      "type": "item",
+      "content": "neapolitan:cooked_mint_chops",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana_bread": {
+      "type": "item",
+      "content": "neapolitan:banana_bread",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_bun": {
+      "type": "item",
+      "content": "neapolitan:adzuki_bun",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_bananarrow": {
+      "type": "item",
+      "content": "neapolitan:bananarrow",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_music_disc_hullabaloo": {
+      "type": "item",
+      "content": "neapolitan:music_disc_hullabaloo",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_milkshake": {
+      "type": "item",
+      "content": "neapolitan:adzuki_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_primal_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "neapolitan:primal_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_spider_pottery_sherd": {
+      "type": "item",
+      "content": "neapolitan:spider_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_snack_pottery_sherd": {
+      "type": "item",
+      "content": "neapolitan:snack_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chimpanzee_head": {
+      "type": "item",
+      "content": "neapolitan:chimpanzee_head",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:vanilla_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_milkshake": {
+      "type": "item",
+      "content": "neapolitan:mint_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana_milkshake": {
+      "type": "item",
+      "content": "neapolitan:banana_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberry_milkshake": {
+      "type": "item",
+      "content": "neapolitan:strawberry_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_milkshake": {
+      "type": "item",
+      "content": "neapolitan:chocolate_milkshake",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_ice_cream": {
+      "type": "item",
+      "content": "neapolitan:mint_ice_cream",
+      "amount": {
+        "min": 1,
+        "max": 13
+      },
+      "unitWorth": 1000
+    }
+  }
+}

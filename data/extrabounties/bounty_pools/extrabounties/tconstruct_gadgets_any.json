@@ -1,0 +1,412 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_ender_slime_crystal": {
+      "type": "item",
+      "content": "tconstruct:ender_slime_crystal",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_piggy_backpack": {
+      "type": "item",
+      "content": "tconstruct:piggy_backpack",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_husk_head": {
+      "type": "item",
+      "content": "tconstruct:husk_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_earth_slime_crystal": {
+      "type": "item",
+      "content": "tconstruct:earth_slime_crystal",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_sky_slime_crystal": {
+      "type": "item",
+      "content": "tconstruct:sky_slime_crystal",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ichor_slime_crystal": {
+      "type": "item",
+      "content": "tconstruct:ichor_slime_crystal",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ender_slime_sapling": {
+      "type": "item",
+      "content": "tconstruct:ender_slime_sapling",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_blood_slime_sapling": {
+      "type": "item",
+      "content": "tconstruct:blood_slime_sapling",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_flint_shuriken": {
+      "type": "item",
+      "content": "tconstruct:flint_shuriken",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_quartz_shuriken": {
+      "type": "item",
+      "content": "tconstruct:quartz_shuriken",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_blaze_head": {
+      "type": "item",
+      "content": "tconstruct:blaze_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cinderslime_ingot": {
+      "type": "item",
+      "content": "tconstruct:cinderslime_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ender_slime_bottle": {
+      "type": "item",
+      "content": "tconstruct:ender_slime_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ichor_slime_bottle": {
+      "type": "item",
+      "content": "tconstruct:ichor_slime_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cave_spider_head": {
+      "type": "item",
+      "content": "tconstruct:cave_spider_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_slimesteel_ingot": {
+      "type": "item",
+      "content": "tconstruct:slimesteel_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_queens_slime_ingot": {
+      "type": "item",
+      "content": "tconstruct:queens_slime_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_sky_slime_bottle": {
+      "type": "item",
+      "content": "tconstruct:sky_slime_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_stray_head": {
+      "type": "item",
+      "content": "tconstruct:stray_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_spider_head": {
+      "type": "item",
+      "content": "tconstruct:spider_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_drowned_head": {
+      "type": "item",
+      "content": "tconstruct:drowned_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_amethyst_bronze_ingot": {
+      "type": "item",
+      "content": "tconstruct:amethyst_bronze_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_hepatizon_ingot": {
+      "type": "item",
+      "content": "tconstruct:hepatizon_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_manyullyn_ingot": {
+      "type": "item",
+      "content": "tconstruct:manyullyn_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_venom_bottle": {
+      "type": "item",
+      "content": "tconstruct:venom_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_enderman_head": {
+      "type": "item",
+      "content": "tconstruct:enderman_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_necrotic_bone": {
+      "type": "item",
+      "content": "tconstruct:necrotic_bone",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_earth_slime_bottle": {
+      "type": "item",
+      "content": "tconstruct:earth_slime_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_magma_bottle": {
+      "type": "item",
+      "content": "tconstruct:magma_bottle",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_dragon_scale": {
+      "type": "item",
+      "content": "tconstruct:dragon_scale",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ichor_slime_ball": {
+      "type": "item",
+      "content": "tconstruct:ichor_slime_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ender_slime_ball": {
+      "type": "item",
+      "content": "tconstruct:ender_slime_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_zombified_piglin_head": {
+      "type": "item",
+      "content": "tconstruct:zombified_piglin_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_piglin_brute_head": {
+      "type": "item",
+      "content": "tconstruct:piglin_brute_head",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_sky_slime_ball": {
+      "type": "item",
+      "content": "tconstruct:sky_slime_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_slime_ball": {
+      "type": "item",
+      "content": "minecraft:slime_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_glow_ball": {
+      "type": "item",
+      "content": "tconstruct:glow_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_pig_iron_ingot": {
+      "type": "item",
+      "content": "tconstruct:pig_iron_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cheese_ingot": {
+      "type": "item",
+      "content": "tconstruct:cheese_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_rose_gold_ingot": {
+      "type": "item",
+      "content": "tconstruct:rose_gold_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_debris_nugget": {
+      "type": "item",
+      "content": "tconstruct:debris_nugget",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_netherite_nugget": {
+      "type": "item",
+      "content": "tconstruct:netherite_nugget",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cobalt_ingot": {
+      "type": "item",
+      "content": "tconstruct:cobalt_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_steel_ingot": {
+      "type": "item",
+      "content": "tconstruct:steel_ingot",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_efln_ball": {
+      "type": "item",
+      "content": "tconstruct:efln_ball",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    }
+  }
+}

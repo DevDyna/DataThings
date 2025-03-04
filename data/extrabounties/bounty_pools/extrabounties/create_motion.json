@@ -3,7 +3,7 @@
     "create"
   ],
   "content": {
-    "createcreate_rope_pulley": {
+    "create_rope_pulley": {
       "type": "item",
       "content": "create:rope_pulley",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_elevator_pulley": {
+    "create_elevator_pulley": {
       "type": "item",
       "content": "create:elevator_pulley",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_bearing": {
+    "create_mechanical_bearing": {
       "type": "item",
       "content": "create:mechanical_bearing",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_clockwork_bearing": {
+    "create_clockwork_bearing": {
       "type": "item",
       "content": "create:clockwork_bearing",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_sticky_mechanical_piston": {
+    "create_sticky_mechanical_piston": {
       "type": "item",
       "content": "create:sticky_mechanical_piston",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_gantry_carriage": {
+    "create_gantry_carriage": {
       "type": "item",
       "content": "create:gantry_carriage",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_piston": {
+    "create_mechanical_piston": {
       "type": "item",
       "content": "create:mechanical_piston",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_piston_extension_pole": {
+    "create_piston_extension_pole": {
       "type": "item",
       "content": "create:piston_extension_pole",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_roller": {
+    "create_mechanical_roller": {
       "type": "item",
       "content": "create:mechanical_roller",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_track": {
+    "create_track": {
       "type": "item",
       "content": "create:track",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_track_signal": {
+    "create_track_signal": {
       "type": "item",
       "content": "create:track_signal",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_track_station": {
+    "create_track_station": {
       "type": "item",
       "content": "create:track_station",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_controls": {
+    "create_controls": {
       "type": "item",
       "content": "create:controls",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_track_observer": {
+    "create_track_observer": {
       "type": "item",
       "content": "create:track_observer",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_white_sail": {
+    "create_white_sail": {
       "type": "item",
       "content": "create:white_sail",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_controller_rail": {
+    "create_controller_rail": {
       "type": "item",
       "content": "create:controller_rail",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_schedule": {
+    "create_schedule": {
       "type": "item",
       "content": "create:schedule",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_harvester": {
+    "create_mechanical_harvester": {
       "type": "item",
       "content": "create:mechanical_harvester",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_mechanical_plough": {
+    "create_mechanical_plough": {
       "type": "item",
       "content": "create:mechanical_plough",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_sticker": {
+    "create_sticker": {
       "type": "item",
       "content": "create:sticker",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_cart_assembler": {
+    "create_cart_assembler": {
       "type": "item",
       "content": "create:cart_assembler",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_contraption_controls": {
+    "create_contraption_controls": {
       "type": "item",
       "content": "create:contraption_controls",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_redstone_contact": {
+    "create_redstone_contact": {
       "type": "item",
       "content": "create:redstone_contact",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_portable_storage_interface": {
+    "create_portable_storage_interface": {
       "type": "item",
       "content": "create:portable_storage_interface",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_gantry_shaft": {
+    "create_gantry_shaft": {
       "type": "item",
       "content": "create:gantry_shaft",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_hopper_minecart": {
+    "minecraft_hopper_minecart": {
       "type": "item",
       "content": "minecraft:hopper_minecart",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_minecart": {
+    "minecraft_minecart": {
       "type": "item",
       "content": "minecraft:minecart",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_activator_rail": {
+    "minecraft_activator_rail": {
       "type": "item",
       "content": "minecraft:activator_rail",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_detector_rail": {
+    "minecraft_detector_rail": {
       "type": "item",
       "content": "minecraft:detector_rail",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_powered_rail": {
+    "minecraft_powered_rail": {
       "type": "item",
       "content": "minecraft:powered_rail",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_rail": {
+    "minecraft_rail": {
       "type": "item",
       "content": "minecraft:rail",
       "amount": {
@@ -282,7 +282,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_furnace_minecart": {
+    "minecraft_furnace_minecart": {
       "type": "item",
       "content": "minecraft:furnace_minecart",
       "amount": {
@@ -291,7 +291,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_chest_minecart": {
+    "minecraft_chest_minecart": {
       "type": "item",
       "content": "minecraft:chest_minecart",
       "amount": {
@@ -300,7 +300,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_tnt_minecart": {
+    "minecraft_tnt_minecart": {
       "type": "item",
       "content": "minecraft:tnt_minecart",
       "amount": {
@@ -309,7 +309,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_chain_conveyor": {
+    "create_chain_conveyor": {
       "type": "item",
       "content": "create:chain_conveyor",
       "amount": {
@@ -318,7 +318,7 @@
       },
       "unitWorth": 1000
     },
-    "createminecraft_chain": {
+    "minecraft_chain": {
       "type": "item",
       "content": "minecraft:chain",
       "amount": {
@@ -327,7 +327,7 @@
       },
       "unitWorth": 1000
     },
-    "createcreate_white_postbox": {
+    "create_white_postbox": {
       "type": "item",
       "content": "create:white_postbox",
       "amount": {

@@ -3,7 +3,7 @@
     "sophisticatedbackpacks"
   ],
   "content": {
-    "sophisticatedbackpackssophisticatedbackpacks_backpack": {
+    "sophisticatedbackpacks_backpack": {
       "type": "item",
       "content": "sophisticatedbackpacks:backpack",
       "amount": {

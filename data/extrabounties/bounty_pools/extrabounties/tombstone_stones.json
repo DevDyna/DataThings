@@ -3,7 +3,7 @@
     "tombstone"
   ],
   "content": {
-    "tombstonetombstone_green_marble_stairs": {
+    "tombstone_green_marble_stairs": {
       "type": "item",
       "content": "tombstone:green_marble_stairs",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_blue_marble_stairs": {
+    "tombstone_blue_marble_stairs": {
       "type": "item",
       "content": "tombstone:blue_marble_stairs",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_white_marble_stairs": {
+    "tombstone_white_marble_stairs": {
       "type": "item",
       "content": "tombstone:white_marble_stairs",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_dark_marble_stairs": {
+    "tombstone_dark_marble_stairs": {
       "type": "item",
       "content": "tombstone:dark_marble_stairs",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_dark_marble_wall": {
+    "tombstone_dark_marble_wall": {
       "type": "item",
       "content": "tombstone:dark_marble_wall",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_white_marble_wall": {
+    "tombstone_white_marble_wall": {
       "type": "item",
       "content": "tombstone:white_marble_wall",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_blue_marble_wall": {
+    "tombstone_blue_marble_wall": {
       "type": "item",
       "content": "tombstone:blue_marble_wall",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_green_marble_wall": {
+    "tombstone_green_marble_wall": {
       "type": "item",
       "content": "tombstone:green_marble_wall",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_carmin_marble_wall": {
+    "tombstone_carmin_marble_wall": {
       "type": "item",
       "content": "tombstone:carmin_marble_wall",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_carmin_marble": {
+    "tombstone_carmin_marble": {
       "type": "item",
       "content": "tombstone:carmin_marble",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_green_marble": {
+    "tombstone_green_marble": {
       "type": "item",
       "content": "tombstone:green_marble",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_blue_marble": {
+    "tombstone_blue_marble": {
       "type": "item",
       "content": "tombstone:blue_marble",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_white_marble": {
+    "tombstone_white_marble": {
       "type": "item",
       "content": "tombstone:white_marble",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_dark_marble": {
+    "tombstone_dark_marble": {
       "type": "item",
       "content": "tombstone:dark_marble",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_dark_marble_slab": {
+    "tombstone_dark_marble_slab": {
       "type": "item",
       "content": "tombstone:dark_marble_slab",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_white_marble_slab": {
+    "tombstone_white_marble_slab": {
       "type": "item",
       "content": "tombstone:white_marble_slab",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_blue_marble_slab": {
+    "tombstone_blue_marble_slab": {
       "type": "item",
       "content": "tombstone:blue_marble_slab",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_green_marble_slab": {
+    "tombstone_green_marble_slab": {
       "type": "item",
       "content": "tombstone:green_marble_slab",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_carmin_marble_slab": {
+    "tombstone_carmin_marble_slab": {
       "type": "item",
       "content": "tombstone:carmin_marble_slab",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "tombstonetombstone_carmin_marble_stairs": {
+    "tombstone_carmin_marble_stairs": {
       "type": "item",
       "content": "tombstone:carmin_marble_stairs",
       "amount": {

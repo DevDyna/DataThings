@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "biomancy"
+  ],
+  "content": {
+    "biomancy_mascot_patterns": {
+      "type": "item",
+      "content": "biomancy:mascot_patterns",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_despoil_sickle": {
+      "type": "item",
+      "content": "biomancy:despoil_sickle",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_acolyte_armor_boots": {
+      "type": "item",
+      "content": "biomancy:acolyte_armor_boots",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_acolyte_armor_leggings": {
+      "type": "item",
+      "content": "biomancy:acolyte_armor_leggings",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_acolyte_armor_chestplate": {
+      "type": "item",
+      "content": "biomancy:acolyte_armor_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_acolyte_armor_helmet": {
+      "type": "item",
+      "content": "biomancy:acolyte_armor_helmet",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_thorn_shield": {
+      "type": "item",
+      "content": "biomancy:thorn_shield",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_ravenous_claws": {
+      "type": "item",
+      "content": "biomancy:ravenous_claws",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_caustic_gunblade": {
+      "type": "item",
+      "content": "biomancy:caustic_gunblade",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_injector": {
+      "type": "item",
+      "content": "biomancy:injector",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_extractor": {
+      "type": "item",
+      "content": "biomancy:extractor",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 1000
+    }
+  }
+}

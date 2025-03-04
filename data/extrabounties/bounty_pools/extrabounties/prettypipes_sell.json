@@ -3,7 +3,7 @@
     "prettypipes"
   ],
   "content": {
-    "prettypipesprettypipes_medium_speed_module": {
+    "prettypipes_medium_speed_module": {
       "type": "item",
       "content": "prettypipes:medium_speed_module",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_stack_size_module": {
+    "prettypipes_stack_size_module": {
       "type": "item",
       "content": "prettypipes:stack_size_module",
       "amount": {
@@ -21,7 +21,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_pipe": {
+    "prettypipes_pipe": {
       "type": "item",
       "content": "prettypipes:pipe",
       "amount": {
@@ -30,7 +30,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_pressurizer": {
+    "prettypipes_pressurizer": {
       "type": "item",
       "content": "prettypipes:pressurizer",
       "amount": {
@@ -39,7 +39,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_crafting_terminal": {
+    "prettypipes_crafting_terminal": {
       "type": "item",
       "content": "prettypipes:crafting_terminal",
       "amount": {
@@ -48,7 +48,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_item_terminal": {
+    "prettypipes_item_terminal": {
       "type": "item",
       "content": "prettypipes:item_terminal",
       "amount": {
@@ -57,7 +57,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_wrench": {
+    "prettypipes_wrench": {
       "type": "item",
       "content": "prettypipes:wrench",
       "amount": {
@@ -66,7 +66,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_extraction_module": {
+    "prettypipes_medium_extraction_module": {
       "type": "item",
       "content": "prettypipes:medium_extraction_module",
       "amount": {
@@ -75,7 +75,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_damage_filter_modifier": {
+    "prettypipes_damage_filter_modifier": {
       "type": "item",
       "content": "prettypipes:damage_filter_modifier",
       "amount": {
@@ -84,7 +84,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_extraction_module": {
+    "prettypipes_high_extraction_module": {
       "type": "item",
       "content": "prettypipes:high_extraction_module",
       "amount": {
@@ -93,7 +93,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_extraction_module": {
+    "prettypipes_low_extraction_module": {
       "type": "item",
       "content": "prettypipes:low_extraction_module",
       "amount": {
@@ -102,7 +102,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_filter_increase_modifier": {
+    "prettypipes_filter_increase_modifier": {
       "type": "item",
       "content": "prettypipes:filter_increase_modifier",
       "amount": {
@@ -111,7 +111,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_pipe_frame": {
+    "prettypipes_pipe_frame": {
       "type": "item",
       "content": "prettypipes:pipe_frame",
       "amount": {
@@ -120,7 +120,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_mod_filter_modifier": {
+    "prettypipes_mod_filter_modifier": {
       "type": "item",
       "content": "prettypipes:mod_filter_modifier",
       "amount": {
@@ -129,7 +129,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_high_priority_module": {
+    "prettypipes_high_high_priority_module": {
       "type": "item",
       "content": "prettypipes:high_high_priority_module",
       "amount": {
@@ -138,7 +138,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_high_priority_module": {
+    "prettypipes_medium_high_priority_module": {
       "type": "item",
       "content": "prettypipes:medium_high_priority_module",
       "amount": {
@@ -147,7 +147,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_nbt_filter_modifier": {
+    "prettypipes_nbt_filter_modifier": {
       "type": "item",
       "content": "prettypipes:nbt_filter_modifier",
       "amount": {
@@ -156,7 +156,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_high_priority_module": {
+    "prettypipes_low_high_priority_module": {
       "type": "item",
       "content": "prettypipes:low_high_priority_module",
       "amount": {
@@ -165,7 +165,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_filter_module": {
+    "prettypipes_high_filter_module": {
       "type": "item",
       "content": "prettypipes:high_filter_module",
       "amount": {
@@ -174,7 +174,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_filter_module": {
+    "prettypipes_low_filter_module": {
       "type": "item",
       "content": "prettypipes:low_filter_module",
       "amount": {
@@ -183,7 +183,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_filter_module": {
+    "prettypipes_medium_filter_module": {
       "type": "item",
       "content": "prettypipes:medium_filter_module",
       "amount": {
@@ -192,7 +192,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_random_sorting_modifier": {
+    "prettypipes_random_sorting_modifier": {
       "type": "item",
       "content": "prettypipes:random_sorting_modifier",
       "amount": {
@@ -201,7 +201,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_tag_filter_modifier": {
+    "prettypipes_tag_filter_modifier": {
       "type": "item",
       "content": "prettypipes:tag_filter_modifier",
       "amount": {
@@ -210,7 +210,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_round_robin_sorting_modifier": {
+    "prettypipes_round_robin_sorting_modifier": {
       "type": "item",
       "content": "prettypipes:round_robin_sorting_modifier",
       "amount": {
@@ -219,7 +219,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_retrieval_module": {
+    "prettypipes_medium_retrieval_module": {
       "type": "item",
       "content": "prettypipes:medium_retrieval_module",
       "amount": {
@@ -228,7 +228,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_crafting_module": {
+    "prettypipes_high_crafting_module": {
       "type": "item",
       "content": "prettypipes:high_crafting_module",
       "amount": {
@@ -237,7 +237,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_speed_module": {
+    "prettypipes_high_speed_module": {
       "type": "item",
       "content": "prettypipes:high_speed_module",
       "amount": {
@@ -246,7 +246,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_retrieval_module": {
+    "prettypipes_high_retrieval_module": {
       "type": "item",
       "content": "prettypipes:high_retrieval_module",
       "amount": {
@@ -255,7 +255,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_speed_module": {
+    "prettypipes_low_speed_module": {
       "type": "item",
       "content": "prettypipes:low_speed_module",
       "amount": {
@@ -264,7 +264,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_crafting_module": {
+    "prettypipes_medium_crafting_module": {
       "type": "item",
       "content": "prettypipes:medium_crafting_module",
       "amount": {
@@ -273,7 +273,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_crafting_module": {
+    "prettypipes_low_crafting_module": {
       "type": "item",
       "content": "prettypipes:low_crafting_module",
       "amount": {
@@ -282,7 +282,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_redstone_module": {
+    "prettypipes_redstone_module": {
       "type": "item",
       "content": "prettypipes:redstone_module",
       "amount": {
@@ -291,7 +291,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_high_low_priority_module": {
+    "prettypipes_high_low_priority_module": {
       "type": "item",
       "content": "prettypipes:high_low_priority_module",
       "amount": {
@@ -300,7 +300,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_retrieval_module": {
+    "prettypipes_low_retrieval_module": {
       "type": "item",
       "content": "prettypipes:low_retrieval_module",
       "amount": {
@@ -309,7 +309,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_medium_low_priority_module": {
+    "prettypipes_medium_low_priority_module": {
       "type": "item",
       "content": "prettypipes:medium_low_priority_module",
       "amount": {
@@ -318,7 +318,7 @@
       },
       "unitWorth": 1000
     },
-    "prettypipesprettypipes_low_low_priority_module": {
+    "prettypipes_low_low_priority_module": {
       "type": "item",
       "content": "prettypipes:low_low_priority_module",
       "amount": {

@@ -3,7 +3,7 @@
     "ppfluids"
   ],
   "content": {
-    "ppfluidsppfluids_fluid_pipe": {
+    "ppfluids_fluid_pipe": {
       "type": "item",
       "content": "ppfluids:fluid_pipe",
       "amount": {
@@ -12,7 +12,7 @@
       },
       "unitWorth": 1000
     },
-    "ppfluidsminecraft_bucket": {
+    "minecraft_bucket": {
       "type": "item",
       "content": "minecraft:bucket",
       "amount": {

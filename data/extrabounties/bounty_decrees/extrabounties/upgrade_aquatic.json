@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "upgrade_aquatic"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "upgrade_aquatic_obj",
+    "upgrade_aquatic_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "upgrade_aquatic_rew",
+    "upgrade_aquatic_any"
+  ]
+}
