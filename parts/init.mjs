@@ -14,10 +14,18 @@ export async function folders() {
 
   io.mkDir("./data/" + core.main_MODID + "/bounty_decrees");
   io.mkDir("./data/" + core.main_MODID + "/bounty_pools");
+  io.mkDir("./data/" + core.main_MODID + "/gateways");
+  io.mkDir("./data/" + core.main_MODID + "/loot_tables");
   io.mkDir("./assets/" + core.main_MODID + "/lang");
+  
+  io.mkDir("./data/" + core.main_MODID + "/gateways/small");
+  io.mkDir("./data/" + core.main_MODID + "/gateways/medium");
+  io.mkDir("./data/" + core.main_MODID + "/gateways/large");
+  io.mkDir("./data/" + core.main_MODID + "/loot_tables/entities");
 
   io.mkDir("./data/" + core.main_MODID + "/bounty_decrees/" + core.main_MODID);
   io.mkDir("./data/" + core.main_MODID + "/bounty_pools/" + core.main_MODID);
+
 }
 
 export async function basepools() {
@@ -225,3 +233,30 @@ export async function tags() {
 
   out.decor(core.ascii_decor);
 }
+
+
+import { createRequire } from "module"; // used to allow to use require("module")
+
+export function jarmaker(){
+
+  console.log("Creating jar file");
+
+    const require = createRequire(import.meta.url);
+    // can now use `require` in an ESM
+    const { exec } = require("child_process");
+  
+    exec(
+      `jar cf "ExtraBounties-universal.jar" data pack.mcmeta pack.png META-INF fabric.mod.json assets`,
+      (error, stdout, stderr) => {
+        if (error) {
+          console.error("error: " + error.message);
+          return;
+        }
+        if (stderr) {
+          console.error("stderr: " + stderr);
+          return;
+        }
+        console.log("File jar created successfully");
+      }
+    );
+};
