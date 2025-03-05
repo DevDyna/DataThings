@@ -35,11 +35,6 @@ export const mob_drop_url = bounty_pools_url + mob_drop_id + the_end;
 export const dyes = "dyes";
 export const glass_colorless = "glass_colorless";
 
-export async function decor_out(id) {
-  console.log("> " + id);
-  await delay(ms_delay);
-}
-
 export const item_pool = (item, amount, unitWorth) => ({
   type: "item",
   content: item,
@@ -57,6 +52,14 @@ export const item_pool_tag = (item, amount, unitWorth) => {
   };
 };
 
+/**
+ *
+ * @param {string} item
+ * @param {{min:number,max:number}} amount
+ * @param {number} unitWorth
+ * @param {string} nbt
+ * @returns
+ */
 export const item_pool_nbt = (item, amount, unitWorth, nbt) => ({
   type: "item",
   content: item,
@@ -79,7 +82,7 @@ export const entity_pool = (entity, amount, unitWorth) => ({
   unitWorth: unitWorth,
 });
 
-export const contentCreator = ( amount, unitWorth, list) => {
+export const contentCreator = (amount, unitWorth, list) => {
   let obj = {};
   list.forEach((e) => {
     let string_name = e.replace(":", "_");
@@ -88,10 +91,10 @@ export const contentCreator = ( amount, unitWorth, list) => {
   return obj;
 };
 
-export const contentCreatorEntities = ( amount, unitWorth, list) => {
+export const contentCreatorEntities = (amount, unitWorth, list) => {
   let obj = {};
   list.forEach((e) => {
-    let string_name =  e.replace(":", "_");
+    let string_name = e.replace(":", "_");
     obj[string_name] = entity_pool(e, amount, unitWorth);
   });
   return obj;
@@ -112,17 +115,22 @@ export const tagmaker = (itemlist) => {
  * @param {string} mod_id
  * @param {string} item
  * @param {number} unitWorth
- * @param {object} nbtlist
+ * @param {string[]} nbtlist
  * @returns
  */
-export const contentCreatorNBT = ( item, unitWorth, nbtlist) => {
+export const contentCreatorNBT = (item, unitWorth, nbtlist) => {
   let obj = {};
   nbtlist.forEach((e, i) => {
     let string_name = item.replace(":", "_") + "_" + i;
-    obj[string_name] = item_pool_nbt(item, {min:1,max:1}, unitWorth, e);
+    obj[string_name] = item_pool_nbt(item, { min: 1, max: 1 }, unitWorth, e);
   });
   return obj;
 };
 
 export const combineContent = (content1, content2) =>
   Object.assign({}, content1, content2);
+
+export const decor_out = async (id) => {
+  console.log("> " + id);
+  await delay(ms_delay);
+};
