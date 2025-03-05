@@ -16,9 +16,10 @@
           "rolls": 20
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:chests/village/village_toolsmith",
-          "rolls": 2
+          "rolls": 2,
+          "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
         }
       ],
       "max_wave_time": 1600,
@@ -65,9 +66,10 @@
           "rolls": 20
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:chests/village/village_toolsmith",
-          "rolls": 2
+          "rolls": 2,
+          "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
         }
       ],
       "max_wave_time": 1600,
@@ -114,9 +116,10 @@
           "rolls": 20
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:chests/village/village_toolsmith",
-          "rolls": 2
+          "rolls": 2,
+          "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
         }
       ],
       "max_wave_time": 1600,
@@ -163,9 +166,10 @@
           "rolls": 20
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:chests/village/village_toolsmith",
-          "rolls": 2
+          "rolls": 2,
+          "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
         }
       ],
       "max_wave_time": 2000,
@@ -212,9 +216,10 @@
           "rolls": 20
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:chests/village/village_toolsmith",
-          "rolls": 2
+          "rolls": 2,
+          "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
         }
       ],
       "max_wave_time": 2400,
@@ -228,9 +233,10 @@
       "rolls": 20
     },
     {
-      "type": "loot_table",
+      "type": "gateways:loot_table",
       "loot_table": "minecraft:chests/village/village_toolsmith",
-      "rolls": 2
+      "rolls": 2,
+      "desc": "extrabounties.loot_table.iron_golem.minecraft.chests.village.village_toolsmith"
     }
   ],
   "failures": []

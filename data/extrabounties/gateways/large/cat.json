@@ -16,9 +16,10 @@
           "rolls": 30
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/cat_morning_gift",
-          "rolls": 3
+          "rolls": 3,
+          "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
         }
       ],
       "max_wave_time": 2400,
@@ -65,9 +66,10 @@
           "rolls": 30
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/cat_morning_gift",
-          "rolls": 3
+          "rolls": 3,
+          "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
         }
       ],
       "max_wave_time": 2400,
@@ -114,9 +116,10 @@
           "rolls": 30
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/cat_morning_gift",
-          "rolls": 3
+          "rolls": 3,
+          "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
         }
       ],
       "max_wave_time": 2400,
@@ -163,9 +166,10 @@
           "rolls": 30
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/cat_morning_gift",
-          "rolls": 3
+          "rolls": 3,
+          "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
         }
       ],
       "max_wave_time": 3000,
@@ -212,9 +216,10 @@
           "rolls": 30
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/cat_morning_gift",
-          "rolls": 3
+          "rolls": 3,
+          "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
         }
       ],
       "max_wave_time": 3600,
@@ -228,9 +233,10 @@
       "rolls": 30
     },
     {
-      "type": "loot_table",
+      "type": "gateways:loot_table",
       "loot_table": "minecraft:gameplay/cat_morning_gift",
-      "rolls": 3
+      "rolls": 3,
+      "desc": "extrabounties.loot_table.cat.minecraft.gameplay.cat_morning_gift"
     }
   ],
   "failures": []

@@ -16,9 +16,10 @@
           "rolls": 10
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/piglin_bartering",
-          "rolls": 1
+          "rolls": 1,
+          "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
         }
       ],
       "max_wave_time": 800,
@@ -65,9 +66,10 @@
           "rolls": 10
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/piglin_bartering",
-          "rolls": 1
+          "rolls": 1,
+          "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
         }
       ],
       "max_wave_time": 800,
@@ -114,9 +116,10 @@
           "rolls": 10
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/piglin_bartering",
-          "rolls": 1
+          "rolls": 1,
+          "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
         }
       ],
       "max_wave_time": 800,
@@ -163,9 +166,10 @@
           "rolls": 10
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/piglin_bartering",
-          "rolls": 1
+          "rolls": 1,
+          "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
         }
       ],
       "max_wave_time": 1000,
@@ -212,9 +216,10 @@
           "rolls": 10
         },
         {
-          "type": "loot_table",
+          "type": "gateways:loot_table",
           "loot_table": "minecraft:gameplay/piglin_bartering",
-          "rolls": 1
+          "rolls": 1,
+          "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
         }
       ],
       "max_wave_time": 1200,
@@ -228,9 +233,10 @@
       "rolls": 10
     },
     {
-      "type": "loot_table",
+      "type": "gateways:loot_table",
       "loot_table": "minecraft:gameplay/piglin_bartering",
-      "rolls": 1
+      "rolls": 1,
+      "desc": "extrabounties.loot_table.piglin.minecraft.gameplay.piglin_bartering"
     }
   ],
   "failures": []
