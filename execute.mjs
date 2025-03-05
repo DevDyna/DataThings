@@ -48,6 +48,6 @@ async function main() {
   out.decor(core.ascii_decor);
   init.jarmaker();
 
-  await core.delay(core.ms_delay * 10);
+  await core.delay(core.ms_delay * 20);
   out.decor(core.ascii_decor);
 }
