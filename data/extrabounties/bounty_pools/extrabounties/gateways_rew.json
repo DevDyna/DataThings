@@ -1,0 +1,2257 @@
+{
+  "requires": [
+    "gateways"
+  ],
+  "content": {
+    "gateways_gate_pearl_0": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/allay\"}"
+    },
+    "gateways_gate_pearl_1": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/allay\"}"
+    },
+    "gateways_gate_pearl_2": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/allay\"}"
+    },
+    "gateways_gate_pearl_3": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/axolotl\"}"
+    },
+    "gateways_gate_pearl_4": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/axolotl\"}"
+    },
+    "gateways_gate_pearl_5": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/axolotl\"}"
+    },
+    "gateways_gate_pearl_6": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/bat\"}"
+    },
+    "gateways_gate_pearl_7": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/bat\"}"
+    },
+    "gateways_gate_pearl_8": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/bat\"}"
+    },
+    "gateways_gate_pearl_9": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/bee\"}"
+    },
+    "gateways_gate_pearl_10": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/bee\"}"
+    },
+    "gateways_gate_pearl_11": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/bee\"}"
+    },
+    "gateways_gate_pearl_12": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/blaze\"}"
+    },
+    "gateways_gate_pearl_13": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/blaze\"}"
+    },
+    "gateways_gate_pearl_14": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/blaze\"}"
+    },
+    "gateways_gate_pearl_15": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/camel\"}"
+    },
+    "gateways_gate_pearl_16": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/camel\"}"
+    },
+    "gateways_gate_pearl_17": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/camel\"}"
+    },
+    "gateways_gate_pearl_18": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/cat\"}"
+    },
+    "gateways_gate_pearl_19": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/cat\"}"
+    },
+    "gateways_gate_pearl_20": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/cat\"}"
+    },
+    "gateways_gate_pearl_21": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/cave_spider\"}"
+    },
+    "gateways_gate_pearl_22": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/cave_spider\"}"
+    },
+    "gateways_gate_pearl_23": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/cave_spider\"}"
+    },
+    "gateways_gate_pearl_24": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/chicken\"}"
+    },
+    "gateways_gate_pearl_25": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/chicken\"}"
+    },
+    "gateways_gate_pearl_26": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/chicken\"}"
+    },
+    "gateways_gate_pearl_27": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/cod\"}"
+    },
+    "gateways_gate_pearl_28": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/cod\"}"
+    },
+    "gateways_gate_pearl_29": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/cod\"}"
+    },
+    "gateways_gate_pearl_30": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/cow\"}"
+    },
+    "gateways_gate_pearl_31": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/cow\"}"
+    },
+    "gateways_gate_pearl_32": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/cow\"}"
+    },
+    "gateways_gate_pearl_33": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/creeper\"}"
+    },
+    "gateways_gate_pearl_34": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/creeper\"}"
+    },
+    "gateways_gate_pearl_35": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/creeper\"}"
+    },
+    "gateways_gate_pearl_36": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/dolphin\"}"
+    },
+    "gateways_gate_pearl_37": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/dolphin\"}"
+    },
+    "gateways_gate_pearl_38": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/dolphin\"}"
+    },
+    "gateways_gate_pearl_39": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/donkey\"}"
+    },
+    "gateways_gate_pearl_40": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/donkey\"}"
+    },
+    "gateways_gate_pearl_41": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/donkey\"}"
+    },
+    "gateways_gate_pearl_42": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/drowned\"}"
+    },
+    "gateways_gate_pearl_43": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/drowned\"}"
+    },
+    "gateways_gate_pearl_44": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/drowned\"}"
+    },
+    "gateways_gate_pearl_45": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/elder_guardian\"}"
+    },
+    "gateways_gate_pearl_46": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/elder_guardian\"}"
+    },
+    "gateways_gate_pearl_47": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/elder_guardian\"}"
+    },
+    "gateways_gate_pearl_48": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/enderman\"}"
+    },
+    "gateways_gate_pearl_49": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/enderman\"}"
+    },
+    "gateways_gate_pearl_50": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/enderman\"}"
+    },
+    "gateways_gate_pearl_51": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/endermite\"}"
+    },
+    "gateways_gate_pearl_52": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/endermite\"}"
+    },
+    "gateways_gate_pearl_53": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/endermite\"}"
+    },
+    "gateways_gate_pearl_54": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/evoker\"}"
+    },
+    "gateways_gate_pearl_55": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/evoker\"}"
+    },
+    "gateways_gate_pearl_56": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/evoker\"}"
+    },
+    "gateways_gate_pearl_57": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/fox\"}"
+    },
+    "gateways_gate_pearl_58": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/fox\"}"
+    },
+    "gateways_gate_pearl_59": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/fox\"}"
+    },
+    "gateways_gate_pearl_60": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/frog\"}"
+    },
+    "gateways_gate_pearl_61": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/frog\"}"
+    },
+    "gateways_gate_pearl_62": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/frog\"}"
+    },
+    "gateways_gate_pearl_63": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/ghast\"}"
+    },
+    "gateways_gate_pearl_64": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/ghast\"}"
+    },
+    "gateways_gate_pearl_65": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/ghast\"}"
+    },
+    "gateways_gate_pearl_66": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/glow_squid\"}"
+    },
+    "gateways_gate_pearl_67": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/glow_squid\"}"
+    },
+    "gateways_gate_pearl_68": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/glow_squid\"}"
+    },
+    "gateways_gate_pearl_69": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/goat\"}"
+    },
+    "gateways_gate_pearl_70": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/goat\"}"
+    },
+    "gateways_gate_pearl_71": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/goat\"}"
+    },
+    "gateways_gate_pearl_72": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/guardian\"}"
+    },
+    "gateways_gate_pearl_73": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/guardian\"}"
+    },
+    "gateways_gate_pearl_74": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/guardian\"}"
+    },
+    "gateways_gate_pearl_75": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/hoglin\"}"
+    },
+    "gateways_gate_pearl_76": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/hoglin\"}"
+    },
+    "gateways_gate_pearl_77": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/hoglin\"}"
+    },
+    "gateways_gate_pearl_78": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/horse\"}"
+    },
+    "gateways_gate_pearl_79": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/horse\"}"
+    },
+    "gateways_gate_pearl_80": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/horse\"}"
+    },
+    "gateways_gate_pearl_81": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/husk\"}"
+    },
+    "gateways_gate_pearl_82": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/husk\"}"
+    },
+    "gateways_gate_pearl_83": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/husk\"}"
+    },
+    "gateways_gate_pearl_84": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/iron_golem\"}"
+    },
+    "gateways_gate_pearl_85": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/iron_golem\"}"
+    },
+    "gateways_gate_pearl_86": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/iron_golem\"}"
+    },
+    "gateways_gate_pearl_87": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/llama\"}"
+    },
+    "gateways_gate_pearl_88": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/llama\"}"
+    },
+    "gateways_gate_pearl_89": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/llama\"}"
+    },
+    "gateways_gate_pearl_90": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/magma_cube\"}"
+    },
+    "gateways_gate_pearl_91": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/magma_cube\"}"
+    },
+    "gateways_gate_pearl_92": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/magma_cube\"}"
+    },
+    "gateways_gate_pearl_93": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/mooshroom\"}"
+    },
+    "gateways_gate_pearl_94": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/mooshroom\"}"
+    },
+    "gateways_gate_pearl_95": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/mooshroom\"}"
+    },
+    "gateways_gate_pearl_96": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/mule\"}"
+    },
+    "gateways_gate_pearl_97": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/mule\"}"
+    },
+    "gateways_gate_pearl_98": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/mule\"}"
+    },
+    "gateways_gate_pearl_99": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/ocelot\"}"
+    },
+    "gateways_gate_pearl_100": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/ocelot\"}"
+    },
+    "gateways_gate_pearl_101": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/ocelot\"}"
+    },
+    "gateways_gate_pearl_102": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/panda\"}"
+    },
+    "gateways_gate_pearl_103": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/panda\"}"
+    },
+    "gateways_gate_pearl_104": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/panda\"}"
+    },
+    "gateways_gate_pearl_105": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/parrot\"}"
+    },
+    "gateways_gate_pearl_106": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/parrot\"}"
+    },
+    "gateways_gate_pearl_107": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/parrot\"}"
+    },
+    "gateways_gate_pearl_108": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/phantom\"}"
+    },
+    "gateways_gate_pearl_109": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/phantom\"}"
+    },
+    "gateways_gate_pearl_110": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/phantom\"}"
+    },
+    "gateways_gate_pearl_111": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/pig\"}"
+    },
+    "gateways_gate_pearl_112": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/pig\"}"
+    },
+    "gateways_gate_pearl_113": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/pig\"}"
+    },
+    "gateways_gate_pearl_114": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/piglin_brute\"}"
+    },
+    "gateways_gate_pearl_115": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/piglin_brute\"}"
+    },
+    "gateways_gate_pearl_116": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/piglin_brute\"}"
+    },
+    "gateways_gate_pearl_117": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/piglin\"}"
+    },
+    "gateways_gate_pearl_118": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/piglin\"}"
+    },
+    "gateways_gate_pearl_119": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/piglin\"}"
+    },
+    "gateways_gate_pearl_120": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/pillager\"}"
+    },
+    "gateways_gate_pearl_121": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/pillager\"}"
+    },
+    "gateways_gate_pearl_122": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/pillager\"}"
+    },
+    "gateways_gate_pearl_123": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/polar_bear\"}"
+    },
+    "gateways_gate_pearl_124": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/polar_bear\"}"
+    },
+    "gateways_gate_pearl_125": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/polar_bear\"}"
+    },
+    "gateways_gate_pearl_126": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/pufferfish\"}"
+    },
+    "gateways_gate_pearl_127": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/pufferfish\"}"
+    },
+    "gateways_gate_pearl_128": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/pufferfish\"}"
+    },
+    "gateways_gate_pearl_129": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/rabbit\"}"
+    },
+    "gateways_gate_pearl_130": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/rabbit\"}"
+    },
+    "gateways_gate_pearl_131": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/rabbit\"}"
+    },
+    "gateways_gate_pearl_132": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/ravager\"}"
+    },
+    "gateways_gate_pearl_133": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/ravager\"}"
+    },
+    "gateways_gate_pearl_134": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/ravager\"}"
+    },
+    "gateways_gate_pearl_135": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/salmon\"}"
+    },
+    "gateways_gate_pearl_136": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/salmon\"}"
+    },
+    "gateways_gate_pearl_137": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/salmon\"}"
+    },
+    "gateways_gate_pearl_138": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/sheep\"}"
+    },
+    "gateways_gate_pearl_139": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/sheep\"}"
+    },
+    "gateways_gate_pearl_140": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/sheep\"}"
+    },
+    "gateways_gate_pearl_141": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/shulker\"}"
+    },
+    "gateways_gate_pearl_142": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/shulker\"}"
+    },
+    "gateways_gate_pearl_143": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/shulker\"}"
+    },
+    "gateways_gate_pearl_144": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/silverfish\"}"
+    },
+    "gateways_gate_pearl_145": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/silverfish\"}"
+    },
+    "gateways_gate_pearl_146": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/silverfish\"}"
+    },
+    "gateways_gate_pearl_147": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/skeleton_horse\"}"
+    },
+    "gateways_gate_pearl_148": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/skeleton_horse\"}"
+    },
+    "gateways_gate_pearl_149": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/skeleton_horse\"}"
+    },
+    "gateways_gate_pearl_150": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/skeleton\"}"
+    },
+    "gateways_gate_pearl_151": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/skeleton\"}"
+    },
+    "gateways_gate_pearl_152": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/skeleton\"}"
+    },
+    "gateways_gate_pearl_153": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/slime\"}"
+    },
+    "gateways_gate_pearl_154": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/slime\"}"
+    },
+    "gateways_gate_pearl_155": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/slime\"}"
+    },
+    "gateways_gate_pearl_156": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/sniffer\"}"
+    },
+    "gateways_gate_pearl_157": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/sniffer\"}"
+    },
+    "gateways_gate_pearl_158": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/sniffer\"}"
+    },
+    "gateways_gate_pearl_159": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/snow_golem\"}"
+    },
+    "gateways_gate_pearl_160": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/snow_golem\"}"
+    },
+    "gateways_gate_pearl_161": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/snow_golem\"}"
+    },
+    "gateways_gate_pearl_162": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/spider\"}"
+    },
+    "gateways_gate_pearl_163": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/spider\"}"
+    },
+    "gateways_gate_pearl_164": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/spider\"}"
+    },
+    "gateways_gate_pearl_165": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/squid\"}"
+    },
+    "gateways_gate_pearl_166": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/squid\"}"
+    },
+    "gateways_gate_pearl_167": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/squid\"}"
+    },
+    "gateways_gate_pearl_168": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/stray\"}"
+    },
+    "gateways_gate_pearl_169": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/stray\"}"
+    },
+    "gateways_gate_pearl_170": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/stray\"}"
+    },
+    "gateways_gate_pearl_171": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/strider\"}"
+    },
+    "gateways_gate_pearl_172": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/strider\"}"
+    },
+    "gateways_gate_pearl_173": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/strider\"}"
+    },
+    "gateways_gate_pearl_174": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/tadpole\"}"
+    },
+    "gateways_gate_pearl_175": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/tadpole\"}"
+    },
+    "gateways_gate_pearl_176": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/tadpole\"}"
+    },
+    "gateways_gate_pearl_177": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/trader_llama\"}"
+    },
+    "gateways_gate_pearl_178": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/trader_llama\"}"
+    },
+    "gateways_gate_pearl_179": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/trader_llama\"}"
+    },
+    "gateways_gate_pearl_180": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/tropical_fish\"}"
+    },
+    "gateways_gate_pearl_181": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/tropical_fish\"}"
+    },
+    "gateways_gate_pearl_182": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/tropical_fish\"}"
+    },
+    "gateways_gate_pearl_183": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/turtle\"}"
+    },
+    "gateways_gate_pearl_184": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/turtle\"}"
+    },
+    "gateways_gate_pearl_185": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/turtle\"}"
+    },
+    "gateways_gate_pearl_186": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/vex\"}"
+    },
+    "gateways_gate_pearl_187": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/vex\"}"
+    },
+    "gateways_gate_pearl_188": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/vex\"}"
+    },
+    "gateways_gate_pearl_189": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/villager\"}"
+    },
+    "gateways_gate_pearl_190": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/villager\"}"
+    },
+    "gateways_gate_pearl_191": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/villager\"}"
+    },
+    "gateways_gate_pearl_192": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/vindicator\"}"
+    },
+    "gateways_gate_pearl_193": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/vindicator\"}"
+    },
+    "gateways_gate_pearl_194": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/vindicator\"}"
+    },
+    "gateways_gate_pearl_195": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/wandering_trader\"}"
+    },
+    "gateways_gate_pearl_196": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/wandering_trader\"}"
+    },
+    "gateways_gate_pearl_197": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/wandering_trader\"}"
+    },
+    "gateways_gate_pearl_198": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/warden\"}"
+    },
+    "gateways_gate_pearl_199": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/warden\"}"
+    },
+    "gateways_gate_pearl_200": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/warden\"}"
+    },
+    "gateways_gate_pearl_201": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/witch\"}"
+    },
+    "gateways_gate_pearl_202": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/witch\"}"
+    },
+    "gateways_gate_pearl_203": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/witch\"}"
+    },
+    "gateways_gate_pearl_204": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/wither_skeleton\"}"
+    },
+    "gateways_gate_pearl_205": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/wither_skeleton\"}"
+    },
+    "gateways_gate_pearl_206": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/wither_skeleton\"}"
+    },
+    "gateways_gate_pearl_207": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/wolf\"}"
+    },
+    "gateways_gate_pearl_208": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/wolf\"}"
+    },
+    "gateways_gate_pearl_209": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/wolf\"}"
+    },
+    "gateways_gate_pearl_210": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/zoglin\"}"
+    },
+    "gateways_gate_pearl_211": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/zoglin\"}"
+    },
+    "gateways_gate_pearl_212": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/zoglin\"}"
+    },
+    "gateways_gate_pearl_213": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/zombie_horse\"}"
+    },
+    "gateways_gate_pearl_214": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/zombie_horse\"}"
+    },
+    "gateways_gate_pearl_215": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/zombie_horse\"}"
+    },
+    "gateways_gate_pearl_216": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/zombie\"}"
+    },
+    "gateways_gate_pearl_217": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/zombie\"}"
+    },
+    "gateways_gate_pearl_218": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/zombie\"}"
+    },
+    "gateways_gate_pearl_219": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/zombie_villager\"}"
+    },
+    "gateways_gate_pearl_220": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/zombie_villager\"}"
+    },
+    "gateways_gate_pearl_221": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/zombie_villager\"}"
+    },
+    "gateways_gate_pearl_222": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:small/zombified_piglin\"}"
+    },
+    "gateways_gate_pearl_223": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:medium/zombified_piglin\"}"
+    },
+    "gateways_gate_pearl_224": {
+      "type": "item",
+      "content": "gateways:gate_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{gateway:\"extrabounties:large/zombified_piglin\"}"
+    }
+  }
+}

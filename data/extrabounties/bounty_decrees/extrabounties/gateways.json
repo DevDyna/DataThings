@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "gateways"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "rarities"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "gateways_rew"
+  ]
+}
