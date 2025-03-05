@@ -18,6 +18,7 @@ import * as endg from "./compat/endergetic.mjs";
 import * as envt from "./compat/environmental.mjs";
 import * as fade from "./compat/farmerdelight.mjs";
 import * as gadi from "./compat/gamediscs.mjs";
+import * as gate from "./compat/gateways.mjs";
 import * as invp from "./compat/inventorypets.mjs";
 import * as irch from "./compat/ironchest.mjs";
 import * as irfu from "./compat/ironfurnace.mjs";
@@ -85,6 +86,7 @@ const mod_ids = [
   quak.modid,
   tcon.modid_gadgets,
   tcon.modid_smelt,
+  gate.modid,
 ];
 
 const displayNames = [
@@ -132,6 +134,7 @@ const displayNames = [
   "Mojang Backport",
   "InfiTools Pickaze",
   "InfiTools Furnace",
+  "Doom : The revenge"
 ];
 
 export const extralang_key = [];
@@ -159,7 +162,8 @@ export function makelang() {
   console.log("Lang completed");
 }
 
-export function cloneTraslations() {
+export async function cloneTraslations() {
+  
   io.getAllFromDir(core.lang_traslation).forEach((file) => {
     io.moveFile(core.lang_traslation + file, core.bounty_lang + file);
   });

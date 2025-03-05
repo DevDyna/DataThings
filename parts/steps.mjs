@@ -1,5 +1,6 @@
 import * as core from "./core.mjs";
 import * as init from "./init.mjs";
+import * as loot from "./loottables.mjs";
 
 import * as alec from "./compat/alexcaves.mjs";
 import * as alem from "./compat/alexsmobs.mjs";
@@ -18,6 +19,7 @@ import * as endg from "./compat/endergetic.mjs";
 import * as envt from "./compat/environmental.mjs";
 import * as fade from "./compat/farmerdelight.mjs";
 import * as gadi from "./compat/gamediscs.mjs";
+import * as gate from "./compat/gateways.mjs";
 import * as invp from "./compat/inventorypets.mjs";
 import * as irch from "./compat/ironchest.mjs";
 import * as irfu from "./compat/ironfurnace.mjs";
@@ -134,6 +136,9 @@ export async function pools() {
 
   await core.delay(core.ms_delay);
   envt.pools();
+
+  await core.delay(core.ms_delay);
+  gate.pools();
 
   await core.delay(core.ms_delay);
   invp.pools();
@@ -254,6 +259,9 @@ export async function decrees() {
   envt.decree();
 
   await core.delay(core.ms_delay);
+  gate.decree();
+
+  await core.delay(core.ms_delay);
   invp.decree();
 
   await core.delay(core.ms_delay);
@@ -278,4 +286,19 @@ export async function decrees() {
   vmin.decree();
 
   await core.delay(core.ms_delay * 7);
+}
+
+export async function gateways() {
+  console.log("Gateways Generation");
+  gate.makeGateways();
+  await core.delay(core.ms_delay*2);
+  console.log("Gateways Generation completed");
+}
+
+
+export async function loot_tables() {
+  console.log("LootTable Generation");
+  loot.makeLootTables();
+  await core.delay(core.ms_delay*2);
+  console.log("LootTable Generation completed");
 }
