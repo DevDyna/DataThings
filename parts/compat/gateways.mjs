@@ -1,5 +1,6 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
+import * as lang from "../lang.mjs";
 
 export const modid = "gateways";
 export const modid_rew = modid + "_rew";
@@ -542,13 +543,30 @@ export async function makeGateways() {
             rolls: (difficulty + 1) * mb.multiply[ri],
           });
         } else {
+          lang.gate_loot_key.push(core.main_MODID+".loot_table."+mb.id+"."+r.replace(/[:/]/g, "."));
+
           rewards.push({
-            type: "loot_table",
+            type: "gateways:loot_table",
             loot_table: r,
             rolls: (difficulty + 1) * mb.multiply[ri],
+            desc:
+               core.main_MODID + ".loot_table." + mb.id + "." + r.replace(/[:/]/g, "."),
           });
         }
       });
+
+      lang.gate_pearl_key.push(core.main_MODID+"."+size+"/"+mb.id);
+
+
+      /**
+ * 
+ * "type": "gateways:loot_table",
+            "loot_table": "minecraft:chests/simple_dungeon",
+            "rolls": 10,
+            "desc": "rewards.gateways.loot_table.simple_dungeon"
+ * 
+ * 
+ */
 
       io.mkFile(
         "./data/" +
