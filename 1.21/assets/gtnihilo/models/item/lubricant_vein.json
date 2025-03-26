@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:item_layers",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/dull/gem",
+    "layer1": "gtceu:item/material_sets/dull/dust_pure_overlay"
+  },
+  "neoforge_data": {
+    "layers": {
+      "0": {
+        "color": 4293348412
+      }
+    }
+  }
+}
