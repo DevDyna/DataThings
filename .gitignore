@@ -13,3 +13,5 @@ README.txt
 /server_scripts
 *.jar
 *.zip
+assets/extrabounties/lang/*
+!assets/extrabounties/lang/en_us.json
