@@ -1,0 +1,5 @@
+*.jar
+desktop.ini
+tags/*
+data/*
+/data
