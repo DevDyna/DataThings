@@ -1,0 +1,4 @@
+*.jar
+tags/*
+data/*
+/data
