@@ -1,6 +1,5 @@
 *.jar
 desktop.ini
 tags/*
-!_example.json
-recipes/*
-data/chipped_express/recipe/stonecutting_modname_idchain_from_topname.json
+data/*
+/data
