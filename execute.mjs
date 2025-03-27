@@ -4,6 +4,10 @@ import { createRequire } from "module"; // used to allow to use require("module"
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 //await delay(1000) /// waiting 1 second.	///only if async enable
 
+
+//true -> generate dev recipes | false -> ignore dev recipes
+const DEV_ENVIRONMENT = false;
+
 main();
 
 async function main() {
@@ -23,6 +27,8 @@ async function main() {
       ? (totfile.splice(list, 1), blackfound++)
       : null;
   });
+
+  if (!DEV_ENVIRONMENT) totfile = totfile.filter((item) => item !== "_example.json");
 
   await delay(500);
   //generate blacklisted output
@@ -56,23 +62,21 @@ async function main() {
    * @param {{id:string}} output
    */
   let createFileRecipe = (input, output) => {
-    let string_input = input.item != null ? input.item : input.tag;
+    let string_input = "" + (input.item != undefined ? input.item : input.tag);
 
-    console.log(string_input + " -> " + output.id);
-    console.log(
-      io.mkFile(
-        "./data/chipped_express/recipe/stonecutting_" +
-          output.id.replace(/[:\s]/g, "_") +
-          "_from_" +
-          string_input +
-          ".json",
-        JSON.stringify({
-          type: "minecraft:stonecutting",
-          count: 1,
-          ingredient: input,
-          result: output,
-        })
-      )
+    console.log((input.item != undefined ? "item" : "tag")+" ->" + string_input);
+    io.mkFile(
+      "./data/chipped_express/recipe/stonecutting_" +
+        output.id.replace(/[:\s]/g, "_") +
+        "_from_" +
+        string_input.replace(/[:\s]/g, "_") +
+        ".json",
+      JSON.stringify({
+        type: "minecraft:stonecutting",
+        count: 1,
+        ingredient: input,
+        result: output,
+      })
     );
   };
 
@@ -91,8 +95,12 @@ async function main() {
     console.log(origin);
     //foreach tag entries generate recipes
     ar.forEach((result) => {
+      console.log("|--------------------|" + result + "|--------------------|");
       createFileRecipe({ item: "minecraft:" + origin }, { id: result });
-      createFileRecipe({ tag: "chipped:" + tag }, { id: result });
+      createFileRecipe(
+        { tag: "chipped:" + tag.replace(/\.json$/, "") },
+        { id: result }
+      );
     });
   });
 
@@ -112,10 +120,6 @@ async function main() {
       console.log("File jar created successfully");
     }
   );
-
-  await delay(10 * 1000);
-
-  console.log("THE END, GO AWAY!");
   /* logo mod o.O
         inside the code 0.o
         console.log({
