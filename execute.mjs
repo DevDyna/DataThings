@@ -12,8 +12,10 @@ async function main() {
   const { exec } = require("child_process");
 
   console.log("Reading file on folder");
+  //get array of files
   let totfile = io.getAllFromDir("./tags/");
 
+  //check if include blacklisted
   let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
   let blackfound = 0;
   blacklist.forEach((list) => {
@@ -23,6 +25,7 @@ async function main() {
   });
 
   await delay(500);
+  //generate blacklisted output
   let bads = "";
   if (blackfound > 0) {
     bads = `and ${blackfound} ignored files`;
@@ -38,7 +41,7 @@ async function main() {
     "data/chipped_express/",
     "data/chipped_express/recipe/",
   ];
-
+  //create subdirectories
   URLdir.forEach((e) => {
     if (io.mkDir(e)) {
       console.log("Directory /" + e + " created");
@@ -47,6 +50,33 @@ async function main() {
     }
   });
 
+  /**
+   *  create a json stonecutter recipe
+   * @param {{item:string}|{tag:string}} input
+   * @param {{id:string}} output
+   */
+  let createFileRecipe = (input, output) => {
+    let string_input = input.item != null ? input.item : input.tag;
+
+    console.log(string_input + " -> " + output.id);
+    console.log(
+      io.mkFile(
+        "./data/chipped_express/recipe/stonecutting_" +
+          output.id.replace(/[:\s]/g, "_") +
+          "_from_" +
+          string_input +
+          ".json",
+        JSON.stringify({
+          type: "minecraft:stonecutting",
+          count: 1,
+          ingredient: input,
+          result: output,
+        })
+      )
+    );
+  };
+
+  //foreach tags
   totfile.forEach((tag) => {
     //console.log(`Reading file :${tag}`)
     let ar = io.JsonArray(`tags/${tag}`).values;
@@ -59,34 +89,15 @@ async function main() {
       return;
     }
     console.log(origin);
-
+    //foreach tag entries generate recipes
     ar.forEach((result) => {
-      let jsonfile = {
-        type: "minecraft:stonecutting",
-        count: 1,
-        ingredient: {
-          item: "minecraft:" + origin,
-        },
-        result: {
-          id: result,
-        },
-      };
-      console.log(jsonfile);
-      console.log(
-        io.mkFile(
-          "./data/chipped_express/recipe/stonecutting_" +
-            result.replace(/[:\s]/g, "_") +
-            "_from_" +
-            origin +
-            ".json",
-          JSON.stringify(jsonfile)
-        )
-      );
+      createFileRecipe({ item: "minecraft:" + origin }, { id: result });
+      createFileRecipe({ tag: "chipped:" + tag }, { id: result });
     });
   });
 
   console.log("Creating jar file , it will take a few of seconds");
-
+  //jar creation
   exec(
     `jar cf "ChippedExpress-universal.jar" data META-INF pack.mcmeta pack.png fabric.mod.json`,
     (error, stdout, stderr) => {
@@ -102,10 +113,11 @@ async function main() {
     }
   );
 
-  await delay(10*1000);
+  await delay(10 * 1000);
 
   console.log("THE END, GO AWAY!");
   /* logo mod o.O
+        inside the code 0.o
         console.log({
         "values": [{
         "type": "devdyna:addon",
