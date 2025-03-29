@@ -1,4 +1,4 @@
-import * as io from "./methods/io.mjs";
+import * as io from "../methods/io.mjs";
 import { createRequire } from "module"; // used to allow to use require("module")
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -16,7 +16,7 @@ async function main() {
 
   console.log("Reading file on folder");
   //get array of files
-  let totfile = io.getAllFromDir("./tags/");
+  let totfile = io.getAllFromDir("../tags/");
 
   //check if include blacklisted
   let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
@@ -86,20 +86,20 @@ async function main() {
   //foreach tags
   totfile.forEach((tag) => {
     //console.log(`Reading file :${tag}`)
-    let ar = io.JsonArray(`tags/${tag}`).values;
+    let ar = io.JsonArray(`../tags/${tag}`).values;
     let origin = ar[0];
-    ar.shift();
+    // ar.shift();
     if (
       origin == "chipped:big_lantern" ||
       origin == "chipped:big_soul_lantern"
     ) {
       return;
     }
-    console.log(origin);
+    // console.log(origin);
     //foreach tag entries generate recipes
     ar.forEach((result) => {
       console.log("|--------------------|" + result + "|--------------------|");
-      createFileRecipe({ item: "minecraft:" + origin }, result);
+      // createFileRecipe({ item: "minecraft:" + origin }, result);
       createFileRecipe(
         { tag: "chipped:" + tag.replace(/\.json$/, "") },
         result
@@ -110,7 +110,7 @@ async function main() {
   console.log("Creating jar file , it will take a few of seconds");
   //jar creation
   exec(
-    `jar cf "ChippedExpress-universal.jar" data META-INF pack.mcmeta pack.png fabric.mod.json`,
+    `jar cf "ChippedExpress-universal.jar" data ../META-INF ../pack.mcmeta ../pack.png ../fabric.mod.json`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("error: " + error.message);
