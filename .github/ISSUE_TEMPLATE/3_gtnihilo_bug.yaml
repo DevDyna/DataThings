@@ -1,0 +1,44 @@
+name: 🐞 GT-Nihilo Bug Report
+description: Have you found a bug ? Squash it!
+labels: [bug, need support, gt-nihilo]
+assignees: DevDyna
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Core Section
+      description: Biip Boop , Something happen !
+      options:
+        - label: I have searched on opened issues of this repository
+          required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Blup Blup , We are on deep !
+      options:
+        - Singleplayer/Local | NO LAN
+        - Multiplayer        | LAN
+        - Multiplayer        | Dedicated server
+    validations:
+      required: true
+          
+  - type: input
+    id: text-box
+    attributes:
+      label: Mod-loader Version
+      placeholder: forge-1.0
+      description: 
+    validations:
+      required: true
+          
+          
+  - type: textarea
+    id: other
+    attributes:
+      label: Description
+      description: description with image
+      placeholder: ln x- ln y
+    validations:
+      required: true
