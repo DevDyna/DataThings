@@ -4,7 +4,8 @@ export const modid = "powah";
 export const powah_obj = modid + "_buy";
 export const powah_rew = modid + "_sell";
 
-
+export const langkeys = [modid];
+export const displayname = ["Let's me power in!"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
