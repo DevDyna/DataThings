@@ -6,7 +6,8 @@ export const tb_stones = modid + "_stones";
 export const tb_sell = modid + "_sell";
 export const tb_entities = modid + "_entities";
 
-
+export const langkeys = [modid];
+export const displayname = ["The Darkside of Bounties"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
