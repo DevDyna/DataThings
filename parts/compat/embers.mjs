@@ -1,7 +1,7 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const modid = "modid";
+export const modid = "embers";
 export const modid_rew = modid + "_rew";
 export const modid_any = modid + "_any";
 
