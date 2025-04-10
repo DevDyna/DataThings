@@ -4,7 +4,8 @@ export const modid = "modularrouters";
 export const router_card = modid + "_card";
 export const router_module = modid + "_module";
 
-
+export const langkeys = [modid];
+export const displayname = ["Service 3000"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
