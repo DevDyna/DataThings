@@ -5,7 +5,8 @@ export const soph_st_base = modid + "_base";
 export const soph_st_upg = modid + "_upgrade";
 export const soph_st_oth = modid + "_other";
 
-
+export const langkeys = [modid];
+export const displayname = ["Better Storage"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
