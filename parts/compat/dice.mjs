@@ -4,6 +4,9 @@ import * as core from "../core.mjs";
 export const modid = "dice";
 export const modid_any = modid + "_any";
 
+export const langkeys = [modid];
+export const displayname = ["U+1F3B2"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
