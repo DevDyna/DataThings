@@ -10,41 +10,91 @@ export const create_fluid = modid + "_fluid";
 export const create_motion = modid + "_motion";
 export const create_other = modid + "_other";
 
-
+export const langkeys = [
+  create_craft,
+  create_fluid,
+  create_gen,
+  create_logistic,
+  create_motion,
+  create_other,
+];
+export const displayname = [
+  "Create : Processing",
+  "Create : Fluid",
+  "Create : Generation",
+  "Create : Logistic",
+  "Create : Motion",
+  "Create : Base",
+];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + create_craft + core.the_end, {
     requires: [modid],
-    objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
+    objectives: [
+      core.treasures_id,
+      core.resources_id,
+      create_core,
+      create_baselogic,
+    ],
     rewards: [core.decree_id, core.rarities_id, create_craft],
   });
   core.decor_out(create_craft);
 
   io.mkFile(core.bounty_decrees_url + create_fluid + core.the_end, {
     requires: [modid],
-    objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
+    objectives: [
+      core.treasures_id,
+      core.resources_id,
+      create_core,
+      create_baselogic,
+    ],
     rewards: [core.decree_id, core.rarities_id, create_fluid],
   });
   core.decor_out(create_fluid);
 
   io.mkFile(core.bounty_decrees_url + create_gen + core.the_end, {
     requires: [modid],
-    objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
+    objectives: [
+      core.treasures_id,
+      core.resources_id,
+      create_core,
+      create_baselogic,
+    ],
     rewards: [core.decree_id, core.rarities_id, create_gen],
   });
   core.decor_out(create_gen);
 
   io.mkFile(core.bounty_decrees_url + create_logistic + core.the_end, {
     requires: [modid],
-    objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
-    rewards: [core.decree_id, core.rarities_id, create_logistic, create_baselogic],
+    objectives: [
+      core.treasures_id,
+      core.resources_id,
+      create_core,
+      create_baselogic,
+    ],
+    rewards: [
+      core.decree_id,
+      core.rarities_id,
+      create_logistic,
+      create_baselogic,
+    ],
   });
   core.decor_out(create_logistic);
 
   io.mkFile(core.bounty_decrees_url + create_motion + core.the_end, {
     requires: [modid],
-    objectives: [core.treasures_id, core.resources_id, create_core, create_baselogic],
-    rewards: [core.decree_id, core.rarities_id, create_motion, create_baselogic],
+    objectives: [
+      core.treasures_id,
+      core.resources_id,
+      create_core,
+      create_baselogic,
+    ],
+    rewards: [
+      core.decree_id,
+      core.rarities_id,
+      create_motion,
+      create_baselogic,
+    ],
   });
   core.decor_out(create_motion);
 
@@ -71,7 +121,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + create_core + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:andesite_alloy",
       "create:zinc_ingot",
       "create:brass_ingot",
@@ -111,7 +161,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_baselogic + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:speedometer",
       "create:stressometer",
       "create:adjustable_chain_gearshift",
@@ -131,7 +181,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_logistic + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:weighted_ejector",
       "create:display_board",
       "create:chute",
@@ -170,7 +220,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_gen + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:water_wheel",
       "create:large_water_wheel",
       "create:steam_whistle",
@@ -185,7 +235,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_craft + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:encased_fan",
       "create:crushing_wheel",
       "create:basin",
@@ -203,7 +253,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_fluid + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:fluid_valve",
       "create:hose_pulley",
       "create:fluid_tank",
@@ -222,7 +272,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_motion + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:rope_pulley",
       "create:elevator_pulley",
       "create:mechanical_bearing",
@@ -266,7 +316,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + create_other + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 1 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "create:blaze_cake",
       "create:goggles",
       "create:blaze_cake_base",
