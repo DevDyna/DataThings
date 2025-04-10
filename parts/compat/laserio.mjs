@@ -4,7 +4,8 @@ export const modid = "laserio";
 export const laserio_cards = modid + "_sell";
 export const laserio_chip = modid + "_buy";
 
-
+export const langkeys = [modid];
+export const displayname = ["Lazer20"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
