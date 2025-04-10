@@ -18,7 +18,7 @@ A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods
 
 
 <details>
-  <summary><strong>Contributors (Mod support)</strong></summary>
+  <summary><strong>Contributors (Mod compatibility)</strong></summary>
 
 <br>
    
