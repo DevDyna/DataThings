@@ -1,7 +1,11 @@
 # Extra Bounties mod
 A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods/bountiful) to make compatible with other mods
 
-## Contributors (Traslations)
+
+
+<details>
+   <summary><strong>Contributors (Traslations)</strong></summary>
+<br>
 *This is a simple guide on how to add a traslation*
 
 - Fork this repository
@@ -10,26 +14,32 @@ A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods
 - Create a pull-request
 
 **Note**: [/assets/extrabounties/lang](https://github.com/DevDyna/DataThings/tree/Extra-Bounties/assets/extrabounties/lang) isn't safe to add new traslations!
+</details>
 
-## Contributors (Mod support)
-*This is a simple guide on how to add a small compatibility on other mods , it require that you know JavaScript!*
+
+<details>
+  <summary><strong>Contributors (Mod support)</strong></summary>
+
+<br>
+   
+*This is a simple guide on how to add a small compatibility with other mods , it require that you know JavaScript!*
 
 Note to understand the logic behind:
    -  obj -> objective -> what the player give to obtain a reward
    -  rew -> reward -> what the player recieve by completing an objective
    -  any -> objective & reward -> what the player can give to obtain or can recieve
 
-How it work
-- It take all lists of items , *process it* , generate the decrees based on modid name and generate all the assets
+## How it work
+It take all lists of items , *process it* , generate the decrees based on modid name and generate all the assets
 
-Standards on creation of a compatibility:
+
+## Standards on creation of a compatibility
    -  require as minimal a reward pool with mod items inside
    -  objectives can be optional -> some mods dont have enough content so *rewards takes precedence*
    -  any (obj+rew) can be optional -> same as objectives
    -  objective items dont require specific NBT data
 
-
-How to create a compatibility:
+## How to create a compatibility
 - You found/know a mod that could fit on compatibilty and you have some cool ideas to do it
 - Fork this repository
 - Go to [parts/compat/_demo.mjs](https://github.com/DevDyna/DataThings/blob/Extra-Bounties/parts/compat/_demo.mjs) and copy it
@@ -57,3 +67,5 @@ Note 2: ItemTags , Entity kill , everything that aren't described and bountiful 
   Note : If it result "AIR" as item or after opened it crash your game , there is something broken on what you have done!
 
 - Create a pull-request
+
+</details>
