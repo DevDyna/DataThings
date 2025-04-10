@@ -4,7 +4,8 @@ export const modid = "reliquary";
 export const reliquary_drop = modid + "_trade";
 export const reliquary_rew = modid + "_sell";
 
-
+export const langkeys = [modid];
+export const displayname = ["ProjectE Confirmed"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
