@@ -6,6 +6,9 @@ export const modid_obj = modid + "_obj";
 export const modid_rew = modid + "_rew";
 export const modid_any = modid + "_any";
 
+export const langkeys = [modid];
+export const displayname = ["I like corals!"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
