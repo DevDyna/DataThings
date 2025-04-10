@@ -16,9 +16,8 @@ A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods
 **Note**: [/assets/extrabounties/lang](https://github.com/DevDyna/DataThings/tree/Extra-Bounties/assets/extrabounties/lang) isn't safe to add new traslations!
 </details>
 
-
 <details>
-  <summary><strong>Contributors (Mod compatibility)</strong></summary>
+  <summary><strong>Contributors (Mod compatibility) Currently BROKEN</strong></summary>
 
 <br>
    
