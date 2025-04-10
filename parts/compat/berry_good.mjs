@@ -6,6 +6,9 @@ export const modid = "berry_good";
 export const modid_rew = modid + "_rew";
 export const modid_any = modid + "_any";
 
+export const langkeys = [modid];
+export const displayname = ["Tails approved"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
