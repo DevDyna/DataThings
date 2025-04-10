@@ -4,7 +4,8 @@ export const modid = "ironchest";
 export const iron_chest_rew = modid + "_sell";
 export const iron_chest_obj = modid + "_buy";
 
-
+export const langkeys = [modid];
+export const displayname = ["Metal Chests"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
