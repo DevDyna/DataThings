@@ -6,6 +6,9 @@ export const modid = "atmospheric";
 export const modid_rew = modid + "_rew";
 export const modid_any = modid + "_any";
 
+export const langkeys = [modid];
+export const displayname = ["Encyclopedia of the four seasons"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
