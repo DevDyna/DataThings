@@ -27,10 +27,23 @@ export const treasures_id = "treasures";
 export const resources_id = "resources";
 export const rarities_id = "rarities";
 export const mob_drop_id = "mob_drop";
+
+export const explorer_id = "explorer";
+export const trims_id = "trims";
+export const pottery_id = "pottery";
+export const discs_id = "discs";
+export const enchants_id = "enchants";
+
 export const treasures_url = bounty_pools_url + treasures_id + the_end;
 export const resources_url = bounty_pools_url + resources_id + the_end;
 export const rarities_url = bounty_pools_url + rarities_id + the_end;
 export const mob_drop_url = bounty_pools_url + mob_drop_id + the_end;
+
+export const explorer_url = bounty_pools_url + explorer_id + the_end;
+export const trims_url = bounty_pools_url + trims_id + the_end;
+export const pottery_url = bounty_pools_url + pottery_id + the_end;
+export const discs_url = bounty_pools_url + discs_id + the_end;
+export const enchants_url = bounty_pools_url + enchants_id + the_end;
 
 export const dyes = "dyes";
 export const glass_colorless = "glass_colorless";
@@ -83,11 +96,11 @@ export const entity_pool = (entity, amount, unitWorth) => ({
 });
 
 /**
- * 
- * @param {{min:number,max:number}} amount 
- * @param {number} unitWorth 
+ *
+ * @param {{min:number,max:number}} amount
+ * @param {number} unitWorth
  * @param {[...Items]} list item ids
- * @returns 
+ * @returns
  */
 export const contentCreator = (amount, unitWorth, list) => {
   let obj = {};
@@ -141,3 +154,5 @@ export const decor_out = async (id) => {
   console.log("> " + id);
   await delay(ms_delay);
 };
+
+
