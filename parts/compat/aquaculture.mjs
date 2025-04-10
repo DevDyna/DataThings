@@ -4,6 +4,9 @@ export const modid = "aquaculture";
 export const aquaculture_obj = modid + "_sell";
 export const aquaculture_rew = modid + "_buy";
 
+export const langkeys = [modid];
+export const displayname = ["Gone Fishing"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
