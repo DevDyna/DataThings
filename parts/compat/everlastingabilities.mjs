@@ -4,6 +4,9 @@ import * as core from "../core.mjs";
 export const modid = "everlastingabilities";
 export const modid_rew = modid + "_rew";
 
+export const langkeys = [modid];
+export const displayname = ["I want this, thanks"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
