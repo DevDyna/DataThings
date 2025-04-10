@@ -18,7 +18,7 @@ export async function decree() {
 export async function pools() {
   io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 4 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 4 }, 1000, [
       "alexsmobs:unsettling_kimono",
       "alexsmobs:stink_ray",
       "alexsmobs:music_disc_thime",
@@ -81,7 +81,7 @@ export async function pools() {
 
   io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 8 }, 1000, [
+    content: core.contentCreator({ min: 1, max: 8 }, 1000, [
       "alexsmobs:dropbear_claw",
       "alexsmobs:fish_bones",
       "alexsmobs:flying_fish",
