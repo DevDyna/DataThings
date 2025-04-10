@@ -48,15 +48,6 @@
       },
       "unitWorth": 1000
     },
-    "dimdoors_item_ag_dim_modid_quartz_door": {
-      "type": "item",
-      "content": "dimdoors:item_ag_dim_modid_quartz_door",
-      "amount": {
-        "min": 1,
-        "max": 1
-      },
-      "unitWorth": 1000
-    },
     "dimdoors_item_ag_dim_minecraft_oak_door": {
       "type": "item",
       "content": "dimdoors:item_ag_dim_minecraft_oak_door",
@@ -75,9 +66,18 @@
       },
       "unitWorth": 1000
     },
-    "dimdoors_item_ag_dim_modid_gold_door": {
+    "dimdoors_item_ag_dim_dimdoors_gold_door": {
       "type": "item",
-      "content": "dimdoors:item_ag_dim_modid_gold_door",
+      "content": "dimdoors:item_ag_dim_dimdoors_gold_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_item_ag_dim_dimdoors_quartz_door": {
+      "type": "item",
+      "content": "dimdoors:item_ag_dim_dimdoors_quartz_door",
       "amount": {
         "min": 1,
         "max": 1
