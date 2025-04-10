@@ -16,16 +16,27 @@ export async function decree() {
 }
 
 export async function pools() {
-
   io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 32 }, 1000, ['autumnity:swirl_banner_pattern', 'autumnity:foul_soup', 'autumnity:pancake', 'autumnity:maple_leaf_banner_pattern', 'autumnity:snail_shell_chestplate']),
+    content: core.contentCreator({ min: 1, max: 32 }, 1000, [
+      "autumnity:swirl_banner_pattern",
+      "autumnity:foul_soup",
+      "autumnity:pancake",
+      "autumnity:maple_leaf_banner_pattern",
+      "autumnity:snail_shell_chestplate",
+    ]),
   });
   core.decor_out(modid_rew);
 
   io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
     requires: [modid],
-    content: core.contentCreator( { min: 1, max: 32 }, 1000, ['autumnity:snail_goo', 'autumnity:snail_shell_piece', 'autumnity:syrup_bottle', 'autumnity:sap_bottle', 'autumnity:foul_berries']),
+    content: core.contentCreator({ min: 1, max: 32 }, 1000, [
+      "autumnity:snail_goo",
+      "autumnity:snail_shell_piece",
+      "autumnity:syrup_bottle",
+      "autumnity:sap_bottle",
+      "autumnity:foul_berries",
+    ]),
   });
   core.decor_out(modid_any);
 }
