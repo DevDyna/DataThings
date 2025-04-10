@@ -5,7 +5,8 @@ export const soph_bk_base = modid + "_base";
 export const soph_bk_upgrade = modid + "_upgrade";
 export const soph_bk_back = modid + "_backpack";
 
-
+export const langkeys = [modid];
+export const displayname = ["Better Backpack"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
