@@ -1,0 +1,187 @@
+{
+  "requires": [
+    "experienceobelisk"
+  ],
+  "content": {
+    "experienceobelisk_cognitive_alloy": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_alloy",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitive_alloy_block": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_alloy_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_experience_jelly": {
+      "type": "item",
+      "content": "experienceobelisk:experience_jelly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitium_bucket": {
+      "type": "item",
+      "content": "experienceobelisk:cognitium_bucket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitive_crystal": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitive_crystal_block": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_crystal_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_astute_assembly": {
+      "type": "item",
+      "content": "experienceobelisk:astute_assembly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_primordial_assembly": {
+      "type": "item",
+      "content": "experienceobelisk:primordial_assembly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitive_amalgam": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_amalgam",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_cognitive_flux": {
+      "type": "item",
+      "content": "experienceobelisk:cognitive_flux",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_experience_bottle": {
+      "type": "item",
+      "content": "minecraft:experience_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_flask_of_hades": {
+      "type": "item",
+      "content": "experienceobelisk:flask_of_hades",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_transforming_focus": {
+      "type": "item",
+      "content": "experienceobelisk:transforming_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_calcarine_matrix": {
+      "type": "item",
+      "content": "experienceobelisk:calcarine_matrix",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_nutrient_agar": {
+      "type": "item",
+      "content": "experienceobelisk:nutrient_agar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_insightful_agar": {
+      "type": "item",
+      "content": "experienceobelisk:insightful_agar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_extravagant_agar": {
+      "type": "item",
+      "content": "experienceobelisk:extravagant_agar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_flask_of_chaos": {
+      "type": "item",
+      "content": "experienceobelisk:flask_of_chaos",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_flask_of_poseidon": {
+      "type": "item",
+      "content": "experienceobelisk:flask_of_poseidon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_mending_neurogel": {
+      "type": "item",
+      "content": "experienceobelisk:mending_neurogel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

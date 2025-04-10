@@ -1,0 +1,22 @@
+{
+  "requires": [
+    "unusualprehistory"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "unusualprehistory_any",
+    "pottery",
+    "explorer",
+    "trims"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "unusualprehistory_rew",
+    "unusualprehistory_any",
+    "pottery",
+    "explorer",
+    "trims"
+  ]
+}

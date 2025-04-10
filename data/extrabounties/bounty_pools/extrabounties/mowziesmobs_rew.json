@@ -1,0 +1,142 @@
+{
+  "requires": [
+    "mowziesmobs"
+  ],
+  "content": {
+    "mowziesmobs_gong": {
+      "type": "item",
+      "content": "mowziesmobs:gong",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_geomancer_robe": {
+      "type": "item",
+      "content": "mowziesmobs:geomancer_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_foliaath_seed": {
+      "type": "item",
+      "content": "mowziesmobs:foliaath_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_geomancer_sandals": {
+      "type": "item",
+      "content": "mowziesmobs:geomancer_sandals",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_sol_visage": {
+      "type": "item",
+      "content": "mowziesmobs:sol_visage",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_geomancer_beads": {
+      "type": "item",
+      "content": "mowziesmobs:geomancer_beads",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_earthrend_gauntlet": {
+      "type": "item",
+      "content": "mowziesmobs:earthrend_gauntlet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_sand_rake": {
+      "type": "item",
+      "content": "mowziesmobs:sand_rake",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_sculptor_staff": {
+      "type": "item",
+      "content": "mowziesmobs:sculptor_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_wrought_axe": {
+      "type": "item",
+      "content": "mowziesmobs:wrought_axe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_grant_suns_blessing": {
+      "type": "item",
+      "content": "mowziesmobs:grant_suns_blessing",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_bluff_rod": {
+      "type": "item",
+      "content": "mowziesmobs:bluff_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_music_disc_petiole": {
+      "type": "item",
+      "content": "mowziesmobs:music_disc_petiole",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_geomancer_belt": {
+      "type": "item",
+      "content": "mowziesmobs:geomancer_belt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "mowziesmobs_captured_grottol": {
+      "type": "item",
+      "content": "mowziesmobs:captured_grottol",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

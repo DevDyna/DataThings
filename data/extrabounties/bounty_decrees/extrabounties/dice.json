@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "dice"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "dice_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "dice_any"
+  ]
+}

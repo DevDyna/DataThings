@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "dimdoors"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "dimdoors_obj",
+    "dimdoors_any",
+    "discs"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "dimdoors_rew",
+    "enchants",
+    "dimdoors_any",
+    "discs"
+  ]
+}

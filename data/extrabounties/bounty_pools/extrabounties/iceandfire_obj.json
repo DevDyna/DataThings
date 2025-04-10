@@ -1,0 +1,88 @@
+{
+  "requires": [
+    "iceandfire"
+  ],
+  "content": {
+    "iceandfire_frost_stew": {
+      "type": "item",
+      "content": "iceandfire:frost_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sickly_dragon_meal": {
+      "type": "item",
+      "content": "iceandfire:sickly_dragon_meal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_nest": {
+      "type": "item",
+      "content": "iceandfire:nest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_frost_lily": {
+      "type": "item",
+      "content": "iceandfire:frost_lily",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_lightning_lily": {
+      "type": "item",
+      "content": "iceandfire:lightning_lily",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_fire_stew": {
+      "type": "item",
+      "content": "iceandfire:fire_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_meal": {
+      "type": "item",
+      "content": "iceandfire:dragon_meal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_fire_lily": {
+      "type": "item",
+      "content": "iceandfire:fire_lily",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_lightning_stew": {
+      "type": "item",
+      "content": "iceandfire:lightning_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "requires": [
+    "mowziesmobs"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "mowziesmobs_obj",
+    "mowziesmobs_any",
+    "explorer"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "mowziesmobs_rew",
+    "mowziesmobs_any",
+    "explorer",
+    "pottery"
+  ]
+}

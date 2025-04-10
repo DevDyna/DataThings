@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "mowziesmobs"
+  ],
+  "content": {
+    "mowziesmobs_painted_acacia": {
+      "type": "item",
+      "content": "mowziesmobs:painted_acacia",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}
