@@ -35,7 +35,15 @@ How to create a compatibility:
 - Edit the name of that file with the modid of your compatibility and change all names of `modid` , `modid_obj` , `modid_rew` and `modid_any` to make it unique
 - Foreach constant (excluding `modid`) there is a pool of items that are used to generate a decree
 - Get your item ids (example `'minecraft:dirt'` and `'minecraft:stone'`) and put it inside the array of `[..Items]` of
-`core.contentCreator({min:number,max:number},number,[..Items])` like `['minecraft:dirt','minecraft:stone']` -> `core.contentCreator({min:1,max:1},1000,['minecraft:dirt','minecraft:stone'])`
+```
+core.contentCreator({min:number,max:number},number,[..Items])
+```
+like `['minecraft:dirt','minecraft:stone']`
+
+
+```
+core.contentCreator({min:1,max:1},1000,['minecraft:dirt','minecraft:stone'])
+```
 
 Note : Any other values not described can be tweakered to make it more complete!
 
