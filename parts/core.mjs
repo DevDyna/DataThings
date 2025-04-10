@@ -4,6 +4,23 @@ export const ascii_decor = 100;
 
 import * as lang from "./lang.mjs";
 
+import {fileURLToPath} from "url";
+
+//path of ./compat files
+export const dirPath = resolve(
+  resolve(fileURLToPath(import.meta.url), ".."),
+  "./compat"
+);
+
+export const blacklist = ["_demo.mjs"]; //demo file excluded
+
+import { readdir } from "fs/promises";
+import { resolve, extname } from "path";
+import { pathToFileURL } from "url";
+
+export {resolve,extname,readdir,pathToFileURL};
+
+
 export const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 //await delay(1000) /// waiting 1 second.	///only if async enable
 
