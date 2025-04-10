@@ -5,7 +5,8 @@ export const modid = "ppfluids";
 export const prettyfluids_obj = modid + "_buy";
 export const prettyfluids_rew = modid + "_sell";
 
-
+export const langkeys = [modid];
+export const displayname = ["Logistic Pretty : Fluid mode"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
