@@ -506,6 +506,9 @@ export const gateway_pearls_nbt = () => {
   return list;
 };
 
+export const langkeys = [modid];
+export const displayname = ["Doom : The revenge"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
