@@ -16,14 +16,12 @@ async function main() {
   init.tags();
   await core.delay(core.ms_delay * 4);
 
-  steps.pools();
+  init.basepools();
+  await core.delay(core.ms_delay * 16);
+  
 
-  await core.delay(core.ms_delay * 50);
-  out.decor(core.ascii_decor);
-
-  steps.decrees();
-
-  await core.delay(core.ms_delay * 50);
+  steps.generateCustom()
+  await core.delay(core.ms_delay * 180);
   out.decor(core.ascii_decor);
 
   steps.gateways();
