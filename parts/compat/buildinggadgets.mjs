@@ -2,7 +2,8 @@ import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 export const modid = "buildinggadgets2";
 
-
+export const langkeys = [modid];
+export const displayname = ["BuildingDireThings"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
