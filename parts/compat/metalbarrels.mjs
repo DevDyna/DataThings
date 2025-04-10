@@ -4,6 +4,9 @@ export const modid = "metalbarrels";
 export const metalbarrels_rew = modid + "_sell";
 export const metalbarrels_obj = modid + "_buy";
 
+export const langkeys = [modid];
+export const displayname = ["Iron Barrels"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
