@@ -82,6 +82,13 @@ export const entity_pool = (entity, amount, unitWorth) => ({
   unitWorth: unitWorth,
 });
 
+/**
+ * 
+ * @param {{min:number,max:number}} amount 
+ * @param {number} unitWorth 
+ * @param {[...Items]} list item ids
+ * @returns 
+ */
 export const contentCreator = (amount, unitWorth, list) => {
   let obj = {};
   list.forEach((e) => {
