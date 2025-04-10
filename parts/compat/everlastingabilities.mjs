@@ -67,7 +67,7 @@ export async function pools() {
     abilities_nbts.push(
       '{"everlastingabilities:abilityStoreStack":[{level:1,name:"everlastingabilities:' +
         abibi +
-        "}]}"
+        '"}]}'
     );
   });
 
