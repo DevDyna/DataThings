@@ -1,19 +1,19 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const iceandfire = "iceandfire";
-export const iceandfire_obj = iceandfire + "_obj";
-export const iceandfire_rew = iceandfire + "_rew";
-export const iceandfire_any = iceandfire + "_any";
+export const modid = "iceandfire";
+export const modid_obj = modid + "_obj";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + iceandfire + core.the_end, {
-    requires: [iceandfire],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
-      iceandfire_obj,
-      iceandfire_any,
+      modid_obj,
+      modid_any,
       core.pottery_id,
       core.trims_id,
       core.explorer_id,
@@ -21,20 +21,20 @@ export async function decree() {
     rewards: [
       core.decree_id,
       core.rarities_id,
-      iceandfire_rew,
-      iceandfire_any,
+      modid_rew,
+      modid_any,
       core.pottery_id,
       core.trims_id,
       core.explorer_id,
       core.enchants_id,
     ],
   });
-  core.decor_out(iceandfire);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + iceandfire_obj + core.the_end, {
-    requires: [iceandfire],
+  io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "iceandfire:frost_stew",
       "iceandfire:sickly_dragon_meal",
@@ -47,10 +47,10 @@ export async function pools() {
       "iceandfire:lightning_stew",
     ]),
   });
-  core.decor_out(iceandfire_obj);
+  core.decor_out(modid_obj);
 
-  io.mkFile(core.bounty_pools_url + iceandfire_rew + core.the_end, {
-    requires: [iceandfire],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "iceandfire:dragonforge_lightning_input",
       "iceandfire:dragonegg_amythest",
@@ -88,10 +88,10 @@ export async function pools() {
       "iceandfire:banner_pattern_ice_head",
     ]),
   });
-  core.decor_out(iceandfire_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + iceandfire_any + core.the_end, {
-    requires: [iceandfire],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "iceandfire:troll_tusk",
       "iceandfire:fire_dragon_heart",
@@ -190,7 +190,7 @@ export async function pools() {
       "iceandfire:sea_serpent_scale_block_blue",
     ]),
   });
-  core.decor_out(iceandfire_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:

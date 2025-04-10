@@ -1,20 +1,20 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const abilities = "everlastingabilities";
-export const abilities_rew = abilities + "_rew";
+export const modid = "everlastingabilities";
+export const modid_rew = modid + "_rew";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + abilities + core.the_end, {
-    requires: [abilities],
-    objectives: [core.treasures_id, core.resources_id,core.discs_id],
-    rewards: [core.decree_id, core.rarities_id, abilities_rew],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
+    objectives: [core.treasures_id, core.resources_id, core.discs_id],
+    rewards: [core.decree_id, core.rarities_id, modid_rew],
   });
-  core.decor_out(abilities);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  let abilities = [
+  let ab_name = [
     "attribute_modifier/attack_steroids",
     "attribute_modifier/heart_gainer",
     "attribute_modifier/hidden_chestplate",
@@ -60,7 +60,7 @@ export async function pools() {
 
   let abilities_nbts = [];
 
-  abilities.forEach((abibi) => {
+  ab_name.forEach((abibi) => {
     abilities_nbts.push(
       '{"everlastingabilities:abilityStoreStack":[{level:1,name:"everlastingabilities:' +
         abibi +
@@ -68,8 +68,8 @@ export async function pools() {
     );
   });
 
-  io.mkFile(core.bounty_pools_url + abilities_rew + core.the_end, {
-    requires: [abilities],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.combineContent(
       core.contentCreatorNBT(
         "everlastingabilities:ability_totem",
@@ -81,7 +81,7 @@ export async function pools() {
       ])
     ),
   });
-  core.decor_out(abilities_rew);
+  core.decor_out(modid_rew);
 }
 
 //require to be added to:

@@ -1,44 +1,44 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const mowziesmobs = "mowziesmobs";
-export const mowziesmobs_obj = mowziesmobs + "_obj";
-export const mowziesmobs_rew = mowziesmobs + "_rew";
-export const mowziesmobs_any = mowziesmobs + "_any";
+export const modid = "mowziesmobs";
+export const modid_obj = modid + "_obj";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + mowziesmobs + core.the_end, {
-    requires: [mowziesmobs],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
-      mowziesmobs_obj,
-      mowziesmobs_any,
+      modid_obj,
+      modid_any,
       core.explorer_id,
     ],
     rewards: [
       core.decree_id,
       core.rarities_id,
-      mowziesmobs_rew,
-      mowziesmobs_any,
+      modid_rew,
+      modid_any,
       core.explorer_id,
       core.pottery_id,
     ],
   });
-  core.decor_out(mowziesmobs);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + mowziesmobs_obj + core.the_end, {
-    requires: [mowziesmobs],
+  io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "mowziesmobs:painted_acacia",
     ]),
   });
-  core.decor_out(mowziesmobs_obj);
+  core.decor_out(modid_obj);
 
-  io.mkFile(core.bounty_pools_url + mowziesmobs_rew + core.the_end, {
-    requires: [mowziesmobs],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "mowziesmobs:gong",
       "mowziesmobs:geomancer_robe",
@@ -57,10 +57,10 @@ export async function pools() {
       "mowziesmobs:captured_grottol",
     ]),
   });
-  core.decor_out(mowziesmobs_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + mowziesmobs_any + core.the_end, {
-    requires: [mowziesmobs],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "mowziesmobs:umvuthana_mask_misery",
       "mowziesmobs:umvuthana_mask_rage",
@@ -78,7 +78,7 @@ export async function pools() {
       "mowziesmobs:umvuthana_mask_fear",
     ]),
   });
-  core.decor_out(mowziesmobs_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:

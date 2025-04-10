@@ -1,17 +1,17 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const unusualprehistory = "unusualprehistory";
-export const unusualprehistory_rew = unusualprehistory + "_rew";
-export const unusualprehistory_any = unusualprehistory + "_any";
+export const modid = "modid";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + unusualprehistory + core.the_end, {
-    requires: [unusualprehistory],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
-      unusualprehistory_any,
+      modid_any,
       core.pottery_id,
       core.explorer_id,
       core.trims_id,
@@ -19,19 +19,19 @@ export async function decree() {
     rewards: [
       core.decree_id,
       core.rarities_id,
-      unusualprehistory_rew,
-      unusualprehistory_any,
+      modid_rew,
+      modid_any,
       core.pottery_id,
       core.explorer_id,
       core.trims_id,
     ],
   });
-  core.decor_out(unusualprehistory);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + unusualprehistory_rew + core.the_end, {
-    requires: [unusualprehistory],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "unusualprehistory:archao_flask",
       "unusualprehistory:nelumbites_flask",
@@ -80,10 +80,10 @@ export async function pools() {
       "unusualprehistory:raiguenrayun_flask",
     ]),
   });
-  core.decor_out(unusualprehistory_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + unusualprehistory_any + core.the_end, {
-    requires: [unusualprehistory],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "unusualprehistory:plant_fossil_item",
       "unusualprehistory:opal_fossil",
@@ -95,7 +95,7 @@ export async function pools() {
       "unusualprehistory:mezo_fossil",
     ]),
   });
-  core.decor_out(unusualprehistory_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:

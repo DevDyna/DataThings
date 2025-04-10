@@ -1,51 +1,51 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const nameless_trinkets = "nameless_trinkets";
-export const nameless_trinkets_obj = nameless_trinkets + "_obj";
-export const nameless_trinkets_rew = nameless_trinkets + "_rew";
-export const nameless_trinkets_any = nameless_trinkets + "_any";
+export const modid = "nameless_trinkets";
+export const modid_obj = modid + "_obj";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + nameless_trinkets + core.the_end, {
-    requires: [nameless_trinkets],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
-      nameless_trinkets_obj,
-      nameless_trinkets_any,
+      modid_obj,
+      modid_any,
     ],
     rewards: [
       core.decree_id,
       core.rarities_id,
-      nameless_trinkets_rew,
-      nameless_trinkets_any,
+      modid_rew,
+      modid_any,
     ],
   });
-  core.decor_out(nameless_trinkets);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + nameless_trinkets_obj + core.the_end, {
-    requires: [nameless_trinkets],
+  io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "nameless_trinkets:ultimate_dust",
       "nameless_trinkets:dubious_dust",
       "nameless_trinkets:glowing_dust",
     ]),
   });
-  core.decor_out(nameless_trinkets_obj);
+  core.decor_out(modid_obj);
 
-  io.mkFile(core.bounty_pools_url + nameless_trinkets_rew + core.the_end, {
-    requires: [nameless_trinkets],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "nameless_trinkets:mysterious_trinket",
     ]),
   });
-  core.decor_out(nameless_trinkets_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + nameless_trinkets_any + core.the_end, {
-    requires: [nameless_trinkets],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "nameless_trinkets:tick",
       "nameless_trinkets:ghast_eye",
@@ -96,7 +96,7 @@ export async function pools() {
       "nameless_trinkets:creeper_sense",
     ]),
   });
-  core.decor_out(nameless_trinkets_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:

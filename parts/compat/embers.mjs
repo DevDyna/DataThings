@@ -1,23 +1,23 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const embers = "embers";
-export const embers_rew = embers + "_rew";
-export const embers_any = embers + "_any";
+export const modid = "modid";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + embers + core.the_end, {
-    requires: [embers],
-    objectives: [core.treasures_id, core.resources_id, embers_any],
-    rewards: [core.decree_id, core.rarities_id, embers_rew, embers_any],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
+    objectives: [core.treasures_id, core.resources_id, modid_any],
+    rewards: [core.decree_id, core.rarities_id, modid_rew, modid_any],
   });
-  core.decor_out(embers);
+  core.decor_out(modid);
 }
 
 export async function pools() {
 
-  io.mkFile(core.bounty_pools_url + embers_rew + core.the_end, {
-    requires: [embers],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "embers:inferno_forge",
       "embers:crystal_cell",
@@ -73,10 +73,10 @@ export async function pools() {
       "embers:music_disc_7f_patterns"
     ]),
   });
-  core.decor_out(embers_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + embers_any + core.the_end, {
-    requires: [embers],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator( { min: 1, max: 1 }, 1000, [
       "embers:dawnstone_plate",
       "embers:copper_plate",
@@ -104,7 +104,7 @@ export async function pools() {
       "embers:caminite_blend"
     ]),
   });
-  core.decor_out(embers_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:

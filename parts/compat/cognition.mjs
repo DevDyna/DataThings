@@ -1,42 +1,42 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const cognition = "experienceobelisk";
-export const cognition_obj = cognition + "_obj";
-export const cognition_rew = cognition + "_rew";
-export const cognition_any = cognition + "_any";
+export const modid = "experienceobelisk";
+export const modid_obj = modid + "_obj";
+export const modid_rew = modid + "_rew";
+export const modid_any = modid + "_any";
 
 export async function decree() {
-  io.mkFile(core.bounty_decrees_url + cognition + core.the_end, {
-    requires: [cognition],
+  io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
+    requires: [modid],
     objectives: [
       core.treasures_id,
       core.resources_id,
-      cognition_obj,
-      cognition_any,
+      modid_obj,
+      modid_any,
     ],
     rewards: [
       core.decree_id,
       core.rarities_id,
-      cognition_rew,
-      cognition_any,
+      modid_rew,
+      modid_any,
       core.enchants_id,
     ],
   });
-  core.decor_out(cognition);
+  core.decor_out(modid);
 }
 
 export async function pools() {
-  io.mkFile(core.bounty_pools_url + cognition_obj + core.the_end, {
-    requires: [cognition],
+  io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "experienceobelisk:forgotten_dust",
     ]),
   });
-  core.decor_out(cognition_obj);
+  core.decor_out(modid_obj);
 
-  io.mkFile(core.bounty_pools_url + cognition_rew + core.the_end, {
-    requires: [cognition],
+  io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "experienceobelisk:bibliophage",
       "experienceobelisk:linear_accelerator",
@@ -51,10 +51,10 @@ export async function pools() {
       "experienceobelisk:experience_fountain",
     ]),
   });
-  core.decor_out(cognition_rew);
+  core.decor_out(modid_rew);
 
-  io.mkFile(core.bounty_pools_url + cognition_any + core.the_end, {
-    requires: [cognition],
+  io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
+    requires: [modid],
     content: core.contentCreator({ min: 1, max: 1 }, 1000, [
       "experienceobelisk:cognitive_alloy",
       "experienceobelisk:cognitive_alloy_block",
@@ -78,7 +78,7 @@ export async function pools() {
       "experienceobelisk:mending_neurogel",
     ]),
   });
-  core.decor_out(cognition_any);
+  core.decor_out(modid_any);
 }
 
 //require to be added to:
