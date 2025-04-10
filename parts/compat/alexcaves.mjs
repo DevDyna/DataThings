@@ -4,6 +4,9 @@ export const modid = "alexscaves";
 export const alex_in = modid + "_in";
 export const alex_out = modid + "_out";
 
+export const langkeys = [modid];
+export const displayname = ["AlexCaves Explorer"];
+
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
