@@ -8,8 +8,10 @@ export const modid_any = modid + "_any";
 
 export const langkeys = [modid];
 export const displayname = ["#DISPLAYNAME-REPLACEME"];
-
+//------------------------------------------//
 export async function decree() {
+  
+  // DECREE
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
     requires: [modid],
     objectives: [core.treasures_id, core.resources_id, modid_obj, modid_any],
@@ -17,8 +19,10 @@ export async function decree() {
   });
   core.decor_out(modid);
 }
-
+//------------------------------------------//
 export async function pools() {
+  
+// OBJECTIVE POOL
   io.mkFile(core.bounty_pools_url + modid_obj + core.the_end, {
     requires: [modid],
     content: core.contentCreator( { min: 1, max: 1 }, 1000, [
@@ -27,6 +31,7 @@ export async function pools() {
   });
   core.decor_out(modid_obj);
 
+  // REWARD POOL
   io.mkFile(core.bounty_pools_url + modid_rew + core.the_end, {
     requires: [modid],
     content: core.contentCreator( { min: 1, max: 1 }, 1000, [
@@ -35,6 +40,7 @@ export async function pools() {
   });
   core.decor_out(modid_rew);
 
+  // OBJECTIVE AND REWARD POOL
   io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
     requires: [modid],
     content: core.contentCreator( { min: 1, max: 1 }, 1000, [
@@ -43,3 +49,4 @@ export async function pools() {
   });
   core.decor_out(modid_any);
 }
+//------------------------------------------//
