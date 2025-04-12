@@ -1,13 +1,13 @@
 import * as io from "../../methods/io.mjs";
 import * as core from "../core.mjs";
 
-export const modid = "#REPLACEME";
+export const modid = "#MODID-REPLACEME";
 export const modid_obj = modid + "_obj";
 export const modid_rew = modid + "_rew";
 export const modid_any = modid + "_any";
 
 export const langkeys = [modid];
-export const displayname = ["#REPLACEME"];
+export const displayname = ["#DISPLAYNAME-REPLACEME"];
 
 export async function decree() {
   io.mkFile(core.bounty_decrees_url + modid + core.the_end, {
