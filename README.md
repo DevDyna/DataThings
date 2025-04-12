@@ -16,8 +16,15 @@ A mod addon based on [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods
 **Note**: [/assets/extrabounties/lang](https://github.com/DevDyna/DataThings/tree/Extra-Bounties/assets/extrabounties/lang) isn't safe to add new traslations!
 </details>
 
+
+
+
+
+
+
+
 <details>
-  <summary><strong>Contributors (Mod compatibility) Currently BROKEN</strong></summary>
+  <summary><strong>Contributors (Mod compatibility)</strong></summary>
 
 <br>
    
@@ -29,7 +36,7 @@ Note to understand the logic behind:
    -  any -> objective & reward -> what the player can give to obtain or can recieve
 
 ## How it work
-It take all lists of items , *process it* , generate the decrees based on modid name and generate all the assets
+It take all lists of items , *process it* , generate the decrees and all pools based on modid name and generate all the assets
 
 
 ## Standards on creation of a compatibility
@@ -41,10 +48,16 @@ It take all lists of items , *process it* , generate the decrees based on modid 
 ## How to create a compatibility
 - You found/know a mod that could fit on compatibilty and you have some cool ideas to do it
 - Fork this repository
-- Go to [parts/compat/_demo.mjs](https://github.com/DevDyna/DataThings/blob/Extra-Bounties/parts/compat/_demo.mjs) and copy it
-- Edit the name of that file with the modid of your compatibility and change all names of `modid` , `modid_obj` , `modid_rew` and `modid_any` to make it unique
-- Foreach constant (excluding `modid`) there is a pool of items that are used to generate a decree
-- Get your item ids (example `'minecraft:dirt'` and `'minecraft:stone'`) and put it inside the array of `[..Items]` of
+- Go to [parts/compat/_demo.mjs](https://github.com/DevDyna/DataThings/blob/Extra-Bounties/parts/compat/_demo.mjs) and duplicate it
+- Change the file name with the modid (optional , just need a unique namespace) , on next open the file and:
+   - edit `#MODID-REPLACEME` -> modid of that mod
+   - edit `#DISPLAYNAME-REPLACEME` -> the name of decree
+
+     Tip : use your creativity to recreate something that will remember the original mod name
+
+     Example : "Better Pickaxes" -> "I yearn to mine , so i want to mine!"
+
+- Open a local world , get all your items ids (like `'minecraft:dirt'` | `'minecraft:stone'`) and put it inside the array of `[..Items]` of
 ```js
 contentCreator({min:number,max:number},number,[..Items])
 ```
@@ -57,13 +70,9 @@ contentCreator({min:1,max:1},1000,['minecraft:dirt','minecraft:stone'])
 
 Note : Any other values not described can be tweakered to make it more complete!
 
-Note 2: ItemTags , Entity kill , everything that aren't described and bountiful accept as objective can be used (look other compats to take an example)
+Note 2: ItemTags , Entity kill , NBT tags , everything that aren't described and bountiful accept as objective can be used (look other compats to take an example)
 
-- Go to [parts/steps.mjs](https://github.com/DevDyna/DataThings/blob/Extra-Bounties/parts/steps.mjs) and connect all decrees and pools
-- Go to [parts/lang.mjs](https://github.com/DevDyna/DataThings/blob/Extra-Bounties/parts/lang.mjs) , add your modid inside the `mod_ids` list and your display name of the decree at same position of your modid inside `displayNames`
-- Test it on local to see if it work
-
-  Note : If it result "AIR" as item or after opened it crash your game , there is something broken on what you have done!
+- Test it on local to see if it work to verify if it generate the decree and all items inside the bounty else something gone wrong!
 
 - Create a pull-request
 
