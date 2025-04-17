@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "box_of_goodies",
+    "version": "1.0",
+    "name": "Box of Goodies",
+    "description": "Monster Spawners now drop good loot when broken!",
+    "authors": [
+        "DevDyna"
+    ],
+    "contact": {
+        "homepage": "https://github.com/DevDyna/DataThings/tree/Box-of-Goodies",
+        "sources": "https://github.com/DevDyna/DataThings/tree/Box-of-Goodies",
+        "issues": "https://github.com/DevDyna/DataThings/issues"
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {}
+}
