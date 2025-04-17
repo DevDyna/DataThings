@@ -1,6 +1,6 @@
-name: 🚀 General New Feature
+name: 🚀 New Feature
 description: All good ideas can be usefull !
-labels: [enhancement, need support,any]
+labels: [enhancement, need support]
 assignees: DevDyna
 body:
   - type: checkboxes
