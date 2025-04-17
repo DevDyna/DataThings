@@ -1,6 +1,6 @@
-name: 🐞 General issue
+name: 🐞 Bug
 description: Have you found a bug ? Squash it!
-labels: [bug, need support,any]
+labels: [bug, need support]
 assignees: DevDyna
 body:
   - type: checkboxes
