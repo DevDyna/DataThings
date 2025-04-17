@@ -1,9 +1,3 @@
-### This is the nexus 
+# Box of Goodies
 
-### Nothing still here
-
-### To see all programs you need to change branch
-- [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express)
-- [Extra-Bounties](https://github.com/DevDyna/DataThings/tree/Extra-Bounties)
-- [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo)
-- [Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/NumismaticBounties)
+Monster Spawners now drop good loot when broken!
