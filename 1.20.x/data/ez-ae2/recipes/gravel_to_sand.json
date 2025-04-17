@@ -1,0 +1,12 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "minecraft:sand"
+  }
+}

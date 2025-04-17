@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "L": {
+      "item": "appflux:core_1k"
+    },
+    "P": {
+      "item": "appflux:energy_processor"
+    }
+  },
+  "pattern": [
+    "DPD",
+    "LGL",
+    "DLD"
+  ],
+  "result": {
+    "item": "appflux:core_4k"
+  },
+  "show_notification": true
+}

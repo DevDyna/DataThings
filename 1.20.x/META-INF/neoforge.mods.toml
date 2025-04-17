@@ -1,0 +1,60 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+issueTrackerURL=""
+license="MIT"
+[[mods]]
+    modId="ez_ae2"
+    version="1.1"
+    displayName="EZ AE2"
+    description="Applied Energistics recipes without any meteoric related stuff"
+	authors="DevDyna"
+	logoFile="pack.png"
+
+[[dependencies.ez_ae2]]
+	modId = "ae2"
+	mandatory = true
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+	
+[[dependencies.ez_ae2]]
+	modId = "appflux"
+	mandatory = false
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+	
+[[dependencies.ez_ae2]]
+	modId = "bigger_ae2"
+	mandatory = false
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+
+[[dependencies.ez_ae2]]
+	modId = "expatternprovider"
+	mandatory = false
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+	
+[[dependencies.ez_ae2]]
+	modId = "advanced_ae"
+	mandatory = false
+	versionRange = "[0.1.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+	
+[[dependencies.ez_ae2]]
+	modId = "megacells"
+	mandatory = false
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"
+
+[[dependencies.ez_ae2]]
+	modId = "mekanism"
+	mandatory = false
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"

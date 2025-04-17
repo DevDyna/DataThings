@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+      "bottom": {
+      "item": "ae2:sky_dust"
+    },
+    "middle": {
+      "item": "ae2:fluix_dust"
+    },
+    "top": {
+      "item": "minecraft:redstone"
+    }
+    },
+    "mode": "inscribe",
+    "result": {
+      "item": "appflux:redstone_crystal",
+      "count": 2
+    }
+  }

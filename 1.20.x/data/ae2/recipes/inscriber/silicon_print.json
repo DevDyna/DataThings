@@ -1,0 +1,12 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:silicon"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_silicon"
+  }
+}

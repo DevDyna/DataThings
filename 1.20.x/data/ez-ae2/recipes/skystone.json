@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+      "bottom": {
+      "item": "ae2:silicon"
+    },
+    "middle": {
+      "item": "minecraft:stone"
+    },
+    "top": {
+      "item": "ae2:silicon"
+    }
+    },
+    "mode": "press",
+    "result": {
+      "item": "ae2:sky_stone_block",
+      "count": 1
+    }
+  }

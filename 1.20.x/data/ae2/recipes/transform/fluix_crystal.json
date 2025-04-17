@@ -1,0 +1,19 @@
+{
+    "type": "ae2:transform",
+    "circumstance": {
+      "type": "fluid",
+      "tag": "minecraft:water"
+    },
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "ae2:fluix_crystal"
+    }
+  }

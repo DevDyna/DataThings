@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QEQ",
+    "QQQ"
+  ],
+  "result": {
+    "item": "advanced_ae:adv_pattern_encoder"
+  },
+  "show_notification": true
+}

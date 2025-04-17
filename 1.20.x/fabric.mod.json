@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "ez_ae2",
+    "version": "1.1",
+    "name": "Ez-ae2",
+    "description": "Applied Energistics recipes without any meteoric related stuff",
+    "authors": [
+        "DevDyna"
+    ],
+    "contact": {
+        "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/ez-ae2",
+        "sources": "https://github.com/DevDyna/EZ-ae2",
+        "issues": "https://github.com/DevDyna/EZ-ae2/issues"
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {},
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.curseforge": "https://legacy.curseforge.com/minecraft/mc-mods/ez-ae2",
+                "modmenu.wiki": "https://github.com/DevDyna/EZ-ae2"
+            }
+        }
+    }
+}

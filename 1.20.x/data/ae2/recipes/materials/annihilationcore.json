@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "ae2:logic_processor"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "abc"
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:annihilation_core"
+  },
+  "show_notification": true
+}

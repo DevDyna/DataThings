@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "appflux:redstone_crystal"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "CPC",
+    "DCD"
+  ],
+  "result": {
+    "item": "appflux:core_1k"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}

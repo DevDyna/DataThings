@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+      "bottom": {
+      "item": "ae2:sky_stone_block"
+    },
+    "middle": {
+      "item": "minecraft:iron_ingot"
+    },
+    "top": {
+      "item": "minecraft:quartz"
+    }
+    },
+    "mode": "inscribe",
+    "result": {
+      "item": "megacells:sky_steel_ingot",
+      "count": 2
+    }
+  }

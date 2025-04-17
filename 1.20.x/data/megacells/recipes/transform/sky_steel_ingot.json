@@ -1,0 +1,22 @@
+{
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "minecraft:lava"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "ae2:sky_stone_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "megacells:sky_steel_ingot"
+  }
+}

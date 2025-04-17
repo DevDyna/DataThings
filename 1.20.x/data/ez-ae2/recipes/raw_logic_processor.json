@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "minecraft:slime_ball"
+		},{
+			"item": "minecraft:string"
+		},{
+			"item": "ae2:silicon"
+		},{
+			"item": "minecraft:gold_ingot"
+		}
+	],
+	"result": {
+		"item": "ae2:printed_logic_processor",
+		"count": 1
+	},
+	"show_notification": true
+}

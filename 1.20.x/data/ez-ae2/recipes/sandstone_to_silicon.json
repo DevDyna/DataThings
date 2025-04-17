@@ -1,0 +1,13 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:silicon",
+	"count": 4
+  }
+}

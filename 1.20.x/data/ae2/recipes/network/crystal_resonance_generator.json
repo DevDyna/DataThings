@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "f": {
+      "item": "ae2:fluix_block"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "q": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "pattern": [
+    "cfc",
+    "cqc",
+    "iii"
+  ],
+  "result": {
+    "item": "ae2:crystal_resonance_generator"
+  },
+  "show_notification": true
+}

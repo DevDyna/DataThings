@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:quartz"
+    },
+    "F": {
+      "item": "ae2:fluix_crystal"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "C C",
+    "I I",
+    "IFI"
+  ],
+  "result": {
+    "item": "expatternprovider:crystal_fixer"
+  },
+  "show_notification": true
+}
