@@ -37,7 +37,6 @@ export async function pools() {
       "modularrouters:mod_filter",
       "modularrouters:regex_filter",
       "modularrouters:energy_output_module",
-      "modularrouters:creative_module",
       "modularrouters:stack_augment",
       "modularrouters:activator_module",
       "modularrouters:detector_module",
