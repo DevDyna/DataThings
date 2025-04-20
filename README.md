@@ -44,6 +44,7 @@ It take all lists of items , *process it* , generate the decrees and all pools b
    -  objectives can be optional -> some mods dont have enough content so *rewards takes precedence*
    -  any (obj+rew) can be optional -> same as objectives
    -  objective items dont require specific NBT data
+   -  creative items can be allowed until they can duplicate , provide infinite amounts (excluding empty capacities) or weapons completly overpowered (one hit everything)
 
 ## How to create a compatibility
 - You found/know a mod that could fit on compatibilty and you have some cool ideas to do it
