@@ -1,23 +1,23 @@
 modLoader="lowcodefml"
 loaderVersion="[1,)"
-issueTrackerURL="https://github.com/DevDyna/DataThings/issues/new?template=numismatic-bounties-bug.yaml"
+issueTrackerURL="https://github.com/DevDyna/DataThings/issues"
 license="MIT"
 [[mods]]
-    modId="numismaticbounties"
-    version="1.2"
-    displayName="NumismaticBounties"
-    description="Bountiful addon that change many trades to use Create:Numismatic coins"
+    modId="numismatic_bounties"
+    version="1.0"
+    displayName="Numismatic Bounties"
+    description="Bountiful addon that change many trades to use Numismatic coins"
 	authors="DevDyna"
 	logoFile="pack.png"
 
-[[dependencies.numismaticbounties]]
+[[dependencies.numismatic_bounties]]
     modId="bountiful"
     mandatory= true
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.numismaticbounties]]
+[[dependencies.numismatic_bounties]]
     modId="extrabounties"
     mandatory= false
     versionRange="*"
