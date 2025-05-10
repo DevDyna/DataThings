@@ -1,0 +1,16 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+issueTrackerURL="https://github.com/DevDyna/DataThings/issues"
+license="MIT"
+[[mods]]
+    modId="factory_express"
+    version="1.0"
+    displayName="FactoryExpress"
+    description="Better than Chisels!"
+
+[[dependencies.factory_express]]
+	modId = "factory_blocks"
+	mandatory = true
+	versionRange = "[1.0.0,)"
+	ordering = "NONE"
+	side = "BOTH"

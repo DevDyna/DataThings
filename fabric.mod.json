@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "factory_express",
+    "version": "1.0",
+    "name": "Factory-Express",
+    "description": "Better than Chisels!",
+    "authors": [
+        "DevDyna"
+    ],
+    "contact": {
+        "homepage": "https://github.com/DevDyna/DataThings/tree/Factory-Express",
+        "sources": "https://github.com/DevDyna/DataThings/tree/Factory-Express",
+        "issues": "https://github.com/DevDyna/DataThings/issues"
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {},
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.curseforge": "https://legacy.curseforge.com/minecraft/mc-mods/factory-express",
+                "modmenu.wiki": "https://github.com/DevDyna/DataThings/tree/Factory-Express"
+            }
+        }
+    }
+}
