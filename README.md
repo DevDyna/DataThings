@@ -1,2 +1,2 @@
-# [GT Nihilo datagen mod](https://github.com/DevDyna/GT-Nihilo)
+# Factory Express
 Every recipe and models completly generated
