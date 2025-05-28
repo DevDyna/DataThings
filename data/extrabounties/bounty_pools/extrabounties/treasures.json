@@ -1,70 +1,188 @@
 {
-	"requires":["extrabounties"],
-	"content": {
+    "requires": ["extrabounties"],
+    "content": {
 
-		"a": {
-			"type": "item",
-			"rarity": "COMMON",
-			"content": "numismatics:spur",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 100,
-			"weightMult": 0.65
-		},"b": {
-			"type": "item",
-			"rarity": "COMMON",
-			"content": "numismatics:bevel",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 200,
-			"weightMult": 0.65
-		},"c": {
-			"type": "item",
-			"rarity": "UNCOMMON",
-			"content": "numismatics:sprocket",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 400,
-			"weightMult": 0.65
-		},"d": {
-			"type": "item",
-			"rarity": "RARE",
-			"content": "numismatics:cog",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 600,
-			"weightMult": 0.65
-		},"e": {
-			"type": "item",
-			"rarity": "EPIC",
-			"content": "numismatics:crown",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 800,
-			"weightMult": 0.65
-		},"f": {
-			"type": "item",
-			"rarity": "LEGENDARY",
-			"content": "numismatics:sun",
-			"amount": {
-				"min": 1,
-				"max": 24
-			},
-			"unitWorth": 1000,
-			"weightMult": 0.65
-		}
+        "a": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "numismatics:spur",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 100,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        },
+        "b": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "numismatics:bevel",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 200,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        },
+        "c": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "numismatics:sprocket",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 400,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        },
+        "d": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "numismatics:cog",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 600,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        },
+        "e": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "numismatics:crown",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 800,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        },
+        "f": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "numismatics:sun",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 1000,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatics:spur"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:bevel"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sprocket"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:cog"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:crown"
+                }, {
+                    "type": "item",
+                    "content": "numismatics:sun"
+                }
+            ]
+        }
 
-	}
-
+    }
 
 }
