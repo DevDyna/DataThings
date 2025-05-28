@@ -1,40 +1,71 @@
 {
-	"requires":["extrabounties"],
-	"content": {
+    "requires": ["extrabounties"],
+    "content": {
 
-		"a": {
-			"type": "item",
-			"rarity": "COMMON",
-			"content": "numismatic-overhaul:bronze_coin",
-			"amount": {
-				"min": 1,
-				"max": 32
-			},
-			"unitWorth": 100,
-			"weightMult": 0.65
-		},"b": {
-			"type": "item",
-			"rarity": "RARE",
-			"content": "numismatic-overhaul:silver_coin",
-			"amount": {
-				"min": 1,
-				"max": 32
-			},
-			"unitWorth": 600,
-			"weightMult": 0.65
-		},"c": {
-			"type": "item",
-			"rarity": "LEGENDARY",
-			"content": "numismatic-overhaul:gold_coin",
-			"amount": {
-				"min": 1,
-				"max": 32
-			},
-			"unitWorth": 1000,
-			"weightMult": 0.65
-		}
+        "a": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "numismatic-overhaul:bronze_coin",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 100,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatic-overhaul:bronze_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:silver_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:gold_coin"
+                }
+            ]
+        },
+        "b": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "numismatic-overhaul:silver_coin",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 600,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatic-overhaul:bronze_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:silver_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:gold_coin"
+                }
+            ]
+        },
+        "c": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "numismatic-overhaul:gold_coin",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 1000,
+            "forbids": [{
+                    "type": "item",
+                    "content": "numismatic-overhaul:bronze_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:silver_coin"
+                }, {
+                    "type": "item",
+                    "content": "numismatic-overhaul:gold_coin"
+                }
+            ]
+        }
 
-	}
-
+    }
 
 }
