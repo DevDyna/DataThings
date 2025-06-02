@@ -324,6 +324,22 @@ export async function basepools() {
   console.log("> " + core.discs_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
+  io.mkFile(
+    core.sculk_url,
+    {
+      content: core.contentCreator({ min: 1, max: 16 }, 1000, [
+        "minecraft:sculk",
+        "minecraft:sculk_catalyst",
+        "minecraft:sculk_shrieker",
+        "minecraft:sculk_sensor",
+      ]),
+    },
+    true
+  );
+
+  console.log("> " + core.sculk_id);
+  await core.delay(core.ms_delay);
+  //-------------------------------------------------//
   let enchant = [];
 
   let enchantment_ids = [
@@ -367,7 +383,6 @@ export async function basepools() {
     "mending",
     "vanishing_curse",
   ];
-
 
   enchantment_ids.forEach((enc) => {
     enchant.push('{StoredEnchantments:[{id:"minecraft:' + enc + '",lvl:1}]}');

@@ -49,6 +49,7 @@ export const explorer_id = "explorer";
 export const trims_id = "trims";
 export const pottery_id = "pottery";
 export const discs_id = "discs";
+export const sculk_id = "sculk";
 export const enchants_id = "enchants";
 
 export const treasures_url = bounty_pools_url + treasures_id + the_end;
@@ -60,6 +61,7 @@ export const explorer_url = bounty_pools_url + explorer_id + the_end;
 export const trims_url = bounty_pools_url + trims_id + the_end;
 export const pottery_url = bounty_pools_url + pottery_id + the_end;
 export const discs_url = bounty_pools_url + discs_id + the_end;
+export const sculk_url = bounty_pools_url + sculk_id + the_end;
 export const enchants_url = bounty_pools_url + enchants_id + the_end;
 
 export const dyes = "dyes";

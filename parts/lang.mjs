@@ -8,7 +8,6 @@ export const gate_pearl_key = [];
 export async function makelang() {
   console.log("Lang generating");
 
-
   let obj = {};
 
   //foreach files inside /compat/
@@ -22,13 +21,10 @@ export async function makelang() {
       core.pathToFileURL(core.resolve(core.dirPath, file)).href
     );
 
-    module.langkeys.forEach((e,i)=>{
+    module.langkeys.forEach((e, i) => {
       obj["bountiful.decree." + e + ".name"] = module.displayname[i];
-    })
-
+    });
   }
-
-  
 
   // mod_ids.forEach((e, i) => {
   //   obj["bountiful.decree." + e + ".name"] = displayNames[i];
