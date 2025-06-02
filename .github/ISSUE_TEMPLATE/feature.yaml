@@ -16,8 +16,8 @@ body:
     id: text-box
     attributes:
       label: Mod related
-      placeholder: extrabounties-1.0
-      description: What mod did you intend ?
+      placeholder: extrabounties
+      description: What mod did you intend ? (allow multiple mods)
     validations:
       required: true
 
