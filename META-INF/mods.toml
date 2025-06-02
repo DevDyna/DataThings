@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/DevDyna/DataThings/issues/new?template=extra
 license="MIT"
 [[mods]]
     modId="extrabounties"
-    version="1.3.6"
+    version="1.3.7"
     displayName="ExtraBounties"
     description="Bountiful addon to make it compatible with other mods"
 	authors="DevDyna"
