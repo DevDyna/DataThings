@@ -10,4 +10,4 @@
 - [Ez-ae2](https://github.com/DevDyna/DataThings/tree/Ez-ae2)
 - [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo)
 - [Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/Numismatic-Bounties)
-
+- [Factory-Express](https://github.com/DevDyna/DataThings/tree/Factory-Express)
