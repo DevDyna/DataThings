@@ -18,14 +18,14 @@ export async function decree() {
     objectives: [core.treasures_id, core.resources_id,core.sculk_id, modid_any],
     rewards: [core.decree_id, core.rarities_id, modid_rew_focus, modid_any],
   });
-  core.decor_out(modid);
+  core.decor_out(modid_focus);
 
   io.mkFile(core.bounty_decrees_url + modid_artifacts + core.the_end, {
     requires: [modid],
     objectives: [core.treasures_id, core.resources_id,core.sculk_id, modid_any],
     rewards: [core.decree_id, core.rarities_id, modid_rew_artifacts, modid_any],
   });
-  core.decor_out(modid);
+  core.decor_out(modid_artifacts);
 }
 //------------------------------------------//
 export async function pools() {
@@ -141,7 +141,7 @@ export async function pools() {
       "goety:trident_storm_focus",
     ]),
   });
-  core.decor_out(modid_focus);
+  core.decor_out(modid_rew_focus);
 
   io.mkFile(core.bounty_pools_url + modid_rew_artifacts + core.the_end, {
     requires: [modid],
@@ -225,7 +225,7 @@ export async function pools() {
       "goety:ring_of_the_dragon",
     ]),
   });
-  core.decor_out(modid_artifacts);
+  core.decor_out(modid_rew_artifacts);
 
   // OBJECTIVE AND REWARD POOL
   io.mkFile(core.bounty_pools_url + modid_any + core.the_end, {
