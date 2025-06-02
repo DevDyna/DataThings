@@ -28,7 +28,7 @@ export async function folders() {
 }
 
 export async function basepools() {
-  console.log("Base Pools");
+  out.outYellow("Base Pools");
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -41,7 +41,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.decree_id);
+  out.outGreen("> " + core.decree_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -90,7 +90,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.treasures_id);
+  out.outGreen("> " + core.treasures_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -129,7 +129,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.resources_id);
+  out.outGreen("> " + core.resources_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -178,7 +178,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.rarities_id);
+  out.outGreen("> " + core.rarities_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -203,7 +203,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.mob_drop_id);
+  out.outGreen("> " + core.mob_drop_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
 
@@ -227,7 +227,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.explorer_id);
+  out.outGreen("> " + core.explorer_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -256,7 +256,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.trims_id);
+  out.outGreen("> " + core.trims_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -292,7 +292,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.pottery_id);
+  out.outGreen("> " + core.pottery_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -321,7 +321,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.discs_id);
+  out.outGreen("> " + core.discs_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   io.mkFile(
@@ -337,7 +337,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.sculk_id);
+  out.outGreen("> " + core.sculk_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
   let enchant = [];
@@ -410,7 +410,7 @@ export async function basepools() {
     true
   );
 
-  console.log("> " + core.enchants_id);
+  out.outGreen("> " + core.enchants_id);
   await core.delay(core.ms_delay);
   //-------------------------------------------------//
 
@@ -418,7 +418,7 @@ export async function basepools() {
 }
 
 export async function tags() {
-  console.log("Generating custom tags");
+  out.outYellow("Generating custom tags");
   await core.delay(core.ms_delay);
 
   io.mkFile(
@@ -427,7 +427,7 @@ export async function tags() {
     true
   );
 
-  console.log("> " + core.dyes);
+  out.outGreen("> " + core.dyes);
   await core.delay(core.ms_delay);
 
   io.mkFile(
@@ -436,7 +436,7 @@ export async function tags() {
     true
   );
 
-  console.log("> " + core.glass_colorless);
+  out.outGreen("> " + core.glass_colorless);
   await core.delay(core.ms_delay);
 
   out.decor(core.ascii_decor);
@@ -445,7 +445,7 @@ export async function tags() {
 import { createRequire } from "module"; // used to allow to use require("module")
 
 export function jarmaker() {
-  console.log("Creating jar file");
+  out.outYellow("Creating jar file");
 
   const require = createRequire(import.meta.url);
   // can now use `require` in an ESM
@@ -462,7 +462,7 @@ export function jarmaker() {
         console.error("stderr: " + stderr);
         return;
       }
-      console.log("File jar created successfully");
+      out.outGreen("File jar created successfully");
     }
   );
 }

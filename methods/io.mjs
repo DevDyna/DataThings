@@ -1,4 +1,5 @@
 import fs from "fs";
+import * as out from "./out.mjs"
 //-----------------------------------------------------------------------------------//
 /**
  *
@@ -93,6 +94,6 @@ export function rawAppend(url, content) {
 export function moveFile(origin, destination) {
   fs.copyFile(origin, destination, (err) => {
     if (err) throw err;
-    console.log("File copied successfully!");
+    out.outGreen(origin+" > "+destination);
   });
 }

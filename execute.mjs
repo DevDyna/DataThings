@@ -7,9 +7,10 @@ import * as steps from "./parts/steps.mjs";
 main();
 
 async function main() {
+
   init.folders();
   out.decor(core.ascii_decor);
-  console.log("Started File writer");
+  out.outBlue("Started File writer");
   await core.delay(core.ms_delay);
   out.decor(core.ascii_decor);
 
@@ -38,7 +39,7 @@ async function main() {
   await core.delay(core.ms_delay * 2);
 
   out.decor(core.ascii_decor);
-  console.log("Traslation Cloning");
+  out.outYellow("Traslation Cloning");
   await core.delay(core.ms_delay * 3);
   lang.cloneTraslations();
 

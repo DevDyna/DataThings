@@ -3,6 +3,7 @@ export const ms_delay = 150;
 export const ascii_decor = 100;
 
 import * as lang from "./lang.mjs";
+import * as out from "../methods/out.mjs"
 
 import {fileURLToPath} from "url";
 
@@ -170,8 +171,10 @@ export const combineContent = (content1, content2) =>
   Object.assign({}, content1, content2);
 
 export const decor_out = async (id) => {
-  console.log("> " + id);
+  out.outGreen("> " + id);
   await delay(ms_delay);
 };
+
+
 
 

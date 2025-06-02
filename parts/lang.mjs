@@ -1,12 +1,14 @@
 import * as core from "./core.mjs";
 import * as io from "../methods/io.mjs";
+import * as out from "../methods/out.mjs";
 
 export const extralang_key = [];
 export const gate_loot_key = [];
 export const gate_pearl_key = [];
 
 export async function makelang() {
-  console.log("Lang generating");
+  out.outYellow("Lang generating");
+  await core.delay(core.ms_delay);
 
   let obj = {};
 
@@ -69,7 +71,7 @@ export async function makelang() {
 
   io.mkFile(core.bounty_lang + "en_us" + core.the_end, obj);
   console.log(obj);
-  console.log("Lang completed");
+  out.outYellow("Lang completed");
 }
 
 export async function cloneTraslations() {
