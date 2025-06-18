@@ -1,6 +1,8 @@
 # Wild Caves
 An expansion of current Mining system with new features and gameplay changes
 
+![](https://github.com/DevDyna/ContentArchive/blob/main/Wild%20Caves/main_image.png?raw=true)
+
 <details>
   
   <summary><strong>Contribution (Giant Ore veins mod compat)</strong></summary>
