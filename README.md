@@ -8,7 +8,11 @@ An expansion of current Mining system with new features and gameplay changes
   <summary><strong>Contribution (Giant Ore veins mod compat)</strong></summary>
 <br/>
 
-You are free to create a PR containing a mod compat based on [example_pack](https://github.com/DevDyna/DataThings/tree/Wild-Caves/example_pack)
+You are free to create a Pull Request containing a mod compat based on [example_pack](https://github.com/DevDyna/DataThings/tree/Wild-Caves/example_pack) <br/>
+
+
+**NOTE** <br/>
+Dont forget to change the [mod-loaded condition](https://github.com/DevDyna/DataThings/blob/Wild-Caves/example_pack/data/wildcaves/neoforge/biome_modifier/ore_vein/compat/stone.json#L4) before to pull!
 
 </details>
 
