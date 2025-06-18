@@ -1,6 +1,23 @@
+# Wild Caves
+An expansion of current Mining system with new features and gameplay changes
 
 <details>
-  <summary><strong># Documentation and Spawn location</strong></summary>
+  
+  <summary><strong>Creating a mod compat</strong></summary>
+<br/>
+
+</details>
+
+<details>
+  
+  <summary><strong>I want make a custom Giant ore vein</strong></summary>
+<br/>
+
+</details>
+
+
+<details>
+  <summary><strong>Documentation and Spawn location</strong></summary>
 <br/>
 
 # Giant ore veins
