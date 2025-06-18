@@ -9,37 +9,52 @@ An expansion of current Mining system with new features and gameplay changes
 </details>
 
 - Fork this repository
-- Create a file based on modid at the directory
+- Copy this file as json...
 
-**NOTE**
-
-You need to replace all `<modname>` with your mod compat 
-  
-`data\wildcaves\neoforge\biome_modifier\ore_vein\<modname>\`
 ```json
 {
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "modname"
+      "modid": "<modname>"
     }
   ],
   "type": "neoforge:add_features",
   "biomes": "#wildcaves:ore_vein/<modname>",
   "features": [
-//all features
-//example
-//"wildcaves:ores_vein/end"
-"wildcaves:ore_vein/end/emerald"
-
+    "wildcaves:ores_vein/<modname>/<ore>"
 ],
   "step": "underground_ores"
 }
 ```
 
+...and put at the specific directory
+
+```
+data\wildcaves\neoforge\biome_modifier\ore_vein\<modname>\
+```
 
 
 
+
+
+
+
+**NOTE**
+
+you can add more
+  
+
+
+
+
+
+**NOTE**
+
+You need to replace all `<values>` based to the description on below
+
+`<modname>` -> the modid of your mod compat <br/>
+`<ore>` -> the ore id of your mod compat <br/>
 
 
 <details>
