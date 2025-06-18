@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_feat_swamp",
+  "features": [
+    "wildcaves:swamp/mud_ceiling",
+    "wildcaves:swamp/mud_floor"
+  ],
+  "step": "underground_decoration"
+}

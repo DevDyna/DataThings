@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_cobbled_deepslate",
+  "features": [
+    "wildcaves:cobbled_deepslate"
+  ],
+  "step": "underground_ores"
+}

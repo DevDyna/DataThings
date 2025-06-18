@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_obsidian",
+  "features": [
+    "wildcaves:obsidian"
+  ],
+  "step": "underground_ores"
+}

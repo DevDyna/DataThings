@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#c:is_dry/overworld",
+    "#c:is_mountain",
+    "#c:is_tree/coniferous",
+    "#c:is_tree/deciduous",
+    "#c:is_tree/jungle",
+    "#c:is_tree/savanna",
+    "#c:is_cave",
+    "#c:is_plains",
+    "#c:is_plateau",
+    "#c:is_ocean"
+  ]
+}

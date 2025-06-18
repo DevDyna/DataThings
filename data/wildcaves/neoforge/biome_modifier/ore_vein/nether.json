@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:ore_vein/nether",
+  "features": [
+    "wildcaves:ore_vein/nether/gold",
+    "wildcaves:ore_vein/nether/ancient_debris",
+    "wildcaves:ore_vein/nether/quartz"
+  ],
+  "step": "underground_ores"
+}

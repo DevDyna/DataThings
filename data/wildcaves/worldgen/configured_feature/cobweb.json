@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 10,
+    "xz_spread": 5,
+    "y_spread": 4,
+    "feature": {
+      "feature": {
+        "type": "minecraft:replace_single_block",
+        "config": {
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:air"
+              },
+              "state": {
+                "Name": "minecraft:cobweb"
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

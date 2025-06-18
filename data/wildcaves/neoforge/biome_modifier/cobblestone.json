@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_cobblestone",
+  "features": [
+    "wildcaves:cobblestone"
+  ],
+  "step": "underground_ores"
+}

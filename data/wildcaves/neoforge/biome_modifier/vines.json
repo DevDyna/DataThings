@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_vines",
+  "features": [
+    "wildcaves:justplace/vines"
+  ],
+  "step": "vegetal_decoration"
+}

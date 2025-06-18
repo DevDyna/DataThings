@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_feat_snowy",
+  "features": [
+    "wildcaves:snowy/ice",
+    "wildcaves:snowy/snow"
+  ],
+  "step": "underground_decoration"
+}

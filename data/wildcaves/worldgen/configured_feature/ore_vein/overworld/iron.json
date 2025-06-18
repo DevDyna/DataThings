@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 10,
+    "xz_spread": 10,
+    "y_spread": 10,
+    "feature": {
+      "feature": {
+        "type": "minecraft:random_patch",
+        "config": {
+          "tries": 10,
+          "xz_spread": 4,
+          "y_spread": 4,
+          "feature": {
+            "feature": "minecraft:ore_iron",
+            "placement": []
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

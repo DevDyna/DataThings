@@ -1,0 +1,43 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wildcaves:miner/pool/station/blastfunace",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },{
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wildcaves:miner/pool/station/furnace",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },{
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wildcaves:miner/pool/station/crafting_table",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },{
+        "weight": 8,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wildcaves:miner/pool/empty/air",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

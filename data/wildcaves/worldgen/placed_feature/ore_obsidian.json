@@ -1,0 +1,13 @@
+{
+    "feature": "wildcaves:obsidian",
+    "placement": [
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:end_stone"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_feat_desert",
+  "features": [
+    "wildcaves:desert/sand",
+    "wildcaves:desert/sandstone"
+  ],
+  "step": "underground_decoration"
+}

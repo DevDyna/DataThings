@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:ore_vein/overworld",
+  "features": [
+    "wildcaves:ore_vein/overworld/coal",
+    "wildcaves:ore_vein/overworld/iron",
+    "wildcaves:ore_vein/overworld/copper",
+    "wildcaves:ore_vein/overworld/diamond",
+    "wildcaves:ore_vein/overworld/gold",
+    "wildcaves:ore_vein/overworld/lapis",
+    "wildcaves:ore_vein/overworld/redstone",
+    "wildcaves:ore_vein/overworld/emerald"
+  ],
+  "step": "underground_ores"
+}

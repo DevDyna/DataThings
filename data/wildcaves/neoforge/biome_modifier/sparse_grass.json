@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#wildcaves:spawn_sparse_grass",
+  "features": [
+    "wildcaves:sparse_grass"
+  ],
+  "step": "vegetal_decoration"
+}

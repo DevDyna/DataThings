@@ -1,0 +1,45 @@
+{
+    "feature": "minecraft:dripstone_cluster",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": {
+            "absolute": -65
+          },
+          "max_inclusive": {
+            "absolute": 0
+          }
+        }
+      },
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 1
+      },
+      {
+        "type": "minecraft:random_offset",
+        "xz_spread": {
+          "type": "minecraft:clamped_normal",
+          "min_inclusive": -10,
+          "max_inclusive": 10,
+          "mean": 0,
+          "deviation": 3
+        },
+        "y_spread": {
+          "type": "minecraft:clamped_normal",
+          "min_inclusive": -2,
+          "max_inclusive": 2,
+          "mean": 0,
+          "deviation": 0.6
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

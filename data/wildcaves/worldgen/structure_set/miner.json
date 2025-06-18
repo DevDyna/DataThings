@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wildcaves:miner",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1816513366,
+    "spacing": 16,
+    "separation": 8
+  }
+}

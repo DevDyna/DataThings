@@ -1,0 +1,11 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+issueTrackerURL=""
+license="MIT"
+[[mods]]
+    modId="wildcaves"
+    version="1.1"
+    displayName="WildCaves"
+    description="Enhance your experience on mining!"
+	authors="DevDyna"
+	logoFile="pack.png"
