@@ -1,5 +1,7 @@
 
-
+<details>
+  <summary><strong># Documentation and Spawn location</strong></summary>
+<br/>
 
 # Giant ore veins
 A huge amount of ores that spawn neat to other
@@ -62,4 +64,7 @@ Also there is a list of small new features that dont change too much but are goo
 - Crying Obsidian & Obsidian
 - Cobbled Deepslate & Cobblestone
 
+
+  
+</details>
 
