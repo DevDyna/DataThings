@@ -1,7 +1,7 @@
 {
     "neoforge:conditions": [{
             "type": "neoforge:mod_loaded",
-            "modid": "kubejs"
+            "modid": "minecraft"
         }
     ],
     "type": "neoforge:add_features",
