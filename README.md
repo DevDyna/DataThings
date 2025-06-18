@@ -6,7 +6,7 @@ An expansion of current Mining system with new features and gameplay changes
   <summary><strong>Contribution (Giant Ore veins mod compat)</strong></summary>
 <br/>
 
-You are free to create a PR containing a modcompat based on [example_pack](https://github.com/DevDyna/DataThings/tree/Wild-Caves/example_pack)
+You are free to create a PR containing a mod compat based on [example_pack](https://github.com/DevDyna/DataThings/tree/Wild-Caves/example_pack)
 
 </details>
 
