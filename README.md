@@ -6,56 +6,9 @@ An expansion of current Mining system with new features and gameplay changes
   <summary><strong>Contribution (Giant Ore veins mod compat)</strong></summary>
 <br/>
 
+You are free to create a PR containing a modcompat based on [example_pack](https://github.com/DevDyna/DataThings/tree/Wild-Caves/example_pack)
+
 </details>
-
-- Fork this repository
-- Copy this file as json...
-
-```json
-{
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "<modname>"
-    }
-  ],
-  "type": "neoforge:add_features",
-  "biomes": "#wildcaves:ore_vein/<modname>",
-  "features": [
-    "wildcaves:ores_vein/<modname>/<ore>"
-],
-  "step": "underground_ores"
-}
-```
-
-...and put at the specific directory
-
-```
-data\wildcaves\neoforge\biome_modifier\ore_vein\<modname>\
-```
-
-
-
-
-
-
-
-**NOTE**
-
-you can add more
-  
-
-
-
-
-
-**NOTE**
-
-You need to replace all `<values>` based to the description on below
-
-`<modname>` -> the modid of your mod compat <br/>
-`<ore>` -> the ore id of your mod compat <br/>
-
 
 <details>
   <summary><strong>Documentation (Spawn location)</strong></summary>
