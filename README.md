@@ -1,6 +1,4 @@
-### This is the nexus 
-
-### Nothing still here
+### This is the nexus , nothing still here , go away! 
 
 ### To see all programs you need to change branch
 - [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express)
