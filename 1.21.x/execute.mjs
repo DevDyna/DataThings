@@ -21,24 +21,12 @@ async function main() {
   //get array of files
   let totfile = io.getAllFromDir("../tags/");
 
-  //check if include blacklisted
-  // let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
-  let blackfound = 0;
-  // blacklist.forEach((list) => {
-  //   totfile.indexOf(list) !== -1
-  //     ? (totfile.splice(list, 1), blackfound++)
-  //     : null;
-  // });
 
   if (!DEV_ENVIRONMENT)
     totfile = totfile.filter((item) => item !== "_example.json");
 
   await delay(500);
-  //generate blacklisted output
-  let bads = "";
-  if (blackfound > 0) {
-    bads = `and ${blackfound} ignored files`;
-  }
+
   let file = "";
   if (totfile.length > 1) {
     file = "s";
@@ -125,18 +113,4 @@ async function main() {
       console.log("File jar created successfully");
     }
   );
-  /* logo mod o.O
-        inside the code 0.o
-        console.log({
-        "values": [{
-        "type": "devdyna:addon",
-        "count": 1,
-        "ingredient": {
-        "item": '${chipped}'
-        },
-        "result": '${express}'
-        }
-        ]
-        })
-         */
 }
