@@ -44,11 +44,7 @@ async function main() {
   }
   console.log(`${totfile.length} File${file} founded ${bads}`);
 
-  let URLdir = [
-    "data/",
-    "data/chipped_express/",
-    "data/chipped_express/recipe/",
-  ];
+  let URLdir = ["data/", "data/" + modID + "/", "data/" + modID + "/recipe/"];
   //create subdirectories
   URLdir.forEach((e) => {
     if (io.mkDir(e)) {
@@ -66,12 +62,16 @@ async function main() {
   let createFileRecipe = (input, output) => {
     let string_input = "" + (input.item != undefined ? input.item : input.tag);
 
-    console.log((input.item != undefined ? "item" : "tag")+" ->" + string_input);
+    console.log(
+      (input.item != undefined ? "item" : "tag") + " ->" + string_input
+    );
     io.mkFile(
-      "./data/chipped_express/recipe/stonecutting_" +
-        output.id.replace(/[:\s]/g, "_") +
+      "./data/" +
+        modID +
+        "/recipe/stonecutting_" +
+        output.id.replace(/[:\s/]/g, "_") +
         "_from_" +
-        string_input.replace(/[:\s]/g, "_") +
+        string_input.replace(/[:\s/]/g, "_") +
         ".json",
       JSON.stringify({
         type: "minecraft:stonecutting",
@@ -82,19 +82,30 @@ async function main() {
     );
   };
 
-  //foreach tags
-  totfile.forEach((tag) => {
-    //console.log(`Reading file :${tag}`)
-    let ar = io.JsonArray(`../tags/${tag}`).values;
+  let processRecipes = (tag, suffix) => {
+    let ar = io.JsonArray("../tags/"+suffix+tag).values;
+
     //foreach tag entries generate recipes
     ar.forEach((result) => {
       console.log("|--------------------|" + result + "|--------------------|");
       // createFileRecipe({ item: "minecraft:" + origin }, { id: result });
       createFileRecipe(
-        { tag: "chipped:" + tag.replace(/\.json$/, "") },
+        { tag: "chisel_chipped_integration:"+suffix+ tag.replace(/\.json$/, "") },
         { id: result }
       );
     });
+  };
+
+  //foreach tags
+  totfile.forEach((tag) => {
+    if (io.isDir("../tags/" + tag)) {
+      io.getAllFromDir("../tags/" + tag).forEach((newTag) => {
+        console.log(newTag + " -> " + "../tags/" + tag)
+        processRecipes(newTag, tag + "/");
+      });
+    } else {
+      processRecipes(tag, "");
+    }
   });
 
   console.log("Creating jar file , it will take a few of seconds");
