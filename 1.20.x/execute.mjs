@@ -10,6 +10,9 @@ const DEV_ENVIRONMENT = false;
 main();
 
 async function main() {
+  const modID = "chisel_express";
+  const modName = "ChiselExpress";
+
   const require = createRequire(import.meta.url);
   // can now use `require` in an ESM
   const { exec } = require("child_process");
@@ -18,35 +21,19 @@ async function main() {
   //get array of files
   let totfile = io.getAllFromDir("../tags/");
 
-  //check if include blacklisted
-  let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
-  let blackfound = 0;
-  blacklist.forEach((list) => {
-    totfile.indexOf(list) !== -1
-      ? (totfile.splice(list, 1), blackfound++)
-      : null;
-  });
 
   if (!DEV_ENVIRONMENT)
     totfile = totfile.filter((item) => item !== "_example.json");
 
   await delay(500);
-  //generate blacklisted output
-  let bads = "";
-  if (blackfound > 0) {
-    bads = `and ${blackfound} ignored files`;
-  }
+
   let file = "";
   if (totfile.length > 1) {
     file = "s";
   }
   console.log(`${totfile.length} File${file} founded ${bads}`);
 
-  let URLdir = [
-    "data/",
-    "data/chipped_express/",
-    "data/chipped_express/recipes/",
-  ];
+  let URLdir = ["data/", "data/" + modID + "/", "data/" + modID + "/recipes/"];
   //create subdirectories
   URLdir.forEach((e) => {
     if (io.mkDir(e)) {
@@ -67,12 +54,13 @@ async function main() {
     console.log(
       (input.item != undefined ? "item" : "tag") + " ->" + string_input
     );
-
     io.mkFile(
-      "./data/chipped_express/recipes/stonecutting_" +
-        output.replace(/[:\s]/g, "_") +
+      "./data/" +
+        modID +
+        "/recipes/stonecutting_" +
+        output.id.replace(/[:\s/]/g, "_") +
         "_from_" +
-        string_input.replace(/[:\s]/g, "_") +
+        string_input.replace(/[:\s/]/g, "_") +
         ".json",
       JSON.stringify({
         type: "minecraft:stonecutting",
@@ -83,34 +71,36 @@ async function main() {
     );
   };
 
-  //foreach tags
-  totfile.forEach((tag) => {
-    //console.log(`Reading file :${tag}`)
-    let ar = io.JsonArray(`../tags/${tag}`).values;
-    let origin = ar[0];
-    // ar.shift();
-    if (
-      origin == "chipped:big_lantern" ||
-      origin == "chipped:big_soul_lantern"
-    ) {
-      return;
-    }
-    // console.log(origin);
+  let processRecipes = (tag, suffix) => {
+    let ar = io.JsonArray("../tags/"+suffix+tag).values;
+
     //foreach tag entries generate recipes
     ar.forEach((result) => {
       console.log("|--------------------|" + result + "|--------------------|");
-      // createFileRecipe({ item: "minecraft:" + origin }, result);
+      // createFileRecipe({ item: "minecraft:" + origin },   result );
       createFileRecipe(
-        { tag: "chipped:" + tag.replace(/\.json$/, "") },
-        result
+        { tag: "chisel_chipped_integration:"+suffix+ tag.replace(/\.json$/, "") },
+         result 
       );
     });
+  };
+
+  //foreach tags
+  totfile.forEach((tag) => {
+    if (io.isDir("../tags/" + tag)) {
+      io.getAllFromDir("../tags/" + tag).forEach((newTag) => {
+        console.log(newTag + " -> " + "../tags/" + tag)
+        processRecipes(newTag, tag + "/");
+      });
+    } else {
+      processRecipes(tag, "");
+    }
   });
 
   console.log("Creating jar file , it will take a few of seconds");
   //jar creation
   exec(
-    `jar cf "ChippedExpress-universal-20x.jar" data ../META-INF ../pack.mcmeta ../pack.png ../fabric.mod.json`,
+    `jar cf "${modName}-universal-20.1.jar" data ../META-INF ../pack.mcmeta ../pack.png ../fabric.mod.json`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("error: " + error.message);
@@ -123,18 +113,4 @@ async function main() {
       console.log("File jar created successfully");
     }
   );
-  /* logo mod o.O
-        inside the code 0.o
-        console.log({
-        "values": [{
-        "type": "devdyna:addon",
-        "count": 1,
-        "ingredient": {
-        "item": '${chipped}'
-        },
-        "result": '${express}'
-        }
-        ]
-        })
-         */
 }
