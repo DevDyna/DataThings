@@ -22,13 +22,13 @@ async function main() {
   let totfile = io.getAllFromDir("../tags/");
 
   //check if include blacklisted
-  let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
+  // let blacklist = ["special_lantern.json", "special_soul_lantern.json"];
   let blackfound = 0;
-  blacklist.forEach((list) => {
-    totfile.indexOf(list) !== -1
-      ? (totfile.splice(list, 1), blackfound++)
-      : null;
-  });
+  // blacklist.forEach((list) => {
+  //   totfile.indexOf(list) !== -1
+  //     ? (totfile.splice(list, 1), blackfound++)
+  //     : null;
+  // });
 
   if (!DEV_ENVIRONMENT) totfile = totfile.filter((item) => item !== "_example.json");
 
@@ -86,15 +86,6 @@ async function main() {
   totfile.forEach((tag) => {
     //console.log(`Reading file :${tag}`)
     let ar = io.JsonArray(`../tags/${tag}`).values;
-    let origin = ar[0];
-    // ar.shift();
-    if (
-      origin == "chipped:big_lantern" ||
-      origin == "chipped:big_soul_lantern"
-    ) {
-      return;
-    }
-    // console.log(origin);
     //foreach tag entries generate recipes
     ar.forEach((result) => {
       console.log("|--------------------|" + result + "|--------------------|");
