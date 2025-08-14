@@ -11,6 +11,8 @@ const DEV_ENVIRONMENT = false;
 main();
 
 async function main() {
+  const modID = "chisel_express";
+
   const require = createRequire(import.meta.url);
   // can now use `require` in an ESM
   const { exec } = require("child_process");
