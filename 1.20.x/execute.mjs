@@ -27,12 +27,6 @@ async function main() {
 
   await delay(500);
 
-  let file = "";
-  if (totfile.length > 1) {
-    file = "s";
-  }
-  console.log(`${totfile.length} File${file} founded ${bads}`);
-
   let URLdir = ["data/", "data/" + modID + "/", "data/" + modID + "/recipes/"];
   //create subdirectories
   URLdir.forEach((e) => {
@@ -58,7 +52,7 @@ async function main() {
       "./data/" +
         modID +
         "/recipes/stonecutting_" +
-        output.id.replace(/[:\s/]/g, "_") +
+        output.replace(/[:\s/]/g, "_") +
         "_from_" +
         string_input.replace(/[:\s/]/g, "_") +
         ".json",
