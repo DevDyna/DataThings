@@ -4,7 +4,6 @@ import { createRequire } from "module"; // used to allow to use require("module"
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 //await delay(1000) /// waiting 1 second.	///only if async enable
 
-
 //true -> generate dev recipes | false -> ignore dev recipes
 const DEV_ENVIRONMENT = false;
 
@@ -30,7 +29,8 @@ async function main() {
   //     : null;
   // });
 
-  if (!DEV_ENVIRONMENT) totfile = totfile.filter((item) => item !== "_example.json");
+  if (!DEV_ENVIRONMENT)
+    totfile = totfile.filter((item) => item !== "_example.json");
 
   await delay(500);
   //generate blacklisted output
