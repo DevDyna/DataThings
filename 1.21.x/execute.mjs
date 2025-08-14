@@ -11,6 +11,7 @@ main();
 
 async function main() {
   const modID = "chisel_express";
+  const modName = "ChiselExpress";
 
   const require = createRequire(import.meta.url);
   // can now use `require` in an ESM
@@ -111,7 +112,7 @@ async function main() {
   console.log("Creating jar file , it will take a few of seconds");
   //jar creation
   exec(
-    `jar cf "ChippedExpress-universal-21x.jar" data ../META-INF ../pack.mcmeta ../pack.png ../fabric.mod.json`,
+    `jar cf "${modName}-universal-21x.jar" data ../META-INF ../pack.mcmeta ../pack.png ../fabric.mod.json`,
     (error, stdout, stderr) => {
       if (error) {
         console.error("error: " + error.message);
