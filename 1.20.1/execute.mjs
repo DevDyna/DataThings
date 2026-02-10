@@ -56,6 +56,7 @@ async function main() {
             {
               "type": "gtceu:rock_breaker",
               "duration": 16,
+              "groupColor":-1,
               "data": {
                   "fluidA": "minecraft:lava",
                   "fluidB": "minecraft:water"
@@ -130,6 +131,7 @@ async function main() {
         {
           "type": "gtceu:sifter",
           "duration": 100,
+          "groupColor":-1,
           "inputs": {
               "item": [{
                       "content": {
