@@ -10,18 +10,18 @@ export async function folders() {
   io.mkDir("./assets/" + core.main_MODID);
 
   io.mkDir("./data/" + core.main_MODID + "/tags");
-  io.mkDir("./data/" + core.main_MODID + "/tags/items");
+  io.mkDir("./data/" + core.main_MODID + "/tags/item");
 
   io.mkDir("./data/" + core.main_MODID + "/bounty_decrees");
   io.mkDir("./data/" + core.main_MODID + "/bounty_pools");
   io.mkDir("./data/" + core.main_MODID + "/gateways");
-  io.mkDir("./data/" + core.main_MODID + "/loot_tables");
+  io.mkDir("./data/" + core.main_MODID + "/loot_table");
   io.mkDir("./assets/" + core.main_MODID + "/lang");
 
   io.mkDir("./data/" + core.main_MODID + "/gateways/small");
   io.mkDir("./data/" + core.main_MODID + "/gateways/medium");
   io.mkDir("./data/" + core.main_MODID + "/gateways/large");
-  io.mkDir("./data/" + core.main_MODID + "/loot_tables/entities");
+  io.mkDir("./data/" + core.main_MODID + "/loot_table/entities");
 
   io.mkDir("./data/" + core.main_MODID + "/bounty_decrees/" + core.main_MODID);
   io.mkDir("./data/" + core.main_MODID + "/bounty_pools/" + core.main_MODID);

@@ -37,7 +37,7 @@ export const lang_traslation = "./lang/";
 
 export const the_end = ".json";
 
-export const bounty_tags_url = "./data/" + main_MODID + "/tags/items/";
+export const bounty_tags_url = "./data/" + main_MODID + "/tags/item/";
 
 export const decree_id = "decree";
 export const decree_url = bounty_pools_url + "decree" + the_end;
