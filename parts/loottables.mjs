@@ -27,7 +27,7 @@ export async function makeLootTables() {
   });
 
   io.mkFile(
-    "./data/extrabounties/loot_tables/entities/creeper_music_discs" +
+    "./data/extrabounties/loot_table/entities/creeper_music_discs" +
       core.the_end,
     {
       type: "minecraft:entity",
