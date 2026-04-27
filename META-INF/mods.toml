@@ -3,21 +3,21 @@ loaderVersion="[1,)"
 issueTrackerURL="https://github.com/DevDyna/DataThings/issues"
 license="MIT"
 [[mods]]
-    modId="create_numismatic_bounties"
-    version="2.0"
-    displayName="Create : Numismatic Bounties"
-    description="Bountiful addon that change many trades to use Create:Numismatic coins"
+    modId="lightmans_currency_bounties"
+    version="1.0"
+    displayName="Lightmans Currency Bounties"
+    description="Bountiful addon that change many trades to use Lightmans Currency coins"
 	authors="DevDyna"
 	logoFile="pack.png"
 
-[[dependencies.create_numismatic_bounties]]
+[[dependencies.lightmans_currency_bounties]]
     modId="bountiful"
     mandatory= true
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.create_numismatic_bounties]]
+[[dependencies.lightmans_currency_bounties]]
     modId="extrabounties"
     mandatory= false
     versionRange="*"
