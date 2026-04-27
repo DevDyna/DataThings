@@ -1,9 +1,9 @@
 {
     "schemaVersion": 1,
-    "id": "create_numismatic_bounties",
-    "version": "2.0",
-    "name": "Create : Numismatic Bounties",
-    "description": "Bountiful addon that change many trades to use Create:Numismatic coins",
+    "id": "lightmans_currency_bounties",
+    "version": "1.0",
+    "name": "Lightmans Currency Bounties",
+    "description": "Bountiful addon that change many trades to use Lightmans Currency coins",
     "authors": [
         "DevDyna"
     ],
