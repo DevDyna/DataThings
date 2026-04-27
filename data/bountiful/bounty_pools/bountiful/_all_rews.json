@@ -4,7 +4,7 @@
         "a": {
             "type": "item",
             "rarity": "COMMON",
-            "content": "numismatics:spur",
+            "content": "lightmanscurrency:coin_copper",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -12,29 +12,29 @@
             "unitWorth": 100,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         },
         "b": {
             "type": "item",
             "rarity": "COMMON",
-            "content": "numismatics:bevel",
+            "content": "lightmanscurrency:coin_iron",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -42,29 +42,29 @@
             "unitWorth": 200,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         },
         "c": {
             "type": "item",
             "rarity": "UNCOMMON",
-            "content": "numismatics:sprocket",
+            "content": "lightmanscurrency:coin_gold",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -72,29 +72,29 @@
             "unitWorth": 400,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         },
         "d": {
             "type": "item",
             "rarity": "RARE",
-            "content": "numismatics:cog",
+            "content": "lightmanscurrency:coin_emerald",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -102,29 +102,29 @@
             "unitWorth": 600,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         },
         "e": {
             "type": "item",
             "rarity": "EPIC",
-            "content": "numismatics:crown",
+            "content": "lightmanscurrency:coin_diamond",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -132,29 +132,29 @@
             "unitWorth": 800,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         },
         "f": {
             "type": "item",
             "rarity": "LEGENDARY",
-            "content": "numismatics:sun",
+            "content": "lightmanscurrency:coin_netherite",
             "amount": {
                 "min": 1,
                 "max": 24
@@ -162,22 +162,22 @@
             "unitWorth": 1000,
             "forbids": [{
                     "type": "item",
-                    "content": "numismatics:spur"
+                    "content": "lightmanscurrency:coin_copper"
                 }, {
                     "type": "item",
-                    "content": "numismatics:bevel"
+                    "content": "lightmanscurrency:coin_iron"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sprocket"
+                    "content": "lightmanscurrency:coin_gold"
                 }, {
                     "type": "item",
-                    "content": "numismatics:cog"
+                    "content": "lightmanscurrency:coin_emerald"
                 }, {
                     "type": "item",
-                    "content": "numismatics:crown"
+                    "content": "lightmanscurrency:coin_diamond"
                 }, {
                     "type": "item",
-                    "content": "numismatics:sun"
+                    "content": "lightmanscurrency:coin_netherite"
                 }
             ]
         }
