@@ -11,3 +11,4 @@
 - [Ez-ae2](https://github.com/DevDyna/DataThings/tree/Ez-ae2)
 - [Factory-Express](https://github.com/DevDyna/DataThings/tree/Factory-Express)
 - [Chisel Express](https://github.com/DevDyna/DataThings/tree/Chisel-Express)
+- [Lightmans-Currency-Bounties](https://github.com/DevDyna/DataThings/tree/Lightmans-Currency-Bounties)
