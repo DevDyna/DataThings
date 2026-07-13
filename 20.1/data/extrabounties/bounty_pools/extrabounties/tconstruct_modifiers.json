@@ -1,0 +1,1247 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_modifier_crystal_0": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:hydraulic\" }"
+    },
+    "tconstruct_modifier_crystal_1": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:depth_strider\" }"
+    },
+    "tconstruct_modifier_crystal_2": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bonking\" }"
+    },
+    "tconstruct_modifier_crystal_3": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:farsighted\" }"
+    },
+    "tconstruct_modifier_crystal_4": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:knockback_resistance\" }"
+    },
+    "tconstruct_modifier_crystal_5": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:draconic\" }"
+    },
+    "tconstruct_modifier_crystal_6": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:leaping\" }"
+    },
+    "tconstruct_modifier_crystal_7": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:experienced\" }"
+    },
+    "tconstruct_modifier_crystal_8": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:impaling\" }"
+    },
+    "tconstruct_modifier_crystal_9": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:item_frame\" }"
+    },
+    "tconstruct_modifier_crystal_10": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:killager\" }"
+    },
+    "tconstruct_modifier_crystal_11": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:double_jump\" }"
+    },
+    "tconstruct_modifier_crystal_12": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:aqua_affinity\" }"
+    },
+    "tconstruct_modifier_crystal_13": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bulk_quiver\" }"
+    },
+    "tconstruct_modifier_crystal_14": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:blast_protection\" }"
+    },
+    "tconstruct_modifier_crystal_15": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:frost_walker\" }"
+    },
+    "tconstruct_modifier_crystal_16": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:golden\" }"
+    },
+    "tconstruct_modifier_crystal_17": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:knockback\" }"
+    },
+    "tconstruct_modifier_crystal_18": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bursting\" }"
+    },
+    "tconstruct_modifier_crystal_19": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:ambidextrous\" }"
+    },
+    "tconstruct_modifier_crystal_20": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:cooling\" }"
+    },
+    "tconstruct_modifier_crystal_21": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:long_fall\" }"
+    },
+    "tconstruct_modifier_crystal_22": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:lightspeed\" }"
+    },
+    "tconstruct_modifier_crystal_23": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:fireprimer\" }"
+    },
+    "tconstruct_modifier_crystal_24": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:freezing\" }"
+    },
+    "tconstruct_modifier_crystal_25": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:autosmelt\" }"
+    },
+    "tconstruct_modifier_crystal_26": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:emerald\" }"
+    },
+    "tconstruct_modifier_crystal_27": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bane_of_sssss\" }"
+    },
+    "tconstruct_modifier_crystal_28": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:boundless\" }"
+    },
+    "tconstruct_modifier_crystal_29": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bucketing\" }"
+    },
+    "tconstruct_modifier_crystal_30": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:blindshot\" }"
+    },
+    "tconstruct_modifier_crystal_31": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:flamewake\" }"
+    },
+    "tconstruct_modifier_crystal_32": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:blocking\" }"
+    },
+    "tconstruct_modifier_crystal_33": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:luck\" }"
+    },
+    "tconstruct_modifier_crystal_34": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:fire_protection\" }"
+    },
+    "tconstruct_modifier_crystal_35": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:glowing\" }"
+    },
+    "tconstruct_modifier_crystal_36": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:harmonious\" }"
+    },
+    "tconstruct_modifier_crystal_37": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:exchanging\" }"
+    },
+    "tconstruct_modifier_crystal_38": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:haste\" }"
+    },
+    "tconstruct_modifier_crystal_39": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:expanded\" }"
+    },
+    "tconstruct_modifier_crystal_40": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:fiery\" }"
+    },
+    "tconstruct_modifier_crystal_41": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:antiaquatic\" }"
+    },
+    "tconstruct_modifier_crystal_42": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:crafting_table\" }"
+    },
+    "tconstruct_modifier_crystal_43": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:crystalshot\" }"
+    },
+    "tconstruct_modifier_crystal_44": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:bouncy\" }"
+    },
+    "tconstruct_modifier_crystal_45": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:diamond\" }"
+    },
+    "tconstruct_modifier_crystal_46": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:firestarter\" }"
+    },
+    "tconstruct_modifier_crystal_47": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:blasting\" }"
+    },
+    "tconstruct_modifier_crystal_48": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:dragonborn\" }"
+    },
+    "tconstruct_modifier_crystal_49": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:dual_wielding\" }"
+    },
+    "tconstruct_modifier_crystal_50": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:flinging\" }"
+    },
+    "tconstruct_modifier_crystal_51": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:feather_falling\" }"
+    },
+    "tconstruct_modifier_crystal_52": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:gilded\" }"
+    },
+    "tconstruct_modifier_crystal_53": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:slurping\" }"
+    },
+    "tconstruct_modifier_crystal_54": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:magic_protection\" }"
+    },
+    "tconstruct_modifier_crystal_55": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:speedy\" }"
+    },
+    "tconstruct_modifier_crystal_56": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:soulspeed\" }"
+    },
+    "tconstruct_modifier_crystal_57": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:shield_strap\" }"
+    },
+    "tconstruct_modifier_crystal_58": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:shiny\" }"
+    },
+    "tconstruct_modifier_crystal_59": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:shulking\" }"
+    },
+    "tconstruct_modifier_crystal_60": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:quick_charge\" }"
+    },
+    "tconstruct_modifier_crystal_61": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:tank\" }"
+    },
+    "tconstruct_modifier_crystal_62": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:swiftstrike\" }"
+    },
+    "tconstruct_modifier_crystal_63": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:pockets\" }"
+    },
+    "tconstruct_modifier_crystal_64": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:step_up\" }"
+    },
+    "tconstruct_modifier_crystal_65": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:springing\" }"
+    },
+    "tconstruct_modifier_crystal_66": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:splashing\" }"
+    },
+    "tconstruct_modifier_crystal_67": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:spitting\" }"
+    },
+    "tconstruct_modifier_crystal_68": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:spilling\" }"
+    },
+    "tconstruct_modifier_crystal_69": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:smelting\" }"
+    },
+    "tconstruct_modifier_crystal_70": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:magnetic\" }"
+    },
+    "tconstruct_modifier_crystal_71": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:soulbound\" }"
+    },
+    "tconstruct_modifier_crystal_72": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:netherite\" }"
+    },
+    "tconstruct_modifier_crystal_73": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:padded\" }"
+    },
+    "tconstruct_modifier_crystal_74": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:sharpness\" }"
+    },
+    "tconstruct_modifier_crystal_75": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:sweeping_edge\" }"
+    },
+    "tconstruct_modifier_crystal_76": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:power\" }"
+    },
+    "tconstruct_modifier_crystal_77": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:reflecting\" }"
+    },
+    "tconstruct_modifier_crystal_78": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:projectile_protection\" }"
+    },
+    "tconstruct_modifier_crystal_79": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:recapitated\" }"
+    },
+    "tconstruct_modifier_crystal_80": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:springy\" }"
+    },
+    "tconstruct_modifier_crystal_81": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:multishot\" }"
+    },
+    "tconstruct_modifier_crystal_82": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:snowdrift\" }"
+    },
+    "tconstruct_modifier_crystal_83": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:smite\" }"
+    },
+    "tconstruct_modifier_crystal_84": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:sinistral\" }"
+    },
+    "tconstruct_modifier_crystal_85": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:silky\" }"
+    },
+    "tconstruct_modifier_crystal_86": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:parrying\" }"
+    },
+    "tconstruct_modifier_crystal_87": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:pathing\" }"
+    },
+    "tconstruct_modifier_crystal_88": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:severing\" }"
+    },
+    "tconstruct_modifier_crystal_89": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:scope\" }"
+    },
+    "tconstruct_modifier_crystal_90": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:swift_sneak\" }"
+    },
+    "tconstruct_modifier_crystal_91": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:workbench\" }"
+    },
+    "tconstruct_modifier_crystal_92": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:writable\" }"
+    },
+    "tconstruct_modifier_crystal_93": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:trick_quiver\" }"
+    },
+    "tconstruct_modifier_crystal_94": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:strength\" }"
+    },
+    "tconstruct_modifier_crystal_95": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:nearsighted\" }"
+    },
+    "tconstruct_modifier_crystal_96": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:tool_belt\" }"
+    },
+    "tconstruct_modifier_crystal_97": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:tilling\" }"
+    },
+    "tconstruct_modifier_crystal_98": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:necrotic\" }"
+    },
+    "tconstruct_modifier_crystal_99": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:melting\" }"
+    },
+    "tconstruct_modifier_crystal_100": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:resurrected\" }"
+    },
+    "tconstruct_modifier_crystal_101": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:revitalizing\" }"
+    },
+    "tconstruct_modifier_crystal_102": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:melee_protection\" }"
+    },
+    "tconstruct_modifier_crystal_103": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:overforced\" }"
+    },
+    "tconstruct_modifier_crystal_104": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:ricochet\" }"
+    },
+    "tconstruct_modifier_crystal_105": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:zoom\" }"
+    },
+    "tconstruct_modifier_crystal_106": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:worldbound\" }"
+    },
+    "tconstruct_modifier_crystal_107": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:wings\" }"
+    },
+    "tconstruct_modifier_crystal_108": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:punch\" }"
+    },
+    "tconstruct_modifier_crystal_109": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:protection\" }"
+    },
+    "tconstruct_modifier_crystal_110": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:turtle_shell\" }"
+    },
+    "tconstruct_modifier_crystal_111": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:reach\" }"
+    },
+    "tconstruct_modifier_crystal_112": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:thorns\" }"
+    },
+    "tconstruct_modifier_crystal_113": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:pierce\" }"
+    },
+    "tconstruct_modifier_crystal_114": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:soul_belt\" }"
+    },
+    "tconstruct_modifier_crystal_115": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:stripping\" }"
+    },
+    "tconstruct_modifier_crystal_116": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:offhanded\" }"
+    },
+    "tconstruct_modifier_crystal_117": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:respiration\" }"
+    },
+    "tconstruct_modifier_crystal_118": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:overslime\" }"
+    },
+    "tconstruct_modifier_crystal_119": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:reinforced\" }"
+    },
+    "tconstruct_modifier_crystal_120": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:wetting\" }"
+    },
+    "tconstruct_modifier_crystal_121": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:warping\" }"
+    },
+    "tconstruct_modifier_crystal_122": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:unbreakable\" }"
+    },
+    "tconstruct_modifier_crystal_123": {
+      "type": "item",
+      "content": "tconstruct:modifier_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750,
+      "nbt": "{ modifier: \"tconstruct:trueshot\" }"
+    }
+  }
+}

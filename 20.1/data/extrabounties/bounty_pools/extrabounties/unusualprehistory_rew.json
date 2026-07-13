@@ -1,0 +1,412 @@
+{
+  "requires": [
+    "unusualprehistory"
+  ],
+  "content": {
+    "unusualprehistory_archao_flask": {
+      "type": "item",
+      "content": "unusualprehistory:archao_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_nelumbites_flask": {
+      "type": "item",
+      "content": "unusualprehistory:nelumbites_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_raptor_flask": {
+      "type": "item",
+      "content": "unusualprehistory:raptor_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_megath_flask": {
+      "type": "item",
+      "content": "unusualprehistory:megath_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_tall_horsetail_flask": {
+      "type": "item",
+      "content": "unusualprehistory:tall_horsetail_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_paracer_flask": {
+      "type": "item",
+      "content": "unusualprehistory:paracer_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_ulugh_flask": {
+      "type": "item",
+      "content": "unusualprehistory:ulugh_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_giganto_flask": {
+      "type": "item",
+      "content": "unusualprehistory:giganto_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_zuloagae_flask": {
+      "type": "item",
+      "content": "unusualprehistory:zuloagae_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_coty_flask": {
+      "type": "item",
+      "content": "unusualprehistory:coty_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_scau_flask": {
+      "type": "item",
+      "content": "unusualprehistory:scau_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_quereuxia_flask": {
+      "type": "item",
+      "content": "unusualprehistory:quereuxia_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_talpanas_flask": {
+      "type": "item",
+      "content": "unusualprehistory:talpanas_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_ginkgo_flask": {
+      "type": "item",
+      "content": "unusualprehistory:ginkgo_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_dryo_flask": {
+      "type": "item",
+      "content": "unusualprehistory:dryo_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_beelz_flask": {
+      "type": "item",
+      "content": "unusualprehistory:beelz_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_rex_flask": {
+      "type": "item",
+      "content": "unusualprehistory:rex_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_leefructus_flask": {
+      "type": "item",
+      "content": "unusualprehistory:leefructus_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_pachy_flask": {
+      "type": "item",
+      "content": "unusualprehistory:pachy_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_kentro_flask": {
+      "type": "item",
+      "content": "unusualprehistory:kentro_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_bennet_flask": {
+      "type": "item",
+      "content": "unusualprehistory:bennet_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_megala_flask": {
+      "type": "item",
+      "content": "unusualprehistory:megala_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_antarcto_flask": {
+      "type": "item",
+      "content": "unusualprehistory:antarcto_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_palaeo_flask": {
+      "type": "item",
+      "content": "unusualprehistory:palaeo_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_sarr_flask": {
+      "type": "item",
+      "content": "unusualprehistory:sarr_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_anuro_flask": {
+      "type": "item",
+      "content": "unusualprehistory:anuro_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_archaefructus_flask": {
+      "type": "item",
+      "content": "unusualprehistory:archaefructus_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_brachi_flask": {
+      "type": "item",
+      "content": "unusualprehistory:brachi_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_clathrodictyon_flask": {
+      "type": "item",
+      "content": "unusualprehistory:clathrodictyon_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_dunk_flask": {
+      "type": "item",
+      "content": "unusualprehistory:dunk_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_austro_flask": {
+      "type": "item",
+      "content": "unusualprehistory:austro_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_hwacha_flask": {
+      "type": "item",
+      "content": "unusualprehistory:hwacha_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_eryon_flask": {
+      "type": "item",
+      "content": "unusualprehistory:eryon_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_barin_flask": {
+      "type": "item",
+      "content": "unusualprehistory:barin_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_horsetail_flask": {
+      "type": "item",
+      "content": "unusualprehistory:horsetail_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_smilo_flask": {
+      "type": "item",
+      "content": "unusualprehistory:smilo_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_anostylostroma_flask": {
+      "type": "item",
+      "content": "unusualprehistory:anostylostroma_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_majunga_flask": {
+      "type": "item",
+      "content": "unusualprehistory:majunga_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_mammoth_flask": {
+      "type": "item",
+      "content": "unusualprehistory:mammoth_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_stetha_flask": {
+      "type": "item",
+      "content": "unusualprehistory:stetha_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_encrusted_flask": {
+      "type": "item",
+      "content": "unusualprehistory:encrusted_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_foxxi_flask": {
+      "type": "item",
+      "content": "unusualprehistory:foxxi_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_ammonite_flask": {
+      "type": "item",
+      "content": "unusualprehistory:ammonite_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_trike_flask": {
+      "type": "item",
+      "content": "unusualprehistory:trike_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "unusualprehistory_raiguenrayun_flask": {
+      "type": "item",
+      "content": "unusualprehistory:raiguenrayun_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

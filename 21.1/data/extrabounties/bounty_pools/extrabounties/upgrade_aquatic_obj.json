@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "minecraft_kelp": {
+      "type": "item",
+      "content": "minecraft:kelp",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_pickerelweed": {
+      "type": "item",
+      "content": "upgrade_aquatic:pickerelweed",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_mulberry": {
+      "type": "item",
+      "content": "upgrade_aquatic:mulberry",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_boiled_pickerelweed": {
+      "type": "item",
+      "content": "upgrade_aquatic:boiled_pickerelweed",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "requires": [
+    "ironchest"
+  ],
+  "content": {
+    "ironchest_iron_to_gold_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:iron_to_gold_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_gold_to_diamond_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:gold_to_diamond_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_copper_to_iron_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:copper_to_iron_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_diamond_to_crystal_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:diamond_to_crystal_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_wood_to_iron_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:wood_to_iron_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_wood_to_copper_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:wood_to_copper_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_diamond_to_obsidian_chest_upgrade": {
+      "type": "item",
+      "content": "ironchest:diamond_to_obsidian_chest_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

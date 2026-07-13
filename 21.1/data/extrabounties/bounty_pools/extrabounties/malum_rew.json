@@ -1,0 +1,494 @@
+{
+  "requires": [
+    "malum"
+  ],
+  "content": {
+    "malum_prismatic_focus_lens": {
+      "type": "item",
+      "content": "malum:prismatic_focus_lens",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_blazing_diode": {
+      "type": "item",
+      "content": "malum:blazing_diode",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_intricate_assembly": {
+      "type": "item",
+      "content": "malum:intricate_assembly",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_tuning_fork": {
+      "type": "item",
+      "content": "malum:tuning_fork",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_lamplighters_tongs": {
+      "type": "item",
+      "content": "malum:lamplighters_tongs",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_concentrated_gluttony": {
+      "type": "item",
+      "content": "malum:concentrated_gluttony",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_splash_of_gluttony": {
+      "type": "item",
+      "content": "malum:splash_of_gluttony",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_tyrving": {
+      "type": "item",
+      "content": "malum:tyrving",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_spirit_pouch": {
+      "type": "item",
+      "content": "malum:spirit_pouch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_the_aether": {
+      "type": "item",
+      "content": "malum:rune_of_the_aether",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_the_seas": {
+      "type": "item",
+      "content": "malum:rune_of_the_seas",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_the_arena": {
+      "type": "item",
+      "content": "malum:rune_of_the_arena",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_mending_diffuser": {
+      "type": "item",
+      "content": "malum:mending_diffuser",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_impurity_stabilizer": {
+      "type": "item",
+      "content": "malum:impurity_stabilizer",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_shielding_apparatus": {
+      "type": "item",
+      "content": "malum:shielding_apparatus",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_warping_engine": {
+      "type": "item",
+      "content": "malum:warping_engine",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_accelerating_inlay": {
+      "type": "item",
+      "content": "malum:accelerating_inlay",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_the_hoarder": {
+      "type": "item",
+      "content": "malum:ring_of_the_hoarder",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_the_demolitionist": {
+      "type": "item",
+      "content": "malum:ring_of_the_demolitionist",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_necklace_of_the_mystic_mirror": {
+      "type": "item",
+      "content": "malum:necklace_of_the_mystic_mirror",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_necklace_of_tidal_affinity": {
+      "type": "item",
+      "content": "malum:necklace_of_tidal_affinity",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_necklace_of_the_narrow_edge": {
+      "type": "item",
+      "content": "malum:necklace_of_the_narrow_edge",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_necklace_of_blissful_harmony": {
+      "type": "item",
+      "content": "malum:necklace_of_blissful_harmony",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_belt_of_the_starved": {
+      "type": "item",
+      "content": "malum:belt_of_the_starved",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_belt_of_the_prospector": {
+      "type": "item",
+      "content": "malum:belt_of_the_prospector",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_belt_of_the_magebane": {
+      "type": "item",
+      "content": "malum:belt_of_the_magebane",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_haste": {
+      "type": "item",
+      "content": "malum:rune_of_haste",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_warding": {
+      "type": "item",
+      "content": "malum:rune_of_warding",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_loyalty": {
+      "type": "item",
+      "content": "malum:rune_of_loyalty",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_motion": {
+      "type": "item",
+      "content": "malum:rune_of_motion",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_dexterity": {
+      "type": "item",
+      "content": "malum:rune_of_dexterity",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_aliment_cleansing": {
+      "type": "item",
+      "content": "malum:rune_of_aliment_cleansing",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_reactive_shielding": {
+      "type": "item",
+      "content": "malum:rune_of_reactive_shielding",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_fervor": {
+      "type": "item",
+      "content": "malum:rune_of_fervor",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_volatile_distortion": {
+      "type": "item",
+      "content": "malum:rune_of_volatile_distortion",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_reinforcement": {
+      "type": "item",
+      "content": "malum:rune_of_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_culling": {
+      "type": "item",
+      "content": "malum:rune_of_culling",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_idle_restoration": {
+      "type": "item",
+      "content": "malum:rune_of_idle_restoration",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_gilded_ring": {
+      "type": "item",
+      "content": "malum:gilded_ring",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_gilded_belt": {
+      "type": "item",
+      "content": "malum:gilded_belt",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ornate_ring": {
+      "type": "item",
+      "content": "malum:ornate_ring",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ornate_necklace": {
+      "type": "item",
+      "content": "malum:ornate_necklace",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_runic_brooch": {
+      "type": "item",
+      "content": "malum:runic_brooch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_elaborate_brooch": {
+      "type": "item",
+      "content": "malum:elaborate_brooch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_glass_brooch": {
+      "type": "item",
+      "content": "malum:glass_brooch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_gluttonous_brooch": {
+      "type": "item",
+      "content": "malum:gluttonous_brooch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_esoteric_spoils": {
+      "type": "item",
+      "content": "malum:ring_of_esoteric_spoils",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_curative_talent": {
+      "type": "item",
+      "content": "malum:ring_of_curative_talent",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_arcane_prowess": {
+      "type": "item",
+      "content": "malum:ring_of_arcane_prowess",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_manaweaving": {
+      "type": "item",
+      "content": "malum:ring_of_manaweaving",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_alchemical_mastery": {
+      "type": "item",
+      "content": "malum:ring_of_alchemical_mastery",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ring_of_desperate_voracity": {
+      "type": "item",
+      "content": "malum:ring_of_desperate_voracity",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_rune_of_the_hells": {
+      "type": "item",
+      "content": "malum:rune_of_the_hells",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "malum_ritual_shard": {
+      "type": "item",
+      "content": "malum:ritual_shard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{stored_ritual:\"malum:idle_mending\",stored_spirits:64}"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "alexscaves"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "alexscaves_in"
+  ],
+  "rewards": [
+    "decree",
+    "alexscaves_out",
+    "rarities"
+  ]
+}

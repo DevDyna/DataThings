@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "embers"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "embers_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "embers_rew",
+    "embers_any"
+  ]
+}

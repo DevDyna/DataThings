@@ -1,0 +1,508 @@
+{
+  "requires": [
+    "alexscaves"
+  ],
+  "content": {
+    "alexscaves_out_polarity_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "alexscaves:polarity_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_out_abyssal_chasm_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:abyssal_chasm\"}"
+    },
+    "alexscaves_out_toxic_caves_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:toxic_caves\"}"
+    },
+    "alexscaves_out_primordial_caves_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:primordial_caves\"}"
+    },
+    "alexscaves_out_magnetic_caves_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:magnetic_caves\"}"
+    },
+    "alexscaves_out_candy_cavity_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:candy_cavity\"}"
+    },
+    "alexscaves_out_forlorn_hollows_codex": {
+      "type": "item",
+      "content": "alexscaves:cave_codex",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{CaveBiome: \"alexscaves:forlorn_hollows\"}"
+    },
+    "alexscaves_uranium": {
+      "type": "item",
+      "content": "alexscaves:uranium",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_ominous_catalyst": {
+      "type": "item",
+      "content": "alexscaves:ominous_catalyst",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_pure_darkness": {
+      "type": "item",
+      "content": "alexscaves:pure_darkness",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_heart_of_iron": {
+      "type": "item",
+      "content": "alexscaves:heart_of_iron",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_confection_oven": {
+      "type": "item",
+      "content": "alexscaves:confection_oven",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_conversion_crucible": {
+      "type": "item",
+      "content": "alexscaves:conversion_crucible",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_nuclear_furnace_component": {
+      "type": "item",
+      "content": "alexscaves:nuclear_furnace_component",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_quarry": {
+      "type": "item",
+      "content": "alexscaves:quarry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_telecore": {
+      "type": "item",
+      "content": "alexscaves:telecore",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_sulfur_dust": {
+      "type": "item",
+      "content": "alexscaves:sulfur_dust",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_toxic_paste": {
+      "type": "item",
+      "content": "alexscaves:toxic_paste",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_depth_charge": {
+      "type": "item",
+      "content": "alexscaves:depth_charge",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_occult_gem": {
+      "type": "item",
+      "content": "alexscaves:occult_gem",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_nuclear_bomb": {
+      "type": "item",
+      "content": "alexscaves:nuclear_bomb",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_ferrouslime_ball": {
+      "type": "item",
+      "content": "alexscaves:ferrouslime_ball",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_fissile_core": {
+      "type": "item",
+      "content": "alexscaves:fissile_core",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_hologram_projector": {
+      "type": "item",
+      "content": "alexscaves:hologram_projector",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_raw_azure_neodymium": {
+      "type": "item",
+      "content": "alexscaves:raw_azure_neodymium",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_raw_scarlet_neodymium": {
+      "type": "item",
+      "content": "alexscaves:raw_scarlet_neodymium",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_radiant_essence": {
+      "type": "item",
+      "content": "alexscaves:radiant_essence",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_gingerbread_helmet": {
+      "type": "item",
+      "content": "alexscaves:gingerbread_helmet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_gingerbread_boots": {
+      "type": "item",
+      "content": "alexscaves:gingerbread_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_primordial_tunic": {
+      "type": "item",
+      "content": "alexscaves:primordial_tunic",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_hazmat_chestplate": {
+      "type": "item",
+      "content": "alexscaves:hazmat_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_diving_chestplate": {
+      "type": "item",
+      "content": "alexscaves:diving_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_cloak_of_darkness": {
+      "type": "item",
+      "content": "alexscaves:cloak_of_darkness",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_gingerbread_chestplate": {
+      "type": "item",
+      "content": "alexscaves:gingerbread_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_diving_leggings": {
+      "type": "item",
+      "content": "alexscaves:diving_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_sack_of_sating": {
+      "type": "item",
+      "content": "alexscaves:sack_of_sating",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_gingerbread_leggings": {
+      "type": "item",
+      "content": "alexscaves:gingerbread_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_hazmat_mask": {
+      "type": "item",
+      "content": "alexscaves:hazmat_mask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_diving_helmet": {
+      "type": "item",
+      "content": "alexscaves:diving_helmet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_hazmat_boots": {
+      "type": "item",
+      "content": "alexscaves:hazmat_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_diving_boots": {
+      "type": "item",
+      "content": "alexscaves:diving_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_totem_of_possession": {
+      "type": "item",
+      "content": "alexscaves:totem_of_possession",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_sea_staff": {
+      "type": "item",
+      "content": "alexscaves:sea_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_quarry_smasher": {
+      "type": "item",
+      "content": "alexscaves:quarry_smasher",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_raygun": {
+      "type": "item",
+      "content": "alexscaves:raygun",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_submarine": {
+      "type": "item",
+      "content": "alexscaves:submarine",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_acid_bucket": {
+      "type": "item",
+      "content": "alexscaves:acid_bucket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_primordial_pants": {
+      "type": "item",
+      "content": "alexscaves:primordial_pants",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_hazmat_leggings": {
+      "type": "item",
+      "content": "alexscaves:hazmat_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_desolate_dagger": {
+      "type": "item",
+      "content": "alexscaves:desolate_dagger",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_primordial_helmet": {
+      "type": "item",
+      "content": "alexscaves:primordial_helmet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_hood_of_darkness": {
+      "type": "item",
+      "content": "alexscaves:hood_of_darkness",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 750
+    },
+    "alexscaves_frostmint_spear": {
+      "type": "item",
+      "content": "alexscaves:frostmint_spear",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_limestone_spear": {
+      "type": "item",
+      "content": "alexscaves:limestone_spear",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "alexscaves_radon_bottle": {
+      "type": "item",
+      "content": "alexscaves:radon_bottle",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

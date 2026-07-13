@@ -1,0 +1,151 @@
+{
+  "requires": [
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "upgrade_aquatic_mulberry_pie": {
+      "type": "item",
+      "content": "upgrade_aquatic:mulberry_pie",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_mulberry_jam_bottle": {
+      "type": "item",
+      "content": "upgrade_aquatic:mulberry_jam_bottle",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_mulberry_bread": {
+      "type": "item",
+      "content": "upgrade_aquatic:mulberry_bread",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_bedroll": {
+      "type": "item",
+      "content": "upgrade_aquatic:bedroll",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_beachgrass_thatch": {
+      "type": "item",
+      "content": "upgrade_aquatic:beachgrass_thatch",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_pickerelweed_block": {
+      "type": "item",
+      "content": "upgrade_aquatic:pickerelweed_block",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_scute_block": {
+      "type": "item",
+      "content": "upgrade_aquatic:scute_block",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_luminous_prismarine": {
+      "type": "item",
+      "content": "upgrade_aquatic:luminous_prismarine",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_coralstone": {
+      "type": "item",
+      "content": "upgrade_aquatic:coralstone",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_mulberry_punnet": {
+      "type": "item",
+      "content": "upgrade_aquatic:mulberry_punnet",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_nautilus_shell": {
+      "type": "item",
+      "content": "minecraft:nautilus_shell",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_turtle_egg": {
+      "type": "item",
+      "content": "minecraft:turtle_egg",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_sniffer_egg": {
+      "type": "item",
+      "content": "minecraft:sniffer_egg",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_boiled_pickerelweed_block": {
+      "type": "item",
+      "content": "upgrade_aquatic:boiled_pickerelweed_block",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_kelp_block": {
+      "type": "item",
+      "content": "upgrade_aquatic:kelp_block",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_prismarine_rod_bundle": {
+      "type": "item",
+      "content": "upgrade_aquatic:prismarine_rod_bundle",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    }
+  }
+}

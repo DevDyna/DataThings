@@ -1,0 +1,223 @@
+{
+  "requires": [
+    "voidminers"
+  ],
+  "content": {
+    "voidminers_caerium_item_modifier": {
+      "type": "item",
+      "content": "voidminers:caerium_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_caerium_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:caerium_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_azurine_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:azurine_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_azurine_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:azurine_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rosarium_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:rosarium_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rosarium_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:rosarium_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_citrinetine_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:citrinetine_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_verdium_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:verdium_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_verdium_item_modifier": {
+      "type": "item",
+      "content": "voidminers:verdium_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_verdium_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:verdium_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_citrinetine_item_modifier": {
+      "type": "item",
+      "content": "voidminers:citrinetine_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_citrinetine_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:citrinetine_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_aurantium_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:aurantium_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_aurantium_item_modifier": {
+      "type": "item",
+      "content": "voidminers:aurantium_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_aurantium_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:aurantium_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rubetine_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:rubetine_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rubetine_item_modifier": {
+      "type": "item",
+      "content": "voidminers:rubetine_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rubetine_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:rubetine_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_amethystine_energy_modifier": {
+      "type": "item",
+      "content": "voidminers:amethystine_energy_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_caerium_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:caerium_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_azurine_item_modifier": {
+      "type": "item",
+      "content": "voidminers:azurine_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_amethystine_speed_modifier": {
+      "type": "item",
+      "content": "voidminers:amethystine_speed_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rosarium_item_modifier": {
+      "type": "item",
+      "content": "voidminers:rosarium_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_amethystine_item_modifier": {
+      "type": "item",
+      "content": "voidminers:amethystine_item_modifier",
+      "amount": {
+        "min": 1,
+        "max": 15
+      },
+      "unitWorth": 1000
+    }
+  }
+}

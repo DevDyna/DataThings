@@ -1,0 +1,115 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_fluid_valve": {
+      "type": "item",
+      "content": "create:fluid_valve",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_hose_pulley": {
+      "type": "item",
+      "content": "create:hose_pulley",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_fluid_tank": {
+      "type": "item",
+      "content": "create:fluid_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_fluid_pipe": {
+      "type": "item",
+      "content": "create:fluid_pipe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_pump": {
+      "type": "item",
+      "content": "create:mechanical_pump",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_copper_valve_handle": {
+      "type": "item",
+      "content": "create:copper_valve_handle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_spout": {
+      "type": "item",
+      "content": "create:spout",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_smart_fluid_pipe": {
+      "type": "item",
+      "content": "create:smart_fluid_pipe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_item_drain": {
+      "type": "item",
+      "content": "create:item_drain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_portable_fluid_interface": {
+      "type": "item",
+      "content": "create:portable_fluid_interface",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_chocolate_bucket": {
+      "type": "item",
+      "content": "create:chocolate_bucket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_honey_bucket": {
+      "type": "item",
+      "content": "create:honey_bucket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

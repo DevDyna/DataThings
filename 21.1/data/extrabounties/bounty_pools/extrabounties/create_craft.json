@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_encased_fan": {
+      "type": "item",
+      "content": "create:encased_fan",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_crushing_wheel": {
+      "type": "item",
+      "content": "create:crushing_wheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_basin": {
+      "type": "item",
+      "content": "create:basin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_blaze_burner": {
+      "type": "item",
+      "content": "create:blaze_burner",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_press": {
+      "type": "item",
+      "content": "create:mechanical_press",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_mixer": {
+      "type": "item",
+      "content": "create:mechanical_mixer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_crafter": {
+      "type": "item",
+      "content": "create:mechanical_crafter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_millstone": {
+      "type": "item",
+      "content": "create:millstone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_saw": {
+      "type": "item",
+      "content": "create:mechanical_saw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_deployer": {
+      "type": "item",
+      "content": "create:deployer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_drill": {
+      "type": "item",
+      "content": "create:mechanical_drill",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

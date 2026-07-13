@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "savage_and_ravage"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "savage_and_ravage_obj",
+    "savage_and_ravage_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "savage_and_ravage_rew",
+    "savage_and_ravage_any"
+  ]
+}

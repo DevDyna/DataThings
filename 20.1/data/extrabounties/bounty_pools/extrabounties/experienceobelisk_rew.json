@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "experienceobelisk"
+  ],
+  "content": {
+    "experienceobelisk_bibliophage": {
+      "type": "item",
+      "content": "experienceobelisk:bibliophage",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_linear_accelerator": {
+      "type": "item",
+      "content": "experienceobelisk:linear_accelerator",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_accelerator": {
+      "type": "item",
+      "content": "experienceobelisk:accelerator",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_precision_dispeller": {
+      "type": "item",
+      "content": "experienceobelisk:precision_dispeller",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_molecular_metamorpher": {
+      "type": "item",
+      "content": "experienceobelisk:molecular_metamorpher",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_daydream_bottle": {
+      "type": "item",
+      "content": "experienceobelisk:daydream_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_nightmare_bottle": {
+      "type": "item",
+      "content": "experienceobelisk:nightmare_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_attunement_staff": {
+      "type": "item",
+      "content": "experienceobelisk:attunement_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_enlightened_amulet": {
+      "type": "item",
+      "content": "experienceobelisk:enlightened_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_experience_obelisk": {
+      "type": "item",
+      "content": "experienceobelisk:experience_obelisk",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "experienceobelisk_experience_fountain": {
+      "type": "item",
+      "content": "experienceobelisk:experience_fountain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

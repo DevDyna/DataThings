@@ -1,0 +1,196 @@
+{
+  "requires": [
+    "tombstone"
+  ],
+  "content": {
+    "tombstone_ankh_of_prayer": {
+      "type": "item",
+      "content": "tombstone:ankh_of_prayer",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_lost_tablet": {
+      "type": "item",
+      "content": "tombstone:lost_tablet",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_disenchantment": {
+      "type": "item",
+      "content": "tombstone:book_of_disenchantment",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_recycling": {
+      "type": "item",
+      "content": "tombstone:book_of_recycling",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_repairing": {
+      "type": "item",
+      "content": "tombstone:book_of_repairing",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_scribe": {
+      "type": "item",
+      "content": "tombstone:book_of_scribe",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_magic_impregnation": {
+      "type": "item",
+      "content": "tombstone:book_of_magic_impregnation",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_tablet_of_recall": {
+      "type": "item",
+      "content": "tombstone:tablet_of_recall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_tablet_of_home": {
+      "type": "item",
+      "content": "tombstone:tablet_of_home",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_tablet_of_cupidity": {
+      "type": "item",
+      "content": "tombstone:tablet_of_cupidity",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_tablet_of_guard": {
+      "type": "item",
+      "content": "tombstone:tablet_of_guard",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_rabbit_mask": {
+      "type": "item",
+      "content": "tombstone:rabbit_mask",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_christmas_hat": {
+      "type": "item",
+      "content": "tombstone:christmas_hat",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_bag_of_seeds": {
+      "type": "item",
+      "content": "tombstone:bag_of_seeds",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_smoke_ball": {
+      "type": "item",
+      "content": "tombstone:smoke_ball",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_receptacle_of_soul": {
+      "type": "item",
+      "content": "tombstone:receptacle_of_soul",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_oblivion": {
+      "type": "item",
+      "content": "tombstone:book_of_oblivion",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_book_of_soulbound": {
+      "type": "item",
+      "content": "tombstone:book_of_soulbound",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_bundle": {
+      "type": "item",
+      "content": "minecraft:bundle",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dust_of_vanishing": {
+      "type": "item",
+      "content": "tombstone:dust_of_vanishing",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dust_of_frost": {
+      "type": "item",
+      "content": "tombstone:dust_of_frost",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}

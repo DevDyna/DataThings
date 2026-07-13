@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "savage_and_ravage"
+  ],
+  "content": {
+    "minecraft_gold_ingot": {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_gunpowder": {
+      "type": "item",
+      "content": "minecraft:gunpowder",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_sand": {
+      "type": "item",
+      "content": "minecraft:sand",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_paper": {
+      "type": "item",
+      "content": "minecraft:paper",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

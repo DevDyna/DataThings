@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "rootsclassic"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "rootsclassic_obj",
+    "rootsclassic_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "rootsclassic_rew",
+    "rootsclassic_any"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "requires": [
+    "ironfurnaces"
+  ],
+  "content": {
+    "ironfurnaces_augment_fuel": {
+      "type": "item",
+      "content": "ironfurnaces:augment_fuel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_speed": {
+      "type": "item",
+      "content": "ironfurnaces:augment_speed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_generator": {
+      "type": "item",
+      "content": "ironfurnaces:augment_generator",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_factory": {
+      "type": "item",
+      "content": "ironfurnaces:augment_factory",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_blasting": {
+      "type": "item",
+      "content": "ironfurnaces:augment_blasting",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_smoking": {
+      "type": "item",
+      "content": "ironfurnaces:augment_smoking",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_heater": {
+      "type": "item",
+      "content": "ironfurnaces:heater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_item_heater": {
+      "type": "item",
+      "content": "ironfurnaces:item_heater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_raw_iron": {
+      "type": "item",
+      "content": "minecraft:raw_iron",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_soul_campfire": {
+      "type": "item",
+      "content": "minecraft:soul_campfire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_furnace": {
+      "type": "item",
+      "content": "minecraft:furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_blast_furnace": {
+      "type": "item",
+      "content": "minecraft:blast_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_smoker": {
+      "type": "item",
+      "content": "minecraft:smoker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_coal_block": {
+      "type": "item",
+      "content": "minecraft:coal_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_coal": {
+      "type": "item",
+      "content": "minecraft:coal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_charcoal": {
+      "type": "item",
+      "content": "minecraft:charcoal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_campfire": {
+      "type": "item",
+      "content": "minecraft:campfire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_raw_copper": {
+      "type": "item",
+      "content": "minecraft:raw_copper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_raw_gold": {
+      "type": "item",
+      "content": "minecraft:raw_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_copper_furnace": {
+      "type": "item",
+      "content": "ironfurnaces:copper_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_iron_furnace": {
+      "type": "item",
+      "content": "ironfurnaces:iron_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_silver_furnace": {
+      "type": "item",
+      "content": "ironfurnaces:silver_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_diamond_furnace": {
+      "type": "item",
+      "content": "ironfurnaces:diamond_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_item_copy": {
+      "type": "item",
+      "content": "ironfurnaces:item_copy",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_item_spooky": {
+      "type": "item",
+      "content": "ironfurnaces:item_spooky",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_gold_furnace": {
+      "type": "item",
+      "content": "ironfurnaces:gold_furnace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_item_xmas": {
+      "type": "item",
+      "content": "ironfurnaces:item_xmas",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

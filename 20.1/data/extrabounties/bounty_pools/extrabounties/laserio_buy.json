@@ -1,0 +1,25 @@
+{
+  "requires": [
+    "laserio"
+  ],
+  "content": {
+    "laserio_logic_chip": {
+      "type": "item",
+      "content": "laserio:logic_chip",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_logic_chip_raw": {
+      "type": "item",
+      "content": "laserio:logic_chip_raw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

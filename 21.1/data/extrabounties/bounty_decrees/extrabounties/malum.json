@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "malum"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "malum_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "malum_rew",
+    "malum_any"
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "requires": [
+    "everlastingabilities"
+  ],
+  "content": {
+    "everlastingabilities_ability_totem_0": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:attribute_modifier/attack_steroids\"}]}"
+    },
+    "everlastingabilities_ability_totem_1": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:attribute_modifier/heart_gainer\"}]}"
+    },
+    "everlastingabilities_ability_totem_2": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:attribute_modifier/hidden_chestplate\"}]}"
+    },
+    "everlastingabilities_ability_totem_3": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:attribute_modifier/knockback\"}]}"
+    },
+    "everlastingabilities_ability_totem_4": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/absorption\"}]}"
+    },
+    "everlastingabilities_ability_totem_5": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/bad_omen\"}]}"
+    },
+    "everlastingabilities_ability_totem_6": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/bad_omen_self\"}]}"
+    },
+    "everlastingabilities_ability_totem_7": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/blindness\"}]}"
+    },
+    "everlastingabilities_ability_totem_8": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/conduit_power\"}]}"
+    },
+    "everlastingabilities_ability_totem_9": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/hunger\"}]}"
+    },
+    "everlastingabilities_ability_totem_10": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/invisibility\"}]}"
+    },
+    "everlastingabilities_ability_totem_11": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/jump_boost\"}]}"
+    },
+    "everlastingabilities_ability_totem_12": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/darkness\"}]}"
+    },
+    "everlastingabilities_ability_totem_13": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/dolphins_grace\"}]}"
+    },
+    "everlastingabilities_ability_totem_14": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/fire_resistance\"}]}"
+    },
+    "everlastingabilities_ability_totem_15": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/glowing\"}]}"
+    },
+    "everlastingabilities_ability_totem_16": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/haste\"}]}"
+    },
+    "everlastingabilities_ability_totem_17": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/hero_of_the_village\"}]}"
+    },
+    "everlastingabilities_ability_totem_18": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/regeneration\"}]}"
+    },
+    "everlastingabilities_ability_totem_19": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/resistance\"}]}"
+    },
+    "everlastingabilities_ability_totem_20": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/saturation\"}]}"
+    },
+    "everlastingabilities_ability_totem_21": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/levitation\"}]}"
+    },
+    "everlastingabilities_ability_totem_22": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/luck\"}]}"
+    },
+    "everlastingabilities_ability_totem_23": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/mining_fatigue\"}]}"
+    },
+    "everlastingabilities_ability_totem_24": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/nausea\"}]}"
+    },
+    "everlastingabilities_ability_totem_25": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/night_vision\"}]}"
+    },
+    "everlastingabilities_ability_totem_26": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/poison\"}]}"
+    },
+    "everlastingabilities_ability_totem_27": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/weakness\"}]}"
+    },
+    "everlastingabilities_ability_totem_28": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/wither\"}]}"
+    },
+    "everlastingabilities_ability_totem_29": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/bonemealer\"}]}"
+    },
+    "everlastingabilities_ability_totem_30": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/slow_falling\"}]}"
+    },
+    "everlastingabilities_ability_totem_31": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/slowness\"}]}"
+    },
+    "everlastingabilities_ability_totem_32": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/speed\"}]}"
+    },
+    "everlastingabilities_ability_totem_33": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/strength\"}]}"
+    },
+    "everlastingabilities_ability_totem_34": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/unluck\"}]}"
+    },
+    "everlastingabilities_ability_totem_35": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:effect/water_breathing\"}]}"
+    },
+    "everlastingabilities_ability_totem_36": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/fertility\"}]}"
+    },
+    "everlastingabilities_ability_totem_37": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/flight\"}]}"
+    },
+    "everlastingabilities_ability_totem_38": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/magnetize\"}]}"
+    },
+    "everlastingabilities_ability_totem_39": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/power_stare\"}]}"
+    },
+    "everlastingabilities_ability_totem_40": {
+      "type": "item",
+      "content": "everlastingabilities:ability_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000,
+      "nbt": "{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"everlastingabilities:special/step_assist\"}]}"
+    },
+    "everlastingabilities_ability_bottle": {
+      "type": "item",
+      "content": "everlastingabilities:ability_bottle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "requires": [
+    "laserio"
+  ],
+  "content": {
+    "laserio_filter_count": {
+      "type": "item",
+      "content": "laserio:filter_count",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_filter_nbt": {
+      "type": "item",
+      "content": "laserio:filter_nbt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_filter_basic": {
+      "type": "item",
+      "content": "laserio:filter_basic",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_filter_mod": {
+      "type": "item",
+      "content": "laserio:filter_mod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_filter_tag": {
+      "type": "item",
+      "content": "laserio:filter_tag",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_card_energy": {
+      "type": "item",
+      "content": "laserio:card_energy",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_card_item": {
+      "type": "item",
+      "content": "laserio:card_item",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_card_fluid": {
+      "type": "item",
+      "content": "laserio:card_fluid",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_card_redstone": {
+      "type": "item",
+      "content": "laserio:card_redstone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_laser_node": {
+      "type": "item",
+      "content": "laserio:laser_node",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_laser_connector": {
+      "type": "item",
+      "content": "laserio:laser_connector",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_overclocker_card": {
+      "type": "item",
+      "content": "laserio:overclocker_card",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "laserio_overclocker_node": {
+      "type": "item",
+      "content": "laserio:overclocker_node",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

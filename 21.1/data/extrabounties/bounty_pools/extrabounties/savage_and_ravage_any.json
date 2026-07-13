@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "savage_and_ravage"
+  ],
+  "content": {
+    "savage_and_ravage_creeper_spores": {
+      "type": "item",
+      "content": "savage_and_ravage:creeper_spores",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_blast_proof_plating": {
+      "type": "item",
+      "content": "savage_and_ravage:blast_proof_plating",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_creeper_spore_sack": {
+      "type": "item",
+      "content": "savage_and_ravage:creeper_spore_sack",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_tnt": {
+      "type": "item",
+      "content": "minecraft:tnt",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    }
+  }
+}

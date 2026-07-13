@@ -1,0 +1,88 @@
+{
+  "requires": [
+    "ppfluids"
+  ],
+  "content": {
+    "ppfluids_high_fluid_filter_module": {
+      "type": "item",
+      "content": "ppfluids:high_fluid_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_medium_fluid_filter_module": {
+      "type": "item",
+      "content": "ppfluids:medium_fluid_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_low_fluid_retrieval_module": {
+      "type": "item",
+      "content": "ppfluids:low_fluid_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_medium_fluid_extraction_module": {
+      "type": "item",
+      "content": "ppfluids:medium_fluid_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_low_fluid_filter_module": {
+      "type": "item",
+      "content": "ppfluids:low_fluid_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_high_fluid_extraction_module": {
+      "type": "item",
+      "content": "ppfluids:high_fluid_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_medium_fluid_retrieval_module": {
+      "type": "item",
+      "content": "ppfluids:medium_fluid_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_high_fluid_retrieval_module": {
+      "type": "item",
+      "content": "ppfluids:high_fluid_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ppfluids_low_fluid_extraction_module": {
+      "type": "item",
+      "content": "ppfluids:low_fluid_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

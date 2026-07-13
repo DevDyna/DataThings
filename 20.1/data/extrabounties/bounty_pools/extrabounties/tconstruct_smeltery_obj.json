@@ -1,0 +1,151 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "minecraft_clay": {
+      "type": "item",
+      "content": "minecraft:clay",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_gravel": {
+      "type": "item",
+      "content": "minecraft:gravel",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_sand": {
+      "type": "item",
+      "content": "minecraft:sand",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_soul_soil": {
+      "type": "item",
+      "content": "minecraft:soul_soil",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_soul_sand": {
+      "type": "item",
+      "content": "minecraft:soul_sand",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_magma_cream": {
+      "type": "item",
+      "content": "minecraft:magma_cream",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_magma_block": {
+      "type": "item",
+      "content": "minecraft:magma_block",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_fantastic_foundry": {
+      "type": "item",
+      "content": "tconstruct:fantastic_foundry",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_mighty_smelting": {
+      "type": "item",
+      "content": "tconstruct:mighty_smelting",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_obsidian_pane": {
+      "type": "item",
+      "content": "tconstruct:obsidian_pane",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_copper_can": {
+      "type": "item",
+      "content": "tconstruct:copper_can",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_grout": {
+      "type": "item",
+      "content": "tconstruct:grout",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_nether_grout": {
+      "type": "item",
+      "content": "tconstruct:nether_grout",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_scorched_brick": {
+      "type": "item",
+      "content": "tconstruct:scorched_brick",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_brick": {
+      "type": "item",
+      "content": "tconstruct:seared_brick",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_clay_ball": {
+      "type": "item",
+      "content": "minecraft:clay_ball",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    }
+  }
+}

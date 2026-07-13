@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "rootsclassic"
+  ],
+  "content": {
+    "rootsclassic_whitecurrant": {
+      "type": "item",
+      "content": "rootsclassic:whitecurrant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_oak_bark": {
+      "type": "item",
+      "content": "rootsclassic:oak_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_birch_bark": {
+      "type": "item",
+      "content": "rootsclassic:birch_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_spruce_bark": {
+      "type": "item",
+      "content": "rootsclassic:spruce_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_jungle_bark": {
+      "type": "item",
+      "content": "rootsclassic:jungle_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_acacia_bark": {
+      "type": "item",
+      "content": "rootsclassic:acacia_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_dark_oak_bark": {
+      "type": "item",
+      "content": "rootsclassic:dark_oak_bark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_redcurrant": {
+      "type": "item",
+      "content": "rootsclassic:redcurrant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_blackcurrant": {
+      "type": "item",
+      "content": "rootsclassic:blackcurrant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_nightshade": {
+      "type": "item",
+      "content": "rootsclassic:nightshade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_elderberry": {
+      "type": "item",
+      "content": "rootsclassic:elderberry",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

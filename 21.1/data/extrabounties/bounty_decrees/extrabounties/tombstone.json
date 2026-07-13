@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "tombstone"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "tombstone_base",
+    "tombstone_stones",
+    "tombstone_entities"
+  ],
+  "rewards": [
+    "decree",
+    "tombstone_sell",
+    "tombstone_base",
+    "rarities"
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "requires": [
+    "nameless_trinkets"
+  ],
+  "content": {
+    "nameless_trinkets_tick": {
+      "type": "item",
+      "content": "nameless_trinkets:tick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_ghast_eye": {
+      "type": "item",
+      "content": "nameless_trinkets:ghast_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_ice_cube": {
+      "type": "item",
+      "content": "nameless_trinkets:ice_cube",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_cracked_crown": {
+      "type": "item",
+      "content": "nameless_trinkets:cracked_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_explosion_proof_jacket": {
+      "type": "item",
+      "content": "nameless_trinkets:explosion_proof_jacket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_wooden_stick": {
+      "type": "item",
+      "content": "nameless_trinkets:wooden_stick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_true_heart_of_the_sea": {
+      "type": "item",
+      "content": "nameless_trinkets:true_heart_of_the_sea",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_tear_of_the_sea": {
+      "type": "item",
+      "content": "nameless_trinkets:tear_of_the_sea",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_nelumbo": {
+      "type": "item",
+      "content": "nameless_trinkets:nelumbo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_ethereal_wings": {
+      "type": "item",
+      "content": "nameless_trinkets:ethereal_wings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_sleeping_pills": {
+      "type": "item",
+      "content": "nameless_trinkets:sleeping_pills",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_reverse_card": {
+      "type": "item",
+      "content": "nameless_trinkets:reverse_card",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_fragile_cloud": {
+      "type": "item",
+      "content": "nameless_trinkets:fragile_cloud",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_spider_legs": {
+      "type": "item",
+      "content": "nameless_trinkets:spider_legs",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_reforger": {
+      "type": "item",
+      "content": "nameless_trinkets:reforger",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_puffer_fish_liver": {
+      "type": "item",
+      "content": "nameless_trinkets:puffer_fish_liver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_fractured_nullstone": {
+      "type": "item",
+      "content": "nameless_trinkets:fractured_nullstone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_lucky_rock": {
+      "type": "item",
+      "content": "nameless_trinkets:lucky_rock",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_scarab_amulet": {
+      "type": "item",
+      "content": "nameless_trinkets:scarab_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_light_gloves": {
+      "type": "item",
+      "content": "nameless_trinkets:light_gloves",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_fertilizer": {
+      "type": "item",
+      "content": "nameless_trinkets:fertilizer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_dragons_eye": {
+      "type": "item",
+      "content": "nameless_trinkets:dragons_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_fate_emerald": {
+      "type": "item",
+      "content": "nameless_trinkets:fate_emerald",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_blaze_nucleus": {
+      "type": "item",
+      "content": "nameless_trinkets:blaze_nucleus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_broken_magnet": {
+      "type": "item",
+      "content": "nameless_trinkets:broken_magnet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_gods_crown": {
+      "type": "item",
+      "content": "nameless_trinkets:gods_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_missing_page": {
+      "type": "item",
+      "content": "nameless_trinkets:missing_page",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_speed_force": {
+      "type": "item",
+      "content": "nameless_trinkets:speed_force",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_experience_battery": {
+      "type": "item",
+      "content": "nameless_trinkets:experience_battery",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_miners_soul": {
+      "type": "item",
+      "content": "nameless_trinkets:miners_soul",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_dark_nelumbo": {
+      "type": "item",
+      "content": "nameless_trinkets:dark_nelumbo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_pocket_lightning_rod": {
+      "type": "item",
+      "content": "nameless_trinkets:pocket_lightning_rod",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_vampire_blood": {
+      "type": "item",
+      "content": "nameless_trinkets:vampire_blood",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_gills": {
+      "type": "item",
+      "content": "nameless_trinkets:gills",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_blindfold": {
+      "type": "item",
+      "content": "nameless_trinkets:blindfold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_broken_ankh": {
+      "type": "item",
+      "content": "nameless_trinkets:broken_ankh",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_four_leaf_clover": {
+      "type": "item",
+      "content": "nameless_trinkets:four_leaf_clover",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_moon_stone": {
+      "type": "item",
+      "content": "nameless_trinkets:moon_stone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_sigil_of_baphomet": {
+      "type": "item",
+      "content": "nameless_trinkets:sigil_of_baphomet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_electric_paddle": {
+      "type": "item",
+      "content": "nameless_trinkets:electric_paddle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_experience_magnet": {
+      "type": "item",
+      "content": "nameless_trinkets:experience_magnet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_callus": {
+      "type": "item",
+      "content": "nameless_trinkets:callus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_what_magnet": {
+      "type": "item",
+      "content": "nameless_trinkets:what_magnet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_amphibious_hands": {
+      "type": "item",
+      "content": "nameless_trinkets:amphibious_hands",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_super_magnet": {
+      "type": "item",
+      "content": "nameless_trinkets:super_magnet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_rage_mind": {
+      "type": "item",
+      "content": "nameless_trinkets:rage_mind",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "nameless_trinkets_creeper_sense": {
+      "type": "item",
+      "content": "nameless_trinkets:creeper_sense",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

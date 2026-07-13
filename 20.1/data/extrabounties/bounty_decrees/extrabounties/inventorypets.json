@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "inventorypets"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "inventorypets_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "inventorypets_any"
+  ]
+}

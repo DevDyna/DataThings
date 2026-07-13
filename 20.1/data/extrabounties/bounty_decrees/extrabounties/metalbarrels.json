@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "metalbarrels"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "metalbarrels_buy"
+  ],
+  "rewards": [
+    "decree",
+    "metalbarrels_sell",
+    "rarities"
+  ]
+}

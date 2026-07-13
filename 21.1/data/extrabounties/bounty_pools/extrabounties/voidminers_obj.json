@@ -1,0 +1,115 @@
+{
+  "requires": [
+    "voidminers"
+  ],
+  "content": {
+    "voidminers_aurantium_frame": {
+      "type": "item",
+      "content": "voidminers:aurantium_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_frame_base": {
+      "type": "item",
+      "content": "voidminers:frame_base",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_citrinetine_frame": {
+      "type": "item",
+      "content": "voidminers:citrinetine_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_caerium_frame": {
+      "type": "item",
+      "content": "voidminers:caerium_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_amethystine_frame": {
+      "type": "item",
+      "content": "voidminers:amethystine_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_azurine_frame": {
+      "type": "item",
+      "content": "voidminers:azurine_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_verdium_frame": {
+      "type": "item",
+      "content": "voidminers:verdium_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rubetine_frame": {
+      "type": "item",
+      "content": "voidminers:rubetine_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_glass_panel": {
+      "type": "item",
+      "content": "voidminers:glass_panel",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rosarium_frame": {
+      "type": "item",
+      "content": "voidminers:rosarium_frame",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_structure_panel": {
+      "type": "item",
+      "content": "voidminers:structure_panel",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    },
+    "voidminers_rubetine": {
+      "type": "item",
+      "content": "voidminers:rubetine",
+      "amount": {
+        "min": 1,
+        "max": 17
+      },
+      "unitWorth": 1000
+    }
+  }
+}

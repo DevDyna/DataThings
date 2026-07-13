@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "aquaculture"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "aquaculture_sell"
+  ],
+  "rewards": [
+    "decree",
+    "aquaculture_buy",
+    "rarities"
+  ]
+}

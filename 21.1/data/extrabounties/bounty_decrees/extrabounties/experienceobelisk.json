@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "experienceobelisk"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "experienceobelisk_obj",
+    "experienceobelisk_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "experienceobelisk_rew",
+    "experienceobelisk_any",
+    "enchants"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "content": {
+    "minecraft_music_disc_strad": {
+      "type": "item",
+      "content": "minecraft:music_disc_strad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_stal": {
+      "type": "item",
+      "content": "minecraft:music_disc_stal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_ward": {
+      "type": "item",
+      "content": "minecraft:music_disc_ward",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_wait": {
+      "type": "item",
+      "content": "minecraft:music_disc_wait",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_mall": {
+      "type": "item",
+      "content": "minecraft:music_disc_mall",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_5": {
+      "type": "item",
+      "content": "minecraft:music_disc_5",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_far": {
+      "type": "item",
+      "content": "minecraft:music_disc_far",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_cat": {
+      "type": "item",
+      "content": "minecraft:music_disc_cat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_11": {
+      "type": "item",
+      "content": "minecraft:music_disc_11",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_mellohi": {
+      "type": "item",
+      "content": "minecraft:music_disc_mellohi",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_otherside": {
+      "type": "item",
+      "content": "minecraft:music_disc_otherside",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_pigstep": {
+      "type": "item",
+      "content": "minecraft:music_disc_pigstep",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_chirp": {
+      "type": "item",
+      "content": "minecraft:music_disc_chirp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_13": {
+      "type": "item",
+      "content": "minecraft:music_disc_13",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_blocks": {
+      "type": "item",
+      "content": "minecraft:music_disc_blocks",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_disc_fragment_5": {
+      "type": "item",
+      "content": "minecraft:disc_fragment_5",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_music_disc_relic": {
+      "type": "item",
+      "content": "minecraft:music_disc_relic",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

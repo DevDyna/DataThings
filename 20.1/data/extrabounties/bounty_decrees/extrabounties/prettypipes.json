@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "prettypipes"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "prettypipes_buy"
+  ],
+  "rewards": [
+    "decree",
+    "prettypipes_sell",
+    "rarities"
+  ]
+}

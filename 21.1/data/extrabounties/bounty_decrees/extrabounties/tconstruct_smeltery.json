@@ -1,0 +1,18 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "tconstruct_smeltery_obj",
+    "tconstruct_smeltery_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "tconstruct_smeltery_rew",
+    "tconstruct_smeltery_any",
+    "tconstruct_modifiers"
+  ]
+}

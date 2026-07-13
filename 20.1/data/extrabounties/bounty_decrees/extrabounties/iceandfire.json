@@ -1,0 +1,24 @@
+{
+  "requires": [
+    "iceandfire"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "iceandfire_obj",
+    "iceandfire_any",
+    "pottery",
+    "trims",
+    "explorer"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "iceandfire_rew",
+    "iceandfire_any",
+    "pottery",
+    "trims",
+    "explorer",
+    "enchants"
+  ]
+}

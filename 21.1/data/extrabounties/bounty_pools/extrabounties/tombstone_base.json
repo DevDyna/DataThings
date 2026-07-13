@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "tombstone"
+  ],
+  "content": {
+    "tombstone_strange_scroll": {
+      "type": "item",
+      "content": "tombstone:strange_scroll",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_grave_dust": {
+      "type": "item",
+      "content": "tombstone:grave_dust",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_strange_tablet": {
+      "type": "item",
+      "content": "tombstone:strange_tablet",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_essence_of_undeath": {
+      "type": "item",
+      "content": "tombstone:essence_of_undeath",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "requires": [
+    "metalbarrels"
+  ],
+  "content": {
+    "metalbarrels_copper_to_silver": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_silver": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_diamond_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:diamond_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_obsidian_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:obsidian_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_diamond": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_gold": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_diamond": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_gold_to_diamond": {
+      "type": "item",
+      "content": "metalbarrels:gold_to_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_silver": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_silver_to_diamond": {
+      "type": "item",
+      "content": "metalbarrels:silver_to_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_silver_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:silver_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_silver_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:silver_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_iron_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:iron_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_gold_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:gold_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_diamond_to_crystal": {
+      "type": "item",
+      "content": "metalbarrels:diamond_to_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_iron": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_iron",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_gold_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:gold_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_silver_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:silver_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_diamond_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:diamond_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_copper": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_copper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_iron": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_iron",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_diamond": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_gold": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_gold_to_obsidian": {
+      "type": "item",
+      "content": "metalbarrels:gold_to_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_wood_to_gold": {
+      "type": "item",
+      "content": "metalbarrels:wood_to_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_copper_to_netherite": {
+      "type": "item",
+      "content": "metalbarrels:copper_to_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "metalbarrels_silver_to_gold": {
+      "type": "item",
+      "content": "metalbarrels:silver_to_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

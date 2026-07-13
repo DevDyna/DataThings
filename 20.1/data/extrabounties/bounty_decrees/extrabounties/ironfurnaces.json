@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "ironfurnaces"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "ironfurnaces_buy"
+  ],
+  "rewards": [
+    "decree",
+    "ironfurnaces_sell",
+    "rarities"
+  ]
+}

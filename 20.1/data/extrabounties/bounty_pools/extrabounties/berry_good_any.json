@@ -1,0 +1,79 @@
+{
+  "requires": [
+    "berry_good"
+  ],
+  "content": {
+    "minecraft_sweet_berries": {
+      "type": "item",
+      "content": "minecraft:sweet_berries",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_sweet_berry_pips": {
+      "type": "item",
+      "content": "berry_good:sweet_berry_pips",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_sweet_berry_mince": {
+      "type": "item",
+      "content": "berry_good:sweet_berry_mince",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_glow_berries": {
+      "type": "item",
+      "content": "minecraft:glow_berries",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_sweet_berry_meatballs": {
+      "type": "item",
+      "content": "berry_good:sweet_berry_meatballs",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_glow_berry_pips": {
+      "type": "item",
+      "content": "berry_good:glow_berry_pips",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_sweet_berry_basket": {
+      "type": "item",
+      "content": "berry_good:sweet_berry_basket",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "berry_good_glow_berry_basket": {
+      "type": "item",
+      "content": "berry_good:glow_berry_basket",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

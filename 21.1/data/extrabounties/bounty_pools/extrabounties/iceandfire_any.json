@@ -1,0 +1,862 @@
+{
+  "requires": [
+    "iceandfire"
+  ],
+  "content": {
+    "iceandfire_troll_tusk": {
+      "type": "item",
+      "content": "iceandfire:troll_tusk",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_fire_dragon_heart": {
+      "type": "item",
+      "content": "iceandfire:fire_dragon_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_lightning_dragon_blood": {
+      "type": "item",
+      "content": "iceandfire:lightning_dragon_blood",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_red": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_red",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_red": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_red",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_summoning_crystal_fire": {
+      "type": "item",
+      "content": "iceandfire:summoning_crystal_fire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dread_shard": {
+      "type": "item",
+      "content": "iceandfire:dread_shard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_stick": {
+      "type": "item",
+      "content": "iceandfire:dragon_stick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_teal": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_teal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_amphithere_feather": {
+      "type": "item",
+      "content": "iceandfire:amphithere_feather",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_silver_ingot": {
+      "type": "item",
+      "content": "iceandfire:silver_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_skull_fire": {
+      "type": "item",
+      "content": "iceandfire:dragon_skull_fire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_red": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_red",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_skull_ice": {
+      "type": "item",
+      "content": "iceandfire:dragon_skull_ice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_witherbone": {
+      "type": "item",
+      "content": "iceandfire:witherbone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_electric": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_electric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_jungle_egg": {
+      "type": "item",
+      "content": "iceandfire:myrmex_jungle_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_copper": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_copper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_fang": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_fang",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_jungle_resin": {
+      "type": "item",
+      "content": "iceandfire:myrmex_jungle_resin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_manuscript": {
+      "type": "item",
+      "content": "iceandfire:manuscript",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_black": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_black",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_seaserpent_skull": {
+      "type": "item",
+      "content": "iceandfire:seaserpent_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_bronze": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_bronze",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hippogryph_skull": {
+      "type": "item",
+      "content": "iceandfire:hippogryph_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_bronze": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_bronze",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hippocampus_fin": {
+      "type": "item",
+      "content": "iceandfire:hippocampus_fin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_sapphire": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_sapphire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_cyclops_skull": {
+      "type": "item",
+      "content": "iceandfire:cyclops_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_fire_dragon_blood": {
+      "type": "item",
+      "content": "iceandfire:fire_dragon_blood",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_white": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_white",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_egg": {
+      "type": "item",
+      "content": "iceandfire:deathworm_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_gray": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_gray",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_amythest": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_amythest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_teal": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_teal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_sapphire": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_sapphire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_lightning_dragon_heart": {
+      "type": "item",
+      "content": "iceandfire:lightning_dragon_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_shiny_scales": {
+      "type": "item",
+      "content": "iceandfire:shiny_scales",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_silver": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_copper": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_copper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_cockatrice_skull": {
+      "type": "item",
+      "content": "iceandfire:cockatrice_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sapphire_gem": {
+      "type": "item",
+      "content": "iceandfire:sapphire_gem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_electric": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_electric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_stymphalian_skull": {
+      "type": "item",
+      "content": "iceandfire:stymphalian_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_purple": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_purple",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_cockatrice_eye": {
+      "type": "item",
+      "content": "iceandfire:cockatrice_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_jungle_chitin": {
+      "type": "item",
+      "content": "iceandfire:myrmex_jungle_chitin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_ice_dragon_blood": {
+      "type": "item",
+      "content": "iceandfire:ice_dragon_blood",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_chitin_white": {
+      "type": "item",
+      "content": "iceandfire:deathworm_chitin_white",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonbone": {
+      "type": "item",
+      "content": "iceandfire:dragonbone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_rotten_egg": {
+      "type": "item",
+      "content": "iceandfire:rotten_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_gray": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_gray",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_siren_tear": {
+      "type": "item",
+      "content": "iceandfire:siren_tear",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_green": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_green",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_desert_egg": {
+      "type": "item",
+      "content": "iceandfire:myrmex_desert_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hydra_heart": {
+      "type": "item",
+      "content": "iceandfire:hydra_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_ectoplasm": {
+      "type": "item",
+      "content": "iceandfire:ectoplasm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_bronze": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_bronze",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_blue": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_blue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_chitin_yellow": {
+      "type": "item",
+      "content": "iceandfire:deathworm_chitin_yellow",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_white": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_white",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_green": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_green",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_blue": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_blue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_black": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_black",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_troll_skull": {
+      "type": "item",
+      "content": "iceandfire:troll_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscales_amythest": {
+      "type": "item",
+      "content": "iceandfire:dragonscales_amythest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_ambrosia": {
+      "type": "item",
+      "content": "iceandfire:ambrosia",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_skull_lightning": {
+      "type": "item",
+      "content": "iceandfire:dragon_skull_lightning",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_summoning_crystal_lightning": {
+      "type": "item",
+      "content": "iceandfire:summoning_crystal_lightning",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_egg_giant": {
+      "type": "item",
+      "content": "iceandfire:deathworm_egg_giant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hippogryph_egg": {
+      "type": "item",
+      "content": "iceandfire:hippogryph_egg",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_blue": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_blue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragon_bone_block": {
+      "type": "item",
+      "content": "iceandfire:dragon_bone_block",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_deepblue": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_deepblue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hydra_fang": {
+      "type": "item",
+      "content": "iceandfire:hydra_fang",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_chitin_red": {
+      "type": "item",
+      "content": "iceandfire:deathworm_chitin_red",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_summoning_crystal_ice": {
+      "type": "item",
+      "content": "iceandfire:summoning_crystal_ice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_deathworm_tounge": {
+      "type": "item",
+      "content": "iceandfire:deathworm_tounge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_amphithere_skull": {
+      "type": "item",
+      "content": "iceandfire:amphithere_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_green": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_green",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_desert_chitin": {
+      "type": "item",
+      "content": "iceandfire:myrmex_desert_chitin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_pixie_dust": {
+      "type": "item",
+      "content": "iceandfire:pixie_dust",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_silver": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_pixie_wings": {
+      "type": "item",
+      "content": "iceandfire:pixie_wings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_ice_dragon_heart": {
+      "type": "item",
+      "content": "iceandfire:ice_dragon_heart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_bronze": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_bronze",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_dragonscale_red": {
+      "type": "item",
+      "content": "iceandfire:dragonscale_red",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_stymphalian_bird_feather": {
+      "type": "item",
+      "content": "iceandfire:stymphalian_bird_feather",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hippogryph_talon": {
+      "type": "item",
+      "content": "iceandfire:hippogryph_talon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_deepblue": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_deepblue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_myrmex_desert_resin": {
+      "type": "item",
+      "content": "iceandfire:myrmex_desert_resin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_hydra_skull": {
+      "type": "item",
+      "content": "iceandfire:hydra_skull",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scales_green": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scales_green",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_purple": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_purple",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "iceandfire_sea_serpent_scale_block_blue": {
+      "type": "item",
+      "content": "iceandfire:sea_serpent_scale_block_blue",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

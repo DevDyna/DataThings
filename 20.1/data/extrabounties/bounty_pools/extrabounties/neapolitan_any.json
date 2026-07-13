@@ -1,0 +1,142 @@
+{
+  "requires": [
+    "neapolitan"
+  ],
+  "content": {
+    "neapolitan_roasted_adzuki_beans": {
+      "type": "item",
+      "content": "neapolitan:roasted_adzuki_beans",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_adzuki_beans": {
+      "type": "item",
+      "content": "neapolitan:adzuki_beans",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_magic_beans": {
+      "type": "item",
+      "content": "neapolitan:magic_beans",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_leaves": {
+      "type": "item",
+      "content": "neapolitan:mint_leaves",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_white_strawberries": {
+      "type": "item",
+      "content": "neapolitan:white_strawberries",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_dried_banana": {
+      "type": "item",
+      "content": "neapolitan:dried_banana",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_mint_chops": {
+      "type": "item",
+      "content": "neapolitan:mint_chops",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_chocolate_bar": {
+      "type": "item",
+      "content": "neapolitan:chocolate_bar",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_ice_cubes": {
+      "type": "item",
+      "content": "neapolitan:ice_cubes",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_milk_bottle": {
+      "type": "item",
+      "content": "neapolitan:milk_bottle",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana_frond": {
+      "type": "item",
+      "content": "neapolitan:banana_frond",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_dried_vanilla_pods": {
+      "type": "item",
+      "content": "neapolitan:dried_vanilla_pods",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_banana": {
+      "type": "item",
+      "content": "neapolitan:banana",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_vanilla_pods": {
+      "type": "item",
+      "content": "neapolitan:vanilla_pods",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "neapolitan_strawberries": {
+      "type": "item",
+      "content": "neapolitan:strawberries",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    }
+  }
+}

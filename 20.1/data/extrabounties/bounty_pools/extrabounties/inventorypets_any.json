@@ -1,0 +1,655 @@
+{
+  "requires": [
+    "inventorypets"
+  ],
+  "content": {
+    "inventorypets_pet_black_hole": {
+      "type": "item",
+      "content": "inventorypets:pet_black_hole",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_mickerson": {
+      "type": "item",
+      "content": "inventorypets:pet_mickerson",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_quiver": {
+      "type": "item",
+      "content": "inventorypets:pet_quiver",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_christmas_tree": {
+      "type": "item",
+      "content": "inventorypets:pet_christmas_tree",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_menorah": {
+      "type": "item",
+      "content": "inventorypets:pet_menorah",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_sponge": {
+      "type": "item",
+      "content": "inventorypets:pet_sponge",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_squid": {
+      "type": "item",
+      "content": "inventorypets:pet_squid",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_siamese": {
+      "type": "item",
+      "content": "inventorypets:pet_siamese",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_cobblestone": {
+      "type": "item",
+      "content": "inventorypets:pet_cobblestone",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_illuminati": {
+      "type": "item",
+      "content": "inventorypets:pet_illuminati",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_dirt": {
+      "type": "item",
+      "content": "inventorypets:pet_dirt",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_snow_golem": {
+      "type": "item",
+      "content": "inventorypets:pet_snow_golem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_ender_chest": {
+      "type": "item",
+      "content": "inventorypets:pet_ender_chest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_jukebox": {
+      "type": "item",
+      "content": "inventorypets:pet_jukebox",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_furnace": {
+      "type": "item",
+      "content": "inventorypets:pet_furnace",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_house": {
+      "type": "item",
+      "content": "inventorypets:pet_house",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_april_fool": {
+      "type": "item",
+      "content": "inventorypets:pet_april_fool",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_end_portal": {
+      "type": "item",
+      "content": "inventorypets:pet_end_portal",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_sated_chest": {
+      "type": "item",
+      "content": "inventorypets:pet_sated_chest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_cow": {
+      "type": "item",
+      "content": "inventorypets:pet_cow",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_spider": {
+      "type": "item",
+      "content": "inventorypets:pet_spider",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_banana": {
+      "type": "item",
+      "content": "inventorypets:pet_banana",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_mooshroom": {
+      "type": "item",
+      "content": "inventorypets:pet_mooshroom",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_silverfish": {
+      "type": "item",
+      "content": "inventorypets:pet_silverfish",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_anvil": {
+      "type": "item",
+      "content": "inventorypets:pet_anvil",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_magma_cube": {
+      "type": "item",
+      "content": "inventorypets:pet_magma_cube",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_pufferfish": {
+      "type": "item",
+      "content": "inventorypets:pet_pufferfish",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_ghast": {
+      "type": "item",
+      "content": "inventorypets:pet_ghast",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_nether_portal": {
+      "type": "item",
+      "content": "inventorypets:pet_nether_portal",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_enchanting_table": {
+      "type": "item",
+      "content": "inventorypets:pet_enchanting_table",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_moon": {
+      "type": "item",
+      "content": "inventorypets:pet_moon",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_shield": {
+      "type": "item",
+      "content": "inventorypets:pet_shield",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_qcm": {
+      "type": "item",
+      "content": "inventorypets:pet_qcm",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_pingot": {
+      "type": "item",
+      "content": "inventorypets:pet_pingot",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_dubstep": {
+      "type": "item",
+      "content": "inventorypets:pet_dubstep",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_ocelot": {
+      "type": "item",
+      "content": "inventorypets:pet_ocelot",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_pacman": {
+      "type": "item",
+      "content": "inventorypets:pet_pacman",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_temp_sated_double_chest": {
+      "type": "item",
+      "content": "inventorypets:temp_sated_double_chest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_blaze": {
+      "type": "item",
+      "content": "inventorypets:pet_blaze",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_apple": {
+      "type": "item",
+      "content": "inventorypets:pet_apple",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_wither": {
+      "type": "item",
+      "content": "inventorypets:pet_wither",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_juggernaut": {
+      "type": "item",
+      "content": "inventorypets:pet_juggernaut",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_brewing_stand": {
+      "type": "item",
+      "content": "inventorypets:pet_brewing_stand",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_temp_double_chest": {
+      "type": "item",
+      "content": "inventorypets:temp_double_chest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_crafting_table": {
+      "type": "item",
+      "content": "inventorypets:pet_crafting_table",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_meta": {
+      "type": "item",
+      "content": "inventorypets:pet_meta",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_loot": {
+      "type": "item",
+      "content": "inventorypets:pet_loot",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_heart": {
+      "type": "item",
+      "content": "inventorypets:pet_heart",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_creeper": {
+      "type": "item",
+      "content": "inventorypets:pet_creeper",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_cheetah": {
+      "type": "item",
+      "content": "inventorypets:pet_cheetah",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_politically_correct": {
+      "type": "item",
+      "content": "inventorypets:pet_politically_correct",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_chicken": {
+      "type": "item",
+      "content": "inventorypets:pet_chicken",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_biome": {
+      "type": "item",
+      "content": "inventorypets:pet_biome",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_cloud": {
+      "type": "item",
+      "content": "inventorypets:pet_cloud",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_grave": {
+      "type": "item",
+      "content": "inventorypets:pet_grave",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_torch": {
+      "type": "item",
+      "content": "inventorypets:pet_torch",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_wolf": {
+      "type": "item",
+      "content": "inventorypets:pet_wolf",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_enderman": {
+      "type": "item",
+      "content": "inventorypets:pet_enderman",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_iron_golem": {
+      "type": "item",
+      "content": "inventorypets:pet_iron_golem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_pixie": {
+      "type": "item",
+      "content": "inventorypets:pet_pixie",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_mishumaa_saba": {
+      "type": "item",
+      "content": "inventorypets:pet_mishumaa_saba",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_flying_saddle": {
+      "type": "item",
+      "content": "inventorypets:pet_flying_saddle",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_bed": {
+      "type": "item",
+      "content": "inventorypets:pet_bed",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_sheep": {
+      "type": "item",
+      "content": "inventorypets:pet_sheep",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_sun": {
+      "type": "item",
+      "content": "inventorypets:pet_sun",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_slime": {
+      "type": "item",
+      "content": "inventorypets:pet_slime",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_pig": {
+      "type": "item",
+      "content": "inventorypets:pet_pig",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_purplicious_cow": {
+      "type": "item",
+      "content": "inventorypets:pet_purplicious_cow",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_saddle": {
+      "type": "item",
+      "content": "inventorypets:pet_saddle",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_pet_lead": {
+      "type": "item",
+      "content": "inventorypets:pet_lead",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_temp_chest": {
+      "type": "item",
+      "content": "inventorypets:temp_chest",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    },
+    "inventorypets_item_petrifier": {
+      "type": "item",
+      "content": "inventorypets:item_petrifier",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000
+    }
+  }
+}

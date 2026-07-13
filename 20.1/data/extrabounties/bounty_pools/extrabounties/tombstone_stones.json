@@ -1,0 +1,187 @@
+{
+  "requires": [
+    "tombstone"
+  ],
+  "content": {
+    "tombstone_green_marble_stairs": {
+      "type": "item",
+      "content": "tombstone:green_marble_stairs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_blue_marble_stairs": {
+      "type": "item",
+      "content": "tombstone:blue_marble_stairs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_white_marble_stairs": {
+      "type": "item",
+      "content": "tombstone:white_marble_stairs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dark_marble_stairs": {
+      "type": "item",
+      "content": "tombstone:dark_marble_stairs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dark_marble_wall": {
+      "type": "item",
+      "content": "tombstone:dark_marble_wall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_white_marble_wall": {
+      "type": "item",
+      "content": "tombstone:white_marble_wall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_blue_marble_wall": {
+      "type": "item",
+      "content": "tombstone:blue_marble_wall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_green_marble_wall": {
+      "type": "item",
+      "content": "tombstone:green_marble_wall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_carmin_marble_wall": {
+      "type": "item",
+      "content": "tombstone:carmin_marble_wall",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_carmin_marble": {
+      "type": "item",
+      "content": "tombstone:carmin_marble",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_green_marble": {
+      "type": "item",
+      "content": "tombstone:green_marble",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_blue_marble": {
+      "type": "item",
+      "content": "tombstone:blue_marble",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_white_marble": {
+      "type": "item",
+      "content": "tombstone:white_marble",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dark_marble": {
+      "type": "item",
+      "content": "tombstone:dark_marble",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_dark_marble_slab": {
+      "type": "item",
+      "content": "tombstone:dark_marble_slab",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_white_marble_slab": {
+      "type": "item",
+      "content": "tombstone:white_marble_slab",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_blue_marble_slab": {
+      "type": "item",
+      "content": "tombstone:blue_marble_slab",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_green_marble_slab": {
+      "type": "item",
+      "content": "tombstone:green_marble_slab",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_carmin_marble_slab": {
+      "type": "item",
+      "content": "tombstone:carmin_marble_slab",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "tombstone_carmin_marble_stairs": {
+      "type": "item",
+      "content": "tombstone:carmin_marble_stairs",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}

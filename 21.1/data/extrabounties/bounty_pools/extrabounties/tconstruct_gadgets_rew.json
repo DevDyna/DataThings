@@ -1,0 +1,43 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_sky_slime_grass_seeds": {
+      "type": "item",
+      "content": "tconstruct:sky_slime_grass_seeds",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_earth_slime_grass_seeds": {
+      "type": "item",
+      "content": "tconstruct:earth_slime_grass_seeds",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_blood_slime_grass_seeds": {
+      "type": "item",
+      "content": "tconstruct:blood_slime_grass_seeds",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_ender_slime_grass_seeds": {
+      "type": "item",
+      "content": "tconstruct:ender_slime_grass_seeds",
+      "amount": {
+        "min": 1,
+        "max": 24
+      },
+      "unitWorth": 1000
+    }
+  }
+}

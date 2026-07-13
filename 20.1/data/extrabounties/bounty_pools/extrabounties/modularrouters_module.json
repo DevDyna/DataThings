@@ -1,0 +1,421 @@
+{
+  "requires": [
+    "modularrouters"
+  ],
+  "content": {
+    "modularrouters_inspection_filter": {
+      "type": "item",
+      "content": "modularrouters:inspection_filter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_tag_filter": {
+      "type": "item",
+      "content": "modularrouters:tag_filter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_puller_module_1": {
+      "type": "item",
+      "content": "modularrouters:puller_module_1",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_bulk_item_filter": {
+      "type": "item",
+      "content": "modularrouters:bulk_item_filter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_mod_filter": {
+      "type": "item",
+      "content": "modularrouters:mod_filter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_regex_filter": {
+      "type": "item",
+      "content": "modularrouters:regex_filter",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_energy_output_module": {
+      "type": "item",
+      "content": "modularrouters:energy_output_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_stack_augment": {
+      "type": "item",
+      "content": "modularrouters:stack_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_activator_module": {
+      "type": "item",
+      "content": "modularrouters:activator_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_detector_module": {
+      "type": "item",
+      "content": "modularrouters:detector_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_energy_distributor_module": {
+      "type": "item",
+      "content": "modularrouters:energy_distributor_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_flinger_module": {
+      "type": "item",
+      "content": "modularrouters:flinger_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_sync_upgrade": {
+      "type": "item",
+      "content": "modularrouters:sync_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_speed_upgrade": {
+      "type": "item",
+      "content": "modularrouters:speed_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_sender_module_2": {
+      "type": "item",
+      "content": "modularrouters:sender_module_2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_fluid_module": {
+      "type": "item",
+      "content": "modularrouters:fluid_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_void_module": {
+      "type": "item",
+      "content": "modularrouters:void_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_range_down_augment": {
+      "type": "item",
+      "content": "modularrouters:range_down_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_fluid_upgrade": {
+      "type": "item",
+      "content": "modularrouters:fluid_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_blast_upgrade": {
+      "type": "item",
+      "content": "modularrouters:blast_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_player_module": {
+      "type": "item",
+      "content": "modularrouters:player_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_muffler_upgrade": {
+      "type": "item",
+      "content": "modularrouters:muffler_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_energy_upgrade": {
+      "type": "item",
+      "content": "modularrouters:energy_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_filter_round_robin_augment": {
+      "type": "item",
+      "content": "modularrouters:filter_round_robin_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_dropper_module": {
+      "type": "item",
+      "content": "modularrouters:dropper_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_breaker_module": {
+      "type": "item",
+      "content": "modularrouters:breaker_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_fast_pickup_augment": {
+      "type": "item",
+      "content": "modularrouters:fast_pickup_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_pushing_augment": {
+      "type": "item",
+      "content": "modularrouters:pushing_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_sender_module_1": {
+      "type": "item",
+      "content": "modularrouters:sender_module_1",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_fluid_module_2": {
+      "type": "item",
+      "content": "modularrouters:fluid_module_2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_stack_upgrade": {
+      "type": "item",
+      "content": "modularrouters:stack_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_security_upgrade": {
+      "type": "item",
+      "content": "modularrouters:security_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_sender_module_3": {
+      "type": "item",
+      "content": "modularrouters:sender_module_3",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_camouflage_upgrade": {
+      "type": "item",
+      "content": "modularrouters:camouflage_upgrade",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_vacuum_module": {
+      "type": "item",
+      "content": "modularrouters:vacuum_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_redstone_augment": {
+      "type": "item",
+      "content": "modularrouters:redstone_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_range_up_augment": {
+      "type": "item",
+      "content": "modularrouters:range_up_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_mimic_augment": {
+      "type": "item",
+      "content": "modularrouters:mimic_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_pickup_delay_augment": {
+      "type": "item",
+      "content": "modularrouters:pickup_delay_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_extruder_module_2": {
+      "type": "item",
+      "content": "modularrouters:extruder_module_2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_placer_module": {
+      "type": "item",
+      "content": "modularrouters:placer_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_extruder_module_1": {
+      "type": "item",
+      "content": "modularrouters:extruder_module_1",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_distributor_module": {
+      "type": "item",
+      "content": "modularrouters:distributor_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_xp_vacuum_augment": {
+      "type": "item",
+      "content": "modularrouters:xp_vacuum_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_regulator_augment": {
+      "type": "item",
+      "content": "modularrouters:regulator_augment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "modularrouters_puller_module_2": {
+      "type": "item",
+      "content": "modularrouters:puller_module_2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

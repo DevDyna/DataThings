@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "ppfluids"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "ppfluids_buy",
+    "prettypipes_buy"
+  ],
+  "rewards": [
+    "decree",
+    "ppfluids_sell",
+    "prettypipes_sell",
+    "rarities"
+  ]
+}

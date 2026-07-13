@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "laserio"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "laserio_buy"
+  ],
+  "rewards": [
+    "decree",
+    "laserio_sell",
+    "rarities"
+  ]
+}

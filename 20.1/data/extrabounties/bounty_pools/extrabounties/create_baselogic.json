@@ -1,0 +1,124 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_speedometer": {
+      "type": "item",
+      "content": "create:speedometer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_stressometer": {
+      "type": "item",
+      "content": "create:stressometer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_adjustable_chain_gearshift": {
+      "type": "item",
+      "content": "create:adjustable_chain_gearshift",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_belt_connector": {
+      "type": "item",
+      "content": "create:belt_connector",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_clutch": {
+      "type": "item",
+      "content": "create:clutch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_gearshift": {
+      "type": "item",
+      "content": "create:gearshift",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_encased_chain_drive": {
+      "type": "item",
+      "content": "create:encased_chain_drive",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_gearbox": {
+      "type": "item",
+      "content": "create:gearbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_vertical_gearbox": {
+      "type": "item",
+      "content": "create:vertical_gearbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_large_cogwheel": {
+      "type": "item",
+      "content": "create:large_cogwheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_cogwheel": {
+      "type": "item",
+      "content": "create:cogwheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_shaft": {
+      "type": "item",
+      "content": "create:shaft",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_depot": {
+      "type": "item",
+      "content": "create:depot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

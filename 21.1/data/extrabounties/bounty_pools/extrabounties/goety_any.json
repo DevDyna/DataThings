@@ -1,0 +1,277 @@
+{
+  "requires": [
+    "goety"
+  ],
+  "content": {
+    "goety_soul_emerald": {
+      "type": "item",
+      "content": "goety:soul_emerald",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_ingot": {
+      "type": "item",
+      "content": "goety:dark_ingot",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_shadow_essence": {
+      "type": "item",
+      "content": "goety:shadow_essence",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_poison_quill_seed": {
+      "type": "item",
+      "content": "goety:poison_quill_seed",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_chill_fabric": {
+      "type": "item",
+      "content": "goety:chill_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_cursed_ingot": {
+      "type": "item",
+      "content": "goety:cursed_ingot",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_taglock_kit": {
+      "type": "item",
+      "content": "goety:taglock_kit",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_ectoplasm": {
+      "type": "item",
+      "content": "goety:ectoplasm",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_ominous_shard": {
+      "type": "item",
+      "content": "goety:ominous_shard",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_quick_growing_seed": {
+      "type": "item",
+      "content": "goety:quick_growing_seed",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_magic_fabric": {
+      "type": "item",
+      "content": "goety:magic_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_ice_cube": {
+      "type": "item",
+      "content": "goety:ice_cube",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_soul_ruby": {
+      "type": "item",
+      "content": "goety:soul_ruby",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_fabric": {
+      "type": "item",
+      "content": "goety:dark_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_spider_egg": {
+      "type": "item",
+      "content": "goety:spider_egg",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_occult_fabric": {
+      "type": "item",
+      "content": "goety:occult_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_metal_block": {
+      "type": "item",
+      "content": "goety:dark_metal_block",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_venomous_fang": {
+      "type": "item",
+      "content": "goety:venomous_fang",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_cursed_metal_block": {
+      "type": "item",
+      "content": "goety:cursed_metal_block",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_waystone": {
+      "type": "item",
+      "content": "goety:waystone",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_philosophers_stone": {
+      "type": "item",
+      "content": "goety:philosophers_stone",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_unholy_fabric": {
+      "type": "item",
+      "content": "goety:unholy_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_spirit_fabric": {
+      "type": "item",
+      "content": "goety:spirit_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_raging_matter": {
+      "type": "item",
+      "content": "goety:raging_matter",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_empty_focus": {
+      "type": "item",
+      "content": "goety:empty_focus",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_jade": {
+      "type": "item",
+      "content": "goety:jade",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_savage_tooth": {
+      "type": "item",
+      "content": "goety:savage_tooth",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_gale_fabric": {
+      "type": "item",
+      "content": "goety:gale_fabric",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_warped_wartful_egg": {
+      "type": "item",
+      "content": "goety:warped_wartful_egg",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    },
+    "goety_magic_emerald": {
+      "type": "item",
+      "content": "goety:magic_emerald",
+      "amount": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 1000
+    }
+  }
+}

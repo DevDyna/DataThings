@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "nameless_trinkets"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "nameless_trinkets_obj",
+    "nameless_trinkets_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "nameless_trinkets_rew",
+    "nameless_trinkets_any"
+  ]
+}

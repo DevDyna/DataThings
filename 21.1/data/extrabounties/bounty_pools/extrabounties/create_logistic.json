@@ -1,0 +1,295 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_weighted_ejector": {
+      "type": "item",
+      "content": "create:weighted_ejector",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_display_board": {
+      "type": "item",
+      "content": "create:display_board",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_chute": {
+      "type": "item",
+      "content": "create:chute",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_smart_chute": {
+      "type": "item",
+      "content": "create:smart_chute",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_nixie_tube": {
+      "type": "item",
+      "content": "create:nixie_tube",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_rose_quartz_lamp": {
+      "type": "item",
+      "content": "create:rose_quartz_lamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_andesite_funnel": {
+      "type": "item",
+      "content": "create:andesite_funnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_brass_funnel": {
+      "type": "item",
+      "content": "create:brass_funnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_brass_tunnel": {
+      "type": "item",
+      "content": "create:brass_tunnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_sequenced_gearshift": {
+      "type": "item",
+      "content": "create:sequenced_gearshift",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_display_link": {
+      "type": "item",
+      "content": "create:display_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_andesite_tunnel": {
+      "type": "item",
+      "content": "create:andesite_tunnel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_stockpile_switch": {
+      "type": "item",
+      "content": "create:stockpile_switch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_content_observer": {
+      "type": "item",
+      "content": "create:content_observer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_powered_latch": {
+      "type": "item",
+      "content": "create:powered_latch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_pulse_extender": {
+      "type": "item",
+      "content": "create:pulse_extender",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_placard": {
+      "type": "item",
+      "content": "create:placard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_pulse_repeater": {
+      "type": "item",
+      "content": "create:pulse_repeater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_redstone_link": {
+      "type": "item",
+      "content": "create:redstone_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_powered_toggle_latch": {
+      "type": "item",
+      "content": "create:powered_toggle_latch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_arm": {
+      "type": "item",
+      "content": "create:mechanical_arm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_rotation_speed_controller": {
+      "type": "item",
+      "content": "create:rotation_speed_controller",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_stock_link": {
+      "type": "item",
+      "content": "create:stock_link",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_item_hatch": {
+      "type": "item",
+      "content": "create:item_hatch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_redstone_requester": {
+      "type": "item",
+      "content": "create:redstone_requester",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_factory_gauge": {
+      "type": "item",
+      "content": "create:factory_gauge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_packager": {
+      "type": "item",
+      "content": "create:packager",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_package_frogport": {
+      "type": "item",
+      "content": "create:package_frogport",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_stock_ticker": {
+      "type": "item",
+      "content": "create:stock_ticker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_chain_conveyor": {
+      "type": "item",
+      "content": "create:chain_conveyor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_chain": {
+      "type": "item",
+      "content": "minecraft:chain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_pulse_timer": {
+      "type": "item",
+      "content": "create:pulse_timer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

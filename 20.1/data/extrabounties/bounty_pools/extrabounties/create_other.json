@@ -1,0 +1,232 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_blaze_cake": {
+      "type": "item",
+      "content": "create:blaze_cake",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_goggles": {
+      "type": "item",
+      "content": "create:goggles",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_blaze_cake_base": {
+      "type": "item",
+      "content": "create:blaze_cake_base",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_nozzle": {
+      "type": "item",
+      "content": "create:nozzle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_cuckoo_clock": {
+      "type": "item",
+      "content": "create:cuckoo_clock",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_wooden_bracket": {
+      "type": "item",
+      "content": "create:wooden_bracket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_hand_crank": {
+      "type": "item",
+      "content": "create:hand_crank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_turntable": {
+      "type": "item",
+      "content": "create:turntable",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_metal_bracket": {
+      "type": "item",
+      "content": "create:metal_bracket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_flywheel": {
+      "type": "item",
+      "content": "create:flywheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_crafting_blueprint": {
+      "type": "item",
+      "content": "create:crafting_blueprint",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_minecart_coupling": {
+      "type": "item",
+      "content": "create:minecart_coupling",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_schematic_table": {
+      "type": "item",
+      "content": "create:schematic_table",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_wrench": {
+      "type": "item",
+      "content": "create:wrench",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_schematicannon": {
+      "type": "item",
+      "content": "create:schematicannon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_linked_controller": {
+      "type": "item",
+      "content": "create:linked_controller",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_wand_of_symmetry": {
+      "type": "item",
+      "content": "create:wand_of_symmetry",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_potato_cannon": {
+      "type": "item",
+      "content": "create:potato_cannon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_extendo_grip": {
+      "type": "item",
+      "content": "create:extendo_grip",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_brown_toolbox": {
+      "type": "item",
+      "content": "create:brown_toolbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_red_table_cloth": {
+      "type": "item",
+      "content": "create:red_table_cloth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_copper_table_cloth": {
+      "type": "item",
+      "content": "create:copper_table_cloth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_brass_table_cloth": {
+      "type": "item",
+      "content": "create:brass_table_cloth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_andesite_table_cloth": {
+      "type": "item",
+      "content": "create:andesite_table_cloth",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_desk_bell": {
+      "type": "item",
+      "content": "create:desk_bell",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "requires": [
+    "caverns_and_chasms"
+  ],
+  "content": {
+    "caverns_and_chasms_necromium_ingot": {
+      "type": "item",
+      "content": "caverns_and_chasms:necromium_ingot",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_spinel": {
+      "type": "item",
+      "content": "caverns_and_chasms:spinel",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_golden_bucket": {
+      "type": "item",
+      "content": "caverns_and_chasms:golden_bucket",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_toolbox": {
+      "type": "item",
+      "content": "caverns_and_chasms:toolbox",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_tuning_fork": {
+      "type": "item",
+      "content": "caverns_and_chasms:tuning_fork",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_depth_gauge": {
+      "type": "item",
+      "content": "caverns_and_chasms:depth_gauge",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_barometer": {
+      "type": "item",
+      "content": "caverns_and_chasms:barometer",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_living_flesh": {
+      "type": "item",
+      "content": "caverns_and_chasms:living_flesh",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_silver_ingot": {
+      "type": "item",
+      "content": "caverns_and_chasms:silver_ingot",
+      "amount": {
+        "min": 1,
+        "max": 9
+      },
+      "unitWorth": 1000
+    }
+  }
+}

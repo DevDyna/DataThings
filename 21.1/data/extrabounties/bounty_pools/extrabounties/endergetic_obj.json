@@ -1,0 +1,25 @@
+{
+  "requires": [
+    "endergetic"
+  ],
+  "content": {
+    "endergetic_booflo_hide": {
+      "type": "item",
+      "content": "endergetic:booflo_hide",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    },
+    "endergetic_bolloom_fruit": {
+      "type": "item",
+      "content": "endergetic:bolloom_fruit",
+      "amount": {
+        "min": 1,
+        "max": 10
+      },
+      "unitWorth": 1000
+    }
+  }
+}

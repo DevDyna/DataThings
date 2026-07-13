@@ -1,0 +1,142 @@
+{
+  "requires": [
+    "tconstruct"
+  ],
+  "content": {
+    "tconstruct_gold_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:gold_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_iron_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:iron_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_seared_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:seared_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_slimesteel_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:slimesteel_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_emerald_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:emerald_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_silky_cloth": {
+      "type": "item",
+      "content": "tconstruct:silky_cloth",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_bacon": {
+      "type": "item",
+      "content": "tconstruct:bacon",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_jeweled_apple": {
+      "type": "item",
+      "content": "tconstruct:jeweled_apple",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_venombone": {
+      "type": "item",
+      "content": "tconstruct:venombone",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_sky_slime_sapling": {
+      "type": "item",
+      "content": "tconstruct:sky_slime_sapling",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_earth_slime_sapling": {
+      "type": "item",
+      "content": "tconstruct:earth_slime_sapling",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_obsidian_pane": {
+      "type": "item",
+      "content": "tconstruct:obsidian_pane",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_punji": {
+      "type": "item",
+      "content": "tconstruct:punji",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_obsidian_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:obsidian_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    },
+    "tconstruct_cobalt_reinforcement": {
+      "type": "item",
+      "content": "tconstruct:cobalt_reinforcement",
+      "amount": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 1000
+    }
+  }
+}

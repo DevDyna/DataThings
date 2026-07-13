@@ -1,0 +1,214 @@
+{
+  "requires": [
+    "ironfurnaces"
+  ],
+  "content": {
+    "ironfurnaces_upgrade_gold2": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_gold2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_silver2": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_silver2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_heater": {
+      "type": "item",
+      "content": "ironfurnaces:heater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_diamond": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_diamond",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_iron": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_iron",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_fuel": {
+      "type": "item",
+      "content": "ironfurnaces:augment_fuel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_emerald": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_emerald",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_item_heater": {
+      "type": "item",
+      "content": "ironfurnaces:item_heater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_silver": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_silver",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_copper": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_copper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_netherite": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_netherite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_obsidian2": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_obsidian2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_gold": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_gold",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_speed": {
+      "type": "item",
+      "content": "ironfurnaces:augment_speed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_smoking": {
+      "type": "item",
+      "content": "ironfurnaces:augment_smoking",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_rainbow_core": {
+      "type": "item",
+      "content": "ironfurnaces:rainbow_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_obsidian": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_obsidian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_generator": {
+      "type": "item",
+      "content": "ironfurnaces:augment_generator",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_blasting": {
+      "type": "item",
+      "content": "ironfurnaces:augment_blasting",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_iron2": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_iron2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_rainbow_plating": {
+      "type": "item",
+      "content": "ironfurnaces:rainbow_plating",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_augment_factory": {
+      "type": "item",
+      "content": "ironfurnaces:augment_factory",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironfurnaces_upgrade_crystal": {
+      "type": "item",
+      "content": "ironfurnaces:upgrade_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

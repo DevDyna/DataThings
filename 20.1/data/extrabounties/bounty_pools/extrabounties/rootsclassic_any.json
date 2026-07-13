@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "rootsclassic"
+  ],
+  "content": {
+    "rootsclassic_mutating_powder": {
+      "type": "item",
+      "content": "rootsclassic:mutating_powder",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_healing_poultice": {
+      "type": "item",
+      "content": "rootsclassic:healing_poultice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_rooty_stew": {
+      "type": "item",
+      "content": "rootsclassic:rooty_stew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_fruit_salad": {
+      "type": "item",
+      "content": "rootsclassic:fruit_salad",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_attuned_standing_stone": {
+      "type": "item",
+      "content": "rootsclassic:attuned_standing_stone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_mundane_standing_stone": {
+      "type": "item",
+      "content": "rootsclassic:mundane_standing_stone",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_verdant_sprig": {
+      "type": "item",
+      "content": "rootsclassic:verdant_sprig",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_dragons_eye": {
+      "type": "item",
+      "content": "rootsclassic:dragons_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_old_root": {
+      "type": "item",
+      "content": "rootsclassic:old_root",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_infernal_bulb": {
+      "type": "item",
+      "content": "rootsclassic:infernal_bulb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "rootsclassic_growth_powder": {
+      "type": "item",
+      "content": "rootsclassic:growth_powder",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

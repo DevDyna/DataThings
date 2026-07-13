@@ -1,0 +1,160 @@
+{
+  "requires": [
+    "dimdoors"
+  ],
+  "content": {
+    "dimdoors_garment_of_reality_chestplate": {
+      "type": "item",
+      "content": "dimdoors:garment_of_reality_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_garment_of_reality_helmet": {
+      "type": "item",
+      "content": "dimdoors:garment_of_reality_helmet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_garment_of_reality_boots": {
+      "type": "item",
+      "content": "dimdoors:garment_of_reality_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_garment_of_reality_leggings": {
+      "type": "item",
+      "content": "dimdoors:garment_of_reality_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_eternal_fluid_bucket": {
+      "type": "item",
+      "content": "dimdoors:eternal_fluid_bucket",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_item_ag_dim_minecraft_oak_door": {
+      "type": "item",
+      "content": "dimdoors:item_ag_dim_minecraft_oak_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_item_ag_dim_minecraft_iron_door": {
+      "type": "item",
+      "content": "dimdoors:item_ag_dim_minecraft_iron_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_item_ag_dim_dimdoors_gold_door": {
+      "type": "item",
+      "content": "dimdoors:item_ag_dim_dimdoors_gold_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_item_ag_dim_dimdoors_quartz_door": {
+      "type": "item",
+      "content": "dimdoors:item_ag_dim_dimdoors_quartz_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_tesselating_loom": {
+      "type": "item",
+      "content": "dimdoors:tesselating_loom",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_rift_stabilizer": {
+      "type": "item",
+      "content": "dimdoors:rift_stabilizer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_rift_remover": {
+      "type": "item",
+      "content": "dimdoors:rift_remover",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_rift_signature": {
+      "type": "item",
+      "content": "dimdoors:rift_signature",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_stabilized_rift_signature": {
+      "type": "item",
+      "content": "dimdoors:stabilized_rift_signature",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_creepy_record": {
+      "type": "item",
+      "content": "dimdoors:creepy_record",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_white_void_record": {
+      "type": "item",
+      "content": "dimdoors:white_void_record",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_they_stare_back_record": {
+      "type": "item",
+      "content": "dimdoors:they_stare_back_record",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

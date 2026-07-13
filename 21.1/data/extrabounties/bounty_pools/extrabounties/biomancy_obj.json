@@ -1,0 +1,187 @@
+{
+  "requires": [
+    "biomancy"
+  ],
+  "content": {
+    "biomancy_stone_powder": {
+      "type": "item",
+      "content": "biomancy:stone_powder",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_volatile_gland": {
+      "type": "item",
+      "content": "biomancy:volatile_gland",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_toxin_gland": {
+      "type": "item",
+      "content": "biomancy:toxin_gland",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mob_gland": {
+      "type": "item",
+      "content": "biomancy:mob_gland",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_primordial_core": {
+      "type": "item",
+      "content": "biomancy:primordial_core",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mob_marrow": {
+      "type": "item",
+      "content": "biomancy:mob_marrow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_exotic_dust": {
+      "type": "item",
+      "content": "biomancy:exotic_dust",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_organic_matter": {
+      "type": "item",
+      "content": "biomancy:organic_matter",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_gem_fragments": {
+      "type": "item",
+      "content": "biomancy:gem_fragments",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_withered_mob_marrow": {
+      "type": "item",
+      "content": "biomancy:withered_mob_marrow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_bio_lumens": {
+      "type": "item",
+      "content": "biomancy:bio_lumens",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_nutrients": {
+      "type": "item",
+      "content": "biomancy:nutrients",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_flesh_bits": {
+      "type": "item",
+      "content": "biomancy:flesh_bits",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_bone_fragments": {
+      "type": "item",
+      "content": "biomancy:bone_fragments",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_tough_fibers": {
+      "type": "item",
+      "content": "biomancy:tough_fibers",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_elastic_fibers": {
+      "type": "item",
+      "content": "biomancy:elastic_fibers",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mineral_fragment": {
+      "type": "item",
+      "content": "biomancy:mineral_fragment",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mob_fang": {
+      "type": "item",
+      "content": "biomancy:mob_fang",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mob_claw": {
+      "type": "item",
+      "content": "biomancy:mob_claw",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    },
+    "biomancy_mob_sinew": {
+      "type": "item",
+      "content": "biomancy:mob_sinew",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000
+    }
+  }
+}

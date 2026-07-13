@@ -1,0 +1,52 @@
+{
+  "requires": [
+    "ironchest"
+  ],
+  "content": {
+    "ironchest_copper_chest": {
+      "type": "item",
+      "content": "ironchest:copper_chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_gold_chest": {
+      "type": "item",
+      "content": "ironchest:gold_chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_iron_chest": {
+      "type": "item",
+      "content": "ironchest:iron_chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_chest": {
+      "type": "item",
+      "content": "minecraft:chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "ironchest_dirt_chest": {
+      "type": "item",
+      "content": "ironchest:dirt_chest",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

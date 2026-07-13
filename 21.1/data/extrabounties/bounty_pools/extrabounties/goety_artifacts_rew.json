@@ -1,0 +1,700 @@
+{
+  "requires": [
+    "goety"
+  ],
+  "content": {
+    "goety_undeath_potion": {
+      "type": "item",
+      "content": "goety:undeath_potion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_forbidden_grass": {
+      "type": "item",
+      "content": "goety:forbidden_grass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_forbidden_piece": {
+      "type": "item",
+      "content": "goety:forbidden_piece",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_forbidden_fragment": {
+      "type": "item",
+      "content": "goety:forbidden_fragment",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_necro_brazier": {
+      "type": "item",
+      "content": "goety:necro_brazier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_haunted_glass": {
+      "type": "item",
+      "content": "goety:haunted_glass",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_haunted_glass_tinted": {
+      "type": "item",
+      "content": "goety:haunted_glass_tinted",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_haunted_glass_mob": {
+      "type": "item",
+      "content": "goety:haunted_glass_mob",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_freezing_lamp": {
+      "type": "item",
+      "content": "goety:freezing_lamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_haunted_glass_mob_tinted": {
+      "type": "item",
+      "content": "goety:haunted_glass_mob_tinted",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_apparition_door": {
+      "type": "item",
+      "content": "goety:apparition_door",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_withered_manuscript": {
+      "type": "item",
+      "content": "goety:withered_manuscript",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ominous_staff": {
+      "type": "item",
+      "content": "goety:ominous_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_scythe": {
+      "type": "item",
+      "content": "goety:dark_scythe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_great_hammer": {
+      "type": "item",
+      "content": "goety:great_hammer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_rampaging_axe": {
+      "type": "item",
+      "content": "goety:rampaging_axe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_infernal_tome": {
+      "type": "item",
+      "content": "goety:infernal_tome",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_thrash_glove": {
+      "type": "item",
+      "content": "goety:thrash_glove",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_grave_glove": {
+      "type": "item",
+      "content": "goety:grave_glove",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_star_amulet": {
+      "type": "item",
+      "content": "goety:star_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_spiteful_belt": {
+      "type": "item",
+      "content": "goety:spiteful_belt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wayfarers_belt": {
+      "type": "item",
+      "content": "goety:wayfarers_belt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_alarming_charm": {
+      "type": "item",
+      "content": "goety:alarming_charm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_feline_amulet": {
+      "type": "item",
+      "content": "goety:feline_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_sea_amulet": {
+      "type": "item",
+      "content": "goety:sea_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_unholy_robe": {
+      "type": "item",
+      "content": "goety:unholy_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_nether_robe_warped": {
+      "type": "item",
+      "content": "goety:nether_robe_warped",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_nether_robe": {
+      "type": "item",
+      "content": "goety:nether_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_warlock_sash": {
+      "type": "item",
+      "content": "goety:warlock_sash",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wild_robe": {
+      "type": "item",
+      "content": "goety:wild_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_warlock_robe_dark": {
+      "type": "item",
+      "content": "goety:warlock_robe_dark",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_warlock_robe": {
+      "type": "item",
+      "content": "goety:warlock_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_crone_hat": {
+      "type": "item",
+      "content": "goety:crone_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_unholy_hat": {
+      "type": "item",
+      "content": "goety:unholy_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_robe": {
+      "type": "item",
+      "content": "goety:dark_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_grand_robe": {
+      "type": "item",
+      "content": "goety:grand_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_necro_cape": {
+      "type": "item",
+      "content": "goety:necro_cape",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_nameless_cape": {
+      "type": "item",
+      "content": "goety:nameless_cape",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_illusion_robe": {
+      "type": "item",
+      "content": "goety:illusion_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_illusion_robe_mirror": {
+      "type": "item",
+      "content": "goety:illusion_robe_mirror",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frost_robe_cryo": {
+      "type": "item",
+      "content": "goety:frost_robe_cryo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frost_robe": {
+      "type": "item",
+      "content": "goety:frost_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wind_robe": {
+      "type": "item",
+      "content": "goety:wind_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_storm_robe": {
+      "type": "item",
+      "content": "goety:storm_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_abyss_robe": {
+      "type": "item",
+      "content": "goety:abyss_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_witch_robe": {
+      "type": "item",
+      "content": "goety:witch_robe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_witch_robe_hedge": {
+      "type": "item",
+      "content": "goety:witch_robe_hedge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_witch_hat_hedge": {
+      "type": "item",
+      "content": "goety:witch_hat_hedge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_witch_hat": {
+      "type": "item",
+      "content": "goety:witch_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_amethyst_necklace": {
+      "type": "item",
+      "content": "goety:amethyst_necklace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_nameless_crown": {
+      "type": "item",
+      "content": "goety:nameless_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_necro_crown": {
+      "type": "item",
+      "content": "goety:necro_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_nether_crown": {
+      "type": "item",
+      "content": "goety:nether_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_abyss_crown": {
+      "type": "item",
+      "content": "goety:abyss_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wild_crown": {
+      "type": "item",
+      "content": "goety:wild_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frost_crown": {
+      "type": "item",
+      "content": "goety:frost_crown",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_grand_turban": {
+      "type": "item",
+      "content": "goety:grand_turban",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_hat": {
+      "type": "item",
+      "content": "goety:dark_hat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_targeting_monocle": {
+      "type": "item",
+      "content": "goety:targeting_monocle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blazing_horn": {
+      "type": "item",
+      "content": "goety:blazing_horn",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_pendant_of_hunger": {
+      "type": "item",
+      "content": "goety:pendant_of_hunger",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_dark_scroll": {
+      "type": "item",
+      "content": "goety:dark_scroll",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_spent_totem": {
+      "type": "item",
+      "content": "goety:spent_totem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_mystic_core": {
+      "type": "item",
+      "content": "goety:mystic_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wind_core": {
+      "type": "item",
+      "content": "goety:wind_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_hunger_core": {
+      "type": "item",
+      "content": "goety:hunger_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_animation_core": {
+      "type": "item",
+      "content": "goety:animation_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ominous_orb": {
+      "type": "item",
+      "content": "goety:ominous_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_heart_of_the_night": {
+      "type": "item",
+      "content": "goety:heart_of_the_night",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_brew_bag": {
+      "type": "item",
+      "content": "goety:brew_bag",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_focus_bag": {
+      "type": "item",
+      "content": "goety:focus_bag",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_focus_pack": {
+      "type": "item",
+      "content": "goety:focus_pack",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_treasure_pouch": {
+      "type": "item",
+      "content": "goety:treasure_pouch",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ring_of_want": {
+      "type": "item",
+      "content": "goety:ring_of_want",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ring_of_force": {
+      "type": "item",
+      "content": "goety:ring_of_force",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ring_of_the_forge": {
+      "type": "item",
+      "content": "goety:ring_of_the_forge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ring_of_the_dragon": {
+      "type": "item",
+      "content": "goety:ring_of_the_dragon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

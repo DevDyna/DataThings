@@ -1,0 +1,331 @@
+{
+  "requires": [
+    "prettypipes"
+  ],
+  "content": {
+    "prettypipes_medium_speed_module": {
+      "type": "item",
+      "content": "prettypipes:medium_speed_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_stack_size_module": {
+      "type": "item",
+      "content": "prettypipes:stack_size_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_pipe": {
+      "type": "item",
+      "content": "prettypipes:pipe",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_pressurizer": {
+      "type": "item",
+      "content": "prettypipes:pressurizer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_crafting_terminal": {
+      "type": "item",
+      "content": "prettypipes:crafting_terminal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_item_terminal": {
+      "type": "item",
+      "content": "prettypipes:item_terminal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_wrench": {
+      "type": "item",
+      "content": "prettypipes:wrench",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_extraction_module": {
+      "type": "item",
+      "content": "prettypipes:medium_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_damage_filter_modifier": {
+      "type": "item",
+      "content": "prettypipes:damage_filter_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_extraction_module": {
+      "type": "item",
+      "content": "prettypipes:high_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_extraction_module": {
+      "type": "item",
+      "content": "prettypipes:low_extraction_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_filter_increase_modifier": {
+      "type": "item",
+      "content": "prettypipes:filter_increase_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_pipe_frame": {
+      "type": "item",
+      "content": "prettypipes:pipe_frame",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_mod_filter_modifier": {
+      "type": "item",
+      "content": "prettypipes:mod_filter_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_high_priority_module": {
+      "type": "item",
+      "content": "prettypipes:high_high_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_high_priority_module": {
+      "type": "item",
+      "content": "prettypipes:medium_high_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_nbt_filter_modifier": {
+      "type": "item",
+      "content": "prettypipes:nbt_filter_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_high_priority_module": {
+      "type": "item",
+      "content": "prettypipes:low_high_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_filter_module": {
+      "type": "item",
+      "content": "prettypipes:high_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_filter_module": {
+      "type": "item",
+      "content": "prettypipes:low_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_filter_module": {
+      "type": "item",
+      "content": "prettypipes:medium_filter_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_random_sorting_modifier": {
+      "type": "item",
+      "content": "prettypipes:random_sorting_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_tag_filter_modifier": {
+      "type": "item",
+      "content": "prettypipes:tag_filter_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_round_robin_sorting_modifier": {
+      "type": "item",
+      "content": "prettypipes:round_robin_sorting_modifier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_retrieval_module": {
+      "type": "item",
+      "content": "prettypipes:medium_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_crafting_module": {
+      "type": "item",
+      "content": "prettypipes:high_crafting_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_speed_module": {
+      "type": "item",
+      "content": "prettypipes:high_speed_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_retrieval_module": {
+      "type": "item",
+      "content": "prettypipes:high_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_speed_module": {
+      "type": "item",
+      "content": "prettypipes:low_speed_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_crafting_module": {
+      "type": "item",
+      "content": "prettypipes:medium_crafting_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_crafting_module": {
+      "type": "item",
+      "content": "prettypipes:low_crafting_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_redstone_module": {
+      "type": "item",
+      "content": "prettypipes:redstone_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_high_low_priority_module": {
+      "type": "item",
+      "content": "prettypipes:high_low_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_retrieval_module": {
+      "type": "item",
+      "content": "prettypipes:low_retrieval_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_medium_low_priority_module": {
+      "type": "item",
+      "content": "prettypipes:medium_low_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "prettypipes_low_low_priority_module": {
+      "type": "item",
+      "content": "prettypipes:low_low_priority_module",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

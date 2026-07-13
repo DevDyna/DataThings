@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "everlastingabilities"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "discs"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "everlastingabilities_rew"
+  ]
+}

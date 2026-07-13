@@ -1,0 +1,106 @@
+{
+  "requires": [
+    "savage_and_ravage"
+  ],
+  "content": {
+    "savage_and_ravage_spore_bomb": {
+      "type": "item",
+      "content": "savage_and_ravage:spore_bomb",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_conch_of_conjuring": {
+      "type": "item",
+      "content": "savage_and_ravage:conch_of_conjuring",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_mischief_arrow": {
+      "type": "item",
+      "content": "savage_and_ravage:mischief_arrow",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_griefer_helmet": {
+      "type": "item",
+      "content": "savage_and_ravage:griefer_helmet",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_griefer_chestplate": {
+      "type": "item",
+      "content": "savage_and_ravage:griefer_chestplate",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_griefer_boots": {
+      "type": "item",
+      "content": "savage_and_ravage:griefer_boots",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_griefer_leggings": {
+      "type": "item",
+      "content": "savage_and_ravage:griefer_leggings",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_mask_of_dishonesty": {
+      "type": "item",
+      "content": "savage_and_ravage:mask_of_dishonesty",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_wand_of_freezing": {
+      "type": "item",
+      "content": "savage_and_ravage:wand_of_freezing",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "savage_and_ravage_cleaver_of_beheading": {
+      "type": "item",
+      "content": "savage_and_ravage:cleaver_of_beheading",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_creeper_head": {
+      "type": "item",
+      "content": "minecraft:creeper_head",
+      "amount": {
+        "min": 1,
+        "max": 11
+      },
+      "unitWorth": 1000
+    }
+  }
+}

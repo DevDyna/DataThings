@@ -1,0 +1,25 @@
+{
+  "requires": [
+    "endergetic"
+  ],
+  "content": {
+    "endergetic_music_disc_kilobyte": {
+      "type": "item",
+      "content": "endergetic:music_disc_kilobyte",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1000
+    },
+    "endergetic_booflo_vest": {
+      "type": "item",
+      "content": "endergetic:booflo_vest",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1000
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "alexsmobs"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "alexsmobs_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "alexsmobs_rew",
+    "alexsmobs_any"
+  ]
+}

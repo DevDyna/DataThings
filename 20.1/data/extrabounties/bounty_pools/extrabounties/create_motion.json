@@ -1,0 +1,340 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_rope_pulley": {
+      "type": "item",
+      "content": "create:rope_pulley",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_elevator_pulley": {
+      "type": "item",
+      "content": "create:elevator_pulley",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_bearing": {
+      "type": "item",
+      "content": "create:mechanical_bearing",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_clockwork_bearing": {
+      "type": "item",
+      "content": "create:clockwork_bearing",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_sticky_mechanical_piston": {
+      "type": "item",
+      "content": "create:sticky_mechanical_piston",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_gantry_carriage": {
+      "type": "item",
+      "content": "create:gantry_carriage",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_piston": {
+      "type": "item",
+      "content": "create:mechanical_piston",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_piston_extension_pole": {
+      "type": "item",
+      "content": "create:piston_extension_pole",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_roller": {
+      "type": "item",
+      "content": "create:mechanical_roller",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_track": {
+      "type": "item",
+      "content": "create:track",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_track_signal": {
+      "type": "item",
+      "content": "create:track_signal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_track_station": {
+      "type": "item",
+      "content": "create:track_station",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_controls": {
+      "type": "item",
+      "content": "create:controls",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_track_observer": {
+      "type": "item",
+      "content": "create:track_observer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_white_sail": {
+      "type": "item",
+      "content": "create:white_sail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_controller_rail": {
+      "type": "item",
+      "content": "create:controller_rail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_schedule": {
+      "type": "item",
+      "content": "create:schedule",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_harvester": {
+      "type": "item",
+      "content": "create:mechanical_harvester",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_mechanical_plough": {
+      "type": "item",
+      "content": "create:mechanical_plough",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_sticker": {
+      "type": "item",
+      "content": "create:sticker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_cart_assembler": {
+      "type": "item",
+      "content": "create:cart_assembler",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_contraption_controls": {
+      "type": "item",
+      "content": "create:contraption_controls",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_redstone_contact": {
+      "type": "item",
+      "content": "create:redstone_contact",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_portable_storage_interface": {
+      "type": "item",
+      "content": "create:portable_storage_interface",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_gantry_shaft": {
+      "type": "item",
+      "content": "create:gantry_shaft",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_hopper_minecart": {
+      "type": "item",
+      "content": "minecraft:hopper_minecart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_minecart": {
+      "type": "item",
+      "content": "minecraft:minecart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_activator_rail": {
+      "type": "item",
+      "content": "minecraft:activator_rail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_detector_rail": {
+      "type": "item",
+      "content": "minecraft:detector_rail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_powered_rail": {
+      "type": "item",
+      "content": "minecraft:powered_rail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_rail": {
+      "type": "item",
+      "content": "minecraft:rail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_furnace_minecart": {
+      "type": "item",
+      "content": "minecraft:furnace_minecart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_chest_minecart": {
+      "type": "item",
+      "content": "minecraft:chest_minecart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_tnt_minecart": {
+      "type": "item",
+      "content": "minecraft:tnt_minecart",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_chain_conveyor": {
+      "type": "item",
+      "content": "create:chain_conveyor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_chain": {
+      "type": "item",
+      "content": "minecraft:chain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_white_postbox": {
+      "type": "item",
+      "content": "create:white_postbox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

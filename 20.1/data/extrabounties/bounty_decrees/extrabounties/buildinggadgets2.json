@@ -1,0 +1,15 @@
+{
+  "requires": [
+    "buildinggadgets2"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "buildinggadgets2"
+  ],
+  "rewards": [
+    "decree",
+    "buildinggadgets2",
+    "rarities"
+  ]
+}

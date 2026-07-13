@@ -1,0 +1,961 @@
+{
+  "requires": [
+    "goety"
+  ],
+  "content": {
+    "goety_rotting_focus": {
+      "type": "item",
+      "content": "goety:rotting_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_corruption_focus": {
+      "type": "item",
+      "content": "goety:corruption_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ghastly_focus": {
+      "type": "item",
+      "content": "goety:ghastly_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_sonic_boom_focus": {
+      "type": "item",
+      "content": "goety:sonic_boom_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_leeching_focus": {
+      "type": "item",
+      "content": "goety:leeching_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ice_storm_focus": {
+      "type": "item",
+      "content": "goety:ice_storm_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ice_spike_focus": {
+      "type": "item",
+      "content": "goety:ice_spike_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frost_breath_focus": {
+      "type": "item",
+      "content": "goety:frost_breath_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_scatter_focus": {
+      "type": "item",
+      "content": "goety:scatter_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_eruption_focus": {
+      "type": "item",
+      "content": "goety:eruption_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_sensing_focus": {
+      "type": "item",
+      "content": "goety:sensing_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_burrowing_focus": {
+      "type": "item",
+      "content": "goety:burrowing_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_rotation_focus": {
+      "type": "item",
+      "content": "goety:rotation_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_barricade_focus": {
+      "type": "item",
+      "content": "goety:barricade_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_pulverize_focus": {
+      "type": "item",
+      "content": "goety:pulverize_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_guardian_focus": {
+      "type": "item",
+      "content": "goety:guardian_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_bubble_stream_focus": {
+      "type": "item",
+      "content": "goety:bubble_stream_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_flying_focus": {
+      "type": "item",
+      "content": "goety:flying_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_whirlwind_focus": {
+      "type": "item",
+      "content": "goety:whirlwind_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_iron_hide_focus": {
+      "type": "item",
+      "content": "goety:iron_hide_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_hail_focus": {
+      "type": "item",
+      "content": "goety:hail_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_bulwark_focus": {
+      "type": "item",
+      "content": "goety:bulwark_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_iceology_focus": {
+      "type": "item",
+      "content": "goety:iceology_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_soul_heal_focus": {
+      "type": "item",
+      "content": "goety:soul_heal_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_end_walk_focus": {
+      "type": "item",
+      "content": "goety:end_walk_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_teeth_focus": {
+      "type": "item",
+      "content": "goety:teeth_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blink_focus": {
+      "type": "item",
+      "content": "goety:blink_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_killing_focus": {
+      "type": "item",
+      "content": "goety:killing_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_quaking_focus": {
+      "type": "item",
+      "content": "goety:quaking_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_cyclone_focus": {
+      "type": "item",
+      "content": "goety:cyclone_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_steaming_focus": {
+      "type": "item",
+      "content": "goety:steaming_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ghost_fire_focus": {
+      "type": "item",
+      "content": "goety:ghost_fire_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_spooky_focus": {
+      "type": "item",
+      "content": "goety:spooky_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_whispering_focus": {
+      "type": "item",
+      "content": "goety:whispering_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_crafting_focus": {
+      "type": "item",
+      "content": "goety:crafting_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_vanguard_focus": {
+      "type": "item",
+      "content": "goety:vanguard_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_chilling_focus": {
+      "type": "item",
+      "content": "goety:chilling_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blizzard_focus": {
+      "type": "item",
+      "content": "goety:blizzard_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_glow_light_focus": {
+      "type": "item",
+      "content": "goety:glow_light_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_vexing_focus": {
+      "type": "item",
+      "content": "goety:vexing_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wither_skull_focus": {
+      "type": "item",
+      "content": "goety:wither_skull_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_flame_strike_focus": {
+      "type": "item",
+      "content": "goety:flame_strike_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_skull_focus": {
+      "type": "item",
+      "content": "goety:skull_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_illusion_focus": {
+      "type": "item",
+      "content": "goety:illusion_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_rupture_focus": {
+      "type": "item",
+      "content": "goety:rupture_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_reaping_focus": {
+      "type": "item",
+      "content": "goety:reaping_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_osseous_focus": {
+      "type": "item",
+      "content": "goety:osseous_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_updraft_focus": {
+      "type": "item",
+      "content": "goety:updraft_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_call_focus": {
+      "type": "item",
+      "content": "goety:call_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blazing_focus": {
+      "type": "item",
+      "content": "goety:blazing_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_arrow_rain_focus": {
+      "type": "item",
+      "content": "goety:arrow_rain_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_troop_focus": {
+      "type": "item",
+      "content": "goety:troop_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_shockwave_focus": {
+      "type": "item",
+      "content": "goety:shockwave_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ender_chest_focus": {
+      "type": "item",
+      "content": "goety:ender_chest_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_fire_blast_focus": {
+      "type": "item",
+      "content": "goety:fire_blast_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_swarm_focus": {
+      "type": "item",
+      "content": "goety:swarm_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_shredding_focus": {
+      "type": "item",
+      "content": "goety:shredding_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_banish_focus": {
+      "type": "item",
+      "content": "goety:banish_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_ignite_focus": {
+      "type": "item",
+      "content": "goety:ignite_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_tunnel_focus": {
+      "type": "item",
+      "content": "goety:tunnel_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_bolting_focus": {
+      "type": "item",
+      "content": "goety:bolting_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_launch_focus": {
+      "type": "item",
+      "content": "goety:launch_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_prisma_beam_focus": {
+      "type": "item",
+      "content": "goety:prisma_beam_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_electrocute_focus": {
+      "type": "item",
+      "content": "goety:electrocute_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_thunderbolt_focus": {
+      "type": "item",
+      "content": "goety:thunderbolt_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_shocking_focus": {
+      "type": "item",
+      "content": "goety:shocking_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_weakening_focus": {
+      "type": "item",
+      "content": "goety:weakening_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_recall_focus": {
+      "type": "item",
+      "content": "goety:recall_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_biting_focus": {
+      "type": "item",
+      "content": "goety:biting_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_magma_bomb_focus": {
+      "type": "item",
+      "content": "goety:magma_bomb_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frostborn_focus": {
+      "type": "item",
+      "content": "goety:frostborn_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_frost_nova_focus": {
+      "type": "item",
+      "content": "goety:frost_nova_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_feast_focus": {
+      "type": "item",
+      "content": "goety:feast_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_poison_dart_focus": {
+      "type": "item",
+      "content": "goety:poison_dart_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_meteor_shower_focus": {
+      "type": "item",
+      "content": "goety:meteor_shower_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_entangling_focus": {
+      "type": "item",
+      "content": "goety:entangling_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_overgrowth_focus": {
+      "type": "item",
+      "content": "goety:overgrowth_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_mauling_focus": {
+      "type": "item",
+      "content": "goety:mauling_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_charge_focus": {
+      "type": "item",
+      "content": "goety:charge_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_command_focus": {
+      "type": "item",
+      "content": "goety:command_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_telekinesis_focus": {
+      "type": "item",
+      "content": "goety:telekinesis_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_monsoon_focus": {
+      "type": "item",
+      "content": "goety:monsoon_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blackguard_focus": {
+      "type": "item",
+      "content": "goety:blackguard_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_bombardment_focus": {
+      "type": "item",
+      "content": "goety:bombardment_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_lavaball_focus": {
+      "type": "item",
+      "content": "goety:lavaball_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_magic_bolt_focus": {
+      "type": "item",
+      "content": "goety:magic_bolt_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_fireball_focus": {
+      "type": "item",
+      "content": "goety:fireball_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_fire_breath_focus": {
+      "type": "item",
+      "content": "goety:fire_breath_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_blossoming_focus": {
+      "type": "item",
+      "content": "goety:blossoming_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_grapple_focus": {
+      "type": "item",
+      "content": "goety:grapple_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_lightning_focus": {
+      "type": "item",
+      "content": "goety:lightning_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_hunting_focus": {
+      "type": "item",
+      "content": "goety:hunting_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_slimy_focus": {
+      "type": "item",
+      "content": "goety:slimy_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_trembling_focus": {
+      "type": "item",
+      "content": "goety:trembling_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_wind_blast_focus": {
+      "type": "item",
+      "content": "goety:wind_blast_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_cushion_focus": {
+      "type": "item",
+      "content": "goety:cushion_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_discharge_focus": {
+      "type": "item",
+      "content": "goety:discharge_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_soul_light_focus": {
+      "type": "item",
+      "content": "goety:soul_light_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_bouncy_bubble_focus": {
+      "type": "item",
+      "content": "goety:bouncy_bubble_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_sword_focus": {
+      "type": "item",
+      "content": "goety:sword_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_tidal_focus": {
+      "type": "item",
+      "content": "goety:tidal_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_soul_bolt_focus": {
+      "type": "item",
+      "content": "goety:soul_bolt_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_leaping_focus": {
+      "type": "item",
+      "content": "goety:leaping_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_phantasm_focus": {
+      "type": "item",
+      "content": "goety:phantasm_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_biomine_focus": {
+      "type": "item",
+      "content": "goety:biomine_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "goety_trident_storm_focus": {
+      "type": "item",
+      "content": "goety:trident_storm_focus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

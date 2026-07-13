@@ -1,0 +1,37 @@
+{
+  "requires": [
+    "tombstone"
+  ],
+  "content": {
+    "minecraft_phantom": {
+      "type": "entity",
+      "timeMult": 6,
+      "content": "minecraft:phantom",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_zombie": {
+      "type": "entity",
+      "timeMult": 6,
+      "content": "minecraft:zombie",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_skeleton": {
+      "type": "entity",
+      "timeMult": 6,
+      "content": "minecraft:skeleton",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 1000
+    }
+  }
+}

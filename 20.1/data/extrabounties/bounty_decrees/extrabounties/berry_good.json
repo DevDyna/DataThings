@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "berry_good"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "berry_good_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "berry_good_rew",
+    "berry_good_any"
+  ]
+}

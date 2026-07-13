@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "goety"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "sculk",
+    "goety_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "goety_artifacts_rew",
+    "goety_any"
+  ]
+}

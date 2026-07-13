@@ -1,0 +1,16 @@
+{
+  "requires": [
+    "buzzier_bees"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "buzzier_bees_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "buzzier_bees_rew",
+    "buzzier_bees_any"
+  ]
+}

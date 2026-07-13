@@ -1,0 +1,88 @@
+{
+  "requires": [
+    "caverns_and_chasms"
+  ],
+  "content": {
+    "caverns_and_chasms_deeper_head": {
+      "type": "item",
+      "content": "caverns_and_chasms:deeper_head",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_mime_head": {
+      "type": "item",
+      "content": "caverns_and_chasms:mime_head",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_peeper_head": {
+      "type": "item",
+      "content": "caverns_and_chasms:peeper_head",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_music_disc_epilogue": {
+      "type": "item",
+      "content": "caverns_and_chasms:music_disc_epilogue",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_bejeweled_apple": {
+      "type": "item",
+      "content": "caverns_and_chasms:bejeweled_apple",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_abnormals_banner_pattern": {
+      "type": "item",
+      "content": "caverns_and_chasms:abnormals_banner_pattern",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_exile_armor_trim_smithing_template": {
+      "type": "item",
+      "content": "caverns_and_chasms:exile_armor_trim_smithing_template",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_bejeweled_pearl": {
+      "type": "item",
+      "content": "caverns_and_chasms:bejeweled_pearl",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    },
+    "caverns_and_chasms_tmt": {
+      "type": "item",
+      "content": "caverns_and_chasms:tmt",
+      "amount": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 1000
+    }
+  }
+}

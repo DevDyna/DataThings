@@ -1,0 +1,88 @@
+{
+  "requires": [
+    "upgrade_aquatic"
+  ],
+  "content": {
+    "upgrade_aquatic_tooth_lantern": {
+      "type": "item",
+      "content": "upgrade_aquatic:tooth_lantern",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_music_disc_atlantis": {
+      "type": "item",
+      "content": "upgrade_aquatic:music_disc_atlantis",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_predator_pottery_sherd": {
+      "type": "item",
+      "content": "upgrade_aquatic:predator_pottery_sherd",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_heart_of_the_sea": {
+      "type": "item",
+      "content": "minecraft:heart_of_the_sea",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_conduit": {
+      "type": "item",
+      "content": "minecraft:conduit",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_elder_eye": {
+      "type": "item",
+      "content": "upgrade_aquatic:elder_eye",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_disc_fragment_atlantis": {
+      "type": "item",
+      "content": "upgrade_aquatic:disc_fragment_atlantis",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_elder_prismarine_coral_block": {
+      "type": "item",
+      "content": "upgrade_aquatic:elder_prismarine_coral_block",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    },
+    "upgrade_aquatic_thrasher_tooth": {
+      "type": "item",
+      "content": "upgrade_aquatic:thrasher_tooth",
+      "amount": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000
+    }
+  }
+}

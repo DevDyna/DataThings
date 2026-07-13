@@ -1,0 +1,187 @@
+{
+  "requires": [
+    "dimdoors"
+  ],
+  "content": {
+    "dimdoors_gray_fabric": {
+      "type": "item",
+      "content": "dimdoors:gray_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_purple_fabric": {
+      "type": "item",
+      "content": "dimdoors:purple_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_pink_fabric": {
+      "type": "item",
+      "content": "dimdoors:pink_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_white_fabric": {
+      "type": "item",
+      "content": "dimdoors:white_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_blue_fabric": {
+      "type": "item",
+      "content": "dimdoors:blue_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_light_gray_fabric": {
+      "type": "item",
+      "content": "dimdoors:light_gray_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_cyan_fabric": {
+      "type": "item",
+      "content": "dimdoors:cyan_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_light_blue_fabric": {
+      "type": "item",
+      "content": "dimdoors:light_blue_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_brown_fabric": {
+      "type": "item",
+      "content": "dimdoors:brown_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_world_thread": {
+      "type": "item",
+      "content": "dimdoors:world_thread",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_rift_pearl": {
+      "type": "item",
+      "content": "dimdoors:rift_pearl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_infrangible_fiber": {
+      "type": "item",
+      "content": "dimdoors:infrangible_fiber",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_frayed_filament": {
+      "type": "item",
+      "content": "dimdoors:frayed_filament",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_magenta_fabric": {
+      "type": "item",
+      "content": "dimdoors:magenta_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_red_fabric": {
+      "type": "item",
+      "content": "dimdoors:red_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_orange_fabric": {
+      "type": "item",
+      "content": "dimdoors:orange_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_green_fabric": {
+      "type": "item",
+      "content": "dimdoors:green_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_yellow_fabric": {
+      "type": "item",
+      "content": "dimdoors:yellow_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_lime_fabric": {
+      "type": "item",
+      "content": "dimdoors:lime_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "dimdoors_black_fabric": {
+      "type": "item",
+      "content": "dimdoors:black_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

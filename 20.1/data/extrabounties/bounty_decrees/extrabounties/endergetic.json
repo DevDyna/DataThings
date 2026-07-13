@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "endergetic"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "endergetic_obj",
+    "endergetic_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "endergetic_rew",
+    "endergetic_any"
+  ]
+}

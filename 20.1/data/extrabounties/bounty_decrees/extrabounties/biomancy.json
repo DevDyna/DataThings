@@ -1,0 +1,17 @@
+{
+  "requires": [
+    "biomancy"
+  ],
+  "objectives": [
+    "treasures",
+    "resources",
+    "biomancy_obj",
+    "biomancy_any"
+  ],
+  "rewards": [
+    "decree",
+    "rarities",
+    "biomancy_rew",
+    "biomancy_any"
+  ]
+}

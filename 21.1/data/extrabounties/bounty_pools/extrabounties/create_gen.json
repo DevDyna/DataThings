@@ -1,0 +1,79 @@
+{
+  "requires": [
+    "create"
+  ],
+  "content": {
+    "create_water_wheel": {
+      "type": "item",
+      "content": "create:water_wheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_large_water_wheel": {
+      "type": "item",
+      "content": "create:large_water_wheel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_steam_whistle": {
+      "type": "item",
+      "content": "create:steam_whistle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_fluid_tank": {
+      "type": "item",
+      "content": "create:fluid_tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_steam_engine": {
+      "type": "item",
+      "content": "create:steam_engine",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_windmill_bearing": {
+      "type": "item",
+      "content": "create:windmill_bearing",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "create_empty_blaze_burner": {
+      "type": "item",
+      "content": "create:empty_blaze_burner",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "minecraft_campfire": {
+      "type": "item",
+      "content": "minecraft:campfire",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

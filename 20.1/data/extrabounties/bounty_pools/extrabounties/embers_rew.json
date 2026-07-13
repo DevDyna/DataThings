@@ -1,0 +1,466 @@
+{
+  "requires": [
+    "embers"
+  ],
+  "content": {
+    "embers_inferno_forge": {
+      "type": "item",
+      "content": "embers:inferno_forge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_crystal_cell": {
+      "type": "item",
+      "content": "embers:crystal_cell",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_hearth_coil": {
+      "type": "item",
+      "content": "embers:hearth_coil",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_intelligent_apparatus": {
+      "type": "item",
+      "content": "embers:intelligent_apparatus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_focal_lens": {
+      "type": "item",
+      "content": "embers:focal_lens",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_shifting_scales": {
+      "type": "item",
+      "content": "embers:shifting_scales",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_resonating_bell": {
+      "type": "item",
+      "content": "embers:resonating_bell",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_cinder_staff": {
+      "type": "item",
+      "content": "embers:cinder_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_lead_crystal_seed": {
+      "type": "item",
+      "content": "embers:lead_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_silver_crystal_seed": {
+      "type": "item",
+      "content": "embers:silver_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_zinc_crystal_seed": {
+      "type": "item",
+      "content": "embers:zinc_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_platinum_crystal_seed": {
+      "type": "item",
+      "content": "embers:platinum_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_iron_crystal_seed": {
+      "type": "item",
+      "content": "embers:iron_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_uranium_crystal_seed": {
+      "type": "item",
+      "content": "embers:uranium_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_copper_crystal_seed": {
+      "type": "item",
+      "content": "embers:copper_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_dawnstone_crystal_seed": {
+      "type": "item",
+      "content": "embers:dawnstone_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_injector": {
+      "type": "item",
+      "content": "embers:ember_injector",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_cinder_jet": {
+      "type": "item",
+      "content": "embers:cinder_jet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_eldritch_insignia": {
+      "type": "item",
+      "content": "embers:eldritch_insignia",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_diffraction_barrel": {
+      "type": "item",
+      "content": "embers:diffraction_barrel",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_flame_barrier": {
+      "type": "item",
+      "content": "embers:flame_barrier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_winding_gears": {
+      "type": "item",
+      "content": "embers:winding_gears",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_blazing_ray": {
+      "type": "item",
+      "content": "embers:blazing_ray",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_gold_crystal_seed": {
+      "type": "item",
+      "content": "embers:gold_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_tin_crystal_seed": {
+      "type": "item",
+      "content": "embers:tin_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_aluminum_crystal_seed": {
+      "type": "item",
+      "content": "embers:aluminum_crystal_seed",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_grandhammer": {
+      "type": "item",
+      "content": "embers:grandhammer",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_boots": {
+      "type": "item",
+      "content": "embers:ashen_boots",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_leggings": {
+      "type": "item",
+      "content": "embers:ashen_leggings",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_cloak": {
+      "type": "item",
+      "content": "embers:ashen_cloak",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_goggles": {
+      "type": "item",
+      "content": "embers:ashen_goggles",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_codebreaking_slate": {
+      "type": "item",
+      "content": "embers:codebreaking_slate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_superheater": {
+      "type": "item",
+      "content": "embers:superheater",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_caster_orb": {
+      "type": "item",
+      "content": "embers:caster_orb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_isolated_materia": {
+      "type": "item",
+      "content": "embers:isolated_materia",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_blasting_core": {
+      "type": "item",
+      "content": "embers:blasting_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_tinker_lens": {
+      "type": "item",
+      "content": "embers:tinker_lens",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_dawnstone_aspectus": {
+      "type": "item",
+      "content": "embers:dawnstone_aspectus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_lead_aspectus": {
+      "type": "item",
+      "content": "embers:lead_aspectus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_iron_aspectus": {
+      "type": "item",
+      "content": "embers:iron_aspectus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_copper_aspectus": {
+      "type": "item",
+      "content": "embers:copper_aspectus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_silver_aspectus": {
+      "type": "item",
+      "content": "embers:silver_aspectus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_amulet": {
+      "type": "item",
+      "content": "embers:ashen_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_ring": {
+      "type": "item",
+      "content": "embers:ember_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_belt": {
+      "type": "item",
+      "content": "embers:ember_belt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_amulet": {
+      "type": "item",
+      "content": "embers:ember_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_bulb": {
+      "type": "item",
+      "content": "embers:ember_bulb",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_dawnstone_mail": {
+      "type": "item",
+      "content": "embers:dawnstone_mail",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_nonbeliever_amulet": {
+      "type": "item",
+      "content": "embers:nonbeliever_amulet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_explosion_charm": {
+      "type": "item",
+      "content": "embers:explosion_charm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_music_disc_7f_patterns": {
+      "type": "item",
+      "content": "embers:music_disc_7f_patterns",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}

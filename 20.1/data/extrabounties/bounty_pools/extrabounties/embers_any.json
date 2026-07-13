@@ -1,0 +1,223 @@
+{
+  "requires": [
+    "embers"
+  ],
+  "content": {
+    "embers_dawnstone_plate": {
+      "type": "item",
+      "content": "embers:dawnstone_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_copper_plate": {
+      "type": "item",
+      "content": "embers:copper_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_dawnstone_ingot": {
+      "type": "item",
+      "content": "embers:dawnstone_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_silver_ingot": {
+      "type": "item",
+      "content": "embers:silver_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_iron_plate": {
+      "type": "item",
+      "content": "embers:iron_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ancient_motive_core": {
+      "type": "item",
+      "content": "embers:ancient_motive_core",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ashen_fabric": {
+      "type": "item",
+      "content": "embers:ashen_fabric",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_adhesive": {
+      "type": "item",
+      "content": "embers:adhesive",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_lead_plate": {
+      "type": "item",
+      "content": "embers:lead_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_silver_plate": {
+      "type": "item",
+      "content": "embers:silver_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_caminite_plate": {
+      "type": "item",
+      "content": "embers:caminite_plate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_flat_stamp": {
+      "type": "item",
+      "content": "embers:flat_stamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_gear_stamp": {
+      "type": "item",
+      "content": "embers:gear_stamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_plate_stamp": {
+      "type": "item",
+      "content": "embers:plate_stamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ingot_stamp": {
+      "type": "item",
+      "content": "embers:ingot_stamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_nugget_stamp": {
+      "type": "item",
+      "content": "embers:nugget_stamp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_lead_ingot": {
+      "type": "item",
+      "content": "embers:lead_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_crystal": {
+      "type": "item",
+      "content": "embers:ember_crystal",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_shard": {
+      "type": "item",
+      "content": "embers:ember_shard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_grit": {
+      "type": "item",
+      "content": "embers:ember_grit",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_ember_crystal_cluster": {
+      "type": "item",
+      "content": "embers:ember_crystal_cluster",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_archaic_brick": {
+      "type": "item",
+      "content": "embers:archaic_brick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_caminite_brick": {
+      "type": "item",
+      "content": "embers:caminite_brick",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    },
+    "embers_caminite_blend": {
+      "type": "item",
+      "content": "embers:caminite_blend",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1000
+    }
+  }
+}
