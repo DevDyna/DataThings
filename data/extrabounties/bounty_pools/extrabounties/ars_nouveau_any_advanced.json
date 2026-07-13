@@ -1,0 +1,124 @@
+{
+  "requires": [
+    "ars_nouveau"
+  ],
+  "content": {
+    "ars_nouveau_relay": {
+      "type": "item",
+      "content": "ars_nouveau:relay",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_volcanic_sourcelink": {
+      "type": "item",
+      "content": "ars_nouveau:volcanic_sourcelink",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_arcane_pedestal": {
+      "type": "item",
+      "content": "ars_nouveau:arcane_pedestal",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_source_jar": {
+      "type": "item",
+      "content": "ars_nouveau:source_jar",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_relay_collector": {
+      "type": "item",
+      "content": "ars_nouveau:relay_collector",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_mycelial_sourcelink": {
+      "type": "item",
+      "content": "ars_nouveau:mycelial_sourcelink",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_alchemical_sourcelink": {
+      "type": "item",
+      "content": "ars_nouveau:alchemical_sourcelink",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_basic_spell_turret": {
+      "type": "item",
+      "content": "ars_nouveau:basic_spell_turret",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_relay_warp": {
+      "type": "item",
+      "content": "ars_nouveau:relay_warp",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_vitalic_sourcelink": {
+      "type": "item",
+      "content": "ars_nouveau:vitalic_sourcelink",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_agronomic_sourcelink": {
+      "type": "item",
+      "content": "ars_nouveau:agronomic_sourcelink",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_relay_deposit": {
+      "type": "item",
+      "content": "ars_nouveau:relay_deposit",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    },
+    "ars_nouveau_imbuement_chamber": {
+      "type": "item",
+      "content": "ars_nouveau:imbuement_chamber",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000
+    }
+  }
+}
