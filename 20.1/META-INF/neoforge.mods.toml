@@ -1,0 +1,25 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+issueTrackerURL="https://github.com/DevDyna/DataThings/issues"
+license="MIT"
+[[mods]]
+    modId="numismatic_bounties"
+    version="2.0"
+    displayName="Numismatic Bounties"
+    description="Bountiful addon that change many trades to use Numismatic Overhaul coins"
+	authors="DevDyna"
+	logoFile="pack.png"
+
+[[dependencies.numismatic_bounties]]
+    modId="bountiful"
+    mandatory="true"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.numismatic_bounties]]
+    modId="extrabounties"
+    mandatory="false"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
