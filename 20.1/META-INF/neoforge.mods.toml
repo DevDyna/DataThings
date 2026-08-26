@@ -12,14 +12,14 @@ license="MIT"
 
 [[dependencies.numismatic_bounties]]
     modId="bountiful"
-    mandatory="true"
+    mandatory= true
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.numismatic_bounties]]
     modId="extrabounties"
-    mandatory="false"
+    mandatory= false
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
