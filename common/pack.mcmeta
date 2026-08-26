@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Bountiful addon that change many trades to use Numismatic Overhaul coins",
+        "description": "Bountiful addon that change many trades to use Numismatic Overhaul Reforged coins (support other forks)",
         "pack_format": 8
     }
 }
