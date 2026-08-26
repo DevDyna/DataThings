@@ -16,7 +16,7 @@ XCOPY "20.1\*" "_temp\" /E /I /Y /Q
 
 PUSHD "_temp"
 
-jar cf "..\.build\Numismatic-Bounties-20.1.jar" *
+jar cf "..\.build\Numismatic-Reforged-Bounties-20.1.jar" *
 
 POPD
 
@@ -36,7 +36,7 @@ XCOPY "21.1\*" "_temp\" /E /I /Y /Q
 
 PUSHD "_temp"
 
-jar cf "..\.build\Numismatic-Bounties-21.1.jar" *
+jar cf "..\.build\Numismatic-Reforged-Bounties-21.1.jar" *
 
 POPD
 
