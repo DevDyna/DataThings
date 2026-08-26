@@ -3,21 +3,21 @@ loaderVersion="[1,)"
 issueTrackerURL="https://github.com/DevDyna/DataThings/issues"
 license="MIT"
 [[mods]]
-    modId="numismatic_bounties"
-    version="2.0"
-    displayName="Numismatic Bounties"
-    description="Bountiful addon that change many trades to use Numismatic Overhaul coins"
+    modId="numismatic_reforged_bounties"
+    version="1.0"
+    displayName="Numismatic Reforged Bounties"
+    description="Bountiful addon that change many trades to use Numismatic Overhaul Reforged coins (support other forks)"
 	authors="DevDyna"
 	logoFile="pack.png"
 
-[[dependencies.numismatic_bounties]]
+[[dependencies.numismatic_reforged_bounties]]
     modId="bountiful"
     type="required"
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.numismatic_bounties]]
+[[dependencies.numismatic_reforged_bounties]]
     modId="extrabounties"
     type="optional"
     versionRange="*"
