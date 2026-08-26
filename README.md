@@ -6,22 +6,22 @@
 
 ## [Bountiful](https://legacy.curseforge.com/minecraft/mc-mods/bountiful) compat related
 
-- [Extra-Bounties](https://github.com/DevDyna/DataThings/tree/Extra-Bounties)
-- [Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/Numismatic-Bounties)
-- [Create-Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/Create-Numismatic-Bounties)
-- [Lightmans-Currency-Bounties](https://github.com/DevDyna/DataThings/tree/Lightmans-Currency-Bounties)
-- [Numismatic-Reforged-Bounties](https://github.com/DevDyna/DataThings/tree/Numismatic-Reforged-Bounties)
+- [Extra-Bounties](https://github.com/DevDyna/DataThings/tree/Extra-Bounties) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/Numismatic-Bounties) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Create-Numismatic-Bounties](https://github.com/DevDyna/DataThings/tree/Create-Numismatic-Bounties) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Lightmans-Currency-Bounties](https://github.com/DevDyna/DataThings/tree/Lightmans-Currency-Bounties) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Numismatic-Reforged-Bounties](https://github.com/DevDyna/DataThings/tree/Numismatic-Reforged-Bounties) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
 
 ## _Chisel Express_ related
 
-- [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express)
-- [Factory-Express](https://github.com/DevDyna/DataThings/tree/Factory-Express)
-- [Chisel-Express](https://github.com/DevDyna/DataThings/tree/Chisel-Express)
+- [Chipped-Express](https://github.com/DevDyna/DataThings/tree/Chipped-Express) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Factory-Express](https://github.com/DevDyna/DataThings/tree/Factory-Express) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Chisel-Express](https://github.com/DevDyna/DataThings/tree/Chisel-Express) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
 
 
 ## Other projects
 
-- [Wild-Caves](https://github.com/DevDyna/DataThings/tree/Wild-Caves)
-- [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo)
-- [Box-of-Goodies](https://github.com/DevDyna/DataThings/tree/Box-of-Goodies)
-- [Ez-ae2](https://github.com/DevDyna/DataThings/tree/Ez-ae2)
+- [Wild-Caves](https://github.com/DevDyna/DataThings/tree/Wild-Caves) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [GT-Nihilo](https://github.com/DevDyna/DataThings/tree/GT-Nihilo) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Box-of-Goodies](https://github.com/DevDyna/DataThings/tree/Box-of-Goodies) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
+- [Ez-ae2](https://github.com/DevDyna/DataThings/tree/Ez-ae2) ![](https://cf.way2muchnoise.eu/versions/1253059.svg)
