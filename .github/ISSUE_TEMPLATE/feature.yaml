@@ -16,8 +16,8 @@ body:
     id: text-box
     attributes:
       label: Mods related
-      placeholder: extrabounties
-      description: What mod did you intend ? (allow multiple mods)
+      placeholder: extrabounties , numismatic bounties 
+      description: Write what mod did you want to add this feature (allow multiple mods)
     validations:
       required: true
 
